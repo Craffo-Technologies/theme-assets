@@ -12,4 +12,4 @@ These files are intended for **temporary solutions only**, to address urgent pro
    Before any changes, the store owner must grant us permission to modify their theme.
 
 2. **File Creation:**  
-   Once permission is granted, a CSS file is created for the store, named using the store ID:
+   Once permission is granted, a CSS file is created for the store, named using the store ID
