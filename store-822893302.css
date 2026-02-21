@@ -2,5 +2,5 @@
    TEST - VERIFY CSS LOADED
    =============================== */
 body {
-    border: 10px solid red !important;
+    background-color:red !important;
 }
