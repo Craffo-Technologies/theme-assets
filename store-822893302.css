@@ -1,4 +1,6 @@
-body 
-{
-  background-color:red !important;
+/* ===============================
+   TEST - VERIFY CSS LOADED
+   =============================== */
+body {
+    border: 10px solid red !important;
 }
