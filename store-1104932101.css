@@ -1,0 +1,73 @@
+section.olla-banner,
+.olla-banner * {
+	padding: 0 !important;
+	margin: 0 !important;
+	max-width: unset;
+	border-radius: unset !important;
+}
+
+.olla-card img {
+	aspect-ratio: 12 / 17;
+}
+body::before {
+	background-image: url('https://asas-tools.com/u/uploads/ashraf_craffo/image.webp');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	will-change: background-image;
+	backface-visibility: hidden;
+}
+
+nav > div.main-nav-container {
+	background-color: transparent !important;
+	background-image: url('https://asas-tools.com/u/uploads/ashraf_craffo/image.webp') !important;
+	background-repeat: no-repeat !important;
+	background-position: center center !important;
+	background-size: cover !important;
+	will-change: background-image;
+	backface-visibility: hidden;
+	padding-right: 2rem !important;
+	padding-left: 1rem !important;
+}
+@media (max-width: 768px) {
+	section.s-block.s-block--features.container
+		.grid.lg\:grid-cols-3.md\:grid-cols-2.gap-4.sm\:gap-6.xl\:gap-8 {
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: column;
+	}
+}
+
+footer div:nth-child(3) a {
+	display: flex;
+	width: 88%;
+	text-align: center;
+	justify-content: center;
+}
+
+footer,
+footer a,
+footer .logo {
+	text-align: center !important;
+	margin: auto;
+}
+footer div:nth-child(3) a i {
+	border: none !important;
+}
+@media (min-width: 100px) {
+	.olla-categories .olla-categories-category > div > a > div > div {
+		display: flex !important;
+	}
+	.olla-categories-category .w-full.h-full,
+	.olla-categories-category span {
+		border-bottom-right-radius: 100% !important;
+		border-bottom-left-radius: 100% !important;
+	}
+	.olla-categories-category .w-24.h-24.relative.group {
+		width: 120px;
+		height: 120px;
+	}
+}
+
+
+
