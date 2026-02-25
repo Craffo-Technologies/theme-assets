@@ -1,0 +1,167 @@
+/* تنسيقات الشاشات الكبيرة - Desktop */
+@media (min-width: 768px) {
+    footer .grid {
+        grid-template-columns: repeat(4, minmax(0, 1fr)) !important;
+    }
+
+    .has-children {
+        position: relative;
+        padding-inline-end: 18px;
+        cursor: pointer;
+    }
+
+    .has-children::after {
+        content: "▾";
+        font-size: 18px;
+        position: absolute;
+        top: 5%;
+        inset-inline-end: 0;
+        color: var(--color-header-text);
+        transition: transform 0.25s ease, color 0.25s ease;
+        pointer-events: none;
+    }
+
+    .has-children:hover::after, 
+    .has-children.active::after {
+        color: var(--color-accent, #666);
+        transform: rotate(180deg);
+    }
+}
+
+/* تنسيقات عامة للهوية والعناصر */
+.copyright-text, 
+.footer-buttons, 
+.s-contacts-list-vertical #contact-slot:nth-child(2),
+.s-block--best-offers .s-slider-block__title-left {
+    display: none !important;
+}
+
+.s-payments-list-wrap {
+    display: flex !important;
+    justify-content: center !important;
+    width: 100% !important;
+}
+
+.s-products-list .s-slider-swiper-wrapper .s-product-card-entry .s-product-card-content h3 a, 
+.s-products-list .s-products-list-wrapper .s-product-card-entry .s-product-card-content h3 a, 
+.s-products-slider-slider .s-slider-swiper-wrapper .s-product-card- {
+    font-size: 18px !important;
+    font-weight: 900 !important;
+}
+
+/* تنسيقات الموبايل */
+@media (max-width: 767px) {
+    .product-index salla-products-list {
+        padding: 0px 20px;
+    }
+    
+    body:after {
+        background-size: 40% !important;
+    }
+    
+    .art-categories-03 .grid > :last-child {
+        grid-column: span 2 / span 2;
+    }
+}
+
+/* القائمة الجانبية - Mobile Menu */
+.mm-spn li a span, 
+.mm-spn li a, 
+.mm-spn li span {
+    font-size: 16px !important;
+}
+
+.mm-spn.mm-spn--navbar.mm-spn--main:after,
+.mm-spn.mm-spn--navbar:after {
+    font-weight: bold !important;
+}
+
+/* تنسيقات إضافية لبراند المتجر */
+@media (min-width: 100px) {
+    .art-brand-title {
+        width: 100% !important;
+    }
+    
+    .art-brand-title .flex {
+        flex-direction: column-reverse !important;
+    }
+    
+    .slide-brand .brand-item {
+        pointer-events: none;
+    }
+    
+    section.art-testimonials-slider, 
+    .art-categories-03 {
+        padding-bottom: 1.5rem;
+        padding-top: 1.5rem;
+    }
+    
+    .art-store-footer h3 {
+        font-size: 18px !important;
+    }
+    
+    .art-store-footer a,
+    .art-brand-title span {
+        font-size: 16px !important;
+    }
+    
+    .custom-featured-products {
+        padding: 20px !important;
+    }
+
+    .art-brand-title span {
+        color: #000 !important;
+        font-weight: 200 !important;
+    }
+
+    section.art-faq h2 {
+        padding-top: 1rem !important;
+    }
+
+    section.art-features span {
+        font-size: 3rem !important;
+    }
+
+    .s-block--best-offers .s-slider-block__title {
+        justify-content: center !important;
+        text-align: center !important;
+    }
+
+    .s-block--best-offers .s-slider-block__title-right {
+        display: block !important;
+        text-align: center !important;
+    }
+
+    .s-block--best-offers .s-slider-block__title h2 {
+        padding: unset !important;
+        line-height: 36px !important;
+        text-transform: capitalize !important;
+        font-weight: 500 !important;
+        font-size: 24px !important;
+    }
+}
+
+/* تنسيقات التبويبات - Tabs */
+@media (max-width: 1023px) {
+    .s-tabs-content-selected .grid {
+        display: flex !important;
+        flex-direction: column-reverse;
+    }
+}
+
+@media (min-width: 1024px) {
+    .s-tabs-content-selected .grid {
+        display: flex !important;
+        flex-wrap: wrap-reverse;
+        direction: ltr !important;
+    }
+    
+    .s-tabs-content-selected .grid > a {
+        width: calc(33.333% - 3.5rem);
+        margin: 0.75rem;
+    }
+
+    .store-footer > div > div {
+        grid-template-columns: repeat(5, minmax(0, 1fr));
+    }
+}
