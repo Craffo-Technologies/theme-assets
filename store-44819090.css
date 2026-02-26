@@ -1,0 +1,164 @@
+.art-store-footer span.copyright-text{
+  display: none !important;
+}
+
+@media (min-width: 100px){
+  body:not(.index)::before,
+  body:not(.index)::after{
+    content: none !important;
+    display: none !important;
+  }
+
+  .art-testimonials-slider .art-slide > div > div > i{
+    color: #EFBF04 !important;
+    font-weight: 400 !important;
+  }
+
+  .s-product-card-fit-height.s-product-card-vertical .s-product-card-image{
+    flex: unset !important;
+    width: unset !important;
+    height: unset !important;
+    aspect-ratio: 1 / 1 !important;
+    overflow: hidden !important;
+    max-height: unset !important;
+  }
+
+  .s-product-card-fit-height.s-product-card-vertical .s-product-card-image img{
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover !important;
+  }
+
+  .cart .cart-item{
+    margin-bottom: unset !important;
+    padding-bottom: unset !important;
+  }
+
+  .cart #cart-submit .s-button-text{
+    font-size: 0 !important;
+  }
+
+  .cart #cart-submit .s-button-text::after{
+    content: "الإنتقال لإتمام الطلب";
+    font-size: 16px !important;
+  }
+
+  .cart .cart-item .s-product-options-wrapper{
+    margin-bottom: unset !important;
+    padding-bottom: unset !important;
+    padding-top: unset !important;
+  }
+
+  .cart .cart-item > div{
+    margin-bottom: 1rem !important;
+  }
+
+  .cart-item .s-product-options-wrapper{
+    display: none !important;
+  }
+
+  .sicon-star:before{
+    content: "\e973";
+  }
+
+  footer .s-contacts-list{
+    align-items: self-start !important;
+  }
+
+  footer > div > div{
+    align-items: flex-start !important;
+    justify-content: flex-start !important;
+    text-align: right !important;
+  }
+
+  .app-inner > div.container > div > div.sticky > div.timer-wrapper.text-center > div{
+    height: 1.6rem !important;
+    font-size: 0.8rem !important;
+    padding: 0.2rem !important;
+    border-radius: 0.4rem !important;
+  }
+}
+
+.art-sidebar{
+  width: 100vw;
+  margin-right: calc(50% - 50vw);
+  overflow: visible !important;
+}
+
+html,
+body{
+  overflow-x: hidden !important;
+}
+
+.art-sidebar .s-slider-vertical .s-slider-thumbs{
+  display: flex !important;
+}
+
+salla-comments .s-comments.s-comments-product{
+  display: none;
+}
+
+@media (max-width: 767px){
+
+  .main-content.art-main-content{
+    display: flex !important;
+    flex-direction: column !important;
+  }
+
+  .main-content.art-main-content > div.grid.grid-cols-1{
+    order: 3 !important;
+  }
+
+  .main-content.art-main-content > form.product-form{
+    order: 1 !important;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .main-content.art-main-content > div.product__description{
+    order: 3 !important;
+  }
+
+  .main-content.art-main-content > div.art-single-btns{
+    order: 3 !important;
+  }
+
+  .main-content.art-main-content > form > salla-product-options > salla-conditional-fields > div:nth-child(2){
+    order: 1;
+  }
+
+  .main-content.art-main-content > form > salla-product-options > salla-conditional-fields > div:nth-child(1){
+    order: 2;
+  }
+
+  #SingleProductModalButton{
+    order: 2;
+  }
+
+  .main-content.art-main-content > form > section:nth-child(1){
+    order: 4;
+  }
+
+  .main-content.art-main-content > form > section:nth-child(2){
+    order: 5;
+  }
+
+  .product-single .art-main-content .art-product-form salla-product-options{
+    order: 2 !important;
+    padding-bottom: 0.1rem !important;
+    margin-bottom: 0.1rem !important;
+  }
+
+  .product-single .sidebar.art-sidebar{
+    padding-bottom: 0.2rem !important;
+  }
+
+  .product-single .main-content.art-main-content.top-24.w-full > div.flex.justify-between.items-center.mb-4.border-gray-300{
+    padding-bottom: unset !important;
+    margin-bottom: unset !important;
+  }
+
+  .product-single .main-content.art-main-content.top-24.w-full > salla-quick-order{
+    margin-top: 0.2rem !important;
+  }
+}
