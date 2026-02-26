@@ -1,0 +1,213 @@
+/* =========  سوشن  ================
+   GLOBAL (min-width: 100px)
+========================= */
+@media (min-width: 100px) {
+
+  /* ---------- COLORS : HEADER MAIN ---------- */
+  #cart-submit > button span,
+  .shadow-default,
+  .shadow-default div span,
+  div.container > div > div.sticky > div.shadow-default > div,
+  .cart-item section > div > div.flex.flex-1 > div > h1 > a {
+    color: var(--color-header-main) !important;
+  }
+
+  /* ---------- COLORS : FOOTER TEXT ---------- */
+  .home-slider__content > div,
+  .home-slider__content.relative.h-full > div > h2,
+  .flex-center.container > div > p,
+  .art-banner > div > div > span,
+  .art-banner > div > div > h2,
+  .s-product-card-content .s-product-card-content-main > h3 > a,
+  .s-product-card-content-sub,
+  .s-product-card-content-sub .s-product-card-price,
+  .s-product-card-price,
+  .s-product-card-price i,
+  .s-product-card-content h4,
+  .s-modal-body .s-localization-modal-title,
+  .s-modal-body div label {
+    color: var(--color-footer-text) !important;
+  }
+
+  /* ---------- BACKGROUNDS ---------- */
+  footer > div > salla-payments > ul > li,
+  .s-product-card-image > a > img,
+  .s-comments.s-comments-product,
+  .swiper-android .swiper-slide,
+  .swiper-wrapper,
+  .sticky-product-bar,
+  .s-modal-body,
+  .s-modal-close {
+    background: var(--color-header-main) !important;
+    border: none !important;
+  }
+
+  /* ---------- BORDERS ---------- */
+  .accordion-container > .art-accordion,
+  .art-single-btns,
+  .art-main-content > div,
+  .main-content.art-main-content > div.grid,
+  .main-content.art-main-content > div.grid.grid-cols-1 > div,
+  .swiper.s-slider-container.swiper-initialized.swiper-horizontal,
+  .cart-item div.flex > a > img,
+  .cart-item div div.border-t.border-b.border-gray-200.py-3,
+  .cart-item .s-quantity-input-container {
+    border-color: var(--color-primary) !important;
+  }
+
+  /* ---------- COLORS + FILL : PRIMARY ---------- */
+  .art-banner > div > div > span,
+  .main-content.art-main-content > div.flex > div > div > h2,
+  .form-label,
+  .form-label b,
+  .main-content.art-main-content > div.mb-3 > div,
+  .main-content.art-main-content > div.mb-3,
+  salla-breadcrumb > ol > li > svg,
+  .art-subtitle,
+  .art-title,
+  .app-inner > .art-banner > div > div > span,
+  .app-inner > section.art-banner > div > div > h2,
+  .s-product-card-content > div.s-product-card-content-sub > h4,
+  .art-main-content > .art-single-btns > salla-button > button,
+  .art-main-content .art-single-btns .s-button-icon,
+  .cart-item .item-price,
+  .cart-item div.flex.flex-1 > div > h1 > a,
+  .cart-item .s-quantity-input-container,
+  .s-quantity-input-button svg,
+  .s-comment-form-content textarea,
+  .s-comment-form-content textarea::-webkit-input-placeholder,
+  .s-login-modal-title,
+  .s-user-menu-dropdown-list,
+  .s-login-modal-label,
+  .s-login-modal-header-content div,
+  .s-login-modal-tab label,
+  .main-content .no-content-placeholder p {
+    color: var(--color-primary) !important;
+    fill: var(--color-primary) !important;
+  }
+
+  /* ---------- BUTTONS ---------- */
+  #thumbs > div.s-slider-block__title > div > div > button,
+  .s-slider-button-icon svg {
+    background: var(--color-primary) !important;
+    color: var(--color-header-main) !important;
+    fill: var(--color-header-main) !important;
+    box-shadow: none !important;
+  }
+
+  .s-products-list .s-product-card-content-footer .s-button-btn,
+  .s-products-slider-slider .s-product-card-content-footer .s-button-btn {
+    background: var(--color-primary) !important;
+    color: var(--color-header-main) !important;
+    border-radius: 0.5rem !important;
+  }
+
+  .s-products-list .s-product-card-content-footer .s-button-btn:hover,
+  .s-products-slider-slider .s-product-card-content-footer .s-button-btn:hover,
+  .cart-item,
+  .app-inner > div.container > div > div.sticky > .shadow-default,
+  #product-filter,
+  .s-quantity-input-input,
+  .s-social-share-list,
+  #app > div.app-inner.flex.flex-col.min-h-full > div.container > div > nav,
+  .pingarlt_3db3768e-module__S43B9G__variable,
+  .s-user-menu-dropdown-list,
+  .main-content .sicon-shopping-bag.icon {
+    background: #585b34 !important;
+    color: #d3ac76 !important;
+    border: none !important;
+  }
+
+  /* ---------- RADIUS ---------- */
+  .art-banner > div > div > div > a > button,
+  .art-text-with-photo > div > div > div > div > a > button,
+  .art-countdown > div > div > div > div > a > button,
+  .scroll-top,
+  .art-categories-02-slide .aspect-square,
+  .art-text-with-photo > div > div > div > div > img {
+    border-radius: 0.5rem !important;
+  }
+
+  /* ---------- LAYOUT ---------- */
+  .swiper-android .swiper-slide,
+  .swiper-wrapper {
+    justify-content: center !important;
+  }
+
+  .app-inner > .art-features {
+    margin-bottom: 2rem !important;
+  }
+
+  .art-categories-02-slide a h3 {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    text-align: center !important;
+    margin: auto !important;
+  }
+}
+
+/* =========================
+   PRODUCT TITLES
+========================= */
+.s-products-slider-slider .s-slider-swiper-wrapper 
+.s-product-card-entry .s-product-card-content 
+.s-product-card-content-sub h4,
+.s-products-list .s-products-list-wrapper 
+.s-product-card-entry .s-product-card-content 
+.s-product-card-content-sub h4 {
+  color: var(--color-primary) !important;
+  fill: var(--color-primary) !important;
+}
+
+/* =========================
+   FOOTER
+========================= */
+.art-store-footer .s-payments-list-item {
+  border: none !important;
+}
+
+/* =========================
+   MOBILE (max-width: 767px)
+========================= */
+@media (max-width: 767px) {
+
+  .art-countdown {
+    height: 17rem !important;
+  }
+
+  .art-who-are-we-mobile div.swiper-pagination {
+    display: none !important;
+  }
+
+  #mobile-menu {
+    background: var(--color-footer-main) !important;
+    color: var(--color-footer-text) !important;
+  }
+
+  .btn--wishlist.s-button-element {
+    background: #585b34 !important;
+    color: #d3ac76 !important;
+    border: none !important;
+  }
+}
+
+/* =========================
+   CONTENT
+========================= */
+.content.content--single-page {
+  background: var(--color-footer-main) !important;
+}
+
+/* =========================
+   HIDE ELEMENTS
+========================= */
+@media (min-width: 100px) {
+  button.s-fast-checkout,
+  .main-content.art-main-content > div.grid.grid-cols-1,
+  .main-content.art-main-content > form > section.sticky-product-bar 
+  > salla-add-product-button > div > salla-mini-checkout-widget,
+  .art-store-footer .footer-buttons {
+    display: none !important;
+  }
+}
