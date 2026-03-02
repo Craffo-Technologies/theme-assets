@@ -44,7 +44,7 @@ div#free-shipping h4.shipping-item,div#free-shipping #free-shipping-msg{
  
 /* **** */
 
-#product-1042038919 > div.main-content  > section > form > salla-product-options > salla-conditional-fields > div , #product-1042038919 > div.main-content  > section > form > salla-product-options > salla-conditional-fields > div > div > div > div > label > div {
+#product-1042038919 > div.main-content.w-full > section > form > salla-product-options > salla-conditional-fields > div > div , #product-1042038919 > div.main-content.w-full  > section > form > salla-product-options > salla-conditional-fields > div   , #product-1042038919 > div.main-content  > section > form > salla-product-options > salla-conditional-fields > div > div > div > div > label > div {
 	background: var(--color-breadcrumbs) !important;
 	color: white  !important;
 }
