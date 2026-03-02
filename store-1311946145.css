@@ -26,8 +26,10 @@
   div.main-content.art-main-content > form > section.sticky-product-bar.p-2.px-5 > div {
     background-color: black !important;
   }
+  
+  
 }
 
-.main-content.art-main-content.md\:sticky.md\:overflow-hidden.top-24.w-full.md\:w-3\/6.md\:pb-16 > form > section.sticky-product-bar.p-2.px-5.sm\:p-1.rounded-md.rounded-b-none.sm\:bg-transparent.bg-white{
+.main-content.art-main-content.top-24.w-full> form > section.sticky-product-bar.rounded-md.rounded-b-none.bg-white{
 	background-color: transparent !important;
 }
