@@ -1,48 +1,60 @@
 /*
-  متجر الالعاب فلاش
- 	store : https://salla.sa/salla-.com-
+متجر الالعاب فلاش
+store : https://salla.sa/salla-.com-
 */
 
- div.main-content.w-full > section.bg-white,div.main-content.w-full > section > form > div.grid.grid-cols-1.text-center > div,#tabs-id > div > div.bg-white{
-	background-color: var(--background-color-theme) !important ;
+body{
+	background-color:red !important;
+}
+
+div.main-content.w-full > section.bg-white,div.main-content.w-full > section > form > div.grid.grid-cols-1.text-center > div,#tabs-id > div > div.bg-white{
+background-color: var(--background-color-theme) !important ;
 }
 div.main-content.w-full > section > form .form-label,#tab-description > div > p > span,#tabs-id > div > ul > li > a{
-	color: var(--main-text-color) !important;
+color: var(--main-text-color) !important;
 }
 .s-quantity-input-input{
-	 color: var(--color-primary) !important;
+color: var(--color-primary) !important;
 }
 
- #product-filter,#app > div.app-inner.flex.flex-col.min-h-full > div.container.mt-5 > div > div.sticky.top-24.w-full{
- 	color: black !important;
- }
+#product-filter,#app > div.app-inner.flex.flex-col.min-h-full > div.container.mt-5 > div > div.sticky.top-24.w-full{
+color: black !important;
+}
 .prestige-testimonials h1{
-   color: var(--main-text-color) !important;
+color: var(--main-text-color) !important;
 }
 section.cart-item.bg-white{
-	background-color: unset !important;
-	color: var(--main-text-color) !important ;
+background-color: unset !important;
+color: var(--main-text-color) !important ;
 }
 section.cart-item > div.grid.grid-cols-10.gap-0 > div.col-span-3 > h3 > a,section.cart-item  > div> div > h3{
-	color: var(--main-text-color) !important;
+color: var(--main-text-color) !important;
 }
 div.app-inner.flex.flex-col.min-h-full > div.container.mt-5 > div > div.sticky.top-24 > div.shadow-default.bg-white.p-5.rounded-md.mb-5.relative.transition-height.duration-1000{
-	background-color: unset !important;
+background-color: unset !important;
 }
- div#free-shipping{
- 	background-color: unset !important;
- }
+div#free-shipping{
+background-color: unset !important;
+}
 div#free-shipping h4.shipping-item,div#free-shipping #free-shipping-msg{
-	color: var(--main-text-color)!important ;
+color: var(--main-text-color)!important ;
 }
- .app-inner > div.prestige-store-features  > div > div{
- 	background-color: unset !important;
- }
+.app-inner > div.prestige-store-features  > div > div{
+background-color: unset !important;
+}
 
 .product-single, .product-single .bg-white {
-    background-color: var(--background-color-theme) !important;
+background-color: var(--background-color-theme) !important;
 }
 div.main-content.w-full > section > form > salla-product-options > salla-conditional-fields > div > div, div.main-content.w-full > section > form > salla-product-options,.s-product-options-option-label b{
-    background-color: unset !important;
-    color: #5D60EE !important;
+background-color: unset !important;
+color: #5D60EE !important;
 }
+.main-content  > section > form > salla-product-options > salla-conditional-fields{
+color: var(--color-footer-main) !important;
+background-color: var(--color-breadcrumbs) !important;
+}
+.main-content > section > form > salla-product-options > salla-conditional-fields > div {
+background-color: var(--color-breadcrumbs) !important;
+}
+
