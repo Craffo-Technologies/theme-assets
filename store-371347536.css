@@ -16,10 +16,8 @@ div.main-content.w-full > section > form .form-label,#tab-description > div > p 
  	color: black !important;
  }
 .prestige-testimonials h1{
-		 color: var(--main-text-color) !important;
-
+   color: var(--main-text-color) !important;
 }
-
 section.cart-item.bg-white{
 	background-color: unset !important;
 	color: var(--main-text-color) !important ;
@@ -30,22 +28,26 @@ section.cart-item > div.grid.grid-cols-10.gap-0 > div.col-span-3 > h3 > a,sectio
 div.app-inner.flex.flex-col.min-h-full > div.container.mt-5 > div > div.sticky.top-24 > div.shadow-default.bg-white.p-5.rounded-md.mb-5.relative.transition-height.duration-1000{
 	background-color: unset !important;
 }
-
  div#free-shipping{
  	background-color: unset !important;
  }
 div#free-shipping h4.shipping-item,div#free-shipping #free-shipping-msg{
-		color: var(--main-text-color)!important ;
+	color: var(--main-text-color)!important ;
 }
-
  .app-inner > div.prestige-store-features  > div > div{
  	background-color: unset !important;
  }
  
 /* **** */
 
-#product-1042038919 > div.main-content.w-full > section > form > salla-product-options > salla-conditional-fields > div > div , #product-1042038919 > div.main-content.w-full  > section > form > salla-product-options > salla-conditional-fields > div   , #product-1042038919 > div.main-content  > section > form > salla-product-options > salla-conditional-fields > div > div > div > div > label > div {
+.main-content.w-full > section > form > salla-product-options > salla-conditional-fields > div > div ,
+.main-content.w-full  > section > form > salla-product-options > salla-conditional-fields > div   , 
+.main-content  > section > form > salla-product-options > salla-conditional-fields > div > div > div > div > label > div {
 	background: var(--color-breadcrumbs) !important;
-	color: white  !important;
+	color: white !important;
 }
+
+/* **** */
+
+
 
