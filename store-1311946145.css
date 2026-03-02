@@ -1,7 +1,3 @@
-
-/*
- 	store : https://ptsolutionsco.com/
-*/
 @media (max-width: 640px) {
   .hydrated .is-sticky-product-bar .sticky-product-bar,
   .hydrated .is-sticky-product-bar .sticky-product-bar__quantity,
@@ -27,10 +23,10 @@
   div.main-content.art-main-content > form > section.sticky-product-bar.p-2.px-5 > div {
     background-color: black !important;
   }
-  
-  
+
+
 }
 
 .main-content.art-main-content.top-24.w-full> form > section.sticky-product-bar.rounded-md.rounded-b-none.bg-white{
-	background-color: transparent !important;
+    background-color: transparent !important;
 }
