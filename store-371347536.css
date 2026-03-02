@@ -59,7 +59,8 @@ background-color: var(--color-breadcrumbs) !important;
 
 /* ***** */
 
- .main-content  > section > form > salla-product-options > salla-conditional-fields{
+ .main-content  > section > form > salla-product-options > salla-conditional-fields  , .s-product-options-wrapper
+{
 	color: var(--color-footer-main) !important;
 	background-color: var(--color-breadcrumbs) !important;
 }
