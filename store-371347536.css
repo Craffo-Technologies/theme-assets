@@ -3,10 +3,6 @@
 store : https://salla.sa/salla-.com-
 */
 
-body{
-	background-color:red !important;
-}
-
 div.main-content.w-full > section.bg-white,div.main-content.w-full > section > form > div.grid.grid-cols-1.text-center > div,#tabs-id > div > div.bg-white{
 background-color: var(--background-color-theme) !important ;
 }
