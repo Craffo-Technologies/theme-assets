@@ -38,7 +38,6 @@ div#free-shipping h4.shipping-item,div#free-shipping #free-shipping-msg{
  	background-color: unset !important;
  }
  
-/* **** */
 
 .main-content.w-full > section > form > salla-product-options > salla-conditional-fields > div > div ,
 .main-content.w-full  > section > form > salla-product-options > salla-conditional-fields > div   , 
@@ -46,8 +45,3 @@ div#free-shipping h4.shipping-item,div#free-shipping #free-shipping-msg{
 	background: var(--color-breadcrumbs) !important;
 	color: white !important;
 }
-
-/* **** */
-
-
-
