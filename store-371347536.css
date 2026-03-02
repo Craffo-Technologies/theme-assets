@@ -39,12 +39,10 @@ div#free-shipping h4.shipping-item,div#free-shipping #free-shipping-msg{
  	background-color: unset !important;
  }
 
-
- .main-content section form salla-product-options  salla-conditional-fields div div , .main-content form salla-product-options salla-conditional-fields div , .main-content form salla-product-options salla-conditional-fields div label  div , .form.product-form salla-product-options ,.form.product-form salla-conditional-fields {
-	background: var(--color-breadcrumbs) !important;
-	color: white  !important;
+.product-single, .product-single .bg-white {
+    background-color: var(--background-color-theme) !important;
 }
-.main-content section form salla-product-options  salla-conditional-fields div div , .main-content form salla-product-options salla-conditional-fields div , .main-content form salla-product-options salla-conditional-fields div label  div , .form.product-form salla-product-options ,.form.product-form salla-conditional-fields , .s-product-options-option-container , .s-product-options-option ,  .s-product-options-option-container .s-product-options-option {
-	background: var(--color-breadcrumbs) !important;
-	color: white  !important;
+div.main-content.w-full > section > form > salla-product-options > salla-conditional-fields > div > div, div.main-content.w-full > section > form > salla-product-options,.s-product-options-option-label b{
+    background-color: unset !important;
+    color: #5D60EE !important;
 }
