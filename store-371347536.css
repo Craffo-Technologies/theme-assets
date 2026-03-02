@@ -2,6 +2,16 @@
   متجر الالعاب فلاش
  	store : https://salla.sa/salla-.com-
 */
+
+
+.main-content.w-full > section > form > salla-product-options > salla-conditional-fields > div > div ,
+.main-content.w-full  > section > form > salla-product-options > salla-conditional-fields > div   , 
+.main-content  > section > form > salla-product-options > salla-conditional-fields > div > div > div > div > label > div {
+	background: var(--color-breadcrumbs) !important;
+	color: white !important;
+}
+
+
  div.main-content.w-full > section.bg-white,div.main-content.w-full > section > form > div.grid.grid-cols-1.text-center > div,#tabs-id > div > div.bg-white{
 	background-color: var(--background-color-theme) !important ;
 }
@@ -39,9 +49,3 @@ div#free-shipping h4.shipping-item,div#free-shipping #free-shipping-msg{
  }
  
 
-.main-content.w-full > section > form > salla-product-options > salla-conditional-fields > div > div ,
-.main-content.w-full  > section > form > salla-product-options > salla-conditional-fields > div   , 
-.main-content  > section > form > salla-product-options > salla-conditional-fields > div > div > div > div > label > div {
-	background: var(--color-breadcrumbs) !important;
-	color: white !important;
-}
