@@ -26,10 +26,10 @@
   div.main-content.art-main-content > form > section.sticky-product-bar.p-2.px-5 > div {
     background-color: black !important;
   }
-  
+  .main-content.art-main-content.top-24.w-full> form > section.sticky-product-bar.rounded-md.rounded-b-none.bg-white{
+	background-color: transparent !important;
+}
   
 }
 
-.main-content.art-main-content.top-24.w-full> form > section.sticky-product-bar.rounded-md.rounded-b-none.bg-white{
-	background-color: transparent !important;
-}
+
