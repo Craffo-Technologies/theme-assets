@@ -1,4 +1,5 @@
 /*
+  متجر الالعاب فلاش
  	store : https://salla.sa/salla-.com-
 */
  div.main-content.w-full > section.bg-white,div.main-content.w-full > section > form > div.grid.grid-cols-1.text-center > div,#tabs-id > div > div.bg-white{
@@ -41,3 +42,10 @@ div#free-shipping h4.shipping-item,div#free-shipping #free-shipping-msg{
  	background-color: unset !important;
  }
  
+/* **** */
+
+#product-1042038919 > div.main-content  > section > form > salla-product-options > salla-conditional-fields > div , #product-1042038919 > div.main-content  > section > form > salla-product-options > salla-conditional-fields > div > div > div > div > label > div {
+	background: var(--color-breadcrumbs) !important;
+	color: white  !important;
+}
+
