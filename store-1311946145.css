@@ -30,3 +30,6 @@
 .main-content.art-main-content.top-24.w-full> form > section.sticky-product-bar.rounded-md.rounded-b-none.bg-white{
     background-color: transparent !important;
 }
+.product-count-down{
+    display: none !important;
+}
