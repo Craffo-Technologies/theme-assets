@@ -1,0 +1,14 @@
+/*
+store : https://mixfloward.sa/
+*/
+
+
+
+@media (max-width: 768px) {
+  .featured-categories-grid .grid {
+    display: grid !important;
+    grid-template-columns: repeat(4, 1fr) !important;
+    gap: 10px !important;
+  }
+  
+}
