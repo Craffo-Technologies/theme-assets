@@ -219,24 +219,25 @@
 salla-products-list .s-products-list-wrapper , .s-products-list .s-slider-swiper-wrapper, .s-products-list .s-products-list-wrapper, .s-products-slider-slider .s-slider-swiper-wrapper, .s-products-slider-slider .s-products-list-wrapper , salla-products-list .s-products-list-wrapper div {
 	margin: auto !important;
 }
-  salla-products-list .s-products-list-wrapper .s-product-card-entry .s-product-card-image{
+ .s-product-card-image{
   display: flex !important;
 	width: 15rem !important;
 	height: 14rem !important;
 	max-height: 14rem !important;
 	aspect-ratio: 1/1 !important;
-	border-radius: 1rem !important;
+	// border-radius: 0.6rem !important;
 	margin: 1rem auto !important;
 	background: var(--color-header-main) !important;
 	object-fit: fill !important;
 }
-  salla-products-list .s-products-list-wrapper .s-product-card-entry .s-product-card-image a img{
-  	width: 15rem !important;
+  .s-product-card-image a img{
+  width: 15rem !important;
 	height: 14rem !important;
 	max-height: 14rem !important;
 	aspect-ratio: 1/1 !important;	
-	border-radius: 1rem !important;
+	// border-radius: 0.6rem !important;
 	object-fit: fill !important;
+	
   }
 #app > div.app-inner.flex.flex-col.min-h-full > section> salla-products-list > div.s-products-list-wrapper.s-products-list-vertical-cards{
 	width: 80% !important;
