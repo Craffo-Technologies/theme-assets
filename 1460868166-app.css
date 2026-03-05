@@ -218,6 +218,7 @@
 
 salla-products-list .s-products-list-wrapper , .s-products-list .s-slider-swiper-wrapper, .s-products-list .s-products-list-wrapper, .s-products-slider-slider .s-slider-swiper-wrapper, .s-products-slider-slider .s-products-list-wrapper , salla-products-list .s-products-list-wrapper div {
 	margin: auto !important;
+	overflow: hidden !important;
 }
  .s-product-card-image{
 	background: var(--color-header-main) !important;
@@ -231,6 +232,7 @@ salla-products-list .s-products-list-wrapper , .s-products-list .s-slider-swiper
 	aspect-ratio: 1/1 !important;	
 	object-fit: fill !important;
 	margin:auto !important;
+	overflow: hidden !important;
   }
 #app > div.app-inner.flex.flex-col.min-h-full > section> salla-products-list > div.s-products-list-wrapper.s-products-list-vertical-cards{
 	width: 80% !important;
