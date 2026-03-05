@@ -215,9 +215,7 @@
 
 
 /* ***** */
-.art-theme{
-overflow: hidden !important;		
-}
+
 salla-products-list .s-products-list-wrapper , .s-products-list .s-slider-swiper-wrapper, .s-products-list .s-products-list-wrapper, .s-products-slider-slider .s-slider-swiper-wrapper, .s-products-slider-slider .s-products-list-wrapper , salla-products-list .s-products-list-wrapper div {
 margin: auto !important;
 }
