@@ -3,27 +3,30 @@
 .s-payments-list-item{
 background: var(--color-footer-text) !important ;
 }
-#main-content > section.sand-feature.py-16.block.block > div > div > div > div > img{
+
+.sand-feature.py-16.block.block > div > div > div > div > img{
 border-radius: 1rem !important;
-width: 15rem !important;
-max-width: 15rem !important;
+// width: 15rem !important;
+// max-width: 15rem !important;
 padding: 0 !important;
 margin: 0 auto !important;
 }
-#main-content > section.sand-feature.py-16.block.block > div > div > div > div{
+.sand-feature.py-16.block.block > div > div > div > div{
 width: 15rem !important;
 max-width: 15rem !important;
 height: 15rem !important;
 padding: 0 !important;
 margin: 0 auto !important;
 }
-#main-content > section.sand-feature.py-16.block.block > div > div > div > div > img {
+
+.sand-feature.py-16.block.block > div > div > div > div > img {
 transition: 
 transform 1.5s cubic-bezier(0.19, 1, 0.22, 1), 
 filter 1.5s cubic-bezier(0.19, 1, 0.22, 1), 
 box-shadow 1.5s cubic-bezier(0.19, 1, 0.22, 1), 
 border-radius 1.5s cubic-bezier(0.19, 1, 0.22, 1),
 border 1.5s ease;
+
 transform: scale(1) translateY(0) rotate(0deg);
 filter: brightness(0.9) contrast(0.95);
 border: 1px solid transparent;
@@ -32,7 +35,8 @@ cursor: default !important;
 backface-visibility: hidden;
 will-change: transform, box-shadow, filter;
 }
-#main-content > section.sand-feature.py-16.block.block > div > div > div > div > img:hover {
+
+.sand-feature.py-16.block.block > div > div > div > div > img:hover {
 transform: scale(1.07) translateY(-15px) rotate(1deg);
 filter: brightness(1.05) contrast(1.1);
 box-shadow: 0 25px 50px rgba(59, 35, 41, 0.3), 0 0 20px rgba(110, 84, 59, 0.2);
@@ -40,21 +44,43 @@ border-radius: 40px;
 border: 1px solid #6e543b;
 cursor: default !important;
 }
-#main-content > section.sand-feature.py-16.block.block > div > div > div  > h3{
+.sand-feature.py-16.block.block > div > div > div  > h3{
 margin-top: 1rem !important;
 }
-#main-content > section.container{
+.container{
 margin: 2rem auto 0 auto !important;
 padding: 2rem 0 0 0 !important;
 }
-#main-content > section.container > div{
+.container > div{
 margin-top: 1rem !important;
 }
-#main-content > section.sand-feature.py-16.block.block > div > div{
+.sand-feature.py-16.block.block > div > div{
 gap: 0 !important;
 }
-#main-content > section.sand-feature.py-16.block.block{
+.sand-feature.py-16.block.block{
 margin-bottom: 0 !important;
 padding-bottom: 0 !important;
+}
+
+@media (max-width: 767px) {
+
+.sand-feature.py-16.block.block > div > div{
+grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+justify-content: center !important;
+margin: auto !important;
+text-align: center !important;
+}
+
+.sand-feature.py-16.block.block > div > div > div > div > img , .sand-feature.py-16.block.block > div > div > div > div{
+	width: unset !important;
+	height: unset !important;
+	// max-width: unset !important;
+}
+.sand-feature.py-16.block.block{
+	margin-top: 0 !important;
+	padding-top: 0 !important;
+}
+
+
 }
 
