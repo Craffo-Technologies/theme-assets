@@ -47,13 +47,13 @@ cursor: default !important;
 .sand-feature.py-16.block.block > div > div > div  > h3{
 margin-top: 1rem !important;
 }
-.container{
+/* .container{
 margin: 2rem auto 0 auto !important;
 padding: 2rem 0 0 0 !important;
-}
-.container > div{
+} */
+/* .container > div{
 margin-top: 1rem !important;
-}
+} */
 .sand-feature.py-16.block.block > div > div{
 gap: 0 !important;
 }
