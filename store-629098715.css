@@ -84,3 +84,23 @@ text-align: center !important;
 
 }
 
+/* *** add video logo ** */
+
+.sand-video.relative.w-full.h-screen.overflow-hidden.block.block > div.absolute.inset-0.z-20{
+  position: relative;
+}
+.sand-video.relative.w-full.h-screen.overflow-hidden.block.block > div.absolute.inset-0.z-20::before{
+  content: "";
+  position: absolute;
+  top: 1.5rem;
+  left: 0.5rem;
+  width: 5rem;
+  height: 2.5rem;
+  background-image: url("https://asas-tools.com/u/uploads/sara_craffo/521a9e42-b599-41de-83bb-8a06c1c52a77%20%281%29.webp");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: 50;
+}
+
+
