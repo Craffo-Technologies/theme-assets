@@ -1,0 +1,94 @@
+/*
+متجر الشاى 
+	store : https://saul-store.com/
+*/
+
+
+#app > section.matcha-prepare-guide.py-16.block.block > div > div.max-w-5xl.mx-auto > div > div> div.relative.rounded-3xl.bg-white.transition-all.duration-500.overflow-hidden.flex.flex-col.items-center.justify-center.text-center > p{
+	padding-bottom: unset !important;
+}
+
+#app > section.matcha-prepare-guide.py-16.block.block > div > div.max-w-5xl.mx-auto > div > div > div.relative.rounded-3xl.bg-white.p-8.transition-all.duration-500.overflow-hidden.flex.flex-col.items-center.justify-center.text-center{
+	padding-left: 0.9rem !important;
+	padding-right: 0.9rem !important;
+	padding-top: 1rem !important;
+	padding-bottom: 1rem !important;
+}
+
+@media(min-width: 768px){
+	#featured-products-style2-7 .s-product-card-entry {
+    margin: 0 auto !important; 
+}
+#featured-products-style2-7 .s-products-list-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;     
+}
+}
+
+#featured-products-style2-4 > div > div.tabs.hide-scroll > salla-button > button{
+	    padding-left: 3rem !important;
+    padding-right: 3rem !important;
+    font-size: 0.975rem !important;
+}
+
+
+@media (max-width: 640px){
+
+.matcha-features-02 .grid{
+  grid-template-columns: repeat(2,1fr) !important;
+  gap:12px !important;
+}
+
+.matcha-features-02 .group{
+  padding:16px !important;
+  border-radius:16px !important;
+}
+
+.matcha-features-02 .group .w-14{
+  width:40px !important;
+  height:40px !important;
+  margin-bottom:10px !important;
+}
+
+.matcha-features-02 .group i{
+  font-size:16px !important;
+}
+
+.matcha-features-02 h3{
+  font-size:15px !important;
+  margin-bottom:6px !important;
+}
+
+.matcha-features-02 p{
+  font-size:13px !important;
+  line-height:1.4 !important;
+  margin-bottom:8px !important;
+}
+
+.matcha-features-02 .text-sm{
+  font-size:12px !important;
+}
+
+}
+
+#app > section.matcha-instagram-feed .sicon-instagram2:before {
+    content: "\e9a3";
+}
+
+
+@media (min-width: 1024px) {
+
+.matcha-prepare-guide .grid > .group > .relative{
+  min-height: 320px !important;
+  padding: 0.6rem !important;
+}
+
+.matcha-prepare-guide .grid > .group > .relative h3{
+  min-height: 56px;
+}
+#app > section.matcha-prepare-guide.py-16.block.block > div > div.max-w-5xl.mx-auto > div > div > div.relative.rounded-3xl.bg-white.p-8.transition-all.duration-500.overflow-hidden.flex.flex-col.items-center.justify-center.text-center > p{
+	height: 6.9rem !important;
+	overflow: hidden !important;
+}
+}
