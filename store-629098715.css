@@ -103,7 +103,13 @@ z-index: 50;
 .sand-countdown.relative.py-16.overflow-hidden > div > div > div.flex-1 > div > div:nth-child(2) , #main-content > section.sand-countdown.relative.py-16.overflow-hidden > div > div > div.flex-1.w-full.lg\:w-auto.relative > div > div:nth-child(2){
   display:none !important ;
 }
+ .sand-countdown.relative.py-16.overflow-hidden > div > div > div.flex-1 > div{
+  grid-template-columns: repeat(1, minmax(0, 1fr)) !important  ;
+}
 
+.sand-collections .grid.grid-cols-1 {
+  grid-template-columns: repeat(2, minmax(0, 1fr)) !important ;
+}
 
 /* **** */
 
