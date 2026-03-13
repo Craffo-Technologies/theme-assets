@@ -100,7 +100,7 @@ background-position: center;
 z-index: 50;
 }
 
-.sand-countdown.relative.py-16.overflow-hidden > div > div > div.flex-1 > div > div:nth-child(2){
+.sand-countdown.relative.py-16.overflow-hidden > div > div > div.flex-1 > div > div:nth-child(2) , #main-content > section.sand-countdown.relative.py-16.overflow-hidden > div > div > div.flex-1.w-full.lg\:w-auto.relative > div > div:nth-child(2){
   display:none !important ;
 }
 
