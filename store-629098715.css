@@ -109,3 +109,22 @@ padding: 0 !important;
 	 
   
 } 
+
+
+/* **** */
+
+
+.slide--cat-entry  , body , #swiper-wrapper-a5ad2c10ec10df103e4 > div  , #swiper-wrapper-a5ad2c10ec10df103e4 > div a, .sand-collections  > div > div.grid > div  > div ,  .s-product-card-content {
+	background-color: var(--color-background-store) !important ;
+}
+ .s-block.s-block--categories{
+	padding-bottom: 1rem !important;
+}
+#main-content > section.container{
+	padding-top: 1rem !important;
+}
+#main-content > section.sand-feature.py-16.block.block > div > div{
+	overflow: hidden !important;
+}
+
+/* *** */
