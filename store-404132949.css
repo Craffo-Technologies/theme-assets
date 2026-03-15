@@ -1,5 +1,4 @@
 /*
-متجر الشاى 
 	store : https://saul-store.com/
 */
 
@@ -16,17 +15,17 @@
 }
 
 @media(min-width: 768px){
-	#featured-products-style2-7 .s-product-card-entry {
+	.s-block--tabs-produtcs .s-product-card-entry {
     margin: 0 auto !important; 
 }
-#featured-products-style2-7 .s-products-list-wrapper {
-    display: flex;
-    justify-content: center;
-    align-items: center;     
+.s-block--tabs-produtcs .s-products-list-wrapper {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;     
 }
 }
 
-#featured-products-style2-4 > div > div.tabs.hide-scroll > salla-button > button{
+.s-block--tabs-produtcs .tabs.hide-scroll > salla-button > button{
 	    padding-left: 3rem !important;
     padding-right: 3rem !important;
     font-size: 0.975rem !important;
@@ -91,4 +90,39 @@
 	height: 6.9rem !important;
 	overflow: hidden !important;
 }
+}
+
+.s-product-card-entry .s-product-card-content-sub,.s-product-card-entry .s-product-card-content{
+	justify-content: center !important;
+	text-align: center !important;
+}
+
+.matcha-main-content.main-content > form > section.sticky-product-bar.bg-white{
+	background-color: var(--store-background) !important;
+}
+
+
+@media(max-width: 768px){
+	.store-footer .grid > div {
+  text-align: center !important;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+ .store-footer .grid > div ul,
+ .store-footer .grid > div .footer-list {
+  align-items: center;
+  text-align: center;
+}
+}
+
+
+.matcha-prepare-guide  img{
+	object-fit: fill !important;
+}
+
+#app > section.matcha-prepare-guide.py-16.block.block > div > div.max-w-5xl.mx-auto > div  > div.relative.rounded-3xl.bg-white.p-8.transition-all.duration-500.overflow-hidden.flex.flex-col.items-center.justify-center.text-center > div.w-16.h-16.mb-5.rounded-2xl.flex.items-center.justify-center.text-center.overflow-hidden{
+	width: 6rem !important;
+	height: 6rem !important;
 }
