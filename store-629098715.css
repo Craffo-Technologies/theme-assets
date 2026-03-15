@@ -74,7 +74,7 @@ z-index: 50;
 /* **** */
 
  @media (max-width: 740px) {
- .s-block.s-block--categories{
+ .s-block.s-block--categories , .sand-feature {
 overflow: hidden !important;	
 }
  .sand-feature , .sand-feature div{
