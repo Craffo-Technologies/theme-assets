@@ -70,4 +70,32 @@ z-index: 50;
 
 /* **** */
 
+@media (max-width: 768px) {
 
+.sand-feature , .sand-feature div{
+overflow: hidden !important;
+justify-content: center !important;
+align-items: center !important;
+margin: auto !important;
+padding: 0 !important;
+}
+ .sand-feature.py-16.block.block > div > h2{
+	padding: 1rem !important;
+}
+.sand-feature.py-16.block.block > div > div > div  > div , .sand-feature.py-16.block.block > div > div > div  > div img{
+width: 6rem !important;
+height: 6rem !important;
+object-fit: cover !important;
+background-size: cover !important;
+max-height: 6rem !important;
+max-width: 6rem !important;
+justify-content: center !important;
+align-items: center !important;
+margin: auto !important;
+padding: 0 !important;
+}
+ .sand-video > div.absolute.inset-0.z-20.flex  > div > a.group {
+	padding: 1rem !important;
+}
+  
+}
