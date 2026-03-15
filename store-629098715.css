@@ -72,7 +72,7 @@ z-index: 50;
 
  @media (max-width: 740px) {
 
-.sand-feature , .sand-feature div{
+/* .sand-feature , .sand-feature div{
 overflow: hidden !important;
 justify-content: center !important;
 align-items: center !important;
@@ -96,6 +96,6 @@ padding: 0 !important;
 }
  .sand-video > div.absolute.inset-0.z-20.flex  > div > a.group {
 	padding: 1rem !important;
-}
+} */
   
 } 
