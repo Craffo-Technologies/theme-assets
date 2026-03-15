@@ -68,7 +68,7 @@ z-index: 50;
   grid-template-columns: repeat(2, minmax(0, 1fr)) !important ;
 }
 
-.sand-feature.py-16.block.block > div > div > div  > div img{
+.sand-feature.py-16.block.block > div > div > div  > div img ,  .sand-feature div img{
   border-radius: 1rem ;
 }
 /* **** */
@@ -85,13 +85,15 @@ margin: auto !important;
 padding: 0 !important;
 }
 
-.sand-feature.py-16.block.block > div > div > div  > div , .sand-feature.py-16.block.block > div > div > div  > div img{
-/* width: 6rem !important; */
-/* height: 6rem !important; */
+.sand-feature.py-16.block.block > div > div > div  > div , 
+	 .sand-feature.py-16.block.block > div > div > div  > div img ,
+	 .sand-feature div img{
+width: 5rem !important;
+height: 5rem !important;
 object-fit: cover !important;
 background-size: cover !important;
-/* max-height: 6rem !important; */
-/* max-width: 6rem !important; */
+max-height: 5rem !important;
+max-width: 5rem !important;
 justify-content: center !important;
 align-items: center !important;
 margin: auto !important;
@@ -104,5 +106,6 @@ padding: 0 !important;
  .sand-video > div.absolute.inset-0.z-20.flex  > div > a.group {
 	padding: 1rem !important;
 } 
+	 
   
 } 
