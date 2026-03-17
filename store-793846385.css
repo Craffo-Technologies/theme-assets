@@ -1,0 +1,38 @@
+.kayan-card img {
+  aspect-ratio: 10 / 16 !important;
+}
+
+.kayan-copyright {
+  display: none !important;
+}
+
+.custom-bar h3 {
+  color: black !important;
+}
+
+.custom-bar {
+  background-color: transparent !important;
+}
+
+.s-social-share-list,
+.olla-sharelike .s-button-outline {
+  background-color: black !important;
+  color: white !important;
+}
+
+footer > div > div.justify-center.items-center.w-full > div:nth-child(3) > ul > li:nth-child(1) {
+  display: none !important;
+}
+
+footer > div > div.items-center.w-full > div:nth-child(3) > salla-contacts > div > div:nth-child(2) {
+  display: none !important;
+}
+
+#app > div.app-inner.flex.flex-col.min-h-full > footer > div > div.justify-center.items-center.w-full > div:nth-child(3) > salla-contacts {
+  display: flex !important;
+  justify-content: center !important;
+}
+
+.s-trust-badges-wrapper {
+  display: none !important;
+}
