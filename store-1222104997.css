@@ -1,0 +1,32 @@
+.kayan-copyright {
+  display: none;
+}
+
+.kayan-card img {
+  aspect-ratio: 14 / 16;
+}
+
+.s-payments-list .s-payments-list-item,
+.s-product-options-wrapper,
+.tamara-product-widget,
+.s-form-control,
+.custom-bar,
+.content.content--single-page {
+  background-color: #E6E3DF !important;
+}
+
+.custom-bar .text-center {
+  color: #DAC9C2;
+}
+
+.s-button-text {
+  color: #E6E3DF;
+}
+
+.s-button-element.s-button-icon {
+  background-color: #DAC9C2;
+}
+
+.kayan-footer {
+  text-align: center;
+}
