@@ -1,0 +1,72 @@
+/*
+	store : https://designersaara.com/
+*/
+
+
+
+.horizontal-products.s-products-list.hydrated  .s-products-list-wrapper.s-products-list-horizontal-cards  .s-product-card-entry.s-product-card-horizontal {
+    flex-direction: column !important;
+    width: 100% !important;
+    background: transparent !important;
+}
+
+.s-product-card-horizontal .s-product-card-image {
+    width: 100% !important;
+}
+
+div.s-product-card-content > div.s-product-card-content-footer > salla-add-product-button > div > salla-button > button {
+    width: 7rem !important;
+}
+
+.s-product-card-image img {
+    object-fit: cover !important;
+}
+
+.s-product-card-entry .s-product-card-image {
+    aspect-ratio: 12/18 !important;
+}
+
+@media (max-width: 768px) {
+    .s-product-card-horizontal .s-product-card-content .s-product-card-content-footer {
+        width: 88% !important;
+    }
+    .s-product-card-horizontal salla-button.s-product-card-wishlist-btn {
+        position: unset !important;
+    }
+}
+
+@media (min-width: 100px) {
+    .s-trust-badges-wrapper {
+        display: none !important;
+    }
+    .s-contacts-list.s-contacts-list-vertical div#contact-slot {
+        text-align: center;
+        margin: auto;
+    }
+    body::after {
+        opacity: 0;
+        transform: translate(-50%, 10%);
+        animation: logoSlideUpSlow 4s ease-out forwards !important;
+    }
+    @keyframes logoSlideUpSlow {
+        0% {
+            opacity: 0;
+            transform: translate(-50%, 10%);
+        }
+        30% {
+            opacity: 1;
+            transform: translate(-50%, -50%);
+        }
+        85% {
+            opacity: 1;
+            transform: translate(-50%, -50%);
+        }
+        100% {
+            opacity: 0;
+            transform: translate(-50%, -50%);
+        }
+    }
+    body::before {
+        animation: loadingFadeOut 4.5s ease-in-out forwards !important;
+    }
+}
