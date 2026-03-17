@@ -1,0 +1,97 @@
+/*
+	store : https://saudilevel.com/
+*/
+
+
+@media(min-width: 100px) {
+    .s-product-card-entry .s-product-card-image,
+    .s-comments-product {
+        background-color: unset !important;
+    }
+    span.text-sm.copyright-text {
+        display: none !important;
+    }
+}
+
+@media(min-width: 100px) {
+    .s-product-card-rating {
+        display: none !important;
+    }
+}
+
+@media(max-width: 1024px) {
+    #mainnav .grid {
+        display: flex !important;
+        align-items: center !important;
+        justify-content: space-between !important;
+    }
+    #mainnav .grid > div:nth-child(2) {
+        order: 3 !important;
+        justify-content: flex-start !important;
+        display: flex !important;
+    }
+    #mainnav .grid > div:nth-child(1),
+    #mainnav .grid > div:nth-child(3) {
+        display: flex !important;
+        align-items: center !important;
+        justify-content: flex-end !important;
+        gap: 10px !important;
+    }
+    #mainnav .grid > div:nth-child(1) {
+        order: 1 !important;
+    }
+    #mainnav .grid > div:nth-child(3) {
+        position: absolute !important;
+        top: 50% !important;
+        transform: translateY(-50%) !important;
+        right: 50px !important;
+        order: 2 !important;
+        flex: 0 !important;
+        display: flex !important;
+        align-items: center !important;
+        gap: 10px !important;
+    }
+}
+
+@media(min-width: 100px) {
+    section.art-text p.art-text-desc.capitalize {
+        direction: ltr !important;
+    }
+}
+
+@media(min-width: 100px) {
+    .s-products-list .s-slider-swiper-wrapper .s-product-card-entry .s-product-card-content h3 a,
+    .s-products-list .s-products-list-wrapper .s-product-card-entry .s-product-card-content h3 a,
+    .s-products-slider-slider .s-slider-swiper-wrapper .s-product-card-entry .s-product-card-content h3 a,
+    .s-products-slider-slider .s-products-list-wrapper .s-product-card-entry .s-product-card-content h3 a {
+        text-transform: unset !important;
+    }
+}
+
+@media (max-width: 767px) {
+    footer > div> div > div:nth-child(3) > salla-contacts > h3 {
+        padding: 0rem 0 4rem 0 !important;
+    }
+    footer > div> div > div > div > salla-social > ul {
+        position: absolute !important;
+        bottom: 40% !important;
+        left: 41% !important;
+    }
+}
+
+body:after {
+    background-size: 41% !important;
+}
+
+@media (max-width: 767px) {
+    footer > div  > div,
+    footer > div.py-5 {
+        padding-bottom: 0 !important;
+    }
+}
+
+@media (max-width: 767px) {
+    footer > div> div > div > div > salla-social > ul {
+        margin-bottom: -2rem !important;
+    }
+}
