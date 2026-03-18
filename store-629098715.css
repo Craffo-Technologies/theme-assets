@@ -127,4 +127,12 @@ padding: 0 !important;
 	overflow: hidden !important;
 }
 
+.sicon-shopping-bag2:before {
+    content: "\e901";
+}
+
+#app > div.app-inner.flex.flex-col.min-h-full > footer > div.sand-copyright {
+	display: none !important;
+}
+
 /* *** */
