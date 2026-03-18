@@ -1,0 +1,99 @@
+/*
+	store : https://aeenkaf.com/
+*/
+
+.s-product-options-wrapper {
+    background: #e1dbcd !important;
+}
+
+.s-product-options-wrapper select {
+    background: #e1dbcd !important;
+}
+
+footer div div.md\:flex.md\:justify-between.justify-center.md\:items-start.items-center.w-full div:nth-child(2) h5 {
+    display: none !important;
+}
+
+a.text-xl.text-\[var\(--color-footer-text\)\].opacity-80.hover\:opacity-70.duration-300 {
+    font-size: 16px;
+}
+
+.olla-sharelike.flex.justify-center.items-center button {
+    background: #786153;
+    color: #fff;
+}
+
+div.custom-bar.w-full.py-5.mb-6.bg-primary.text-white div h3 {
+    color: #796254;
+}
+
+.kayan-card img {
+    aspect-ratio: 12 / 14;
+}
+
+footer div div.md\:flex.md\:justify-between.justify-center.md\:items-start.items-center.w-full div:nth-child(3) h5 {
+    font-size: 17px;
+}
+
+form salla-search div div div.s-search-input-wrapper span span {
+    display: none;
+}
+
+.kayan-search .s-search-input {
+    font-size: 12px !important;
+}
+
+.s-products-list-placeholder span,
+.no-content-placeholder .icon {
+    display: none;
+}
+
+#tabbyPromoWrapper #tabbyPromo * {
+    background: var(--color-background);
+}
+
+@media(min-width: 100px) {
+    #app > div> footer > div > div.kayan-copyright,
+    #app > div.app-inner.flex.flex-col.min-h-full > section > div > h2 > span {
+        display: none !important;
+    }
+
+    section.py-10 {
+        padding-top: 0 !important;
+    }
+
+    .kayan-component-text.relative.py-3 {
+        padding-top: 1.5rem !important;
+        padding-bottom: 0 !important;
+    }
+
+    .s-product-options-wrapper {
+        background: #6D2B14 !important;
+    }
+
+    .s-product-options-option-label,
+    .s-product-options-option-label small,
+    .s-product-options-option-label span {
+        color: #453026 !important;
+    }
+
+    div.custom-bar.w-full.py-5.mb-6.bg-primary.text-white div h3 {
+        color: #453026 !important;
+    }
+
+    .olla-sharelike.flex.justify-center.items-center button {
+        background: transparent !important;
+    }
+
+    div.app-inner.flex.flex-col.min-h-full div.custom-bar.w-full.py-5.mb-6.bg-primary {
+        background: transparent !important;
+    }
+
+    .s-trust-badges-wrapper {
+        display: none !important;
+    }
+
+    .index .kayan-card h4 {
+        display: none !important;
+    }
+}
