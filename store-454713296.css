@@ -1,0 +1,161 @@
+/*
+	store : https://sedn-abaya.com/
+*/
+.s-payments-list .s-payments-list-item,
+.s-product-options-wrapper,
+.tamara-product-widget,
+.s-form-control,
+.custom-bar,
+.content.content--single-page {
+    background-color: #FFFBF0 !important;
+}
+
+.custom-bar .text-center {
+    color: black;
+}
+
+.s-button-text {
+    color: #FFFBF0;
+}
+
+.s-button-element.s-button-icon {
+    background-color: black;
+}
+
+.kayan-footer {
+    text-align: center;
+}
+
+.kayan-card img {
+    aspect-ratio: 14/16;
+}
+
+.kayan-copyright {
+    display: none;
+}
+
+@media(max-width: 767px) {
+    .aspect-square.relative.group.overflow-hidden.rounded-md:nth-child(3),
+    .aspect-square.relative.group.overflow-hidden.rounded-md:nth-child(2) {
+        display: none;
+    }
+}
+
+footer {
+    padding-top: 0 !important;
+    margin-top: 0 !important;
+}
+
+@media(min-width: 100px) {
+    .custom-bar h3 {
+        color: black !important;
+    }
+
+    .custom-bar,
+    .main-content > form > section.p-5.rounded-md.mb-5,
+    section.sticky-product-bar,
+    .main-content > form > section.flex.rounded-md.rounded-b-none,
+    form.form.product-form {
+        background-color: transparent !important;
+    }
+
+    .s-social-share-list,
+    .olla-sharelike .s-button-outline {
+        background-color: var(--color-primary) !important;
+    }
+
+    .s-social-share-list,
+    .olla-sharelike .s-button-outline,
+    .s-social-share-btn span {
+        color: white !important;
+    }
+
+    .s-product-options-grid-mode-span,
+    .s-product-options-option,
+    .s-product-options-wrapper,
+    body .content.content--single-page {
+        background-color: transparent !important;
+    }
+
+    .s-product-options-option-label {
+        color: var(--color-primary) !important;
+    }
+
+    .custom-bar.w-full.py-5.mb-6.bg-primary.text-white {
+        background-color: transparent !important;
+    }
+
+    label:hover .s-product-options-grid-mode-span {
+        background-color: var(--color-primary) !important;
+        color: white !important;
+        border-color: #4c2508 !important;
+    }
+
+    input[type="radio"]:checked + .s-product-options-grid-mode-span {
+        background-color: #fffdf8 !important;
+        color: #4c2508 !important;
+        border-color: var(--color-primary) !important;
+    }
+}
+
+@media(max-width: 768px) {
+    .kayan-header div#s-cart-icon {
+        padding-top: 0.46rem !important;
+    }
+
+    .kayan-header {
+        overflow: visible !important;
+    }
+
+    .kayan-header .lg\:py-3 {
+        position: relative;
+        min-height: 60px;
+    }
+
+    #app > div.app-inner.flex.flex-col.min-h-full > div.kayan-header.overflow-hidden.w-full.h-full > div > div > div.flex-1.hidden.gap-6 {
+        display: flex !important;
+        flex: unset !important;
+        gap: 0.5rem;
+    }
+
+    .kayan-header .icon-search {
+        position: absolute;
+        right: 44px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    .kayan-header salla-cart-summary {
+        position: absolute;
+        right: 10px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    .kayan-header .bars {
+        position: absolute;
+        left: 10px;
+        top: 50%;
+        transform: translateY(-50%);
+        padding-top: 0.36rem !important;
+    }
+
+    .kayan-header .sicon-user {
+        position: absolute;
+        left: 44px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    .kayan-header i {
+        font-size: 1.1rem !important;
+    }
+
+    .kayan-header .w-24 {
+        position: absolute !important;
+        left: 55% !important;
+        top: 50%;
+        transform: translate(-60%, -50%) !important;
+        z-index: 9999 !important;
+    }
+}
