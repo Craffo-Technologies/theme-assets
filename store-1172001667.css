@@ -24,7 +24,10 @@ section.cart-item p.text-primary.flex-none.font-bold.text-sm {
 	cursor: pointer;
 }
 
-
 .s-product-options-grid-mode-span {
-    border: 1px solid var(--color-primary);
+	border: 1px solid var(--color-primary);
+}
+
+.s-product-options-colors-wrapper input[type='radio'] + label div {
+	color: #4c3c2f;
 }
