@@ -1,0 +1,37 @@
+.khayal-main-content {
+	display: grid !important;
+	grid-template-columns: 1fr;
+}
+
+.khayal-main-content > * {
+	grid-row: auto;
+}
+
+.khayal-main-content > div:has(.khayal-btns-wishlist) {
+	grid-row: 1;
+}
+
+.khayal-main-content > div:has(.product-entry__sub-title) {
+	grid-row: 2;
+}
+
+.khayal-main-content > div:has(.sicon-sar),
+.khayal-main-content > .flex.whitespace-nowrap.gap-4 {
+	grid-row: 3;
+}
+
+.khayal-main-content > div:has(.sicon-fire) {
+	grid-row: 4 !important;
+	margin-top: -10px !important;
+	margin-bottom: 20px !important;
+}
+
+.khayal-main-content > .product-form {
+	grid-row: 5;
+}
+.khayal-main-content > .product__description {
+	grid-row: 6;
+}
+.khayal-main-content > salla-installment {
+	grid-row: 7;
+}
