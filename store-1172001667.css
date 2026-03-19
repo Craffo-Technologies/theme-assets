@@ -1,3 +1,7 @@
 .cart .shadow-default.bg-white {
     color: #4c3c2f !important;
 }
+
+.s-cart-summary-count {
+    background-color: #d088b9 !important;
+}
