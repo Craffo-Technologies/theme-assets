@@ -5,3 +5,26 @@
 .s-cart-summary-count {
     background-color: #d088b9 !important;
 }
+
+
+.s-reviews-container .swiper-slide-active .s-reviews-testimonial__text p,
+section.cart-item p.text-primary.flex-none.font-bold.text-sm {
+	color: #4c3c2f;
+}
+
+.s-product-options-grid-mode
+	input[type='radio']:checked
+	+ .s-product-options-grid-mode-span {
+	background-color: #ffcb66 !important;
+	color: #ffffff !important;
+	border-color: #ffcb66 !important;
+}
+
+.s-product-options-grid-mode label {
+	cursor: pointer;
+}
+
+
+.s-product-options-grid-mode-span {
+    border: 1px solid var(--color-primary);
+}
