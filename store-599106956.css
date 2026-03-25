@@ -1,5 +1,20 @@
 /* https://tabelive.com/ */
 
+/* **** */
+
+.s-contacts-list{
+	flex-direction: row !important;
+	justify-content: center !important;
+	align-items: center !important;
+	margin: auto !important;
+}
+.s-contacts-list .s-contacts-item span:nth-child(2){
+display: none !important;
+}
+
+/* **** */
+
+
 .khayal-main-content {
 	display: grid !important;
 	grid-template-columns: 1fr;
