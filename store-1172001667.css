@@ -40,3 +40,6 @@ salla-products-slider .s-slider-block__title
 	padding-top: 2rem !important;
 }
 
+.s-block.s-block--testimonials.container.overflow-hidden.component-spacing > salla-reviews > div > div > h1,.s-block.s-block--testimonials.container.overflow-hidden.component-spacing > salla-reviews > div > div > a{
+	color: #4c3c2f !important;
+}
