@@ -164,3 +164,36 @@ border-color: #2D003D !important;
 color: white !important;     }  
 /* */
 
+/* * mew footer icons  styl */
+
+
+.khayal-contacts-footer salla-contacts > h3{
+margin: auto !important;
+text-align: center !important;
+}
+.s-contacts-list {
+display: flex !important;
+flex-direction: row !important;
+justify-content: center !important;
+align-content: center !important;
+margin: auto !important;
+gap: 0.1rem !important;
+padding-right: 0.8rem !important;
+}
+.khayal-store-footer .khayal-contacts-footer salla-contacts .s-contacts-item .s-contacts-icon{
+	border: unset !important;
+	border: 0.1rem solid var(--color-footer-text) !important ;
+padding: 0.1rem !important;
+border-radius: 0 !important;
+}
+.s-contacts-list a  span {
+border: 0.1rem solid var(--color-footer-text) !important ;
+padding: 0.1rem !important;
+border-radius: 0 !important;
+}
+.s-contacts-list a span:nth-child(2) {
+display: none !important;
+}
+
+
+/* *** */
