@@ -31,3 +31,12 @@ section.cart-item p.text-primary.flex-none.font-bold.text-sm {
 .s-product-options-colors-wrapper input[type='radio'] + label div {
 	color: #4c3c2f;
 }
+
+.s-products-slider-slider .s-slider-block__title h2,.s-products-slider-slider .s-slider-block__display-all{
+	color: #4c3c2f !important;
+}
+salla-products-slider .s-slider-block__title
+{
+	padding-top: 2rem !important;
+}
+
