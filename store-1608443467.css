@@ -1,0 +1,3 @@
+#mainnav > div > div > div > div:nth-child(1) > a.mburger.mburger--collapse.leading-none{
+	display: none !important;
+}
