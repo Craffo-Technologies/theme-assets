@@ -20,12 +20,4 @@ custom-salla-product-card div div.overflow-hidden.relative a.block.flex.w-full.h
     }
 }
 
-@media(min-width: 100px) {
-    .index .kayan-header {
-        top: 60px !important;
-    }
 
-    .index .navbar {
-        top: 120px !important;
-    }
-}
