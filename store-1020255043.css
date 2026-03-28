@@ -1,3 +1,9 @@
 .s-product-card-entry .s-product-card-image img{
 	border-radius: 10px !important;
 }
+
+@media(max-width: 768){
+
+.ronaq-single-product .ronaq-main-content .sticky-product-bar{
+	background-color:  var(--color-theme) !important;
+}}
