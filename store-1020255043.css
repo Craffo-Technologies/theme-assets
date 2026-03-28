@@ -2,7 +2,7 @@
 	border-radius: 10px !important;
 }
 
-@media(max-width: 768){
+@media(max-width: 768px){
 
 .ronaq-single-product .ronaq-main-content .sticky-product-bar{
 	background-color:  var(--color-theme) !important;
