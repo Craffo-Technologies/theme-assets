@@ -1,10 +1,12 @@
 .cart  section > div > div.flex.flex-1.rtl\:space-x-reverse.space-x-4 > div > h1,.cart #has_discount{
 	color: white !important;
 }
-.cart div.app-inner.flex.flex-col.min-h-full > div.container > div > div.sticky.top-24.w-full.lg\:w-96.rtl\:lg\:mr-8.ltr\:lg\:ml-8 > div.shadow-default.bg-white.p-5.xs\:p-7.rounded-md.mb-5.relative.transition-height.duration-1000 > h2,.cart b#sub-total, .cart div.app-inner.flex.flex-col.min-h-full > div.container > div > div.sticky.top-24.w-full.lg\:w-96.rtl\:lg\:mr-8.ltr\:lg\:ml-8 > div.shadow-default.bg-white.p-5.xs\:p-7.rounded-md.mb-5.relative.transition-height.duration-1000 > div.flex.justify-between.text-lg.mb-5 > b{
-	color: #59080b !important;
-}
+
 
 .index .kayan-header {
     height: 90px !important;
+}
+
+.cart div.app-inner.flex.flex-col.min-h-full > div.container > div > div.sticky.top-24.w-full > div.shadow-default.bg-white.p-5.rounded-md.mb-5.relative.transition-height.duration-1000 *,.cart div.app-inner.flex.flex-col.min-h-full > div.container > div > div.sticky.top-24.w-full > div.shadow-default.bg-white.p-5.rounded-md.mb-5.relative.transition-height.duration-1000.text-gray-500{
+color : #59080b !important;
 }
