@@ -1,0 +1,49 @@
+ .black-main-content.main-content > form > section.sticky-product-bar.bg-white{
+ 	background-color: var(--color-background-store) !important;
+ }
+
+.s-product-card-entry .s-product-card-content .s-product-card-content-main .s-product-card-content-title a {
+height: 3.9rem !important;
+}
+
+
+#main-content > section.black-image-features.py-20 > div > div > div.md\:order-first > div > a{
+	color: white !important;
+}
+.content.content--single-page{
+	background-color: unset !important;
+}
+
+.product-single .scroll-top.fixed.left-4.w-10.h-10.z-40.text-lg.flex.justify-center.items-center.cursor-pointer.duration-500.bottom-10,.product-single .wa-s-n{
+	bottom: 120px !important;
+}
+
+.cart .bg-white{
+	background-color: #e8e1dc !important ;
+}
+
+
+
+
+@media (max-width: 768px) {
+  .top-navbar .navbar-brand {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10;
+  }
+
+  .top-navbar .flex.justify-between {
+    position: relative;
+  }
+}
+
+
+.black-store-footer .black-store-footer__inner salla-social .s-social-list .s-social-link a {
+    border: 1px solid var(--color-footer-text) !important;
+}
+
+
+#main-content > section.black-image-features.py-20 > div > div > div.md\:order-first > div > div:last-child {
+  padding-bottom: 2rem !important;
+}
