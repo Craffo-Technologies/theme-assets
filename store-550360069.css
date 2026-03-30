@@ -1,0 +1,14 @@
+@media (min-width: 100px){ 
+.s-product-card-entry .s-product-card-content-sub, .s-product-card-entry .s-product-card-content-footer{ 	display: none !important; }  .yasmeen-fixed-product-1 .s-product-card-entry .s-product-card-content-title a,.s-product-card-entry .s-product-card-content-title a{ 	text-align: center !important; }  
+.yasmeen-main-content.main-content.top-24.w-full > form > section.bg-white.rounded-md.mb-5 > div > div > div > button.btn--collapse,.s-quantity-input-input,.product-single .bg-white{ 	background-color: #999999 !important; }  .s-quantity-input-button{ 	color: black !important; 	fill: black !important ; }  
+body .brand-item{ 	background-color: unset !important; }  
+.s-payments-list-item{ 	background-color: transparent !important; }  .store-footer .social-link,.s-quantity-input-container,.s-quantity-input-input{ 	border-color: black !important; }  div.yasmeen-main-content.main-content > form > salla-add-product-button > div > salla-button > button > span,  .yasmeen-products-index > div > div.flex.items-start > div > div > salla-products-list > div.s-infinite-scroll-wrapper > button .s-button-text{ 	color: #000 !important; } div.yasmeen-main-content.main-content > form > salla-add-product-button > div > salla-button > button, .yasmeen-products-index > div > div.flex.items-start > div > div > salla-products-list > div.s-infinite-scroll-wrapper > button{ 	background-color: #858585 !important; }  
+.content.content--single-page.w-full{ 		background-color: #858585 !important; }  body::before{     background-color: rgba(112, 112, 112, 0.5) !important;  } .yasmeen-store-header .main-nav-container{     border: none !important; }  salla-slider.details-slider .s-slider-container, .yasmeen-sidebar .s-slider-thumbs .swiper-wrapper .swiper-slide{ 	  border: none !important; }  footer .bg-white{     background-color: var(--footer-main-color) !important; } body:after {     background-size: 40% !important; }  
+body#app, body#app :not([class*="sicon-"]){ font-family: "Red Hat Display", sans-serif !important; font-weight: 800 !important; }  
+body#app .s-product-card-entry .s-product-card-content-title a{ 	  color: var(--color-footer-text) !important; }  
+.s-button-light-outline{ 
+background-color: #858585 !important; }
+}
+.s-product-card-content > div.s-product-card-content-footer > salla-add-product-button > div > salla-button > button , .s-product-card-content > div.s-product-card-content-footer > salla-add-product-button > div > salla-button , .s-block--brand .s-block--header-brand .slide-brand .brand-item , .s-payments-list .s-payments-list-item , .s-block.s-block--brand.relative.overflow-hidden.from-inherit.s-block--header-brand.in-header > div.slide-brand.flex > ul > li > a{
+  background: var(--color-background) !important;
+}
