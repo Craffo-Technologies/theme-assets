@@ -47,3 +47,9 @@ height: 3.9rem !important;
 #main-content > section.black-image-features.py-20 > div > div > div.md\:order-first > div > div:last-child {
   padding-bottom: 2rem !important;
 }
+
+#main-content > section.py-20.black-categories.block.block > div > div.grid.grid-cols-2.gap-4 > a,#main-content > section.py-20.black-reviews.block.block > div > div > div.grid.gap-8 > div{
+	border: 2px solid #b2353d !important;
+}
+
+
