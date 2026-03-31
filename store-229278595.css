@@ -53,6 +53,10 @@ height: 3.9rem !important;
 }
 
 
+
+#main-content > section.py-20.black-categories.block.block > div > div.grid.grid-cols-2.gap-4 > a{
+	border-radius: 1rem !important;
+}
 .s-product-card-entry .s-product-card-content{
 	padding: 10px 5px !important;
 }
@@ -86,6 +90,5 @@ height: 3.9rem !important;
 .s-product-card-entry .s-button-element:hover .s-button-text span::before {
   transform: scale(1.15) rotate(90deg);
 }
-
 
 
