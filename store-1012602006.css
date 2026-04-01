@@ -1,0 +1,9 @@
+@media(max-width: 768px){
+
+header.olla-hero-image.olla-dynamic-image.olla-hero-image-0{
+	height: 80vh !important;
+}
+
+#app > div.app-inner.flex.flex-col.min-h-full > header > div.container.mx-auto.w-full.h-full > div{
+	padding-top: 9rem !important;
+}}
