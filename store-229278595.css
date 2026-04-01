@@ -71,5 +71,9 @@ height: 3.9rem !important;
 }
 
 .s-product-card-entry .s-button-text span::before {
-content: "\e906";
+    content: "\e906";
+    FONT-FAMILY: 'SALLAICONS';
+    PADDING-LEFT: 0.2REM !important;
 }
+
+
