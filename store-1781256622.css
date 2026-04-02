@@ -3,3 +3,6 @@
 .sicon-search{
   display:none !important ;
 }
+#app > div.app-inner.flex.flex-col.min-h-full > footer > div > div > div:nth-child(1) > ul.flex.items-stretch.space-x-2{
+	display: none !important;
+}
