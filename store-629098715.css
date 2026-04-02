@@ -136,3 +136,15 @@ padding: 0 !important;
 }
 
 /* *** */
+
+
+.s-product-card-content ,.s-product-card-price , .s-product-card-content-sub {
+	text-align: center !important;
+	margin: auto !important;
+	width: 100% !important;
+	background: var(--color-background-store) !important;
+}
+
+/* *** */
+
+
