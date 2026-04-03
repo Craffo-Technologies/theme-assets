@@ -59,15 +59,20 @@ salla-quick-buy.hydrated {
   display: none;
 }
 
-#app > div.app-inner.flex.flex-col.min-h-full > section.s-block.s-block--slider-with-bg.s-block--full-bg > div.slider-bg {
-  background-size: contain !important;
-}
+
 
 /* ===================== */
 /*        MEDIA          */
 /* ===================== */
 
 @media(max-width: 768px) {
+  
+  #app > div.app-inner.flex.flex-col.min-h-full > section.s-block.s-block--slider-with-bg.s-block--full-bg > div.slider-bg {
+  background-size: contain !important;
+  height: 26rem  !important;
+  width: 38rem  !important;
+}
+  
   .index .s-products-list-vertical-cards {
     grid-template-columns: repeat(4, minmax(0, 1fr));
     gap: .625rem;
