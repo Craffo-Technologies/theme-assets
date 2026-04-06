@@ -1,0 +1,20 @@
+/* https://salla.sa/the-velours */
+
+#trigger-slot > div{
+background: var(--color-btn-card) !important;
+}
+.s-product-card-entry .s-product-card-image{
+width: 100% !important;
+margin: auto !important;
+background: transparent !important;
+}
+.s-product-card-entry .s-product-card-image img {
+width: 100% !important;
+padding: 0 !important;
+object-fit: contain !important;
+aspect-ratio: 1/1 !important;
+}
+
+
+
+
