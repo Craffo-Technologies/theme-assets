@@ -3,6 +3,9 @@
 #trigger-slot > div{
 background: var(--color-btn-card) !important;
 }
+.s-product-card-entry {
+  width: 70% !important;
+}
 .s-product-card-entry .s-product-card-image{
 width: 100% !important;
 margin: auto !important;
