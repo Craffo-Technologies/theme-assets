@@ -3,23 +3,38 @@
 /* https://salla.sa/beshan */
 
 
-
-footer > div > div > div:nth-child(1)::after {
-  content: "1102277025";
-  display: flex !important;
-  flex-direction: column !important;
-  align-items: center !important ;
-  gap: 0.6rem;
-  margin-top: 01.8rem;
-  width: 50%;
-  height: 2rem ;
-  font-size: 0.77rem;
-  color: #000;
-  white-space: nowrap;
-  background: url("https://asas-tools.com/u/uploads/sara_craffo/%D8%A7%D9%84%D8%B9%D9%85%D9%84_%D8%A7%D9%84%D8%AD%D8%B1_%D8%B1%D9%85%D8%B2_%D9%88%D8%AB%D9%8A%D9%82%D8%A9-removebg-preview.png") right center / 4.2rem 2.2rem no-repeat;
-  padding-inline-start: 3.3rem;
-}
+ @media (max-width: 767px){
+ 	.mm-spn ul.mm-spn--open {  
+ 		transform: translateX(0);   
+ 		visibility: visible;   
+ 		opacity: 1;  
+ 		}  
+ 		.mm-spn ul.mm-spn--open.mm-spn--parent {     visibility: hidden; 
+ 		}  
+ }
 
 
-
-
+.prestige-card .s-button-primary {  
+	background: #fff;
+	border-color: #fff;
+	}  
+	
+	
+	footer > div > div > div:nth-child(1)::after {
+    content: "1102277025";
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    gap: 0.4rem;
+    margin-top: 01.8rem;
+    width: 50%;
+    height: 2rem;
+    font-size: 0.8rem;
+    color: #000;
+    white-space: nowrap;
+    background: url(https://asas-tools.com/u/uploads/sara_craffo/%D8%A7%D9%84%D8%B9%D9%85%D9%84_%D8%A7%D9%84%D8%AD%D8%B1_%D8%B1%D9%85%D8%B2_%D9%88%D8%AB%D9%8A%D9%82%D8%A9-removebg-preview.png) right center / 4.2rem 2.2rem no-repeat;
+    padding-inline-start: 4.3rem;
+} 
+#app > div.app-inner.flex.flex-col.min-h-full > footer > div > div > div:nth-child(1) > ul.flex.items-stretch.space-x-2 > li:nth-child(3){
+        	display: none !important;
+        }
