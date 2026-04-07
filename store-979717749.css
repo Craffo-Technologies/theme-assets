@@ -1,15 +1,12 @@
 /* اضافة السجل التجاري للمتجر دا : https://arcosupplies.com/  */ 
 
-footer .faten-sharing > div > salla-payments > ul::after {
+.faten-store-footer .faten-sharing .s-payments-list-wrap .s-payments-list::after {
   content: "7005849208";
-  display: flex !important;
-  align-items: center !important;
-  justify-content: center !important;
-  gap: 2rem !important;
-  margin-top: 0.2rem !important;
-  font-size: 0.9rem !important;
-  color: black !important;
+  display: block;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #000;
   white-space: nowrap;
-  background: url("https://asas-tools.com/u/uploads/sara_craffo/4__1_-removebg-preview.png") right center / 1.8rem no-repeat;
-  padding-inline-start: 1.99rem !important;
+  padding-right: 2.1rem;
+  background: url("https://asas-tools.com/u/uploads/sara_craffo/4__1_-removebg-preview.png") right center / 1.8rem  no-repeat;
 }
