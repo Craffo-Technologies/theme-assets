@@ -1,0 +1,140 @@
+.content--single-page {
+  background-color: #0d172a !important;
+  color: #ffffff !important;
+  border: 1px solid #ffffff !important;
+  margin-bottom: 80px !important;
+}
+
+.s-comment-form-input {
+  background-color: #000000 !important;
+  color: #ffffff !important;
+  border: 1px solid #ffffff;
+}
+
+.nova-copyright .copyright-text p {
+  display: block;
+  min-width: 100vw;
+  visibility: hidden;
+}
+
+.nova-copyright .copyright-text p::after {
+  content: "جميع الحقوق محفوظة لـ QW STORE © 2026 | وجهتك الأولى للحسابات والخدمات الرقمية";
+  visibility: visible;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  white-space: nowrap;
+  font-size: 13px;
+  color: #ffffff;
+  width: max-content;
+}
+
+.s-product-options-option-content select option {
+  background-color: #1c2444 !important;
+  color: #ffffff !important;
+}
+
+.s-add-product-button-mini-checkout-content,
+.s-add-product-button-mini-checkout-content svg {
+  color: #7c3aec !important;
+  fill: #7c3aec !important;
+  font-weight: bold !important;
+  text-shadow: none !important;
+}
+
+.s-mini-checkout,
+salla-mini-checkout-widget {
+  --salla-primary-color: #7c3aec !important;
+  --salla-primary-color-dark: #7c3aec !important;
+  border: 1px solid #7c3aec !important;
+  border-radius: 8px !important;
+  padding: 0px !important;
+  margin-bottom: 0px !important;
+  height: auto !important;
+  min-height: unset !important;
+  line-height: 1 !important;
+}
+
+#coupon-input {
+  color: #000000 !important;
+  font-weight: bold;
+}
+
+div.flex.justify-center.items-center.text-center.mt-8 a.s-block__display-all {
+  color: #7c3aec !important;
+}
+
+div.flex.justify-center.items-center.text-center.mt-8 a.s-block__display-all:hover,
+div.flex.justify-center.items-center.text-center.mt-8 a.s-block__display-all:hover i {
+  color: #ffffff !important;
+}
+
+.s-reviews-testimonial__inner {
+  background-color: #12182b !important;
+  border: 1px solid #1e263f !important;
+  border-radius: 16px !important;
+  padding: 25px !important;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3) !important;
+}
+
+.s-rating-stars-wrapper svg,
+.s-rating-stars-wrapper path {
+  fill: #7c3aec !important;
+}
+
+.s-reviews-testimonial__text p {
+  color: #e2e8f0 !important;
+  font-size: 15px !important;
+  line-height: 1.8 !important;
+}
+
+.s-reviews-testimonial__info h2 {
+  color: #ffffff !important;
+  font-weight: 700 !important;
+  font-size: 16px !important;
+  margin-bottom: 5px !important;
+}
+
+.s-reviews-testimonial__icon svg path {
+  fill: #1e263f !important;
+}
+
+.s-reviews-testimonial {
+  background: transparent !important;
+  box-shadow: none !important;
+}
+
+.btn--coupon,
+.s-button-primary,
+#cart-submit,
+#coupon-btn {
+  background-color: #7c3aec !important;
+  color: #ffffff !important;
+  border: none !important;
+  box-shadow: none !important;
+  transform: none !important;
+}
+
+.s-quantity-input-input,
+#s-quantity-input-input,
+.text-primary.font-bold {
+  color: #7c3aec !important;
+  border-color: inherit !important;
+  background: transparent !important;
+}
+
+.s-comments-item-content,
+.s-comments-item-has-order-check-text,
+.s-comments-item-rated-widget,
+.s-comments-item-rated-widget span {
+  color: #ffffff !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+  font-weight: 500 !important;
+}
+
+html,
+body {
+  scrollbar-color: #7c3aec #000000 !important;
+  scrollbar-width: auto !important;
+}
