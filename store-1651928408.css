@@ -138,3 +138,32 @@ body {
   scrollbar-color: #7c3aec #000000 !important;
   scrollbar-width: auto !important;
 }
+
+
+.s-comments-item-timestamp.s-ltr, .s-comments-item-time
+{
+color: #ffffff !important;
+}
+
+
+salla-gifting {
+  background-color: #0c1326 !important;
+  display: block;
+}
+
+salla-gifting .s-list-tile-item {
+  background-color: #0c1326 !important;
+}
+
+salla-gifting h3,
+salla-gifting div,
+salla-gifting span,
+salla-gifting .s-list-tile-item-title,
+salla-gifting .s-list-tile-item-subtitle {
+  color: #ffffff !important;
+}
+
+salla-gifting svg {
+  fill: #ffffff !important;
+  color: #ffffff !important;
+}
