@@ -188,4 +188,7 @@ custom-salla-product-card salla-add-product-button i {
 	border-radius: unset !important;
 }
 
-
+@media(max-width: 1024px){
+#s-cart-icon > i{
+	color: var(--upper-text-color) !important;
+}}
