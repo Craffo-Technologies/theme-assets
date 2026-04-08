@@ -35,7 +35,7 @@ body.product-single section.sticky-product-bar.bg-white.pt-5.rounded-md.rounded-
 		background-color: transparent !important;
 }}
 
-.product-single .yasmeen-main-content.main-content > h1,.product-single .yasmeen-main-content.main-content h4,.product-single .yasmeen-main-content.main-content .text-black,{
+.product-single .yasmeen-main-content.main-content > h1,.product-single .yasmeen-main-content.main-content h4,.product-single .yasmeen-main-content.main-content .text-black{
 	color: white !important;
 }
 #yasmeen-tabs > div > div.s-tabs-header > salla-tab-header > div > span {
@@ -171,4 +171,21 @@ background-color: var(--footer-main-color) !important;
 .s-conditional-offer-container{
 	background-color: transparent !important;
 }
+
+
+custom-salla-product-card salla-add-product-button .s-button-element {
+  background-color: #ccb68a  !important;
+  color: #ffffff !important;
+  border-color:  #ccb68a  !important;
+}
+
+custom-salla-product-card salla-add-product-button .s-button-text,
+custom-salla-product-card salla-add-product-button i {
+  color: #ffffff !important;
+}
+
+.s-product-card-entry .s-button-btn{
+	border-radius: unset !important;
+}
+
 
