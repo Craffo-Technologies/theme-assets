@@ -15,5 +15,8 @@ display:none !important ;
 background-color: #fff8f0 !important ;
 margin:auto !important ;
 text-align: center !important ;
+}
 
+footer .copyright , footer .copyright , .copyright  > div .copyright a , #app > div.app-inner.flex.flex-col.min-h-full > div.copyright.flex.justify-center.w-full.p-2.text-sm.text-slate-800 > div > p , #app > div.app-inner.flex.flex-col.min-h-full > div.copyright.flex.justify-center.w-full.p-2.text-sm.text-slate-800 > div > p a{
+	display: none !important;
 }
