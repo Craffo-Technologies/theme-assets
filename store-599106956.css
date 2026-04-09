@@ -203,3 +203,13 @@ border-radius: 0 !important;
 display: none !important;
 }
 /* *** */
+
+
+
+/* الغاء الجزء الي في صفحة المنتج  */
+
+
+ .main-content.khayal-main-content  > form > salla-fulfillment-methods > div{
+	display: none !important;
+}
+
