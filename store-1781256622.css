@@ -13,4 +13,7 @@ display:none !important ;
 
 .app-inner.flex.flex-col.min-h-full > section.s-block.s-block--bundle-text-content , .s-block.s-block--bundle-text-content ,  .app-inner .relative.container.mx-auto.text-center.mt-5{
 background-color: #fff8f0 !important ;
+margin:auto !important ;
+text-align: center !important ;
+
 }
