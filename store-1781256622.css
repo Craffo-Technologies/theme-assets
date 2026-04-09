@@ -10,3 +10,7 @@
 .copyright{
 	display:none !important ;
 }
+
+.app-inner.flex.flex-col.min-h-full > section.s-block.s-block--bundle-text-content{
+background:#fff8f0 !important ;
+}
