@@ -1,20 +1,20 @@
 /* https://salla.sa/orjwan.sweets */
 
-#app > div.app-inner.flex.flex-col.min-h-full > footer > div > div > div:nth-child(1) > div.logo.w-32 > img {
+ footer > div > div > div:nth-child(1) > .logo > img {
   opacity: 0 !important;
 }
-
-#app > div.app-inner.flex.flex-col.min-h-full > footer > div > div > div:nth-child(1) > div.logo.w-32 {
+ footer > div > div > div:nth-child(1) > .logo {
   background-image: url("https://asas-tools.com/u/uploads/sara_craffo/3977598779200229_yespan-removebg-preview.png");
   background-size: contain !important;
   background-repeat: no-repeat !important;
   background-position: center !important;
 }
+
 #app > div.app-inner.flex.flex-col.min-h-full > div.copyright.flex.justify-center.w-full.p-2.text-sm.text-slate-800 > div > p{
 	display: none !important;
 }
 
-.sicon-search{
+.sicon-search , .copyright{
 display:none !important ;
 }
 #app > div.app-inner.flex.flex-col.min-h-full > footer > div > div > div:nth-child(1) > ul.flex.items-stretch.space-x-2{
