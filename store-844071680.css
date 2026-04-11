@@ -1,0 +1,22 @@
+.customer-orders-index .s-orders-table-tbody-tr,
+.customer-orders-index .s-orders-table-head{
+	background-color: transparent !important;
+}
+.customer-orders-index .s-button-dark-link{
+	color: WHITE !important;
+}
+.customer-orders-index .s-orders-wrapper{
+	padding-bottom: 2REM !important;
+}
+.customer-orders-index .s-orders-table-tbody-tr {
+    border-bottom-width: 2px !important;
+    border-top-width: 2px !important;
+    border-radius: .50rem !important;
+}
+
+#main-content > div:nth-child(2) > salla-offer > div{
+	background-color: #2f078d !important;
+}
+.s-offer-card-icon{
+	background-color: #2f078d !important ;
+}
