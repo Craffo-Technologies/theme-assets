@@ -20,3 +20,21 @@
 .s-offer-card-icon{
 	background-color: #2f078d !important ;
 }
+
+
+
+.customer-orders-single .bg-white{
+	background-color: transparent !important;
+}
+
+.customer-orders-single .s-order-details-options-list{
+	color: white !important;
+}
+
+.customer-profile .form-input {
+	color: black !important;
+}
+
+.customer-profile #main-content > div.container> div > div > form > div > div > label{
+	color: white !important;
+}
