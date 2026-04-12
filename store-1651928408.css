@@ -201,3 +201,76 @@ color: var(--color-primary-d) !important;
 /* ************ */
 
 
+
+
+ 
+#mainnav > div > div > div > div.flex.items-center.gap-1.justify-end button  {
+	width: 1.4rem !important;
+	margin: 0.3rem !important;
+	padding: 0.3rem !important;
+	overflow: hidden !important;
+	
+}
+.s-payments-list {
+position: relative;
+display: flex;
+flex-wrap: wrap;
+// gap: 2rem;
+// padding-bottom: 2rem !important;
+// margin-top: 2rem !important;
+background: transparent !important;
+}
+ .store-footer__inner.nova-store-footer__inner > div > div.flex  > div > salla-payments > ul > li:nth-child(7){
+	background: transparent !important;
+margin-right: 5rem;
+}
+.s-payments-list-item:last-child {
+position: relative;
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-top: 4rem !important;
+background-color: transparent !important;
+}
+
+.s-payments-list-item:last-child::after {
+content: "موثّق في منصة الأعمال السعودية";
+color: #ffffff !important;
+font-size: 0.6rem;
+margin-top: 0.4rem ;
+text-align: center;
+line-height: 1.8;
+width: 8rem !important;
+height: 4rem !important;
+background-color: transparent !important;
+}
+
+.s-payments-list::after {
+content: "FL-262982024";
+color: #ffffff !important;
+font-size: 0.6rem;
+text-align: center;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: flex-end;
+width: 8rem !important;
+height: 4rem !important;
+margin-top: 2.5rem !important;
+margin-right: 2rem !important;
+background-image: url('https://asas-tools.com/u/uploads/sara_craffo/%D8%A7%D9%84%D8%B9%D9%85%D9%84_%D8%A7%D9%84%D8%AD%D8%B1_%D8%B1%D9%85%D8%B2_%D9%88%D8%AB%D9%8A%D9%82%D8%A9-removebg-preview.png');
+background-size: 60px auto;
+background-repeat: no-repeat;
+background-position: center top 5px;
+// background-color: rgba(255, 255, 255, 0.05);
+// border-radius: 6px;
+// line-height: 7.8;
+// padding-bottom: 5px;
+background-color: transparent !important;
+}
+
+
+
+
+
+
