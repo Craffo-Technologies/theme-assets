@@ -167,3 +167,35 @@ salla-gifting svg {
   fill: #ffffff !important;
   color: #ffffff !important;
 }
+
+
+
+/* ****************** */
+
+
+
+
+#mainnav > div > div > div > div.flex.items-center.gap-1.justify-end{
+gap: 0 !important;
+}
+#mainnav > div > div > div > div.flex.items-center.gap-1.justify-end > button  , .nova-store-header .header-btn__icon , #mainnav > div > div > div > div.flex.items-center.gap-1.justify-end , #s-cart-icon > i ,#mainnav i , header .s-cart-icon , .header-btn__icon {
+padding: 0 !important;
+font-size: 0.8rem !important;
+margin: 0 !important;
+}
+#app > footer > div.nova-copyright > div{
+overflow: hidden !important;
+}
+.nova-copyright .copyright-text p::after{
+position: unset !important;
+font-size: 0.8rem !important;
+}
+.s-orders-wrapper{
+color: var(--color-primary-d) !important;
+}
+
+
+
+/* ************ */
+
+
