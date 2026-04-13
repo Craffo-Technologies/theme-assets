@@ -35,7 +35,7 @@ text-align: center !important ;
 	margin: auto !important ;
 	text-align: center !important;
 }
-#app > div.app-inner.flex.flex-col.min-h-full > div.relative , .main-content.w-full > section ,  .app-inner.flex.flex-col.min-h-full .prestige-breadcrumbs {
+#app > div.app-inner.flex.flex-col.min-h-full > div.relative , .main-content.w-full > section ,  .app-inner.flex.flex-col.min-h-full .prestige-breadcrumbs  , #tabs-id > div > div{
 	background:var(--background-color-theme) !important ;
 }
 
