@@ -6,3 +6,41 @@
 .index .kayan-header.overflow-hidden.w-full.h-full > div > div > div.flex-1.items-center.flex.gap-4.overflow-hidden > div.w-24{
 	display: none !important;
 }}
+
+
+
+
+@media (max-width: 768px) {
+	.craffo-components-statistics .grid {
+    grid-template-columns: repeat(3, 1fr) !important;
+  }
+
+  .craffo-components-statistics i {
+    font-size: 18px !important;
+  }
+
+  .craffo-components-statistics .text-5xl {
+    font-size: 20px !important;
+    margin-top: 4px;
+  }
+
+  .craffo-components-statistics .text-lg {
+    font-size: 14px !important;
+    margin-top: 2px;
+  }
+
+  .craffo-components-statistics .p-2,
+  .craffo-components-statistics .md\:p-4 {
+    padding: 6px !important;
+  }
+
+  .craffo-components-statistics .rounded-md {
+  padding: 0.2rem !important;
+  }
+
+  .craffo-components-statistics .grid {
+    gap: 8px !important;
+  }
+
+}
+
