@@ -1,0 +1,16 @@
+kesra-main-banner span {
+    display: none !important;
+}
+@media (max-width: 640px) {
+    .kesra-main-banner .flex a:first-child {
+        order: 2;
+    }
+
+    .kesra-main-banner .flex a:last-child {
+        order: 1;
+    }
+}
+
+.kesra-store-header .s-block--marquee.in-header {
+display: none !important;
+}
