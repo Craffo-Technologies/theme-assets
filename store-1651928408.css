@@ -277,7 +277,17 @@ margin-right: -17.8rem !important;
 
 }
 
-
+/* **footer icon size ** */
+.store-footer__inner.nova-store-footer__inner > div > div.flex.flex-col > div > salla-payments > ul > li:nth-child(7) > a > img {
+    width: 3.6rem !important;
+    max-width: 3.6rem !important;
+    height: 3.6rem !important;
+}
+.s-payments-list::after {
+    width: 9rem !important;
+    max-width: 9rem !important;
+    height: 5rem !important;
+}
 
 
 
