@@ -1,0 +1,4 @@
+li:has(img[alt="mahally_customer_wallet"]) {
+display: none !important;
+}
+
