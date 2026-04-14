@@ -1,6 +1,4 @@
-kesra-main-banner span {
-    display: none !important;
-}
+
 @media (max-width: 640px) {
     .kesra-main-banner .flex a:first-child {
         order: 2;
@@ -11,6 +9,6 @@ kesra-main-banner span {
     }
 }
 
-.kesra-store-header .s-block--marquee.in-header {
-display: none !important;
+.kesra-main-banner > div.relative.z-10.text-center.container.mx-auto.px-4.mt-20 > span{
+	display: none !important;
 }
