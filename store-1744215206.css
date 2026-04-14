@@ -12,3 +12,18 @@
 .kesra-main-banner > div.relative.z-10.text-center.container.mx-auto.px-4.mt-20 > span{
 	display: none !important;
 }
+
+.kesra-main-banner a:first-child {
+  background: transparent !important;
+  border: 1px solid #d2d5dd30 !important;
+  color: #d2d5dd !important;
+  font-weight: 500 !important;
+  backdrop-filter: blur(4px);
+  box-shadow: none !important;
+}
+
+
+.kesra-main-banner a:first-child:hover {
+  background: #d2d5dd10 !important;
+  color: #d2d5dd !important;
+}
