@@ -258,7 +258,10 @@ margin-right: -4rem;
     max-width: 3.6rem !important;
     height: 3.6rem !important;
 }
-
+.s-payments-list::after {
+	display: none !important;
+ }
+ 
 
 
 
