@@ -263,7 +263,32 @@ margin-right: -4rem;
  }
  
 
+/* ***** */
+/* **موقتا لين يوصل التحديث رح تنحذف ** */
 
+.s-payments-list::after {
+display: none !important;
+}
+.store-footer__inner.nova-store-footer__inner > div > div> div.flex.flex-row.gap-4{
+position: absolute;
+left: 16% !important;
+bottom: 42% !important;
+}
+.store-footer__inner.nova-store-footer__inner > div > div > div.flex.flex-row.gap-4 > salla-trust-badges > div > b{
+font-size: 0.6rem !important;
+}
+.store-footer__inner.nova-store-footer__inner > div > div.flex > div > salla-payments > ul > li:nth-child(7)
+{
+margin-right: 2rem;
+}
+.store-footer__inner.nova-store-footer__inner > div > div > div.flex.flex-row.gap-4 > salla-trust-badges{
+flex-direction: column;
+// gap: 1rem;
+}
+.store-footer__inner.nova-store-footer__inner > div > div > div.flex.flex-row.gap-4 > salla-trust-badges > div > p{
+display: none !important;
+}
+/* **** */
 
 
 
