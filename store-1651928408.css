@@ -226,7 +226,7 @@ align-items: center;
 margin-top: 4rem !important;
 background-color: transparent !important;
 }
-.s-payments-list-item:last-child::after {
+/* .s-payments-list-item:last-child::after {
 content: "موثّق في منصة الأعمال السعودية";
 color: #ffffff !important;
 font-size: 0.6rem;
@@ -236,7 +236,7 @@ line-height: 1.8;
 width: 8rem !important;
 height: 4rem !important;
 background-color: transparent !important;
-}
+} */
 
 footer {
 overflow: hidden !important;
@@ -253,11 +253,11 @@ margin-right: -4rem;
 }
 
 /* **footer icon size ** */
-.store-footer__inner.nova-store-footer__inner > div > div.flex.flex-col > div > salla-payments > ul > li:nth-child(7) > a > img {
+/* .store-footer__inner.nova-store-footer__inner > div > div.flex.flex-col > div > salla-payments > ul > li:nth-child(7) > a > img {
     width: 3.6rem !important;
     max-width: 3.6rem !important;
     height: 3.6rem !important;
-}
+} */
 .s-payments-list::after {
 	display: none !important;
  }
@@ -266,7 +266,7 @@ margin-right: -4rem;
 /* ***** */
 /* **موقتا لين يوصل التحديث رح تنحذف ** */
 
-.s-payments-list::after {
+/* .s-payments-list::after {
 display: none !important;
 }
 .store-footer__inner.nova-store-footer__inner > div > div> div.flex.flex-row.gap-4{
@@ -283,11 +283,10 @@ margin-right: 2rem;
 }
 .store-footer__inner.nova-store-footer__inner > div > div > div.flex.flex-row.gap-4 > salla-trust-badges{
 flex-direction: column;
-// gap: 1rem;
 }
 .store-footer__inner.nova-store-footer__inner > div > div > div.flex.flex-row.gap-4 > salla-trust-badges > div > p{
 display: none !important;
-}
+} */
 /* **** */
 
 
