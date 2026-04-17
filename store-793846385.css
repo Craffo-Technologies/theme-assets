@@ -36,3 +36,52 @@ footer > div > div.items-center.w-full > div:nth-child(3) > salla-contacts > div
 .s-trust-badges-wrapper {
   display: none !important;
 }
+
+
+/* ***************************** */
+
+
+.kayan-card salla-add-product-button > div > salla-button  button , #app > div.app-inner.flex.flex-col.min-h-full > div.kayan-header > div > div > div.flex-1 > a > span.hidden{
+display: none !important;
+}
+#app > div.app-inner.flex.flex-col.min-h-full > div.container > div > div , #app > div.app-inner.flex.flex-col.min-h-full > div.container > div > div > div ,  .main-content  > form > salla-product-options , footer .s-payments-list-item , .styles__snippetContentWrapper--ac42d.styles__singleLine--d1c5f , .s-product-options-grid-mode-span , .filepond--drop-label {
+background: var(--color-background) !important ;
+}
+
+.kayan-header > div > div > div.flex-1 > div.w-24 > a > img{
+width: 4rem !important;
+height: 4rem !important;
+position: absolute !important;
+left: 50% !important;
+top: 50% !important;
+transform: translate(-50%,-50%) !important;
+}
+
+@media (max-width: 768px){
+
+#app > div.app-inner.flex.flex-col.min-h-full > div.kayan-header  > div > div > div.flex-1.justify-end.items-center > span.hidden{
+	display: flex !important;
+}
+
+#app > div.app-inner.flex.flex-col.min-h-full > div.kayan-header > div > div > div.flex-1.justify-end.items-center  > a{
+	display: none !important;
+}
+#app > div.app-inner.flex.flex-col.min-h-full > div.kayan-header  > div > div > div.flex-1  > div.bars{
+	position: absolute !important;
+	left: 14% !important;
+}
+#app > div.app-inner.flex.flex-col.min-h-full > div.kayan-header  > div > div > div.flex-1.justify-end.items-center  > salla-cart-summary{
+	position: absolute !important;
+	right: 15% !important;
+}
+#app > div.app-inner.flex.flex-col.min-h-full > div.kayan-header > div > div > div.flex-1.justify-end.items-center.flex > span.hidden{
+	position: absolute !important;
+	right: 5%;
+}
+
+}
+
+
+/* ******** */
+
+
