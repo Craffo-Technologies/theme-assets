@@ -14,3 +14,26 @@ height: 33rem !important;
 height: 11rem !important;
 }
 }
+
+/* ***** resize photos slider mov naya **** */
+#swiper-wrapper-29f3722c77dfe732 > div{
+width: 100% !important;
+max-width: 100% !important;
+padding: 0 !important;
+margin: 0 auto !important;
+}
+salla-slider.photos-slider .swiper-slide {
+width: 100% !important;
+max-width: 100% !important;
+padding: 0 !important;
+margin: 0 auto !important;
+}
+salla-slider.photos-slider .swiper:where([dir="rtl"], [dir="rtl"] *) {
+padding-left: 0rem;
+}
+salla-slider.photos-slider .swiper:where([dir="rtl"], [dir="rtl"] *) {
+padding-right: 0rem;
+}
+/* **** */
+
+
