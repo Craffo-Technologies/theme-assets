@@ -53,4 +53,7 @@ right: 50px !important;
 #mainnav > div > div > div.flex  > div > div > salla-search > div > div > div.s-search-input-wrapper > input{
 background: var(--header-main-color) !important;
 }
+#mainnav > div > div > div.flex  > div , #mainnav > div > div {
+flex-direction: row-reverse !important;
+}
 
