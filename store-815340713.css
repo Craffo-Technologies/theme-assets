@@ -1,0 +1,57 @@
+/* https://kaosandkozy.com/ar */
+
+.app-inner.flex.flex-col.min-h-full > section.olla-categories  > div > div > div.flex .olla-categories-category {
+display: flex !important;
+align-items: center !important;
+width: 8rem !important;
+margin: auto !important;
+text-align: center !important;
+justify-content: center !important;
+} 
+.app-inner.flex.flex-col.min-h-full > section.olla-categories  > div > div > div.flex .olla-categories-category a{
+display: flex !important;
+flex-direction:  column !important;
+align-items: center !important;
+margin: auto !important;
+text-align: center !important;
+justify-content: center !important;
+}
+.olla-categories > div > div > div.flex> div > div > a > div.text.flex.justify-center > h4{
+margin: auto !important;
+text-align: center !important;
+justify-content: center !important;	
+font-size: 1.1rem !important;
+}
+.swiper-slide.w-full.swiper-slide-visible.swiper-slide-active > div > div.flex-1.flex.flex-col  > div.w-64.h-12{
+margin: 1rem 0rem 2.5rem 0rem !important;
+}
+.olla-card img {
+// height: 8rem !important;
+object-fit: cover !important;
+aspect-ratio: 11/14 !important;
+}
+custom-salla-product-card > div > div.w-full.h-full.flex.flex-col > a > h3 {
+height: 3.8rem !important;
+overflow: hidden !important;
+margin: auto !important;
+font-size: 1.3rem !important;
+text-align: center !important;
+}
+
+#mainnav > div > div > div.flex > div   {
+gap: 0.8rem !important;
+padding: 0 1rem !important;
+font-size: 0.8rem !important;
+}
+#mainnav > div > div > div.flex > div  > div.hidden button {
+font-size: 0.6rem !important ;
+padding: 0.4rem 1.2rem !important;
+margin: 0 0.8rem !important;
+}
+.s-cart-summary-count {
+right: 50px !important;
+}
+#mainnav > div > div > div.flex  > div > div > salla-search > div > div > div.s-search-input-wrapper > input{
+background: var(--header-main-color) !important;
+}
+
