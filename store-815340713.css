@@ -66,7 +66,9 @@ flex-direction: row-reverse !important;
 }
 .s-products-slider-card.swiper-slide> custom-salla-product-card > div {
 	border: 2px solid var(--color-primary) !important;
+	border-radius: 1rem !important;
 }
+
 
 /* ***** */
 
