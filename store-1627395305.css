@@ -40,3 +40,17 @@ color: #cab18d !important;
 	margin: auto !important;
 }
 
+
+
+.s-product-card-entry .s-product-card-content .s-product-card-content-main .s-product-card-content-title a
+ {
+    font-size: 12px !important;
+    line-height: 17px !important;
+ }
+#photos-0-slider > div.swiper.s-slider-container.swiper-initialized{
+	margin: auto !important;
+   width: 66% !important;
+}
+
+
+
