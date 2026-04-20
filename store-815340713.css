@@ -68,6 +68,11 @@ flex-direction: row-reverse !important;
 	border: 2px solid var(--color-primary) !important;
 	border-radius: 1rem !important;
 }
+ nav > div.navbar.navbar_is_sidebar > div > ul {
+font-size: 0.8rem !important;
+gap: 0.8rem !important;
+}
+
 
 
 /* ***** */
