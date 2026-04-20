@@ -35,5 +35,12 @@ salla-slider.photos-slider .swiper:where([dir="rtl"], [dir="rtl"] *) {
 padding-right: 0rem;
 }
 /* **** */
+@media (max-width: 768px){
+.naya-categories  > div > div{
+grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+margin: 1rem !important;
+}
+}
 
+/* *** */
 
