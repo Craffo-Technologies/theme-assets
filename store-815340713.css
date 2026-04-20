@@ -65,7 +65,7 @@ left: 0.5rem !important;
 width: 4rem !important;
 }
 .s-products-slider-card.swiper-slide> custom-salla-product-card > div {
-border: 2px solid var(--color-primary) !important;
+/* border: 2px solid var(--color-primary) !important; */
 border-radius: 1rem !important;
 }
 nav > div.navbar.navbar_is_sidebar > div > ul {
