@@ -1,0 +1,42 @@
+.s-block.s-block--fixed-banner.wide-placeholder > div > a > img , #swiper-wrapper-5e2444b0d848f261 > div.w-full.h-full.swiper-slide.swiper-slide-active > img.abayat-general-radius {
+width: 44% !important;
+margin: auto !important;	
+}
+.s-product-card-content .s-product-card-content-main  h3   a  {
+height: 3rem !important;
+font-size: 0.6rem !important;
+overflow: hidden !important;
+}
+.abayat-categories-slide.swiper-slide > div > a > div.w-full.h-full.relative.group > div{
+padding: 2rem !important;
+}
+.abayat-categories-section div a{
+transition: all 0.5s ease !important;
+}
+.abayat-categories-section div a  img  {
+padding: 1rem !important;
+transition: all 0.5s ease !important;
+background: transparent !important;
+object-fit: fill !important;
+background-size: cover !important;
+}
+.abayat-categories-section.py-16 > div > div > div > a > div  ,  .abayat-categories-section.py-16 > div > div > a > div  ,  .abayat-categories-section.py-16 > div > div > div > div > a  > div  {
+background: rgba(179, 156, 174, 0.5) !important;
+object-fit: cover !important;
+background-size: cover !important;
+}
+#main-content > section.abayat-categories-section.py-16 > div{
+	width: 80% !important;
+	margin: auto !important;
+	// height: 36rem !important;
+	// max-height: 36rem !important;
+}
+#swiper-wrapper-34369d0705ee3348 > div  > div:hover h4{
+color: #cab18d !important;
+}
+ .s-block.s-block--testimonials.s-block--custom-testimonials  > div > div > h1{
+	font-size: 1rem !important;
+	text-align: center !important;
+	margin: auto !important;
+}
+
