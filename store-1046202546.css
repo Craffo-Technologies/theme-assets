@@ -1,0 +1,26 @@
+.s-block--marquee.is-mini .marquee {
+    direction: rtl !important;
+}
+
+.main-content.art-main-content.top-24.w-full > form > section.bg-white.p-5.rounded-md.mb-5,body .s-comments-product{
+	background-color: unset !important;
+}
+
+
+.s-product-options-grid-mode-span {
+  background-color: #c1c5c8 !important;
+color: #502c1e !important;
+
+}
+
+.s-product-options-grid-mode input:checked + div{
+	background-color: unset  !important;
+	color: var(--color-primary) !important;
+	border-color: var(--color-primary) !important;
+}
+
+
+.s-products-list .s-products-list-wrapper .s-product-card-entry .s-product-card-content h3 a{
+	height: 3rem !important;
+	overflow: hidden !important;
+}
