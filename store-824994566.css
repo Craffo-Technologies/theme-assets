@@ -1,0 +1,8 @@
+/* https://mirage.sa/ar/category/EYNmVD */
+
+#app > div.app-inner.flex.flex-col.min-h-full > header > nav > div > div.navbar-mobile-menu.relative {
+display: none !important ;
+}
+.prestige-breadcrumbs {
+background-color: var(--color-header-main) !important ;
+}
