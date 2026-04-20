@@ -24,3 +24,14 @@ color: #502c1e !important;
 	height: 3rem !important;
 	overflow: hidden !important;
 }
+
+@media only screen and (max-width: 1024px) {
+    .mm-spn.mm-spn--light {
+     background-color: var(--color-header-main) !important;
+    color: var(--color-header-text) !important;
+    }
+}
+
+section.sticky-product-bar.p-2.px-5.rounded-md.rounded-b-none.bg-white{
+	background-color: unset !important;
+}
