@@ -1,0 +1,27 @@
+
+@media(max-width: 800px){
+#app > div.app-inner.flex.flex-col.min-h-full > a > button{
+	bottom: 4rem !important;
+}
+
+.kayan-categories-slider .swiper {
+  overflow: visible !important;
+}
+
+.kayan-categories-slider .swiper-wrapper {
+  display: grid !important;
+  grid-template-columns: repeat(3, 1fr) !important;
+  gap: 10px;
+  transform: none !important;
+  width: 100% !important;
+}
+
+.kayan-categories-slider .swiper-slide {
+  width: 100% !important;
+  flex: unset !important;
+}
+
+.kayan-categories-slider .s-slider-prev,
+.kayan-categories-slider .s-slider-next {
+  display: none !important;
+}}
