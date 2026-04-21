@@ -1,3 +1,4 @@
+/* https://acc-awan.com/ */
 
 @media(max-width: 800px){
 #app > div.app-inner.flex.flex-col.min-h-full > a > button,#app > a > button{
@@ -27,3 +28,15 @@
 }
 	
 }
+
+
+
+
+/* **** */
+
+ .kayan-features.kayan-features-15.px-10.py-10.border-black.overflow-hidden.block.block > div > div {
+	display: grid !important;
+	grid-template-columns:  auto auto !important;
+}
+
+/* *** */
