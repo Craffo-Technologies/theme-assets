@@ -34,9 +34,12 @@
 
 /* **** */
 
+@media (max-width:768px) {
+
  .kayan-features.kayan-features-15.px-10.py-10.border-black.overflow-hidden.block.block > div > div {
 	display: grid !important;
 	grid-template-columns:  auto auto !important;
 }
-
+	
+}
 /* *** */
