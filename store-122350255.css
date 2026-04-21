@@ -123,8 +123,8 @@
 }
 
 
-.s-trust-badges-content{
-	color: var(--color-footer-text) !important;
+.s-trust-badges-wrapper {
+	display: none !important;
 }
 
 .notah-store-footer .container >div:nth-child(1) {
