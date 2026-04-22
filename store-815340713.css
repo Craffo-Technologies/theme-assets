@@ -77,6 +77,10 @@ height: 111px !important ;
 }
 
 
+#mainnav > div > div > div.flex  > div  a  , #mainnav > div > div > div.flex  > div > div.cursor-pointer , #s-cart-icon > i {
+    font-size: 1.1rem !important ;	
+}
+
 
 /* ***** */
 
