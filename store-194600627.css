@@ -98,9 +98,8 @@
 
 body .s-product-options-grid-mode-span{
 	background-color: #fff9ef !important;
-	color:  #ffc6df !important;
+	color:  var(--color-background) !important;
 }
-
 
 .main-content.w-full> form > section.flex.rounded-md.rounded-b-none > div > div > div > h4,.main-content.w-full > form > section.flex.rounded-b-none > div > div > div > span,.product__description a{
 	color: #fff9ef !important ;
