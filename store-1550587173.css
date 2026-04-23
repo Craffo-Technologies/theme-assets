@@ -1,0 +1,21 @@
+/* https://salla.sa/ArabicaLatina */
+
+.ronaq-store-footer .copyright-text p,
+.ronaq-store-footer .copyright-text p a {
+    color: transparent !important;
+}
+.ronaq-store-footer .copyright-text p {
+    position: relative;
+}
+.ronaq-store-footer .copyright-text p::after {
+    content: "الحقوق محفوظة 2026 Arabica Latina";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    text-align: center;
+    color: white !important;
+    font-size: 12px;
+    font-family: inherit;
+    white-space: nowrap;  
+}
