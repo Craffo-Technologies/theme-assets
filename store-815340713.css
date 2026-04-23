@@ -93,4 +93,18 @@ height: 111px !important ;
 
 /* ***** */
 
+@media (max-width: 767px){
+
+.olla-categories  > div > div > div.flex  > div  > div > a > div.w-24.h-24.relative.group {
+width: 10rem !important;
+height: 10rem !important;
+}
+
+}
+
+
+/* *** */
+
+
+
 
