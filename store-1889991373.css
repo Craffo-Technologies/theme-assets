@@ -1,0 +1,64 @@
+/* https://toucanline.com/ */
+
+
+@media (max-width: 767px){
+
+.kayan-header  > div > div > div.flex-1 > div.w-24 > a > img{
+width: 4rem !important;
+max-width: 4rem !important;
+}
+.craffo-components-statistics > div{
+display: grid !important;
+grid-template-columns: auto auto auto !important;	
+}
+.mx-auto.craffo-components-statistics > div > div > div.mt-1{
+font-size: 1.6rem !important;	
+}
+#app > div.app-inner.flex.flex-col.min-h-full > div.relative.px-10.py-10.container.mx-auto.craffo-components-statistics > div > div> div.mt-1.text-lg{
+font-size: 0.8rem !important;
+}
+.custom-bar > div > div > salla-social-share > div > slot-fb > salla-button > button {
+	background: var(--header-textmain-color) !important ;
+	color: var(--color-background) !important ;
+}
+
+
+}
+
+.kayan-faq.kayan-faq-3> div > div.accordion-container{
+border: none !important;	
+}
+#app > div.app-inner.flex.flex-col.min-h-full > section.kayan-faq.kayan-faq-3.w-full.h-full.relative.px-10.py-10 > div > div.accordion-container.flex.flex-col.justify-center > div {
+box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px !important;
+margin: 0.8rem auto !important;
+background: var(--header-textmain-color) !important ;
+color: var(--color-background) !important ;
+border-radius: 0.6rem !important;
+}
+.kayan-features.kayan-features-5.px-10.py-10.border-y-2.border-black > div > div.flex {
+  display: grid !important;
+  grid-template-columns: repeat(2, 1fr) !important;
+  gap: 1rem !important; 
+}
+.kayan-features.kayan-features-5.px-10.py-10.border-y-2.border-black > div > div.flex > *:first-child {
+  grid-column: 1 / -1;
+}
+
+  custom-salla-product-card > div > div.overflow-hidden.relative > a  > img , .s-products-list-vertical-cards > custom-salla-product-card > div > div.overflow-hidden.relative > a> img{
+	aspect-ratio: 12/18 !important;
+	object-fit: cover !important;
+}
+ #comments-filter ,  salla-comments > div > div > div.s-comments-header.has-total > div , form > salla-product-options > salla-conditional-fields > div  > div > div > div > label  > div, .main-content  > form > salla-product-options{
+	background: var(--color-background)  !important;
+}
+
+.custom-bar > div > h3 {
+color: var(--header-textmain-color) !important ;	
+}
+#app > div.app-inner.flex.flex-col.min-h-full > div.relative.px-10.py-10.container.mx-auto.craffo-components-statistics{
+	margin: 11rem auto 1rem auto !important;
+}
+.app-inner.flex.flex-col.min-h-full > div.navbar.invisible{
+	margin: 2rem auto !important;
+}
+
