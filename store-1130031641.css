@@ -1,0 +1,8 @@
+.s-block--testimonials .s-reviews-testimonial , .s-comments.s-comments-product , .notah-main-content.main-content > form > section.flex , .s-form-control , .notah-main-content > form > salla-product-options > salla-conditional-fields > div > div > label , .notah-main-content.main-content > div.flex > salla-social-share > div > slot-fb > salla-button > button , .notah-main-content > form > salla-product-options > salla-conditional-fields > div > div , .swiper.s-slider-container > salla-button > button , .notah-main-content > div , .s-product-card-content , .s-product-card-image {
+background : var(--color-background) !important;
+color: white !important;
+border-color: white !important;
+}
+.notah-main-content > form > salla-product-options > salla-conditional-fields > div > div > label > small , .notah-main-content > form > section > div > label > b{
+color: white !important;
+}
