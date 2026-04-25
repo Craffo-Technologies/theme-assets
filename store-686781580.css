@@ -1,3 +1,12 @@
 .nova-video-text-photo video + div {
   display: none !important;
 }
+.nova-game-month [class*="blur"] {
+  display: none !important;
+}
+.nova-video-text-photo .bg-gradient-to-t {
+  display: none !important;
+}
+#main-content > section.nova-video-text-photo.relative.overflow-hidden.flex.items-center.h-screen > div.container.mx-auto.px-4.relative.z-30 > div > div.flex-1.relative.w-full> div > div.bg-gray-900{
+	background-color: unset !important;
+}
