@@ -95,3 +95,61 @@
 #app > div.app-inner.flex.flex-col.min-h-full > section.kayan-faq.kayan-faq-6.w-full.h-full.relative.px-10.py-10 > div > div.accordion-container.flex.flex-col.justify-center.items-center.w-full,#app > div.app-inner.flex.flex-col.min-h-full > section.kayan-faq.kayan-faq-6.w-full.h-full.relative.px-10.py-10 > div > div.accordion-container.flex.flex-col.justify-center.items-center.w-full > div{
 	border-color: #708167 !important;
 }
+
+
+
+.kayan-faq .accordion-container {
+  border: none !important;
+  gap: 12px;
+}
+
+.kayan-faq .kayan-accordion {
+  background: var(--color-primary) !important;
+  border-radius: 10px;
+  border: none !important;
+  padding: 0 !important;
+  overflow: hidden;
+  transition: 0.3s;
+}
+
+.kayan-faq .kayan-label {
+  padding: 16px 20px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.kayan-faq .kayan-accordion:hover .kayan-label {
+  background: var(--color-primary) !important;
+}
+
+.kayan-faq .kayan-label h5 {
+  margin: 0;
+  font-size: 16px;
+  color: #fff9ef;
+}
+
+.kayan-faq .kayan-label i {
+  color: #fff9ef;
+  transition: 0.3s;
+}
+
+.kayan-faq .kayan-accordion.active i {
+  transform: rotate(180deg);
+}
+
+.kayan-faq .kayan-contentBox {
+  padding: 0 20px;
+}
+
+
+.kayan-faq .kayan-contentBox p {
+  margin: 0;
+  padding: 10px 0 16px;
+  color: #fff9ef ;
+  border-top: 1px solid #fff9ef;
+}
+
+
+
+
