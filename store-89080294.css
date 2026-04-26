@@ -11,8 +11,9 @@ padding-top: 0 !important;
 }
 
 .kayan-header  > div > div > div.flex-1 > div.w-24 > a > img{
-width: 3.5rem !important;
-max-width: 3.5rem !important;
+display:none !important ;
+/* width: 3.5rem !important; */
+/* max-width: 3.5rem !important; */
 }
 .craffo-components-statistics > div{
 display: grid !important;
