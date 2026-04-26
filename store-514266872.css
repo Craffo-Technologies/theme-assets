@@ -1,0 +1,124 @@
+@media(max-width: 768px) {
+  .kayan-header .w-24 {
+    width: 9rem !important;
+  }
+
+  .kayan-header div#s-cart-icon {
+    padding-top: 0.46rem !important;
+  }
+
+  .kayan-header {
+    overflow: visible !important;
+  }
+
+  .kayan-header .lg\\:py-3 {
+    position: relative;
+    min-height: 60px;
+  }
+
+  #app > div.app-inner.flex.flex-col.min-h-full > div.kayan-header.overflow-hidden.w-full.h-full > div > div > div.flex-1.hidden.gap-6 {
+    display: flex !important;
+    flex: unset !important;
+    gap: 0.5rem;
+  }
+
+  .kayan-header .icon-search {
+    position: absolute;
+    right: 44px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  .kayan-header salla-cart-summary {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  .kayan-header .bars {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    padding-top: 0.36rem !important;
+  }
+
+  .kayan-header .sicon-user {
+    position: absolute;
+    left: 44px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  .kayan-header i {
+    font-size: 1.1rem !important;
+  }
+  
+    .kayan-header .w-24 {
+    position: absolute !important;
+    left: 55% !important;
+    top: 50%;
+    transform: translate(-60%, -50%) !important;
+    z-index: 9999 !important;
+}
+#app > div.app-inner.flex.flex-col.min-h-full > footer > div > div.justify-center.items-center.w-full > div.border-gray-300.pb-8.flex.flex-col.gap-4> div.flex.justify-center.items-center,#app > div.app-inner.flex.flex-col.min-h-full > footer > div > div.justify-center.items-center.w-full > div.border-gray-300.pb-8.flex.flex-col.gap-4> div.flex.justify-center.items-center p{
+	text-align: center !important;
+}
+
+}
+
+
+
+
+.s-product-options-wrapper{
+	background-color: transparent !important;
+}
+
+
+
+body .s-product-options-grid-mode-span{
+	background-color: var(--color-primary) !important;
+	color:   #fff !important;
+}
+
+
+
+.custom-bar {
+background-color: unset !important;
+color:  #000 !important;
+}
+
+.custom-bar h3 {
+color:  #000 !important;
+}
+
+.custom-bar .s-button-element {
+background-color: var(--color-primary) !important;
+border-color: #000 !important;
+color:  #000!important;
+}
+
+.custom-bar svg,
+.custom-bar .sicon-heart {
+fill:  #000 !important;
+color:  #000 !important;
+}
+
+ custom-salla-product-card > div > div.px-6.py-2.text-center > a > h4{
+ 	height: 4rem !important;
+ }
+ 
+ .kayan-card img{
+ 	aspect-ratio: 12/17 !important;
+ }
+ 
+ .content.content--single-page.w-full.bg-white.rounded.p-6{
+ 	background-color: transparent !important;
+ }
+ 
+ .kayan-copyright{
+ 	display: none !important;
+ }
+
+
