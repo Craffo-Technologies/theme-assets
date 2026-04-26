@@ -18,6 +18,20 @@ object-fit: contain !important;
 aspect-ratio: 1/1 !important;
 }
 
+/* *** */
+
+ .store-footer__inner.abayat-store-footer__inner > div > div  > a > h2 ,  .abayat-store-footer__inner > div > div  > div  > salla-trust-badges > div > p , .store-footer__inner.abayat-store-footer__inner > div > div > div.flex  > salla-trust-badges > div > b {
+ 	color: var(--color-footer-text) !important;
+ }
+ #salla-modal > div.s-modal-wrapper > div > div > div > salla-button > button , [type=checkbox]:checked, [type=radio]:checked {
+ 	background: var(--color-btn-card) !important;
+ 	border-color: #3C393A   !important;
+ 	color: #3C393A !important;
+ }
+
+/* *** */
+
+
 
 
 
