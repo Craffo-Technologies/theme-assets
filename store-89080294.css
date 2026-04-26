@@ -1,6 +1,5 @@
 /* https://salla.sa/abaya.amas */
 
-
 @media (max-width: 767px){
 
 .relative.px-10.py-10.container.mx-auto.craffo-components-statistics{
@@ -29,7 +28,9 @@ font-size: 0.8rem !important;
 background:  var(--color-background) !important ;
 color:  var(--color-primary) !important ;
 }
-
+.kayan-banners > div > div.grid > div:nth-child(3){
+    margin-right: 50% !important ;	
+}
 
 }
 
@@ -38,7 +39,7 @@ background: var(--color-background)  !important ;
 color:  var(--color-primary) !important ;
 }
 
-.kayan-faq.kayan-faq-3> div > div.accordion-container{
+.kayan-faq > div > div.accordion-container ,  .kayan-faq  > div{
 border: none !important;	
 }
 #app > div.app-inner.flex.flex-col.min-h-full > section.kayan-faq.kayan-faq-3.w-full.h-full.relative.px-10.py-10 > div > div.accordion-container.flex.flex-col.justify-center > div {
@@ -73,6 +74,7 @@ color: var(--color-background)  !important ;
 
 }
 
+
 @media (min-width: 767px){
 #app > div.app-inner.flex.flex-col.min-h-full > div.relative.px-10.py-10.container.mx-auto.craffo-components-statistics{
 margin: 11rem auto 1rem auto !important;
@@ -85,7 +87,7 @@ margin: 2rem auto !important;
 .separator-wave {
 background: linear-gradient(90deg, transparent,var(--color-primary) , transparent) !important ;
 } 
-.kayan-features.kayan-features-5, .separator-wave {
+ .kayan-features , .kayan-features.kayan-features-5, .separator-wave {
 border-color:  var(--color-primary) !important ;
 
 }
@@ -97,3 +99,5 @@ color: var(--color-background)  !important;
 .navbar.invisible > div > ul li{
 color: var(--color-background)  !important;	
 }
+
+
