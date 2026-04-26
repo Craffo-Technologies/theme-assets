@@ -1,3 +1,5 @@
+/* https://salla.sa/nazx */
+
 .nova-video-text-photo video + div {
   display: none !important;
 }
@@ -10,3 +12,39 @@
 #main-content > section.nova-video-text-photo.relative.overflow-hidden.flex.items-center.h-screen > div.container.mx-auto.px-4.relative.z-30 > div > div.flex-1.relative.w-full> div > div.bg-gray-900{
 	background-color: unset !important;
 }
+
+
+/* ***** */
+
+
+#main-content > .nova-video-text-photo > div > div , #main-content > section.nova-video-text-photo.relative.overflow-hidden > div.container.mx-auto.px-4.relative.z-30 > div > div.flex-1.relative.w-full> div > div > div.absolute , #main-content > section.nova-video-text-photo.relative.overflow-hidden.flex.items-center.pt-32.pb-10 > div.absolute.inset-0.z-0 > video 
+ 
+, #main-content > section.nova-video-text-photo.relative.overflow-hidden.flex.items-center.pt-32 > div.container.mx-auto.px-4.relative.z-30 > div > div.flex-1.relative > div > div,
+#categories-platform- > div > div.grid.grid-cols-1 > a.group.relative > div
+{
+	background: transparent !important;
+}
+
+#main-content > section.nova-categorie > div > div > a > div.absolute.inset-0{
+    --tw-gradient-to: transparent var(--tw-gradient-to-position);
+    --tw-gradient-stops: rgb(0 0 0 / 0%), rgb(0 0 0 / 0%) var(--tw-gradient-via-position), var(--tw-gradient-to);	
+}
+
+.nova-categories-platform a img {
+  mix-blend-mode: normal !important;
+  opacity: 1 !important;
+  transform: none !important;
+  transition: none !important;
+}
+
+.nova-categories-platform a,
+.nova-categories-platform a:hover {
+  box-shadow: none !important;
+  transform: none !important;
+}
+
+.nova-categories-platform a,
+.nova-categories-platform a * {
+  transition: none !important;
+}
+
