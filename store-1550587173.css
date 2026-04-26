@@ -19,3 +19,9 @@
     font-family: inherit;
     white-space: nowrap;  
 }
+
+.ronaq-features > div > div > div.ronaq-features-texts > div{
+	color: white !important;
+}
+
+
