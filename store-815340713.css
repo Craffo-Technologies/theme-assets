@@ -108,6 +108,8 @@ height: 10rem !important;
 .olla-slider .flex-1.flex.flex-col.justify-between  div.w-64.h-12 ,  .swiper-slide  > div > div.flex-1.flex.flex-col  > div.w-64.h-12 > a {
 	margin: 2rem 0 !important;
 }
-
+.promotion.absolute  > span{
+font-size: 0.6rem !important;
+}
 
 
