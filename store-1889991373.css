@@ -65,7 +65,7 @@ object-fit: cover !important;
 background: var(--color-background)  !important;
 }
 .custom-bar > div > h3 {
-color: var(--header-textmain-color) !important ;	
+color: #fff !important ;	
 }
 salla-products-list > div.s-products-list-wrapper.s-products-list-vertical-cards > custom-salla-product-card  > div > div.overflow-hidden  > a.block  > span , .kayan-promotion_title , .banner-label{
 background: var(--header-textmain-color) !important ;
