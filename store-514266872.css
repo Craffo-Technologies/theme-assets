@@ -13,7 +13,7 @@
 
   .kayan-header .lg\\:py-3 {
     position: relative;
-    min-height: 60px;
+    min-height: 70px;
   }
 
   #app > div.app-inner.flex.flex-col.min-h-full > div.kayan-header.overflow-hidden.w-full.h-full > div > div > div.flex-1.hidden.gap-6 {
@@ -66,6 +66,26 @@
 	text-align: center !important;
 }
 
+
+.kayan-footer .container > div:first-child {
+  justify-content: center !important;
+  text-align: center;
+}
+
+.kayan-footer .container > div:first-child > div {
+  align-items: center !important;
+  text-align: center !important;
+}
+
+.kayan-footer h5 {
+  text-align: center !important;
+}
+
+.kayan-footer .s-contacts-item,
+.kayan-footer .s-social-list,
+.s-trust-badges-wrapper {
+  justify-content: center !important;
+}
 }
 
 
@@ -120,5 +140,8 @@ color:  #000 !important;
  .kayan-copyright{
  	display: none !important;
  }
+
+
+
 
 
