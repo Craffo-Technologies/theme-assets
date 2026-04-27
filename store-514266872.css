@@ -150,6 +150,10 @@ color:  #000 !important;
  	display: none !important;
  }
 
-
+@media (max-width: 767px){
+.kayan-header  > div > div > div  > div.w-24 > a > img{
+width: 6rem !important;
+margin-right: 20% !important ;
+}}
 
 
