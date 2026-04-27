@@ -23,5 +23,9 @@
 .ronaq-features > div > div > div.ronaq-features-texts > div{
 	color: white !important;
 }
+.product__description .ronaq-product-description-text,
+.product__description .ronaq-product-description-text * {
+  text-transform: none !important;
+}
 
 
