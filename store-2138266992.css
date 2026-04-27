@@ -1,0 +1,214 @@
+@media (max-width: 768px) {
+	.craffo-components-statistics .grid {
+    grid-template-columns: repeat(3, 1fr) !important;
+  }
+
+  .craffo-components-statistics i {
+    font-size: 28px !important;
+  }
+
+  .craffo-components-statistics .text-5xl {
+    font-size: 20px !important;
+    margin-top: 4px;
+  }
+
+  .craffo-components-statistics .text-lg {
+    font-size: 13px !important;
+    margin-top: 2px;
+        line-height: 1rem;
+
+  }
+
+  .craffo-components-statistics .p-2,
+  .craffo-components-statistics .md\:p-4 {
+    padding: 6px !important;
+  }
+
+  .craffo-components-statistics .rounded-md {
+  padding: 0.2rem !important;
+  }
+
+  .craffo-components-statistics .grid {
+    gap: 8px !important;
+  }
+  
+  #app > div.app-inner.flex.flex-col.min-h-full > footer > div > div.justify-center.items-center.w-full > div.border-gray-300.pb-8.flex.flex-col.gap-4> div.flex.justify-center.items-center,#app > div.app-inner.flex.flex-col.min-h-full > footer > div > div.justify-center.items-center.w-full > div.border-gray-300.pb-8.flex.flex-col.gap-4> div.flex.justify-center.items-center p{
+text-align: center !important;
+}
+
+
+.kayan-banners .banner-label {
+  font-size: 12px !important;
+  padding: 4px 10px !important;
+  border-radius: 20px;
+  transform: scale(0.9);
+}
+
+}
+
+
+@media (max-width: 768px) {
+ .kayan-features > div > div.flex.justify-center.m-auto.items-center.pb-10 > p{
+	  font-size: 18px !important;
+	    line-height: 1.5rem;
+}
+ .kayan-features > div > div.flex.flex-wrap.gap-8.w-full.h-full.items-center.justify-center {
+    gap: 8px !important;
+     display: grid !important;
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+#app > div.app-inner.flex.flex-col.min-h-full > div.kayan-features.kayan-features-3.px-10.py-10.border-y-2.border-black.overflow-hidden.block.block > div > div.flex.flex-wrap.gap-8.w-full.h-full.items-center.justify-center > div:nth-child(1) {
+    grid-column: span 2;      
+    justify-self: center;     
+    max-width: 70%;            
+  }
+  
+    .kayan-features {
+    font-size: 14px !important;
+    
+  }
+
+.kayan-features > div {
+    max-width: 100% !important;
+  }
+
+.kayan-features i {
+    font-size: 28px !important;
+    
+  }
+
+ 
+
+ .kayan-features  p {
+  	 font-size: 12px !important;
+    line-height: 1.2rem;
+ 
+  }
+
+  .kayan-features.kayan-features-6.px-10.py-10.border-y-2.border-black.overflow-hidden.block.block .px-3,
+.kayan-features.kayan-features-6.px-10.py-10.border-y-2.border-black.overflow-hidden.block.block .py-2 {
+    padding: 4px !important;
+  }
+
+}
+
+.s-product-options-wrapper{
+	background-color: transparent !important;
+}
+
+.index .kayan-header
+{
+	height: auto !important;
+}
+
+
+.index .kayan-header.overflow-hidden.w-full.h-full > div > div > div.flex-1.items-center.flex.gap-4.overflow-hidden > div.w-24{
+	display: none !important;
+}
+#app > div.app-inner.flex.flex-col.min-h-full > section > div > div.accordion-container.flex.flex-col.justify-center.items-center.w-full,#app > div.app-inner.flex.flex-col.min-h-full > section > div > div.accordion-container.flex.flex-col.justify-center.items-center.w-full> div{
+	border-color: #000 !important;
+}
+
+
+body .s-product-options-grid-mode-span{
+	background-color: #fff !important;
+	color:     #030303 !important;
+}
+
+.main-content.w-full> form > section.flex.rounded-md.rounded-b-none > div > div > div > h4,.main-content.w-full > form > section.flex.rounded-b-none > div > div > div > span,.product__description a{
+	color:   #030303 !important ;
+}
+
+
+.custom-bar ,.s-social-share-list{
+background-color:  #030303 !important;
+color:  #f7f5ef !important;
+}
+
+.custom-bar h3 {
+color:  #f7f5ef !important;
+}
+
+.custom-bar .s-button-element {
+background-color:  #030303 !important;
+border-color:  #030303 !important;
+color:  #f7f5ef !important;
+}
+
+.custom-bar svg,
+.custom-bar .sicon-heart {
+fill:  #f7f5ef !important;
+color:  #f7f5ef !important;
+}
+
+ custom-salla-product-card > div > div.px-6.py-2.text-center > a > h4{
+ 	height: 4rem !important;
+ }
+ 
+ .kayan-card img{
+ 	aspect-ratio: 10/12 !important;
+ }
+ 
+.main-content.w-full > div.flex.whitespace-nowrap.gap-4.items-center > div *{
+	color: #fff9ef !important;
+}
+
+ custom-salla-product-card > div > div.overflow-hidden.relative > span{
+	background-color: var(--color-background) !important;
+	color:  #fff9ef !important;
+}
+
+
+
+.kayan-faq .accordion-container {
+  border: none !important;
+  gap: 12px;
+}
+
+.kayan-faq .kayan-accordion {
+  background:  #030303 !important;
+  border-radius: 10px;
+  border: none !important;
+  padding: 0 !important;
+  overflow: hidden;
+  transition: 0.3s;
+}
+
+.kayan-faq .kayan-label {
+  padding: 16px 20px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.kayan-faq .kayan-accordion:hover .kayan-label {
+  background:  #030303 !important;
+}
+
+.kayan-faq .kayan-label h5 {
+  margin: 0;
+  font-size: 16px;
+  color: #fff9ef;
+}
+
+.kayan-faq .kayan-label i {
+  color: #fff9ef;
+  transition: 0.3s;
+}
+
+.kayan-faq .kayan-accordion.active i {
+  transform: rotate(180deg);
+}
+
+.kayan-faq .kayan-contentBox {
+  padding: 0 20px;
+}
+
+
+.kayan-faq .kayan-contentBox p {
+  margin: 0;
+  padding: 10px 0 16px;
+  color: #fff9ef ;
+  border-top: 1px solid #fff9ef;
+}
+
