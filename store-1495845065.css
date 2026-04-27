@@ -49,7 +49,7 @@ text-align: center !important;
      display: grid !important;
     grid-template-columns: repeat(2, 1fr) !important;
   }
-#app > div.app-inner.flex.flex-col.min-h-full > div.kayan-features.kayan-features-3.px-10.py-10.border-y-2.border-black.overflow-hidden.block.block> div > div.flex.flex-wrap.gap-8.w-full.h-full.items-center.justify-center > div:nth-child(1) {
+#app > div.app-inner.flex.flex-col.min-h-full > div.kayan-features.kayan-features-4.px-10.py-10.border-y-2.border-black.overflow-hidden.block.block > div > div.flex.flex-wrap.gap-8.w-full.h-full.items-center.justify-center > div:nth-child(1) {
     grid-column: span 2;      
     justify-self: center;     
     max-width: 70%;            
@@ -104,16 +104,16 @@ text-align: center !important;
 
 body .s-product-options-grid-mode-span{
 	background-color: #f7f5ef !important;
-	color:    #8e7d6d !important;
+	color:    #867b6e !important;
 }
 
 .main-content.w-full> form > section.flex.rounded-md.rounded-b-none > div > div > div > h4,.main-content.w-full > form > section.flex.rounded-b-none > div > div > div > span,.product__description a{
-	color:   #8e7d6d !important ;
+	color:  #867b6e !important ;
 }
 
 
 .custom-bar ,.s-social-share-list{
-background-color: #8e7d6d !important;
+background-color: #867b6e !important;
 color:  #f7f5ef !important;
 }
 
@@ -122,8 +122,8 @@ color:  #f7f5ef !important;
 }
 
 .custom-bar .s-button-element {
-background-color: #8e7d6d !important;
-border-color: #8e7d6d !important;
+background-color: #867b6e !important;
+border-color: #867b6e !important;
 color:  #f7f5ef !important;
 }
 
@@ -158,7 +158,7 @@ color:  #f7f5ef !important;
 }
 
 .kayan-faq .kayan-accordion {
-  background: #8e7d6d !important;
+  background: #867b6e !important;
   border-radius: 10px;
   border: none !important;
   padding: 0 !important;
@@ -174,7 +174,7 @@ color:  #f7f5ef !important;
 }
 
 .kayan-faq .kayan-accordion:hover .kayan-label {
-  background: #8e7d6d !important;
+  background: #867b6e !important;
 }
 
 .kayan-faq .kayan-label h5 {
