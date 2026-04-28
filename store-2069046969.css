@@ -34,7 +34,7 @@ object-fit: cover !important;
 background: var(--color-background)  !important;
 }
 .custom-bar > div > h3 {
-color: var(--color-primary) !important ;	
+color:  var(--color-background)  !important ;	
 }
 salla-products-list > div.s-products-list-wrapper.s-products-list-vertical-cards > custom-salla-product-card  > div > div.overflow-hidden  > a.block  > span , .kayan-promotion_title , .banner-label{
 background: var(--color-primary) !important ;
@@ -52,6 +52,38 @@ border-color:  var(--color-primary)  !important ;
 #app > div.app-inner.flex.flex-col.min-h-full > section > div > div.accordion-container.flex.flex-col.justify-center.items-center.w-full  , #app > div.app-inner.flex.flex-col.min-h-full > section > div , .kayan-faq{
 border: none !important;
 }
+
+/* **freelance** */
+
+#app > div.app-inner.flex.flex-col.min-h-full > footer > div > div  > div > div.flex {
+    position: relative !important;
+    padding-bottom: 110px !important;
+}
+
+#app > div.app-inner.flex.flex-col.min-h-full > footer > div > div  > div > div.flex.flex-col.gap-4::after{
+    content: "FL-835308063";
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+
+    background-image: url("https://asas-tools.com/u/uploads/sara_craffo/%D8%A7%D9%84%D8%B9%D9%85%D9%84_%D8%A7%D9%84%D8%AD%D8%B1_%D8%B1%D9%85%D8%B2_%D9%88%D8%AB%D9%8A%D9%82%D8%A9-removebg-preview.png");
+    background-repeat: no-repeat;
+    background-size: 70px;
+    background-position: top center;
+    padding-top: 44px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-size: 14px;
+    font-weight: bold;
+    color: var(--color-background) !important;
+    text-align: center;
+}
+
+/* ***** */
 
 
 @media (max-width: 767px){
