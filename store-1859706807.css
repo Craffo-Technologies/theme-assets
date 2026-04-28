@@ -3,8 +3,9 @@
 #app > footer > div.store-footer__inner.nova-store-footer__inner > div > div  > div.flex.flex-col.gap-4 > div.flex.flex-row.gap-4 > salla-trust-badges , footer > div.store-footer__inner.nova-store-footer__inner > div > div  > div.flex.flex-col.gap-4 > div.flex  , #mainnav > div > div > div > div.flex.items-center.gap-1.justify-end > button.flex.items-center.gap-2.px-2.py-1.transition.nova_show_language_currency.duration-300 > span , footer .flex.flex-col.gap-4 .s-trust-badges-wrapper.hydrated{
 display: none !important ;
 }
-#main-content > section.s-block.s-block--bundle-fixed-banner{
+#main-content > section.s-block.s-block--bundle-fixed-banner , #main-content  .s-block.s-block--bundle-fixed-banner{
 margin: 0 !important;
+margin-top:0 !important; 
 }
 @media (max-width: 767px){
 .content-wrapper  .text-content   h1 , .hero-title {
