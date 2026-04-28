@@ -16,7 +16,13 @@ font-size: 35px !important;
 .content-wrapper .text-content  p{
 font-size: 0.8rem !important;
 }
+section > div.content-wrapper{
+padding-top: 1rem !important;
+margin-top: 1rem !important;
 }
+}
+
+
 
 
 
