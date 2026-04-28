@@ -11,6 +11,7 @@ margin-top: 0 !important;
 padding-top: 0 !important;
 }
 .kayan-header  > div > div > div.flex-1 > div.w-24 > a > img{
+display:none !important ;
 width: 4rem !important;
 max-width: 4rem !important;
 }
