@@ -1,0 +1,20 @@
+/* https://power-experience.com/ar */
+
+
+footer > div.store-footer__inner.nova-store-footer__inner > div > div  > div.flex.flex-col.gap-4 > div.flex  , #mainnav > div > div > div > div.flex.items-center.gap-1.justify-end > button.flex.items-center.gap-2.px-2.py-1.transition.nova_show_language_currency.duration-300 > span{
+display: none !important ;
+}
+@media (max-width: 767px){
+.content-wrapper  .text-content   h1 , .hero-title {
+font-size: 1.2rem !important;
+--title-font-size: 1.2rem !important;
+}
+section > div.content-wrapper > div.text-content > h1
+{
+--title-font-size: 35px !important;	
+font-size: 35px !important;	
+}
+.content-wrapper  .text-content   p{
+font-size: 0.8rem !important;
+}
+}
