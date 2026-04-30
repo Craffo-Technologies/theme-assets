@@ -115,3 +115,10 @@ font-size: 0.6rem !important;
 .olla-card .s-product-card-subtitle {
     text-align: center !important;
 }
+
+.s-products-slider-card.swiper-slide > custom-salla-product-card > div > div.w-full.h-full.flex.flex-col.justify-center.items-center.p-2.z-50 > a > p{
+margin: auto !important;
+text-align: center !important;
+}
+
+
