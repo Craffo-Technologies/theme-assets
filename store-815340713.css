@@ -112,4 +112,6 @@ height: 10rem !important;
 font-size: 0.6rem !important;
 }
 
-
+.olla-card .s-product-card-subtitle {
+    text-align: center !important;
+}
