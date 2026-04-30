@@ -70,7 +70,7 @@ border: none !important;
 #app > div.app-inner.flex.flex-col.min-h-full > div.kayan-banners.py-10.overflow-hidden.block > div > div.grid  > div:nth-child(3){
 	margin-right: 50% !important;
 }
- .kayan-features > div > div.grid.gap-8  > div:nth-child(3) {
+ .kayan-features > div > div.grid.gap-8  > div:nth-child(3) , .kayan-banners  > div > div.grid  > div:nth-child(3) {
  	width: 100% !important;
 	margin-right: 50% !important;
 }
