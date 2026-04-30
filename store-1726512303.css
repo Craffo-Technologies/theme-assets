@@ -1,6 +1,11 @@
 /* https://yammroasters.com/ */
 
- .app-inner , .s-comments.s-comments-product, .ronaq-single-product , .ronaq-photos-texts , .ronaq-categories , #app > div.app-inner.flex.flex-col.min-h-full > section.s-block:not(.ronaq-text)  {
-	background: var(--color-primary) !important;
-	color:var(--color-header-text) !important ;
+.app-inner ,
+.s-comments.s-comments-product,
+.ronaq-single-product ,
+.ronaq-photos-texts ,
+.ronaq-categories , 
+#app > div.app-inner.flex.flex-col.min-h-full > section.s-block:not(.ronaq-text)  {
+background: var(--color-theme) !important;
+    color:var(--color-header-text) !important ;
 }
