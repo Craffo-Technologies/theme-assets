@@ -39,9 +39,9 @@ salla-products-list > div.s-products-list-wrapper.s-products-list-vertical-cards
 background: var(--color-text-theme) !important ;
 color: var(--color-background) !important ;
 }
- .kayan-reviews   h2  ,  .kayan-reviews .flex.flex-col.gap-4.text-center.items-center    p {
+ /* .kayan-reviews   h2  ,  .kayan-reviews .flex.flex-col.gap-4.text-center.items-center    p {
 	color: var(--color-background) !important ;
-}
+} */
 
 .separator-wave {
 background: linear-gradient(90deg, transparent,var(--color-text-theme) , transparent) !important ;
