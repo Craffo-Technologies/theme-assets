@@ -2,6 +2,7 @@
 /* https://dmabayas.com/ */
 
 
+
 .custom-bar > div > div > salla-social-share > div > slot-fb > salla-button > button {
 background: var(--color-background)  !important ;
 color:  var(--color-text-theme) !important ;
@@ -34,7 +35,7 @@ background: var(--color-background)  !important;
 .custom-bar > div > h3 {
 color:  var(--color-background)  !important ;	
 }
-salla-products-list > div.s-products-list-wrapper.s-products-list-vertical-cards > custom-salla-product-card  > div > div.overflow-hidden  > a.block  > span , .kayan-promotion_title , .banner-label  , .kayan-reviews{
+salla-products-list > div.s-products-list-wrapper.s-products-list-vertical-cards > custom-salla-product-card  > div > div.overflow-hidden  > a.block  > span , .kayan-promotion_title , .banner-label {
 background: var(--color-text-theme) !important ;
 color: var(--color-background) !important ;
 }
@@ -45,7 +46,7 @@ color: var(--color-background) !important ;
 .separator-wave {
 background: linear-gradient(90deg, transparent,var(--color-text-theme) , transparent) !important ;
 } 
-.kayan-features.kayan-features-5, .separator-wave {
+.kayan-features.kayan-features-5, .separator-wave , .kayan-features {
 border-color:  var(--color-text-theme) !important ;
 }
 #app > div.app-inner.flex.flex-col.min-h-full > div.kayan-features.kayan-features-0.px-10.py-10.border-y-2.border-black.overflow-hidden.block.block{
@@ -66,7 +67,9 @@ border: none !important;
 
 
 @media (max-width: 767px){
-	
+#app > div.app-inner.flex.flex-col.min-h-full > div.kayan-banners.py-10.overflow-hidden.block > div > div.grid  > div:nth-child(3){
+	margin-right: 50% !important;
+}
  .kayan-features > div > div.grid.gap-8  > div:nth-child(3) {
  	width: 100% !important;
 	margin-right: 50% !important;
