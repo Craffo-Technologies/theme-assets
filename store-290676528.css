@@ -5,7 +5,3 @@
 #main-content .bg-white,.is-sticky-product-bar .sticky-product-bar{
     background-color: var(--color-background) !important;
 }
-
-.sicon-menu:before {
-     content: "\e900";
-}
