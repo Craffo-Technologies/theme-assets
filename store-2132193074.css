@@ -115,3 +115,21 @@ margin: 2rem auto !important;
 
 }
 
+
+
+
+
+
+a.wa-s-n {
+	bottom: 7.5rem !important;
+}
+
+.scroll-top {
+	bottom: 4rem !important;
+}
+
+a.wa-s-n,
+.scroll-top {
+	right: 16px !important
+	;
+}
