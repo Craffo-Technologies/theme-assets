@@ -3,10 +3,7 @@
 /* https://salla.sa/tafasel-abaya */
 
 
- .kayan-features > div > div.grid.gap-8  > div:nth-child(3) {
- 	width: 100% !important;
-	margin-right: 50% !important;
-}
+
 .custom-bar > div > div > salla-social-share > div > slot-fb > salla-button > button {
 background: var(--color-background)  !important ;
 color:  var(--color-primary) !important ;
@@ -67,7 +64,12 @@ border: none !important;
 
 
 @media (max-width: 767px){
-
+	
+ .kayan-features > div > div.grid.gap-8  > div:nth-child(3) {
+ 	width: 100% !important;
+	margin-right: 50% !important;
+}
+	
 .relative.px-10.py-10.container.mx-auto.craffo-components-statistics{
 margin: 0 !important;
 }
