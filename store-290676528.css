@@ -5,3 +5,32 @@
 #main-content .bg-white,.is-sticky-product-bar .sticky-product-bar{
     background-color: var(--color-background) !important;
 }
+.sicon-menu {
+  position: relative !important;
+  display: inline-block !important;
+  width: 28px !important;
+  height: 4px !important;
+  background: var(--header-text-color) !important;
+  border-radius: 999px !important;
+  color: transparent !important;
+  box-shadow: 0 8px 0 var(--header-text-color) !important,
+              0 -8px 0 var(--header-text-color) !important;
+}
+
+.sicon-menu::before,
+.sicon-menu::after {
+  content: "" !important;
+  position: absolute !important;
+     width: 80% !important;
+    height: 4px !important;
+  background: var(--header-text-color) !important;
+  border-radius: 999px !important;
+}
+
+.sicon-menu::before {
+  top: -8px !important;
+}
+
+.sicon-menu::after {
+  bottom: -8px !important;
+}
