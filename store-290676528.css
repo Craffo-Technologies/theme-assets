@@ -34,3 +34,7 @@
 .sicon-menu::after {
   bottom: -8px !important;
 }
+
+html[dir="ltr"] .marquee__content {
+  animation-duration: 80s !important;
+}
