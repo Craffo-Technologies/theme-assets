@@ -1,5 +1,5 @@
 
-.s-product-card-content .s-product-card-content-main  h3   a  {
+.s-product-card-content .s-product-card-content-main  h3  a {
 height: 3rem !important;
 font-size: 0.6rem !important;
 overflow: hidden !important;
@@ -10,25 +10,22 @@ padding: 2rem !important;
 .abayat-categories-section div a{
 transition: all 0.5s ease !important;
 }
-.abayat-categories-section div a  img  {
+.abayat-categories-section div a  img {
 padding: 1rem !important;
 transition: all 0.5s ease !important;
 background: transparent !important;
 object-fit: fill !important;
 background-size: cover !important;
 }
-
- .s-block.s-block--testimonials.s-block--custom-testimonials  > div > div > h1{
-	font-size: 1rem !important;
-	text-align: center !important;
-	margin: auto !important;
+.s-block.s-block--testimonials.s-block--custom-testimonials  > div > div > h1{
+font-size: 1rem !important;
+text-align: center !important;
+margin: auto !important;
 }
-
-.s-product-card-entry .s-product-card-content .s-product-card-content-main .s-product-card-content-title a
- {
-    font-size: 12px !important;
-    line-height: 17px !important;
- }
+.s-product-card-entry .s-product-card-content .s-product-card-content-main .s-product-card-content-title a{
+font-size: 12px !important;
+line-height: 17px !important;
+}
 
 
 
