@@ -28,4 +28,11 @@
   text-transform: none !important;
 }
 
-
+html[lang="en"] body,
+html[lang="en"] * {
+  font-family: "Neo Sans", sans-serif !important;
+}
+html[lang="en"] [class^="sicon-"],
+html[lang="en"] [class*=" sicon-"] {
+  font-family: "sallaicons" !important;
+}
