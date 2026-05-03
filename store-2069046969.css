@@ -14,7 +14,7 @@ border: none !important;
 .kayan-faq > div > div.accordion-container.flex.flex-col.justify-center > div {
 box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px !important;
 margin: 0.8rem auto !important;
-background: var(--color-primary) !important ;
+background: #000 !important ;
 color: var(--color-background) !important ;
 border-radius: 0.6rem !important;
 }
