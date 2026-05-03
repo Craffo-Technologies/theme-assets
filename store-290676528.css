@@ -38,3 +38,7 @@
 html[dir="ltr"] .marquee__content {
   animation-duration: 80s !important;
 }
+
+.s-block--marquee.in-header{
+	direction: rtl !important;
+}
