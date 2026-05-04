@@ -1,1 +1,7 @@
+.s-product-card-image, .s-product-card-image img {
+    background: transparent !important;
+}
 
+.s-product-card-wishlist-btn {
+    display: none !important;
+}
