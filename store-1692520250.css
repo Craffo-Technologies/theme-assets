@@ -102,47 +102,8 @@ salla-products-list
 
 /* **freelance** */
 
-#app
-	> div.app-inner.flex.flex-col.min-h-full
-	> footer
-	> div
-	> div
-	> div
-	> div.flex {
-	position: relative !important;
-	padding-bottom: 110px !important;
-}
 
-#app
-	> div.app-inner.flex.flex-col.min-h-full
-	> footer
-	> div
-	> div
-	> div
-	> div.flex.flex-col.gap-4::after {
-	content: 'FL-835308063';
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-	gap: 2px;
 
-	background-image: url('https://asas-tools.com/u/uploads/sara_craffo/%D8%A7%D9%84%D8%B9%D9%85%D9%84_%D8%A7%D9%84%D8%AD%D8%B1_%D8%B1%D9%85%D8%B2_%D9%88%D8%AB%D9%8A%D9%82%D8%A9-removebg-preview.png');
-	background-repeat: no-repeat;
-	background-size: 70px;
-	background-position: top center;
-	padding-top: 44px;
-	width: 100%;
-	position: absolute;
-	bottom: 0;
-	left: 0;
-	font-size: 14px;
-	font-weight: bold;
-	color: var(--color-background) !important;
-	text-align: center;
-}
-
-/* ***** */
 
 @media (max-width: 767px) {
 	.relative.px-10.py-10.container.mx-auto.craffo-components-statistics {
@@ -213,6 +174,31 @@ salla-products-list
 	width: 100% !important;
 }
 
-.s-add-product-button-main:not(.w-full) > salla-button {
-	border-radius: 1rem !important;
+.index .kayan-color-text {
+	color: #cebedd !important;
+}
+
+@media (max-width: 767px) {
+	.kayan-features .grid {
+		grid-template-columns: repeat(2, 1fr) !important;
+	}
+
+	.kayan-features .grid > div:last-child {
+		grid-column: 1 / -1 !important;
+	}
+}
+
+.scroll-top {
+	bottom: 5rem !important;
+	right: 1.5rem !important;
+}
+
+
+footer div:has(> salla-trust-badges) {
+    display: flex !important;
+    flex-direction: column-reverse !important;
+    justify-content: center !important;
+}
+.s-trust-badges-wrapper {
+    justify-content: center;
 }
