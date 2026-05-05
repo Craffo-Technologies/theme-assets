@@ -5,3 +5,7 @@
 .s-product-card-wishlist-btn {
     display: none !important;
 }
+
+.mm-spn.mm-spn--light {
+	background-color: #fff !important;
+}
