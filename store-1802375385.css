@@ -1,0 +1,26 @@
+.s-product-card-entry .s-product-card-image{
+height: unset !important;
+max-height: unset !important;
+}
+.s-product-card-entry .s-product-card-image img{
+	aspect-ratio: 10/16 !important;
+}
+.s-product-card-entry h3{
+	height: 7rem !important;
+	overflow: hidden !important;
+	
+}
+@media(max-width: 768px){
+	.s-product-card-entry h3{
+	height: 5.5rem !important;
+	overflow: hidden !important;
+	
+}
+.s-product-card-entry h3{
+font-size: 0.6rem !important;
+	
+}}
+
+.s-product-card-content > div.s-product-card-add-to-cart-mobile.gap-2 > salla-add-product-button > div > salla-button > button{
+	        border-radius: 1rem !important;
+}
