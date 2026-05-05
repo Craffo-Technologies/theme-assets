@@ -1,0 +1,35 @@
+@media (max-width: 768px) {
+  salla-products-list .s-products-list-wrapper {
+    display: grid !important;
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+    gap: 10px !important;
+  }
+
+  salla-products-list custom-salla-product-card {
+    width: 100% !important;
+  }
+ 
+  salla-products-list .raheeb-product {
+    transform: scale(0.95);
+    transform-origin: center;
+  }
+
+
+  salla-products-list .raheeb-size-control {
+    width: 100% !important;
+    height: auto !important;
+  }
+  .raheeb-default-product .raheeb-size-control {
+    height: 10rem !important;
+    width: 10rem !important;
+}
+
+.raheeb-default-product .raheeb-box-promotion{
+	width: auto !important;
+	padding: 0.5rem !important;
+}
+.raheeb-default-product .raheeb-inside{
+    background-size: contain !important;
+}
+
+}
