@@ -76,8 +76,7 @@
 	background-color: var(--color-promotion-title-card);
 	color: #fff;
 }
-
-
+	
 	@media(max-width: 768px){
 		#mainnav > div > div.top-navbar.sand-top-navbar.w-full > div > div > div.flex.justify-center,#mainnav > div > div.top-navbar.sand-top-navbar.w-full > div > div > div.flex.items-center.gap-4{
 		width: auto !important;
@@ -91,4 +90,15 @@
 	
 	.s-user-menu-trigger{
 		    padding: 0.1rem .4rem !important;
-	}}
+	}
+			#mainnav{
+		height: 15px !important;
+	}
+	
+	}
+	
+	
+
+.product-index #main-content > div > div > div > div.flex.min-h-screen{
+	min-height: 50vh !important;
+}
