@@ -1,5 +1,10 @@
 /*  https://awjbooks.com/ */
 
+
+
+.sand-collections > div > div.grid > div > div{
+	height: unset !important;
+}
 .s-payments-list-item{
 background: var(--color-footer-text) !important ;
 }
@@ -143,5 +148,6 @@ padding: 0 !important;
 }
 
 /* *** */
+
 
 
