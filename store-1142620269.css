@@ -58,3 +58,7 @@
     flex-direction: column !important;
   }
 }
+
+.s-products-list-wrapper.s-products-list-vertical-cards > custom-salla-product-card> div > div.relative > div{
+	display: none !important;
+}
