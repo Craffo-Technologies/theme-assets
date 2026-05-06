@@ -104,7 +104,7 @@ text-align: center !important;
 
 
 body .s-product-options-grid-mode-span{
-	background-color: #fff9ef !important;
+	background-color: var(--color-background) !important;
 	color:   #000 !important;
 }
 
