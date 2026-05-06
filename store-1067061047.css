@@ -1,0 +1,6 @@
+section.s-block.s-block--fixed-banner.wide-placeholder, section.s-block.s-block--fixed-banner.wide-placeholder * {
+    max-width: unset !important;
+    margin: unset !important;
+    padding: unset !important;
+    border-radius: unset;
+}
