@@ -4,3 +4,8 @@ section.s-block.s-block--fixed-banner.wide-placeholder, section.s-block.s-block-
     padding: unset !important;
     border-radius: unset;
 }
+
+
+.bg-white, .s-product-options-option-container {
+    background-color: var(--color-background) !important;
+}
