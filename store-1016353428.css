@@ -78,16 +78,17 @@
 }
 
 
-#mainnav > div > div.top-navbar.sand-top-navbar.w-full > div > div > div.flex.justify-center,#mainnav > div > div.top-navbar.sand-top-navbar.w-full > div > div > div.flex.items-center.gap-4{
-        width: auto !important;
-            gap: 0.2rem !important;
-    }
+	@media(max-width: 768px){
+		#mainnav > div > div.top-navbar.sand-top-navbar.w-full > div > div > div.flex.justify-center,#mainnav > div > div.top-navbar.sand-top-navbar.w-full > div > div > div.flex.items-center.gap-4{
+		width: auto !important;
+		    gap: 0.2rem !important;
+	}
 #mainnav > div > div.top-navbar.sand-top-navbar.w-full > div > div{
-        padding-left: 0.9rem !important;
+	    padding-left: 0.9rem !important;
     padding-right: 0.1rem !important;
     gap: 0.2rem !important;
-    }
-
-    .s-user-menu-trigger{
-            padding: 0.1rem .4rem !important;
-    }
+	}
+	
+	.s-user-menu-trigger{
+		    padding: 0.1rem .4rem !important;
+	}}
