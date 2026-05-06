@@ -1,6 +1,9 @@
 /*  https://awjbooks.com/ */
 
-
+@media(max-width: 768px){
+#main-content > section.sand-collections.py-16 > div > div.grid.gap-4.max-w-6xl.mx-auto > div > div.p-4> div > a{
+	text-align: center !important;
+}}
 
 .sand-collections > div > div.grid > div > div{
 	height: unset !important;
