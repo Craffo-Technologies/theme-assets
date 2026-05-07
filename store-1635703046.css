@@ -1,0 +1,68 @@
+.kayan-promotion_title{
+  font-size: 12px !important ;
+    height: 30px !important ;
+    background: #717a72 !important ;
+    color: #ffffff !important ;
+    top: 0px !important ;
+    width: 100% !important ;
+    right: 0 !important ;
+    border: 0 !important ;
+    border-radius: 0 !important ;
+}
+
+.kayan-card img{
+	aspect-ratio: 1/1 !important ;
+}
+.kayan-card {
+    overflow: hidden !important ;
+    border-radius: 18px !important ;
+    background: #fff !important ;
+    position: relative !important ;
+    padding-bottom: 75px !important ;
+}
+
+.kayan-card salla-add-product-button {
+    position: absolute !important ;
+    bottom: 0 !important ;
+    left: 0 !important ;
+    width: 100% !important ;
+}
+
+.kayan-card salla-add-product-button .s-button-element {
+    background: #556154 !important;
+    border: 0 !important;
+    border-radius:  0 !important;
+    min-height: 44px;
+    padding: 0 20px !important;
+    box-shadow: none !important;
+}
+
+.kayan-card .kayan-card-button {
+    background: transparent !important;
+    border: 0 !important;
+    color: #fff !important;
+    font-weight: 700 !important;
+    width: 100%;
+    padding: 0 !important;
+}
+
+.kayan-card .kayan-card-button span {
+    display: flex !important ;
+    align-items: center !important ;
+    justify-content: center !important ;
+    gap: 6px !important ;
+}
+
+.kayan-card .kayan-card-button i {
+    font-size: 18px !important ;
+    color: #fff !important ;
+}
+
+
+.kayan-card .card-subtitle {
+    font-size: 12px !important;
+    color: #556154 !important;
+    height: 3rem !important ;
+    line-height: 1.5 !important ;
+    overflow: hidden !important;
+}
