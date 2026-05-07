@@ -24,3 +24,11 @@ font-size: 0.6rem !important;
 .s-product-card-content > div.s-product-card-add-to-cart-mobile.gap-2 > salla-add-product-button > div > salla-button > button{
 	        border-radius: 1rem !important;
 }
+
+.store-footer__inner.abayat-store-footer__inner > div > div > div.max-w-sm.leading-6 > p{
+	 justify-content: center !important;
+	 margin: auto !important;
+	 text-align: center !important;
+}
+
+
