@@ -36,7 +36,7 @@
 
 @media (max-width: 768px) {
 
-  .raheeb-product .raheeb-box-promotion {
+  .raheeb-product .raheeb-box-promotion ,.raheeb-product.flex.flex-col.relative.raheeb-product-out.place-items-center .raheeb-box-out{
     position: relative !important;
     top: 0 !important;
     left: 0 !important;
