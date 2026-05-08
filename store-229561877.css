@@ -41,8 +41,12 @@ background: var(--color-background)  !important;
 color:  var(--color-background)  !important ;	
 }
 salla-products-list > div.s-products-list-wrapper.s-products-list-vertical-cards > custom-salla-product-card  > div > div.overflow-hidden  > a.block  > span , .kayan-promotion_title , .banner-label{
-background: var(--color-primary) !important ;
+background: var(--color-primary-light) !important ;
 color: var(--color-background) !important ;
+}
+.custom-bar{
+background: var(--color-primary-light) !important ;
+color: var(--color-background) !important;	
 }
 .separator-wave {
 background: linear-gradient(90deg, transparent,var(--color-primary) , transparent) !important ;
