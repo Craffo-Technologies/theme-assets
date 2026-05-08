@@ -33,5 +33,40 @@ line-height: 17px !important;
 }
 
 
+/* ***** */
+
+#main-content > div > div > salla-search > div > div >  .s-search-input-wrapper > input , .s-product-card-image > salla-button  button , .s-comments.s-comments-product , .s-slider-block__title > div > div > button, .abayat-main-content.main-content > form > section , salla-product-options , .abayat-main-content  > div.mb-4.flex  ,  .s-product-card-content , .s-product-card-content > div {
+background: var(--color-background) !important ;
+}
+.s-products-slider-card custom-salla-product-card {
+// border: 0.1rem solid var(--color-btn-single-product) !important;
+box-shadow: var(--color-btn-single-product) 0px 6px 12px -2px, var(--color-btn-single-product) 0px 3px 7px -3px;
+// border-radius: 0.8rem !important;
+background: var(--color-background) !important ;
+// padding: 0.8rem 0.4rem;
+}
+.s-reviews-testimonial{
+background: var(--color-background) !important ;
+border: 0.1rem solid var(--color-btn-single-product) !important;
+border-radius: 0.8rem !important;
+}
+.s-product-card-content salla-add-product-button salla-button  button{
+	width: 77% !important;
+	margin: 0.8rem auto !important;
+	border-radius: 1rem !important;
+}
+ .abayat-photo-text.py-0.block.block > div > div  > div > div > a.abayat-photo-text-btn-second {
+	width: 11rem !important;
+	min-height: unset !important;
+	height: unset !important;
+	max-width:11rem !important;
+	// padding: 0.2rem 0.4rem !important;
+}
+
+/* ***** */
+
+
+
+
 
 
