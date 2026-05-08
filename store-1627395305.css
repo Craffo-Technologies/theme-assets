@@ -4,9 +4,6 @@ height: 3rem !important;
 font-size: 0.6rem !important;
 overflow: hidden !important;
 }
-.abayat-categories-slide.swiper-slide > div > a > div.w-full.h-full.relative.group > div{
-padding: 2rem !important;
-}
 .abayat-categories-section div a{
 transition: all 0.5s ease !important;
 }
