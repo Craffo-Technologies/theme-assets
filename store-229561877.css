@@ -1,6 +1,10 @@
 /* https://salla.sa/ydoy-yadawi  */
 
-
+.kayan-banners  > div > div.flex ,  .kayan-banners  > div > div  > div > h2  {
+text-align: center !important;
+justify-content: center !important;
+margin: auto !important;
+}
 .app-inner.flex.flex-col.min-h-full > div.kayan-features.kayan-features-4 {
 border-color: var(--color-primary) !important ;
 }
@@ -62,7 +66,7 @@ max-width: 4rem !important;
 /* ***** */
 
 @media (max-width: 767px){
-	
+
 .kayan-banners.py-10.overflow-hidden > div > div.grid > div:nth-last-child(1) {
 margin-right: 50% !important;
 }
