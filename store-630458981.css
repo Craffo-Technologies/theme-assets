@@ -1,0 +1,8 @@
+body .rehla-default-product.rehla-fixed-products.bg-white{
+	background-color: #fafaf8 !important;
+}
+ form > section.sticky-product-bar.bg-white.p-5.rounded-md.rounded-b-none > salla-add-product-button > div > salla-button > button.s-button-primary{
+background-color: var(--product-button-bg-color) !important;
+border-color: var(--product-button-bg-color) !important;
+
+ }
