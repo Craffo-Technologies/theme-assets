@@ -189,4 +189,13 @@ button.fixed:has(.sicon-whatsapp) {
   }
 }
 
-
+.scroll-top i {
+    font-size: 22px;
+}
+.scroll-top {
+    width: 52px !important;
+    height: 52px !important;
+    bottom: 3rem !important;
+    right: 0.75rem !important;
+    left: unset !important;
+}
