@@ -35,3 +35,9 @@
 .s-product-card-entry .s-product-card-content .s-product-card-content-main .s-product-card-content-title a,.s-product-card-content-title{
 	font-size: 0.9rem !important;
 }}
+
+.s-product-options-grid-mode input:checked+div{
+	background-color:  #101625 !important;
+	border-color:  #fff !important;
+	color: #fff !important;
+}
