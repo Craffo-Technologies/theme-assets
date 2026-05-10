@@ -165,3 +165,28 @@
         grid-template-columns: repeat(5, minmax(0, 1fr));
     }
 }
+
+
+
+
+button.fixed:has(.sicon-whatsapp) {
+    z-index: 9999999 !important;
+    border-radius: 5px;
+}
+@media (max-width: 768px) {
+  button.fixed:has(.sicon-whatsapp) {
+    z-index: 9999999 !important;
+    border-radius: 5px;
+    width: 52px;
+    height: 52px;
+    bottom: 7rem;
+    right: 0.75rem;
+    left: unset;
+  }
+
+  button.fixed:has(.sicon-whatsapp) i {
+    font-size: 1.7rem;
+  }
+}
+
+
