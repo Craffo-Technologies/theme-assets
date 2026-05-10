@@ -199,3 +199,8 @@ button.fixed:has(.sicon-whatsapp) {
     right: 0.75rem !important;
     left: unset !important;
 }
+
+
+.product-single salla-comments {
+    display: none;
+}
