@@ -1,0 +1,18 @@
+/* السجل التجاري */
+/* https://wabarsa.com/ */
+
+footer  salla-payments  ul::before {
+content: "7005849208";
+display: flex !important;
+align-items: center !important;
+justify-content: start !important;
+gap: 2rem !important;
+margin-top: 0.2rem !important;
+font-size: 0.88rem !important;
+color: black !important;
+white-space: nowrap;
+background: url("https://asas-tools.com/u/uploads/sara_craffo/teg.jpg") right center / 1.8rem no-repeat;
+padding-inline-start: 1.99rem !important;
+color: white !important;
+ 
+}
