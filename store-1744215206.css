@@ -41,3 +41,92 @@
 	border-color:  #fff !important;
 	color: #fff !important;
 }
+
+
+
+
+@media(max-width: 768px){
+.s-product-card-entry .s-product-card-content .s-product-card-content-main .s-product-card-content-title a,.s-product-card-content-title{
+	font-size: 0.9rem !important;
+}}
+
+.s-product-options-grid-mode input:checked+div{
+	background-color:  #101625 !important;
+	border-color:  #fff !important;
+	color: #fff !important;
+}
+
+@media(max-width: 640px){
+    .is-sticky-product-bar .sticky-product-bar {
+    	background-color: #fff !important;
+    }
+
+
+.sticky-product-bar__quantity .s-quantity-input {
+    border: 1px solid #101625 !important;
+    border-radius: 12px;
+}
+
+.sticky-product-bar__quantity .s-quantity-input-button svg {
+    fill: #101625 !important;
+    color: #101625 !important;
+}
+
+.sticky-product-bar__quantity .s-quantity-input-input {
+    color: #101625 !important;
+}
+
+.sticky-product-bar__quantity .s-quantity-input-button {
+    color: #101625 !important;
+}
+
+}
+
+ 
+
+.kesra-main-content section.sticky-product-bar.py-5  label ,.kesra-main-content.main-content.top-24.w-full> form > section.flex.py-5.px-4 > div > label{
+    color: #fff !important;
+}
+
+
+@media(min-width: 640px){
+	.kesra-main-content .s-add-product-button-main>salla-button button{
+		    background-color:var(--color-btnHove-single-product) !important;
+    border-color: var(--color-btnHove-single-product) !important;
+	}
+	
+	.sticky-product-bar__quantity .s-quantity-input-input{
+		    color: #fff !important;
+	}
+	
+.sticky-product-bar__quantity .s-quantity-input {
+    border: 1px solid #101625 !important;
+    border-radius: 12px;
+}
+
+.sticky-product-bar__quantity .s-quantity-input-button svg {
+    fill: #fff !important;
+    color: #fff !important;
+}
+
+	
+.sticky-product-bar__quantity .s-quantity-input-button {
+    color: #fff !important;
+}
+
+
+	
+	.kesra-main-content .s-add-product-button-main .s-add-product-button-mini-checkout{
+    border: 1px solid #fff !important;
+		 --salla-fast-checkout-button-border-radius: 0px !important;
+	}
+	
+	.s-add-product-button-mini-checkout-content,.s-fast-checkout-button.outline{
+		color: #fff !important ;
+		border-color: #fff !important ;
+	}
+	
+.kesra-main-content.main-content > form > section.sticky-product-bar.py-5 > salla-add-product-button > div > salla-button > button > span{
+		color:  #101625 !important ;
+	}
+}
