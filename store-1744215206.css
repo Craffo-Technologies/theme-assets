@@ -135,3 +135,36 @@
 kesra-main-content.main-content.top-24.w-full > div.kesra-price.flex.whitespace-nowrap.gap-4.items-center.mb-4.mt-2{
 	display: none !important;
 }
+
+
+
+
+.cart #main-content > div > div > div.sticky.top-24.w-full > div.shadow-default.bg-white.p-5.rounded-md.mb-5.relative.transition-height.duration-1000 *{
+	color: black !important;
+}
+
+.cart salla-quantity-input {
+    border: 1px solid #101625 !important;
+    border-radius: 12px;
+}
+
+.cart salla-quantity-input input,
+.cart salla-quantity-input button,
+.cart salla-quantity-input svg,
+.cart salla-quantity-input svg path {
+    color: #101625 !important;
+    fill: #101625 !important;
+}
+
+.cart salla-quantity-input input {
+    border-left: 1px solid #101625 !important;
+    border-right: 1px solid #101625 !important;
+}
+
+.cart .s-product-options-wrapper .s-product-options-option-label b {
+	color: black !important;
+}
+
+.cart  #cart-submit > button{
+	background-color: #ebebeb !important;
+}
