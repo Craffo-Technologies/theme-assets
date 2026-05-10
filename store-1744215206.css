@@ -27,3 +27,11 @@
   background: #d2d5dd10 !important;
   color: #d2d5dd !important;
 }
+
+
+
+
+@media(max-width: 768px){
+.s-product-card-entry .s-product-card-content .s-product-card-content-main .s-product-card-content-title a,.s-product-card-content-title{
+	font-size: 0.9rem !important;
+}}
