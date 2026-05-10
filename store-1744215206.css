@@ -130,3 +130,8 @@
 		color:  #101625 !important ;
 	}
 }
+
+
+kesra-main-content.main-content.top-24.w-full > div.kesra-price.flex.whitespace-nowrap.gap-4.items-center.mb-4.mt-2{
+	display: none !important;
+}
