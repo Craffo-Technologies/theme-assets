@@ -122,3 +122,25 @@ text-align: center !important;
 }
 
 
+/* السجل التجاري */
+/* https://kaosandkozy.com/ */
+
+ .app-inner .bottom-footer > div > div > ul::before {
+    content: "7043084131" !important;
+    display: flex !important;
+    flex-direction: row-reverse !important;
+    align-items: center !important;
+    justify-content: flex-end !important;
+    background-color: white !important;  
+    background-image: url("https://asas-tools.com/u/uploads/sara_craffo/4__1_-removebg-preview.png") !important;
+    background-repeat: no-repeat !important;
+    background-size: contain !important;
+    background-position: left center !important;
+    height: 30px !important;
+    width: 116px !important;
+}
+
+
+
+
+
