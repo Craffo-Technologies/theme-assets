@@ -1,0 +1,16 @@
+footer .border-b{ 	
+	border-bottom: unset !important; 	
+}
+
+footer { 	
+	margin-top: 1.5rem !important; 
+}
+
+.prestige-store-features .bg-gray-100 {
+	background-color: rgb(255 255 255) !important;  
+}
+
+.s-cart-summary-wrapper{
+	color: var(--color-header-text) !important;
+    
+}
