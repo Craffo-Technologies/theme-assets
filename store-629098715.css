@@ -165,6 +165,11 @@ padding: 0 !important;
  	background:var(--color-btn-card) !important ;
  }
 
+ .s-slider-block__title > div > div > button {
+ 	width: 1.6rem !important;
+ 	height: 1.6rem !important;
+ }
+
 /* ***** */
 
 
