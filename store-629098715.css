@@ -156,7 +156,9 @@ padding: 0 !important;
 
 /* *** */
 
- .sand-main-content  > form > section {
+ .sand-main-content  > form > section  ,  
+.sand-main-content  > div.flex  > salla-social-share > div > slot-fb > salla-button > button , 
+ salla-comments > div , .s-comments.s-comments-product{
  	background: var(--color-background-store) !important;
  }
  .s-slider-block__title > div > div > button {
