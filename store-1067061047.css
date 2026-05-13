@@ -6,7 +6,7 @@ color:  var(--color-background)  !important ;
 border-color:  var(--color-background) !important;
 }
 .kayan-faq , .kayan-features{
-border-color: var(--color-primary) !important ;
+border-color: var(--header-main-color) !important ;
 }
 .kayan-banners  > div > div.flex ,  .kayan-banners  > div > div  > div > h2  {
 text-align: center !important;
