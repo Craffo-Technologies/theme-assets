@@ -4,8 +4,25 @@ section.s-block.s-block--fixed-banner.wide-placeholder, section.s-block.s-block-
     padding: unset !important;
     border-radius: unset;
 }
-
-
 .bg-white, .s-product-options-option-container {
     background-color: var(--color-background) !important;
 }
+
+.s-block--fixed-banner.wide-placeholder , #main-content > section.s-block.s-block--fixed-banner.wide-placeholder > div{
+margin: 0 !important;
+padding: 0 !important;
+width: 100% !important;
+max-width: 100% !important;
+border-radius: 0 !important;
+}
+@media (max-width: 768px){
+.s-block--fixed-banner.wide-placeholder , #main-content > section.s-block.s-block--fixed-banner.wide-placeholder > div{
+margin: 0 !important;
+padding: 0 !important;
+width: 100% !important;
+max-width: 100% !important;
+border-radius: 0 !important;
+}
+}
+
+
