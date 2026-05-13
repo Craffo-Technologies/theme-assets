@@ -1,4 +1,26 @@
 
+
+
+ /* السجل التجاري */
+/* https://rahialteeb.com/ */
+
+ footer > div.kesra-copyright > div > div > salla-payments > ul::before {
+    content: "7053878950" !important;
+    display: flex !important;
+    flex-direction: row-reverse !important;
+    align-items: center !important;
+    justify-content: flex-end !important;
+    background-color: white !important;  
+    background-image: url("https://asas-tools.com/u/uploads/sara_craffo/4__1_-removebg-preview.png") !important;
+    background-repeat: no-repeat !important;
+    background-size: contain !important;
+    background-position: left center !important;
+    height: 32px !important;
+    width: 116px !important;
+    border-radius: 0.2rem !important;
+}
+
+
 @media (max-width: 640px) {
     .kesra-main-banner .flex a:first-child {
         order: 2;
