@@ -18,7 +18,7 @@ border-color: var(--color-primary) !important ;
 }
 .custom-bar > div > div > salla-social-share > div > slot-fb > salla-button > button {
 background: var(--color-background)  !important ;
-color:  var(--color-primary) !important ;
+color: var(--header-main-color) !important ;
 }
 .kayan-faq.kayan-faq-3> div > div.accordion-container{
 border: none !important;	
@@ -26,7 +26,7 @@ border: none !important;
 .kayan-faq > div > div.accordion-container.flex.flex-col.justify-center > div {
 box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px !important;
 margin: 0.7rem auto !important;
-background: var(--color-primary) !important ;
+background: var(--header-main-color) !important ;
 color: var(--color-background) !important ;
 border-radius: 0.7rem !important;
 }
