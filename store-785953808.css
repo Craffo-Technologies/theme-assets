@@ -174,7 +174,7 @@ border-color: #8a5a5d !important;
 justify-content: flex-start !important;
 align-items: flex-start !important;
 }
-	
+
 .kayan-label,
 .kayan-contentBox,
 .kayan-contentBox p,
@@ -196,6 +196,9 @@ display: none !important;
 .kayan-features > div > div.grid.gap-8.w-full.h-full.kayan-features-174a467d-5773-4726-bbdd-d22bd3eb0aa1 > div:nth-child(3){
 margin-right: 54% !important;	
 width: 100% !important;
+}
+.kayan-header > div > div > div.flex-1  > div.w-24 > a > img{
+display:none !important ;
 }
 }
 
