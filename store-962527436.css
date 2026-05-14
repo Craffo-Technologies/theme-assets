@@ -1,4 +1,6 @@
 /* https://salla.sa/nivotissues */
+/* Add custom CSS styles below */ 
+/* https://salla.sa/nivotissues */
 
 .s-product-options-grid-mode input:checked + div{
 background:  var(--color-primary) !important;
@@ -49,7 +51,7 @@ background: var(--color-background)  !important;
 color:  var(--color-background)  !important ;	
 }
 salla-products-list > div.s-products-list-wrapper.s-products-list-vertical-cards > custom-salla-product-card  > div > div.overflow-hidden  > a.block  > span , .kayan-promotion_title , .banner-label{
-background: #ABC6E7 !important ;
+background:  var(--color-primary) !important ;
 color: var(--color-background) !important ;
 }
 .custom-bar{
@@ -126,7 +128,7 @@ justify-content: center !important;
   }
 
   .craffo-components-statistics .grid {
-    gap: 30px !important;
+    gap: 3.3rem !important;
   }
 
 
