@@ -53,7 +53,7 @@ background: #ABC6E7 !important ;
 color: var(--color-background) !important ;
 }
 .custom-bar{
-background: #ABC6E7 !important ;
+background: var(--color-primary) !important ;
 color: var(--color-background) !important;	
 }
 .separator-wave {
