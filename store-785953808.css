@@ -205,3 +205,12 @@ font-size: 12px !important;
 .product-index .kayan-header.overflow-hidden.w-full.h-full > div > div > div.flex-1.items-center.flex.gap-4.overflow-hidden > div.w-24{
 	display: none !important;
 }
+
+ @media (max-width: 768px){
+ .kayan-features > div > div.grid.gap-8.w-full.h-full.kayan-features-174a467d-5773-4726-bbdd-d22bd3eb0aa1 > div:nth-child(3){
+margin-right: 54% !important;	
+width: 100% !important;
+}
+}
+
+
