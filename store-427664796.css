@@ -204,3 +204,22 @@ button.fixed:has(.sicon-whatsapp) {
 .product-single salla-comments {
     display: none;
 }
+
+
+
+.s-product-options-grid-mode-span {
+    border-radius: unset !important;
+    min-width: 100px;
+}
+.s-product-options-grid-mode input:checked + div {
+    border-width: 2px;
+}
+
+.influencer-card div.p-3 {
+    background: #a46cf70d;
+}
+
+.influencer-card .card-image-wrapper + div.p-3 > p {
+    color: #150443 !important;
+    font-weight: 600;
+}
