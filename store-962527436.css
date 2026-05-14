@@ -49,11 +49,11 @@ background: var(--color-background)  !important;
 color:  var(--color-background)  !important ;	
 }
 salla-products-list > div.s-products-list-wrapper.s-products-list-vertical-cards > custom-salla-product-card  > div > div.overflow-hidden  > a.block  > span , .kayan-promotion_title , .banner-label{
-background: var(--color-primary-light) !important ;
+background: #ABC6E7 !important ;
 color: var(--color-background) !important ;
 }
 .custom-bar{
-background: var(--color-primary-light) !important ;
+background: #ABC6E7 !important ;
 color: var(--color-background) !important;	
 }
 .separator-wave {
@@ -83,9 +83,7 @@ max-width: 4rem !important;
 // margin-right: 50% !important;
 }
 
-.relative.px-10.py-10.container.mx-auto.craffo-components-statistics{
-margin: 0 !important;
-}
+
 #app > div.app-inner.flex.flex-col.min-h-full > div.kayan-banners.py-10.overflow-hidden{
 margin-top: 0 !important;
 padding-top: 0 !important;
@@ -97,12 +95,41 @@ width: 100% !important;
 margin: auto !important;
 justify-content: center !important;
 }
-.mx-auto.craffo-components-statistics > div > div > div.mt-1{
-font-size: 1.7rem !important;	
+
+  .scroll-top.fixed.right-4.w-12.h-12.rounded-full.z-40.text-white.text-lg.flex.justify-center.items-center.cursor-pointer.duration-500.bottom-14{
+	bottom: 4.5rem !important;
 }
-#app > div.app-inner.flex.flex-col.min-h-full > div.relative.px-10.py-10.container.mx-auto.craffo-components-statistics > div > div> div.mt-1.text-lg{
-font-size: 0.7rem !important;
-}
+
+  .craffo-components-statistics i {
+    font-size: 28px !important;
+  }
+
+  .craffo-components-statistics .text-5xl {
+    font-size: 20px !important;
+    margin-top: 4px;
+  }
+
+  .craffo-components-statistics .text-lg {
+    font-size: 13px !important;
+    margin-top: 2px;
+        line-height: 1rem;
+
+  }
+
+  .craffo-components-statistics .p-2,
+  .craffo-components-statistics .md\:p-4 {
+    padding: 6px !important;
+  }
+
+  .craffo-components-statistics .rounded-md {
+  padding: 0.2rem !important;
+  }
+
+  .craffo-components-statistics .grid {
+    gap: 30px !important;
+  }
+
+
 .custom-bar > div > div > salla-social-share > div > slot-fb > salla-button > button {
 background: var(--color-background)  !important ;
 color:  var(--color-primary) !important ;
