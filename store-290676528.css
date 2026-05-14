@@ -42,3 +42,13 @@ html[dir="ltr"] .marquee__content {
 .s-block--marquee.in-header{
 	direction: rtl !important;
 }
+
+.header-buttons button::before {
+  content: "\f0c3";
+    font-weight: 600;
+    font-size: 15px;
+    display: inline-block;
+    margin-inline-end: 6px;
+    font-family: 'sallaicons' !important;
+    color: var(--header-text-color) !important;
+}
