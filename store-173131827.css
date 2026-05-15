@@ -36,7 +36,7 @@
 
 @media (max-width:768px) {
 
- .kayan-features.kayan-features-15.px-10.py-10.border-black.overflow-hidden.block.block > div > div {
+.kayan-features  > div > div ,  .kayan-features.kayan-features-14 > div > div.flex  {
 	display: grid !important;
 	grid-template-columns:  auto auto !important;
 }
@@ -52,5 +52,11 @@ font-size: 0.66rem !important;
 }
 
 /* **** */
+
+
+
+/* **** */
+
+
 
 
