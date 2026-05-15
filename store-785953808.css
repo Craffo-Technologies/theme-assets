@@ -204,7 +204,7 @@ justify-content: center !important;
 }
 
 }
-.kayan-header > div > div > div.flex-1  > div.w-24 > a > img{
+.kayan-header > div > div > div.flex-1  > div.w-24 > a > img ,  .kayan-header  > div > div > div.flex-1 > div.w-24 > a > img{
 display:none !important ;
 }
 
