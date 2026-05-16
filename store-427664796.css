@@ -223,3 +223,9 @@ button.fixed:has(.sicon-whatsapp) {
     color: #150443 !important;
     font-weight: 600;
 }
+
+
+
+.art-reviews-product {
+    margin-bottom: 2.5rem;
+}
