@@ -52,3 +52,11 @@ html[dir="ltr"] .marquee__content {
     font-family: 'sallaicons' !important;
     color: var(--header-text-color) !important;
 }
+
+
+
+salla-loyalty-points-banner 
+ svg path,salla-cashback-banner svg path {
+    fill: #D4AF37 !important;
+    color: #D4AF37 !important;
+}
