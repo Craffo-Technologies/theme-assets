@@ -210,10 +210,6 @@ color:  #f7f5ef !important;
 .main-content.w-full > div.flex.whitespace-nowrap.gap-4.items-center > div * , .main-content > div.flex.whitespace-nowrap.gap-4.items-center > div > span ,  .main-content > div.flex.whitespace-nowrap {
 	color: var(--color-primary) !important;
 }
-.kayan-header{
-	position: absolute !important;
-	top: 0 !important;
-}
 
 
 
