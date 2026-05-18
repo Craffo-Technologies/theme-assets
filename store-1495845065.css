@@ -211,5 +211,12 @@ color:  #f7f5ef !important;
 	color: var(--color-primary) !important;
 }
 
+.index .kayan-header{
+    position: absolute !important;
+    top: 0 !important;
+}
+
+
+
 
 
