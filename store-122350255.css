@@ -165,3 +165,8 @@
 .notah-store-footer .container >div:nth-child(1) .flex-col {
   align-items: center;
 }
+
+
+.notah-video #videoControl {
+    display: none !important;
+}
