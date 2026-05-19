@@ -8,3 +8,12 @@
 	aspect-ratio: 1/1 !important;
 	    object-fit: contain !important;
 }
+
+.kayan-header 
+.s-cart-summary-total{
+	display: block !important;
+}
+
+.kayan-header i.sicon-shopping-bag2.text-2xl.kayan-color-text.mx-2.cursor-pointer{
+	margin: 0.1rem !important;
+}
