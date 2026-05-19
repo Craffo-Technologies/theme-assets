@@ -1,0 +1,10 @@
+.kayan-card {
+    border: 1px solid #5c0701 !important; 
+    border-radius: 20px !important;
+    overflow: hidden;
+}
+
+.kayan-card img{
+	aspect-ratio: 1/1 !important;
+	    object-fit: contain !important;
+}
