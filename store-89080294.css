@@ -93,7 +93,7 @@ background:  var(--color-background) !important ;
 color:  var(--color-primary) !important ;
 }
 .kayan-banners > div > div.grid > div:nth-child(3){
-margin-right: 50% !important ;	
+/* margin-right: 50% !important ;	 */
 }
 
 }
