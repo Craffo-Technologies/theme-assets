@@ -1,4 +1,9 @@
+/* https://rawfull-sa.com/ */
 
+.s-block-trust-landing-footer__links,
+.s-block-trust-landing-footer__info , section > div > div.s-block-trust-landing-footer__links{
+justify-content: flex-end !important;
+}
 #app > div.app-inner.flex.flex-col.min-h-full > footer > div.store-footer__inner > div > div:nth-child(3) > div > salla-contacts {
 position: absolute !important;
 top: -45px !important;
@@ -70,13 +75,17 @@ fill: #ffffff !important;
 stroke: #ffffff !important;
 }
 
-
 #app > div.app-inner.flex.flex-col.min-h-full > footer > div.store-footer__inner > div > div:nth-child(1),#app > div.app-inner.flex.flex-col.min-h-full > footer > div.store-footer__inner > div > div:nth-child(2){
 display: none !important;
 }
 #app > div.app-inner.flex.flex-col.min-h-full > footer > div.store-footer__inner > div{
 height: 1.1rem !important;
 }
+
+#mainnav > div > div > div > .nav-menu > a{
+display: none !important;
+}
+
 
 @media (max-width: 768px){
 
@@ -89,10 +98,12 @@ salla-contacts li, salla-contacts a, salla-contacts span, salla-contacts p {
 gap: 0 !important;
 }
 .ronaq-store-footer a .s-contacts-icon{
-	padding: 0 0.2rem !important;
+padding: 0 0.2rem !important;
 }
 }
 
-#mainnav > div > div > div > .nav-menu > a{
-display: none !important;
+.s-block-trust-landing-footer__links,
+.s-block-trust-landing-footer__info , section > div > div.s-block-trust-landing-footer__links{
+justify-content: end !important;
+width: 90% !important;
 }
