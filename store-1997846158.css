@@ -1,5 +1,3 @@
-/* https://rawfull-sa.com/ */
-
 .s-block-trust-landing-footer__links,
 .s-block-trust-landing-footer__info , section > div > div.s-block-trust-landing-footer__links{
 justify-content: flex-end !important;
@@ -13,6 +11,8 @@ width: auto !important;
 max-width: none !important;
 z-index: 9999 !important;
 }
+
+
 
 #app > div.app-inner.flex.flex-col.min-h-full > footer,
 #app > div.app-inner.flex.flex-col.min-h-full > footer > div.store-footer__inner {
@@ -101,9 +101,13 @@ gap: 0 !important;
 padding: 0 0.2rem !important;
 }
 }
-
+footer {
+overflow:hidden !important ;
+}
 .s-block-trust-landing-footer__links,
 .s-block-trust-landing-footer__info , section > div > div.s-block-trust-landing-footer__links{
 justify-content: end !important;
 width: 90% !important;
+margin-right: 50rem !important;
+overflow:hidden !important ;
 }
