@@ -1,55 +1,48 @@
 /* https://acc-awan.com/ */
 
-@media(max-width: 800px){
-#app > div.app-inner.flex.flex-col.min-h-full > a > button,#app > a > button{
-	bottom: 4rem !important;
-}
 
-.kayan-categories-slider .swiper {
-  overflow: visible !important;
-}
-
-.kayan-categories-slider .swiper-wrapper {
-  display: grid !important;
-  grid-template-columns: repeat(3, 1fr) !important;
-  gap: 10px;
-  transform: none !important;
-  width: 100% !important;
-}
-
-.kayan-categories-slider .swiper-slide {
-  width: 100% !important;
-  flex: unset !important;
-}
-
-.kayan-categories-slider .s-slider-prev,
-.kayan-categories-slider .s-slider-next {
-  display: none !important;
-}
-	
-}
-
-
-
-
-/* **** */
-
-@media (max-width:768px) {
-
-.kayan-features  > div > div ,  .kayan-features.kayan-features-14 > div > div.flex  {
-	display: grid !important;
-	grid-template-columns:  auto auto !important;
-}
-	
-}
-/* *** */
-
-custom-salla-product-card  .kayan-promotion_title{
+.kayan-promotion_title{
 top: 0.4rem !important;
 right: 0.1rem !important ;
 padding: 0.2rem 0.6rem !important;
 font-size: 0.66rem !important;
 }
+
+
+@media(max-width: 800px){
+#app > div.app-inner.flex.flex-col.min-h-full > a > button,#app > a > button{
+bottom: 4rem !important;
+}
+.kayan-categories-slider .swiper {
+overflow: visible !important;
+}
+.kayan-categories-slider .swiper-wrapper {
+display: grid !important;
+grid-template-columns: repeat(3, 1fr) !important;
+gap: 10px;
+transform: none !important;
+width: 100% !important;
+}
+.kayan-categories-slider .swiper-slide {
+width: 100% !important;
+flex: unset !important;
+}
+.kayan-categories-slider .s-slider-prev,
+.kayan-categories-slider .s-slider-next {
+display: none !important;
+}
+
+}
+
+/* *** */
+@media (max-width:768px) {
+.kayan-features  > div > div ,  .kayan-features.kayan-features-14 > div > div.flex  {
+display: grid !important;
+grid-template-columns:  auto auto !important;
+}
+
+}
+
 
 /* **** */
 
