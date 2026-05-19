@@ -1,113 +1,11 @@
-.s-block-trust-landing-footer__links,
-.s-block-trust-landing-footer__info , section > div > div.s-block-trust-landing-footer__links{
-justify-content: flex-end !important;
-}
-#app > div.app-inner.flex.flex-col.min-h-full > footer > div.store-footer__inner > div > div:nth-child(3) > div > salla-contacts {
-position: absolute !important;
-top: -45px !important;
-right: 5% !important;
-left: 5% !important;
-width: auto !important;
-max-width: none !important;
-z-index: 9999 !important;
-}
 
+/* https://rawfull-sa.com/ */
 
-
-#app > div.app-inner.flex.flex-col.min-h-full > footer,
-#app > div.app-inner.flex.flex-col.min-h-full > footer > div.store-footer__inner {
-position: relative !important;
-overflow: visible !important;
-}
-
-salla-contacts h5, 
-salla-contacts h6, 
-salla-contacts [class*="title"] {
-display: none !important;
-opacity: 0 !important;
-visibility: hidden !important;
-}
-
-salla-contacts ul,
-salla-contacts div,
-salla-contacts .inner {
-display: flex !important;
-flex-direction: row !important;
-flex-wrap: nowrap !important;
-align-items: center !important;
-justify-content: flex-start !important;
-width: 30% !important;
-margin: 0 !important;
-padding: 0 !important;
-height: auto !important;
-}
-.s-block-trust-landing-footer__links , .s-block-trust-landing-footer__links {
-display: flex !important;
-justify-content: flex-end !important;
-align-items: center !important;
-width:90% !important;
-}
-
-salla-contacts li:nth-child(2),
-salla-contacts a:nth-child(2) {
-margin-right: auto !important;
-margin-left: 20px !important;
-}
-
-salla-contacts li,
-salla-contacts a,
-salla-contacts span,
-salla-contacts p {
-display: flex !important;
-flex-direction: row-reverse !important;
-align-items: center !important;
-color: #ffffff !important;
-font-size: 13px !important;
-white-space: nowrap !important;
-gap: 8px !important;
-}
-
-salla-contacts i, 
-salla-contacts svg,
-salla-contacts svg path {
-color: #ffffff !important;
-fill: #ffffff !important;
-stroke: #ffffff !important;
-}
-
-#app > div.app-inner.flex.flex-col.min-h-full > footer > div.store-footer__inner > div > div:nth-child(1),#app > div.app-inner.flex.flex-col.min-h-full > footer > div.store-footer__inner > div > div:nth-child(2){
-display: none !important;
-}
-#app > div.app-inner.flex.flex-col.min-h-full > footer > div.store-footer__inner > div{
-height: 1.1rem !important;
-}
 
 #mainnav > div > div > div > .nav-menu > a{
 display: none !important;
 }
 
-
-@media (max-width: 768px){
-
-#app > div.app-inner.flex.flex-col.min-h-full > footer > div.store-footer__inner > div > div:nth-child(3) > div > salla-contacts > div{
-margin:-1.4rem 0 0 0 !important ;
-width: 96% !important;
-text-align: center !important;
-}
-salla-contacts li, salla-contacts a, salla-contacts span, salla-contacts p {
-gap: 0 !important;
-}
-.ronaq-store-footer a .s-contacts-icon{
-padding: 0 0.2rem !important;
-}
-}
-footer {
-overflow:hidden !important ;
-}
-.s-block-trust-landing-footer__links,
-.s-block-trust-landing-footer__info , section > div > div.s-block-trust-landing-footer__links{
-justify-content: end !important;
-width: 90% !important;
-margin-right: 50rem !important;
-overflow:hidden !important ;
+#app > div.app-inner.flex.flex-col.min-h-full > footer > div.store-footer__inner > div > div:nth-child(1){
+display: none !important;
 }
