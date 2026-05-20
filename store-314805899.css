@@ -1,0 +1,28 @@
+@media(max-width: 768px){
+.s-product-card-content-footer .s-button-element {
+    white-space: nowrap !important;
+    overflow: visible !important;
+    text-overflow: unset !important;
+    min-width: 100% !important;
+    padding-inline: 14px !important;
+}
+
+.s-product-card-content-footer .s-button-text {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    white-space: nowrap !important;
+        font-size: 12px !important;
+    gap: 4px !important;
+}
+
+.s-product-card-content-footer .s-button-text span {
+    overflow: visible !important;
+    text-overflow: unset !important;
+}
+	.s-product-card-content-footer .s-button-text i {
+    font-size: 12px !important;
+}
+	
+}
