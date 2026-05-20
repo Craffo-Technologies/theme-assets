@@ -1,0 +1,5 @@
+.notah-video a,
+.notah-video #videoControl{
+  display: none !important;
+}
+
