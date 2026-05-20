@@ -1,0 +1,9 @@
+/* https://swim1dive.com/ar/xAjEvXw */
+
+.art-main-content > div.flex  > div > div.gap-4.flex > h2 , .s-comments-count-label , .s-comments-item-content-container , .s-comments-item-content-container p
+ {
+ 	color: white !important;
+ }
+ .main-content.art-main-content > div.grid.grid-cols-1  > div{
+ 	border-color: white !important;
+ }
