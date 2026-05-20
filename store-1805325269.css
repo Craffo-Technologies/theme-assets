@@ -1,0 +1,6 @@
+/* https://salla.sa/Blaine */
+
+#mobile-menu > ul , #mobile-menu {
+ 	background: var(--color-background-store) !important;
+ 	color: var(--color-btn-card) !important;
+ }
