@@ -1,3 +1,7 @@
+#app > footer > div.flex.flex-col-reverse.items-center.justify-between.py-4.container.text-center.gap-3 > span.text-sm.copyright-text{
+	display: none !important;
+}
+
 .main-nav-container .navbar-brand img {
 	max-width: unset !important;
 	min-width: unset !important;
@@ -130,3 +134,5 @@ body .s-reviews-container .s-reviews-testimonial{
 body .s-product-card-entry .s-product-card-content {
     padding: 10px 8px !important;
 }
+
+
