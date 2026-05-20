@@ -33,5 +33,111 @@ aspect-ratio: 1/1 !important;
 
 
 
+.custom-bar > div > div > salla-social-share > div > slot-fb > salla-button > button  , .s-product-options-grid-mode input:checked+div ,  salla-comment-form > form > div > div > div > salla-button > button  , #toast-submit > button , #cart-submit > button , #submit_form_btn, #safari_browser_notify {
+background: var(--color-footer) !important ;
+color:  var(--color-footer-text) !important ;
+}
+
+custom-salla-product-card > div > div.overflow-hidden.relative > a  > img , .s-products-list-vertical-cards > custom-salla-product-card > div > div.overflow-hidden.relative > a> img{
+aspect-ratio: 12/18 !important;
+object-fit: cover !important;
+}
+#comments-filter ,  salla-comments > div > div > div.s-comments-header.has-total > div , form > salla-product-options > salla-conditional-fields > div  > div > div > div > label  > div, .main-content  > form > salla-product-options , .s-comments.s-comments-product{
+background: var(--color-background) !important;
+}
+.custom-bar > div > h3  , .total-price ,  .abayat-main-content.main-content .abayat-price  h2 {
+color:  var(--color-footer) !important ;	
+}
+salla-products-list > div.s-products-list-wrapper.s-products-list-vertical-cards > custom-salla-product-card  > div > div.overflow-hidden  > a.block  > span , .abayat-promotion_title , .banner-label{
+background:  var(--color-footer)  !important ;
+color: var(--color-footer-text)  !important ;
+}
+.separator-wave {
+background: linear-gradient(90deg, transparent,var(--color-primary) , transparent) !important ;
+} 
+.abayat-features , .separator-wave {
+border-color: var(--color-footer) !important ;
+}
+salla-add-product-button > div > salla-button > button {
+background: var(--color-footer) !important ;
+color: var(--color-footer-text) !important;
+}
+.navbar.invisible > div > ul li{
+color: var(--color-footer-text)  !important;	
+}
+form > salla-product-options > salla-conditional-fields > div > div > label > b ,  form > salla-product-options > salla-conditional-fields > div > div > label > small{
+color: var(--color-footer) !important ; 
+}
+custom-salla-product-card > div > salla-add-product-button > div > salla-button > button:hover .abayat-card-button{
+background: var(--color-footer) !important ;
+color: var(--color-footer-text) !important;	
+}
+#main-content > div.abayat-search.relative.px-10.lg\:py-20.py-10.text-center.block.block > div > salla-search > div > div > div.s-search-input-wrapper > input{
+background: var(--color-footer-text) !important;
+}
+footer > div > div  > div > div.flex.justify-center > p span , .s-product-card-entry , footer .abayat-store-footer__inner , footer a , footer i ,  footer > div.store-footer__inner.abayat-store-footer__inner > div > div > div.flex.flex-col.gap-4 > salla-trust-badges{
+display: flex !important ;
+justify-content: center !important;
+align-items: center !important;
+text-align: center !important;
+margin: auto !important;
+overflow: hidden !important;
+}
+.s-social-list{
+margin: auto !important;
+display: flex !important ;
+justify-content: center !important;
+}
+.navbar{
+overflow: hidden !important;
+}
+.abayat-store-footer__inner > div > div:nth-child(2) > salla-menu > div > div > a{
+padding-bottom: 0.6rem !important;
+}
+
+@media (max-width: 767px){
+.craffo-components-statistics{
+margin: 0 !important;
+}
+.craffo-components-statistics > div{
+display: grid !important;
+grid-template-columns: auto auto auto !important;	
+}
+.craffo-components-statistics > div > div > div{
+font-size: 1.6rem !important;	
+}
+// .abayat-banners {
+// margin-top: 0 !important;
+// padding-top: 0 !important;
+// }
+#main-content > section.abayat-video-reels.py-16.block.block, #mainnav > div > div > div > div.flex.items-center.flex-1.gap-1.justify-end{
+overflow: hidden !important;
+}
+.craffo-components-statistics > div > div> div{
+font-size: 0.8rem !important;
+}
+.custom-bar > div > div > salla-social-share > div > slot-fb > salla-button > button {
+background:  var(--color-footer-text) !important ;
+color: var(--color-footer) !important ;
+}
+.s-button-text{
+font-size: 0.8rem !important;
+}
+
+}
+
+@media (min-width: 767px){
+.craffo-components-statistics{
+margin: 11rem auto 1rem auto !important;
+}
+.navbar.invisible{
+margin: 2rem auto !important;
+}
+}
+
+
+
+
+
 
 
