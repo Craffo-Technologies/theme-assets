@@ -9,3 +9,10 @@ display: none !important;
 #app > div.app-inner.flex.flex-col.min-h-full > footer > div.store-footer__inner > div > div:nth-child(1){
 display: none !important;
 }
+
+/* ***** */
+
+
+footer > div.store-footer__inner > div>div:nth-child(2){
+display: none !important;
+}
