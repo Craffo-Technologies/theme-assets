@@ -1,5 +1,74 @@
 /* https://mj-perfume.com/  */
 
+
+
+
+.kayan-card .s-count-down-item-label,.kayan-card .s-count-down-item-value{
+	color: #F7F5EF !important;
+}
+
+ custom-salla-product-card > div > div.overflow-hidden.relative a.block.flex.w-full.h-full.justify-center.items-end.px-8.duration-700 > div > div {
+  height: 25px !important;
+  padding: 6px 4px !important;
+  border-radius: 0;
+  background-color: #4C157D !important;
+}
+
+.discount-countdown-card .s-count-down-item {
+  padding: 0 !important;
+  min-width: 38px !important;
+  background: transparent !important;
+}
+
+.discount-countdown-card .s-count-down-item-value {
+  font-size: 13px !important;
+  line-height: 1.1;
+}
+
+.discount-countdown-card .s-count-down-item-label {
+  font-size: 9px !important;
+  line-height: 1;
+}
+
+@media (max-width: 640px) {
+  .discount-countdown-card .s-count-down-item {
+    min-width: 32px !important;
+  }
+
+  .discount-countdown-card .s-count-down-item-value {
+    font-size: 11px !important;
+  }
+
+  .discount-countdown-card .s-count-down-item-label {
+    font-size: 8px !important;
+  }
+  
+    
+  #app > div.app-inner.flex.flex-col.min-h-full > footer > div > div.justify-center.items-center.w-full > div.border-gray-300.pb-8.flex.flex-col.gap-4> div.flex.justify-center.items-center,#app > div.app-inner.flex.flex-col.min-h-full > footer > div > div.justify-center.items-center.w-full > div.border-gray-300.pb-8.flex.flex-col.gap-4> div.flex.justify-center.items-center p{
+text-align: center !important;
+}
+
+
+#app > div.app-inner.flex.flex-col.min-h-full > a > button,#app > div.app-inner.flex.flex-col.min-h-full > footer > div > div.scroll-top{
+	bottom : 4rem !important;
+}
+
+}
+
+
+
+ custom-salla-product-card > div > div.overflow-hidden.relative > span.discountPercentage {
+  background: #4C157D !important;
+	color: #F7F5EF !important;
+}
+
+
+ custom-salla-product-card > div > div.overflow-hidden.relative > span.discountPercentage i {
+	color: #F7F5EF !important;
+}
+
+
+
 .s-product-options-grid-mode input:checked + div{
 background:  var(--color-primary) !important;
 color:  var(--color-background)  !important ;
@@ -53,8 +122,8 @@ background: var(--color-primary-light) !important ;
 color: var(--color-background) !important ;
 }
 .custom-bar{
-background: var(--color-primary-light) !important ;
-color: var(--color-background) !important;	
+background:  #4C157D !important;
+  	color: #F7F5EF !important;
 }
 .separator-wave {
 background: linear-gradient(90deg, transparent,var(--color-primary) , transparent) !important ;
