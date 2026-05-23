@@ -1,0 +1,31 @@
+
+@media(min-width: 1024px){
+.top-navbar .header-search  > salla-search  .s-search-input-wrapper  {
+display: none !important;
+}
+
+#mainnav  .herb-main-nav {
+position: absolute !important;
+right: 15% !important;
+top: 4rem !important;
+width: 68% !important;
+}
+
+#mainnav.fixed-header .herb-main-nav {
+  top: 2rem !important;
+}
+
+nav ul li a  span{
+font-size : 1.1rem !important;
+}
+}
+
+#main-content > div  > nav > salla-breadcrumb > ol > li a , #main-content > div  > nav > salla-breadcrumb > ol > li{
+color: var(--color-btn-card) !important;
+}
+
+nav ul li a  span{
+font-weight: bold !important;
+}
+
+
