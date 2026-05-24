@@ -1,0 +1,26 @@
+.art-details-slider,
+.art-details-slider .swiper,
+.art-details-slider .s-slider-container {
+    max-height: 70vh !important;
+    touch-action: pan-x pan-y !important; 
+}
+
+@media (max-width: 768px) {
+    .art-details-slider .s-slider-swiper-wrapper {
+        height: auto !important;
+        aspect-ratio: 1 / 1 !important;
+    }
+}
+
+.art-details-slider .swiper-slide img {
+    transform: translateZ(0) !important;
+    will-change: transform !important;
+    backface-visibility: hidden !important;
+    -webkit-backface-visibility: hidden !important;
+    image-rendering: -webkit-optimize-contrast !important;
+}
+
+.fslightbox-container img {
+    transform: translateZ(0) !important;
+    will-change: transform !important;
+}
