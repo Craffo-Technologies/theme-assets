@@ -1,5 +1,52 @@
 /*  https://awjbooks.com/ */
 
+
+#app > div.app-inner.flex.flex-col.min-h-full > footer > div.store-footer__inner.sand-store-footer__inner > div > div:nth-child(1) {
+  position: relative;
+}
+
+#app > div.app-inner.flex.flex-col.min-h-full > footer > div.store-footer__inner.sand-store-footer__inner > div > div:nth-child(1)::after {
+  content: "";
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 16px;
+  padding: 10px 0;
+  position: relative;
+bottom: 27px;
+
+  background-image: url("https://asas-tools.com/u/uploads/nada.s/freelance-logo-edited.png");
+  background-repeat: no-repeat;
+  background-size: 60px;
+  background-position: right center;
+}
+#app > div.app-inner.flex.flex-col.min-h-full > footer > div.store-footer__inner.sand-store-footer__inner > div > div:nth-child(1)::before {
+ content: "FL-630154447";
+white-space: pre-wrap;
+display: inline-block !important;
+  position: absolute;
+  right: 70px;
+   bottom: 15px;
+  font-size: 13px;
+  font-weight: 600;
+  color: #fff;
+  line-height: 1.6;
+}
+
+.store-footer .s-social-list::after {
+  content: "وثيقة العمل الحر";
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 3.5rem;
+  font-size: 13px;
+  font-weight: 500;
+  color: #fff;
+  white-space: pre;
+    margin-inline-start: -4rem  !important;
+}
+
+
  .sand-collections.py-16 > div > div.grid  > div {
 	background-color:var(--color-background-store) !important;
 }
