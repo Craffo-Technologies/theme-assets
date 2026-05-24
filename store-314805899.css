@@ -26,3 +26,45 @@
 }
 	
 }
+
+
+.part-main-content .mb-4.flex.justify-between.bg-white.rounded-md {
+	background: transparent !important;
+}
+
+.part-main-content .text-unicode {
+	font-weight: 900;
+}
+
+.part-main-content
+	.mb-4.flex.justify-between.bg-white.rounded-md
+	> div:first-child {
+	font-size: 0;
+}
+
+.part-main-content
+	.mb-4.flex.justify-between.bg-white.rounded-md
+	> div:first-child
+	i {
+	font-size: 1.1rem;
+	color: #991b1b;
+}
+
+.part-main-content
+	.mb-4.flex.justify-between.bg-white.rounded-md
+	> div:first-child::after {
+	content: 'رقم القطعة';
+	font-size: 1.1rem;
+	color: #991b1b;
+	margin-right: 4px;
+}
+
+.s-product-card-entry .s-product-card-rating {
+	display: none;
+}
+
+.s-product-card-entry .s-product-card-content-sub .s-product-card-sale-price h4,
+.s-product-card-starting-price,
+.s-product-card-entry .s-product-card-content-sub .s-product-card-price {
+	color: #e3230c !important;
+}
