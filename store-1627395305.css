@@ -62,10 +62,12 @@ border-radius: 0.8rem !important;
 }
 
 /* ***** */
-
  .abayat-categories  > div > div{
 	grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
-}
+	width: 40% !important;
+	max-width: 40% !important;
+	justify-content: center !important;
+	margin: auto !important;
 
 
 
