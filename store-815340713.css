@@ -125,7 +125,7 @@ text-align: center !important;
 /* السجل التجاري */
 /* https://kaosandkozy.com/ */
 
- .app-inner .bottom-footer > div > div > ul::before {
+ /* .app-inner .bottom-footer > div > div > ul::before {
     content: "7043084131" !important;
     display: flex !important;
     flex-direction: row-reverse !important;
@@ -138,7 +138,7 @@ text-align: center !important;
     background-position: left center !important;
     height: 30px !important;
     width: 116px !important;
-}
+} */
 
 
 
