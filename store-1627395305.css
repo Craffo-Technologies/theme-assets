@@ -37,11 +37,11 @@ line-height: 17px !important;
 background: var(--color-background) !important ;
 }
 .s-products-slider-card custom-salla-product-card {
-// border: 0.1rem solid var(--color-btn-single-product) !important;
-box-shadow: var(--color-btn-single-product) 0px 6px 12px -2px, var(--color-btn-single-product) 0px 3px 7px -3px;
-// border-radius: 0.8rem !important;
+/* // border: 0.1rem solid var(--color-btn-single-product) !important; */
+/* box-shadow: var(--color-btn-single-product) 0px 6px 12px -2px, var(--color-btn-single-product) 0px 3px 7px -3px; */
+/* // border-radius: 0.8rem !important; */
 background: var(--color-background) !important ;
-// padding: 0.8rem 0.4rem;
+/* // padding: 0.8rem 0.4rem; */
 }
 .s-reviews-testimonial{
 background: var(--color-background) !important ;
