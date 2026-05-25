@@ -49,25 +49,28 @@ border: 0.1rem solid var(--color-btn-single-product) !important;
 border-radius: 0.8rem !important;
 }
 .s-product-card-content salla-add-product-button salla-button  button{
-	width: 77% !important;
+	/* width: 77% !important; */
 	margin: 0.8rem auto !important;
 	border-radius: 1rem !important;
 }
  .abayat-photo-text.py-0.block.block > div > div  > div > div > a.abayat-photo-text-btn-second {
-	width: 11rem !important;
+	/* width: 11rem !important; */
 	min-height: unset !important;
 	height: unset !important;
-	max-width:11rem !important;
+	/* max-width:11rem !important; */
 	// padding: 0.2rem 0.4rem !important;
 }
 
 /* ***** */
+
  .abayat-categories  > div > div{
 	grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
 	width: 40% !important;
 	max-width: 40% !important;
 	justify-content: center !important;
 	margin: auto !important;
+ }
+/* ****** */
 
 
 
