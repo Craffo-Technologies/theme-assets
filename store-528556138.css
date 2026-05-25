@@ -1,3 +1,5 @@
+/* https://fitreasure.com/ */
+
 
 @media(min-width: 1024px){
 .top-navbar .header-search  > salla-search  .s-search-input-wrapper  {
@@ -28,4 +30,8 @@ nav ul li a  span{
 font-weight: bold !important;
 }
 
+/* **** */
 
+.herb-store-header .herb-top-navbar .herb-navbar-brand img {
+   max-height: 7rem !important;
+ }
