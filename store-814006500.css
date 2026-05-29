@@ -1,0 +1,207 @@
+/* https://salla.sa/razzahperfume */
+
+
+// store-814006500.css 
+// https://salla.sa/razzahperfume
+
+
+
+.kayan-card .s-count-down-item-label,.kayan-card .s-count-down-item-value{
+color: #F7F5EF !important;
+}
+
+custom-salla-product-card > div > div.overflow-hidden.relative a.block.flex.w-full.h-full.justify-center.items-end.px-8.duration-700 > div > div {
+height: 25px !important;
+padding: 6px 4px !important;
+border-radius: 0;
+background-color: #4C157D !important;
+}
+
+.discount-countdown-card .s-count-down-item {
+padding: 0 !important;
+min-width: 38px !important;
+background: transparent !important;
+}
+
+.discount-countdown-card .s-count-down-item-value {
+font-size: 13px !important;
+line-height: 1.1;
+}
+
+.discount-countdown-card .s-count-down-item-label {
+font-size: 9px !important;
+line-height: 1;
+}
+
+@media (max-width: 640px) {
+.discount-countdown-card .s-count-down-item {
+min-width: 32px !important;
+}
+
+.discount-countdown-card .s-count-down-item-value {
+font-size: 11px !important;
+}
+
+.discount-countdown-card .s-count-down-item-label {
+font-size: 8px !important;
+}
+
+
+#app > div.app-inner.flex.flex-col.min-h-full > footer > div > div.justify-center.items-center.w-full > div.border-gray-300.pb-8.flex.flex-col.gap-4> div.flex.justify-center.items-center,#app > div.app-inner.flex.flex-col.min-h-full > footer > div > div.justify-center.items-center.w-full > div.border-gray-300.pb-8.flex.flex-col.gap-4> div.flex.justify-center.items-center p{
+text-align: center !important;
+}
+
+
+#app > div.app-inner.flex.flex-col.min-h-full > a > button,#app > div.app-inner.flex.flex-col.min-h-full > footer > div > div.scroll-top{
+bottom : 4rem !important;
+}
+
+}
+
+
+
+custom-salla-product-card > div > div.overflow-hidden.relative > span.discountPercentage {
+background: var(--color-primary) !important;
+color: var(--color-background) !important;
+}
+
+
+custom-salla-product-card > div > div.overflow-hidden.relative > span.discountPercentage i {
+color: var(--color-primary)  !important;
+}
+
+
+
+.s-product-options-grid-mode input:checked + div{
+background:  var(--color-primary) !important;
+color:  var(--color-background)  !important ;
+border-color:  var(--color-background) !important;
+}
+.kayan-faq , .kayan-features{
+border-color: var(--color-primary) !important ;
+}
+.kayan-banners  > div > div.flex ,  .kayan-banners  > div > div  > div > h2  {
+text-align: center !important;
+justify-content: center !important;
+margin: auto !important;
+}
+.app-inner.flex.flex-col.min-h-full > div.kayan-features.kayan-features-4 {
+border-color: var(--color-primary) !important ;
+}
+.custom-bar > div > div > salla-social-share > div > slot-fb > salla-button > button {
+background: var(--color-primary) !important;
+color: var(--color-background) !important;
+}
+.kayan-faq.kayan-faq-3> div > div.accordion-container{
+border: none !important;	
+}
+.kayan-faq > div > div.accordion-container.flex.flex-col.justify-center > div {
+box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px !important;
+margin: 0.7rem auto !important;
+background: var(--color-primary) !important ;
+color: var(--color-background) !important ;
+border-radius: 0.7rem !important;
+}
+.kayan-features  > div > div.flex {
+display: grid !important;
+grid-template-columns: repeat(2, 1fr) !important;
+gap: 1rem !important; 
+}
+.kayan-features > div > div.flex > *:first-child {
+grid-column: 1 / -1;
+}
+custom-salla-product-card > div > div.overflow-hidden.relative > a  > img , .s-products-list-vertical-cards > custom-salla-product-card > div > div.overflow-hidden.relative > a> img{
+aspect-ratio: 12/16 !important;
+object-fit: cover !important;
+}
+#comments-filter ,  salla-comments > div > div > div.s-comments-header.has-total > div , form > salla-product-options > salla-conditional-fields > div  > div > div > div > label  > div, .main-content  > form > salla-product-options{
+background: var(--color-background)  !important;
+}
+.custom-bar > div > h3 {
+color:  var(--color-background)  !important ;	
+}
+salla-products-list > div.s-products-list-wrapper.s-products-list-vertical-cards > custom-salla-product-card  > div > div.overflow-hidden  > a.block  > span , .kayan-promotion_title , .banner-label{
+background: var(--color-primary) !important ;
+color: var(--color-background) !important ;
+}
+.custom-bar{
+background: var(--color-primary) !important;
+color: var(--color-background) !important;
+}
+.separator-wave {
+background: linear-gradient(90deg, transparent,var(--color-primary) , transparent) !important ;
+} 
+.kayan-features.kayan-features-5, .separator-wave {
+border-color:  var(--color-primary)  !important ;
+}
+#app > div.app-inner.flex.flex-col.min-h-full > div.kayan-features.kayan-features-0.px-10.py-10.border-y-2.border-black.overflow-hidden.block.block{
+border-color:  var(--color-primary)  !important ;
+}
+#app > div.app-inner.flex.flex-col.min-h-full > section > div > div.accordion-container.flex.flex-col.justify-center.items-center.w-full  , #app > div.app-inner.flex.flex-col.min-h-full > section > div , .kayan-faq{
+border: none !important;
+}
+
+.kayan-header  > div > div > div.flex-1 > div.w-24 > a > img{
+display: none !important ;
+width: 4rem !important;
+max-width: 4rem !important;
+}
+
+#app > div.app-inner.flex.flex-col.min-h-full > div.custom-bar.w-full.py-5.mb-6.bg-primary.text-white > div > div > salla-social-share > div > slot-fb > salla-button > button{
+background: var(--color-background) !important;
+color: var(--color-primary) !important;
+}
+/* ***** */
+
+@media (max-width: 767px){
+
+.kayan-banners.py-10.overflow-hidden > div > div.grid > div:nth-last-child(1) {
+// margin-right: 50% !important;
+}
+
+.relative.px-10.py-10.container.mx-auto.craffo-components-statistics{
+margin: 0 !important;
+}
+#app > div.app-inner.flex.flex-col.min-h-full > div.kayan-banners.py-10.overflow-hidden{
+margin-top: 0 !important;
+padding-top: 0 !important;
+}
+.craffo-components-statistics > div{
+display: grid !important;
+grid-template-columns: auto auto auto !important;	
+width: 100% !important;
+gap:2rem !important;
+margin: auto !important;
+justify-content: center !important;
+}
+.mx-auto.craffo-components-statistics > div > div > div.mt-1{
+font-size: 2.2rem !important;	
+}
+#app > div.app-inner.flex.flex-col.min-h-full > div.relative.px-10.py-10.container.mx-auto.craffo-components-statistics > div > div> div.mt-1.text-lg{
+font-size: 1rem !important;
+}
+.custom-bar > div > div > salla-social-share > div > slot-fb > salla-button > button {
+background:  var(--color-primary)  !important ;
+color:  var(--color-background) !important ;
+}
+.kayan-features  > div > div.grid  > div:nth-child(3){
+margin-right: 50% !important;
+width: 100% !important;
+}
+footer > div > div > div > div.flex > salla-trust-badges , #contact-slot a{
+justify-content: center !important;
+margin: auto !important;
+text-align: center !important;
+}
+
+}
+
+@media (min-width: 767px){
+#app > div.app-inner.flex.flex-col.min-h-full > div.relative.px-10.py-10.container.mx-auto.craffo-components-statistics{
+margin: 11rem auto 1rem auto !important;
+}
+.app-inner.flex.flex-col.min-h-full > div.navbar.invisible{
+margin: 2rem auto !important;
+}
+
+}
