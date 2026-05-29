@@ -23,6 +23,9 @@ object-fit: cover !important;
 footer  .kayan-copyright {
 display: none !important;
 }
+#app > div.app-inner.flex.flex-col.min-h-full > section{
+margin-top: 5rem !important;
+}
 
 /* // nav   */
 @media (max-width: 768px){
@@ -33,9 +36,7 @@ left: 37%;
 width: 23%;
 top: 16% !important;
 }
-#app > div.app-inner.flex.flex-col.min-h-full > section{
-margin-top: 5rem !important;
-}
+
 .kayan-header  > div > div > div.flex-1 > div.bars{
 position: absolute !important;
 left: 14% !important;
