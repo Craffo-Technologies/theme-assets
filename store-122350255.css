@@ -181,7 +181,7 @@
 /* *************************السجل التجاري **************** */
 
 #app > footer > div.store-footer__inner.notah-store-footer__inner > div > div:nth-child(1)::after {
-    content: "رقم السجل: 7050796270";
+    content: " السجل التجاري 7050796270";
     display: flex !important;
     align-items: center !important;
     background-image: url("https://asas-tools.com/u/uploads/sara_craffo/4__1_-removebg-preview.png") !important;
