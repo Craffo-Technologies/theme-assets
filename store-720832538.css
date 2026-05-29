@@ -19,3 +19,37 @@ custom-salla-product-card > div > div.overflow-hidden.relative > a  > img{
 aspect-ratio: 12/18 !important;
 object-fit: cover !important;
 }
+
+footer  .kayan-copyright {
+display: none !important;
+}
+
+/* // nav   */
+@media (max-width: 768px){
+
+.kayan-header > div > div > div.flex-1 > div.w-24 > a{
+position: absolute;
+left: 37%;
+width: 23%;
+top: 16% !important;
+}
+#app > div.app-inner.flex.flex-col.min-h-full > section{
+margin-top: 5rem !important;
+}
+.kayan-header  > div > div > div.flex-1 > div.bars{
+position: absolute !important;
+left: 14% !important;
+}
+.kayan-header  > div > div > div.flex-1 {
+display: flex !important;
+}
+.kayan-header  > div > div > div.flex-1 .sicon-search {
+position: absolute !important;
+right: 4% !important;
+}
+.kayan-header > div > div > div.flex-1.justify-end.items-center> salla-cart-summary{
+position: absolute !important;
+right: 12% !important;	
+}
+}
+
