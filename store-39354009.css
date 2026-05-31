@@ -127,10 +127,6 @@ max-width: 4rem !important;
 /* ***** */
 
 @media (max-width: 767px){
-
-.kayan-banners.py-10.overflow-hidden > div > div.grid > div:nth-last-child(1) {
-margin-right: 50% !important;
-}
 .relative.px-10.py-10.container.mx-auto.craffo-components-statistics{
 margin: 0 !important;
 }
