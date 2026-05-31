@@ -1,14 +1,14 @@
 /* https://salla.sa/ghazenh */
 
- .sand-collections.py-16 > div > div.grid.grid-cols-1   > div > div.p-4 > div > a {
-	width: 30% !important;
-	max-width: 30% !important;
-	margin-left: auto !important;
+.sand-collections.py-16 > div > div.grid.grid-cols-1   > div > div.p-4 > div > a {
+width: 40% !important;
+max-width: 40% !important;
+margin-left: auto !important;
 }
 
 @media (max-width: 768px){
 #mainnav > div > div.top-navbar.sand-top-navbar.w-full > div > div > div  > a > img{
-	margin-left: 3rem !important;
+margin-left: 3rem !important;
 }
 
 }
