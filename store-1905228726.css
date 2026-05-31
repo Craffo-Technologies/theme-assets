@@ -5,7 +5,9 @@
 	#main-content > section.abayat-banner-with-text.relative.flex.items-center.justify-center.overflow-hidden.block.block > div.relative.z-10.text-center.text-white.px-6.max-w-3xl > p{
 	padding-bottom: 2rem !important;
 }
-
+.s-products-slider-wrapper .s-product-card-add-to-cart-mobile {
+  padding:  1rem !important;
+}
 }
 
 	.abayat-store-header .navbar-brand img{
