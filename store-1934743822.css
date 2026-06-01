@@ -1,0 +1,9 @@
+.index .kayan-header
+{
+	height: auto !important;
+}
+
+
+.kayan-header.overflow-hidden.w-full.h-full > div > div > div.flex-1.items-center.flex.gap-4.overflow-hidden > div.w-24{
+	display: none !important;
+}
