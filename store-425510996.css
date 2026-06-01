@@ -1,5 +1,8 @@
 /* https://s.salla.sa/products/487260163 */
 
- .s-slider-block__title >  .s-slider-block__title-right  h2 , .part-reviews h2 , section h2 ,  .part-features   div  h3 , .part-features {
+ .s-slider-block__title >  .s-slider-block__title-right  h2 , .part-reviews h2 , section h2 ,  .part-features   div  h3 , .part-features , .part-main-content.main-content  h1 , .part-main-content.main-content  ,  .part-main-content.main-content p ,  .part-main-content.main-content a ,  .part-main-content.main-content span , .part-main-content.main-content .part-price h2 , .part-main-content.main-content .part-price , .part-main-content.main-content  > div.part-price  > div.gap-4.flex {
  	color: var(--color-footer-text) !important;
+ }
+ .part-main-content.main-content  > div.mb-4  ,  .part-main-content.main-content .flex  salla-button  button span , .part-main-content.main-content > form > section.sticky-product-bar,  .part-main-content form  .sticky-product-bar    salla-add-product-button   salla-button  button ,  .part-main-content.main-content  form  .sticky-product-bar salla-add-product-button  salla-button  button span ,  .part-main-content.main-content  > form > section.flex  > div , .part-main-content.main-content form  section.flex  div label ,  .part-main-content.main-content > form > section.flex.bg-white  div , .part-main-content.main-content  form > section.flex .flex.whitespace-nowrap   div  h2  {
+ 	color: black !important;
  }
