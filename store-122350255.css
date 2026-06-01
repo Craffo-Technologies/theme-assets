@@ -203,5 +203,7 @@
  
 /* ************************ */
 
-
+#app > footer > div.store-footer__inner.notah-store-footer__inner > div > div > div.flex.flex-col.gap-4{
+	display:none !important;
+}
 
