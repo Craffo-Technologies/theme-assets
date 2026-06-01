@@ -9,6 +9,6 @@ color: black !important;
 fill: black !important;
 }
 .part-main-content.main-content  > form > section.sticky-product-bar.bg-white  > salla-add-product-button > div > salla-button > button{
-border-color: var(--color-primary) !important;
-// color: var(--color-primary)  !important;
+border-color: black !important;
+ 
 }
