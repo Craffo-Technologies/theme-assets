@@ -7,3 +7,18 @@
 .kayan-header.overflow-hidden.w-full.h-full > div > div > div.flex-1.items-center.flex.gap-4.overflow-hidden > div.w-24{
 	display: none !important;
 }
+
+.s-product-options-grid-mode input:checked+div{
+	background-color: #000 !important;
+	color: #fff !important;
+}
+
+.s-product-options-grid-mode-span{
+	background-color: #F7F5F2  !important;
+	border-color: #000 !important;
+}
+
+
+.s-product-options-wrapper{
+	background-color: transparent !important;
+}
