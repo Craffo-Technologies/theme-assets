@@ -56,3 +56,12 @@ right: 12% !important;
 }
 }
 
+/* ** */
+
+custom-salla-product-card salla-add-product-button  salla-button button , .flex-col .kayan-text.kayan-text-1 {
+display: none !important;
+}
+.app-inner .kayan-banners {
+margin-top: 0 !important;
+padding-top: 0 !important;
+}
