@@ -1,4 +1,21 @@
 /* https://khslahstore.com/ar */
 
+.sand-main-content{
+display: flex !important;
+flex-direction: column !important;
+}
+.sand-main-content   form{
+display: flex !important;
+flex-direction: column !important;
+order: 2 !important;
+}
+.sand-main-content .product__description{
+display: flex !important;
+order: 1 !important;
+}
+#mainnav > div > div.top-navbar.sand-top-navbar.w-full > div > div > div  > a > img{
+	width: 7rem !important;
+	max-width: 7rem !important;
+}
 
  
