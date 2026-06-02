@@ -202,8 +202,7 @@
 }
  
 /* ************************ */
-
-#app > footer > div.store-footer__inner.notah-store-footer__inner > div > div > div.flex.flex-col.gap-4{
-	display:none !important;
+ .store-footer__inner.notah-store-footer__inner > div > div > div.flex.flex-col.gap-4 و footer  .store-footer__inner.notah-store-footer__inner > div > div  > div.flex.flex-col.gap-4 > salla-trust-badges{
+	display: none !important;
 }
 
