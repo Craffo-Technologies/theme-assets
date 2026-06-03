@@ -69,3 +69,10 @@ padding-top: 0 !important;
 custom-salla-product-card > div > div.px-6.py-2.text-center > div{
 display: none !important;
 }
+
+.kayan-text {
+display: flex !important;
+}
+.kayan-text  div ul li {
+font-size: 0.8rem !important;
+}
