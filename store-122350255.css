@@ -202,7 +202,10 @@
 }
  
 /* ************************ */
- .store-footer__inner.notah-store-footer__inner > div > div > div.flex.flex-col.gap-4 و footer  .store-footer__inner.notah-store-footer__inner > div > div  > div.flex.flex-col.gap-4 > salla-trust-badges{
+ .store-footer__inner.notah-store-footer__inner > div > div > div.flex.flex-col.gap-4 , footer  .store-footer__inner.notah-store-footer__inner > div > div  > div.flex.flex-col.gap-4 > salla-trust-badges{
 	display: none !important;
 }
 
+ .store-footer__inner.notah-store-footer__inner > div > div  > div  > salla-trust-badges {
+	display: none !important;
+}
