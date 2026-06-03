@@ -1,210 +1,192 @@
 /* https://stor-amdi.com/ */
 
+
+
+.s-trust-badges-label, .s-trust-badges-number {
+color: var(--color-footer-text) !important;
+fill: var(--color-footer-text) !important ;
+}
+
+
 #main-content > section.notah-video.relative > div.relative.container.mx-auto.px-4.h-full.flex.flex-col.justify-center.items-center.text-center.z-10 > a{
-  display:none !important ;
+display:none !important ;
 }
 .s-product-card-entry .s-product-card-image .s-product-card-wishlist-btn button{
-	display: none !important;
+display: none !important;
 }
 
 
 .s-menu-footer-list {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  gap: 1rem !important;
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+list-style: none;
+padding: 0;
+margin: 0;
+gap: 1rem !important;
 }
 .notah-store-footer .notah-store-footer__inner h3{
-	text-align: center !important;
+text-align: center !important;
 }
 
 .s-menu-footer-item {
-  display: block;
-  position: relative;
-  padding-right: 0.5rem;
-  text-decoration: none;
-  font-size: 0.875rem;
-  line-height: 1;
-  color: inherit;
-  margin-bottom: 0;
-    white-space: nowrap !important;
-    display: flex;
-    align-items: center;
+display: block;
+position: relative;
+padding-right: 0.5rem;
+text-decoration: none;
+font-size: 0.875rem;
+line-height: 1;
+color: inherit;
+margin-bottom: 0;
+white-space: nowrap !important;
+display: flex;
+align-items: center;
 }
 
 .s-menu-footer-item::before {
-	display: inline-block;
-  content: "•";
-  position: absolute;
-  right: 0;
-  top: 0;
-  color: #e3342f;
-  font-weight: bold;
-  font-size: 1rem;
+display: inline-block;
+content: "•";
+position: absolute;
+right: 0;
+top: 0;
+color: #e3342f;
+font-weight: bold;
+font-size: 1rem;
 }
 
 .s-menu-footer-list {
-  direction: rtl;
+direction: rtl;
 }
 
 @media (min-width: 640px) {
-    .s-menu-footer-list {
-        grid-template-columns: 1fr;
-    }
+.s-menu-footer-list {
+grid-template-columns: 1fr;
+}
 }
 
 .s-contacts-list {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  gap: 0.75rem;
-  direction: rtl;
-      flex-direction: row !important;
-          padding-right: 1rem !important;
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+justify-content: center;
+gap: 0.75rem;
+direction: rtl;
+flex-direction: row !important;
+padding-right: 1rem !important;
 }
 
 .s-contacts-item {
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-  text-decoration: none;
-    padding: 0.2rem;
-  border: solid 1px #e3342f;
-  transition: all 0.2s ease;
-      gap: 0.1rem;
-      
+display: flex;
+align-items: center;
+gap: 0.5rem;
+text-decoration: none;
+padding: 0.2rem;
+border: solid 1px #e3342f;
+transition: all 0.2s ease;
+gap: 0.1rem;
+
 }
 
 .s-contacts-item:hover {
-  background-color: #e0e0e0;
+background-color: #e0e0e0;
 }
 
 .s-contacts-icon {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-shrink: 0;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-shrink: 0;
 }
 
 .s-contacts-icon {
-  width: 1.5rem;
-  height: 1.5rem;
-  fill: currentColor;
+width: 1.5rem;
+height: 1.5rem;
+fill: currentColor;
 }
 
 .unicode {
-  display: none;
+display: none;
 }
 
 .s-contacts-item::after {
-  font-size: 0.875rem;
+font-size: 0.875rem;
 }
 
 .s-contacts-item[href^="https://wa.me/"]::after {
-  content: "واتساب";
-  color: black !important;
+content: "واتساب";
+color: black !important;
 }
 
 .s-contacts-item[href^="tel:"]::after {
-  content: "جوال";
-  color: black !important;
+content: "جوال";
+color: black !important;
 }
 
 .s-contacts-title {
-  margin-bottom: 1rem;
-  font-size: 1.125rem;
-  font-weight: 600;
-  text-align: center;
+margin-bottom: 1rem;
+font-size: 1.125rem;
+font-weight: 600;
+text-align: center;
 }
 
 #contact-slot {
-  display: contents;
+display: contents;
 }
 
 
 .s-trust-badges-wrapper {
-	display: none !important;
+display: none !important;
 }
 
 .notah-store-footer .container >div:nth-child(1) {
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+text-align: center;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
 }
 
 .notah-store-footer .container >div:nth-child(1) .navbar-brand {
-  display: inline-block;
-  margin-left: auto;
-  margin-right: auto;
+display: inline-block;
+margin-left: auto;
+margin-right: auto;
 }
 .notah-store-footer .container >div:nth-child(1).navbar-brand img {
-  margin: 0 auto;
+margin: 0 auto ;
 }
 
 .notah-store-footer .container >div:nth-child(1) .max-w-sm {
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 100%;
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+max-width: 100%;
 }
 
 .notah-store-footer .container >div:nth-child(1) .s-social-list {
-  justify-content: center;
-  display: flex;
+justify-content: center;
+display: flex;
 }
 
 .notah-store-footer .container >div:nth-child(1) .s-trust-badges-wrapper {
-  justify-content: center;
-  display: flex;
-  text-align: center;
+justify-content: center;
+display: flex;
+text-align: center;
 }
 
 .notah-store-footer .container >div:nth-child(1) .flex-col {
-  align-items: center;
+align-items: center;
 }
 
 
 .notah-video #videoControl {
-    display: none !important;
+display: none !important;
 }
 
 
 
 .s-trust-badges-label, .s-trust-badges-number {
-    color: var(--color-footer-text) !important;
+color: var(--color-footer-text) !important;
 }
 
 
-/* *************************السجل التجاري **************** */
 
-/* #app > footer > div.store-footer__inner.notah-store-footer__inner > div > div:nth-child(1)::after {
-    content: "السجل التجاري 7054408922";
-    display: flex !important;
-    align-items: center !important;
-    background-image: url("https://asas-tools.com/u/uploads/sara_craffo/4__1_-removebg-preview.png") !important;
-    background-size: contain !important;
-    background-repeat: no-repeat !important;
-    background-position: right center !important;
-    padding-right: 55px !important;
-    min-height: 45px !important;
-    margin-top: 5px !important;
-    color: black !important;
-    font-size: inherit;
-    font-family: inherit;
-    line-height: 1.5;
-    text-align: right;
-    direction: rtl;
-    max-width: 150px !important; 
-    word-break: break-word !important;
-} */
- 
-/* ************************ */
- /* .store-footer__inner.notah-store-footer__inner > div > div > div.flex.flex-col.gap-4 , footer  .store-footer__inner.notah-store-footer__inner > div > div  > div.flex.flex-col.gap-4 > salla-trust-badges{
-	display: none !important;
-} */
 
