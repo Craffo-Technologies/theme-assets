@@ -175,12 +175,14 @@
 
 
 
-
+.s-trust-badges-label, .s-trust-badges-number {
+    color: var(--color-footer-text) !important;
+}
 
 
 /* *************************السجل التجاري **************** */
 
-#app > footer > div.store-footer__inner.notah-store-footer__inner > div > div:nth-child(1)::after {
+/* #app > footer > div.store-footer__inner.notah-store-footer__inner > div > div:nth-child(1)::after {
     content: "السجل التجاري 7054408922";
     display: flex !important;
     align-items: center !important;
@@ -199,13 +201,10 @@
     direction: rtl;
     max-width: 150px !important; 
     word-break: break-word !important;
-}
+} */
  
 /* ************************ */
- .store-footer__inner.notah-store-footer__inner > div > div > div.flex.flex-col.gap-4 , footer  .store-footer__inner.notah-store-footer__inner > div > div  > div.flex.flex-col.gap-4 > salla-trust-badges{
+ /* .store-footer__inner.notah-store-footer__inner > div > div > div.flex.flex-col.gap-4 , footer  .store-footer__inner.notah-store-footer__inner > div > div  > div.flex.flex-col.gap-4 > salla-trust-badges{
 	display: none !important;
-}
+} */
 
- .store-footer__inner.notah-store-footer__inner > div > div  > div  > salla-trust-badges {
-	display: none !important;
-}
