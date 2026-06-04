@@ -76,3 +76,8 @@ display: flex !important;
 .kayan-text  div ul li {
 font-size: 0.8rem !important;
 }
+
+.app-inner > div.kayan-banners  > div > div.flex {
+padding:  0 !important;
+margin: 0 !important;
+}
