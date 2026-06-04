@@ -76,3 +76,18 @@ form.form.product-form .bg-white{
 	background-color:  #F7F5F2  !important;
 	border: 1px solid #000 !important;
 }
+
+
+/* *** */
+
+
+.s-product-card-content > div.s-product-card-add-to-cart-mobile.gap-2 > salla-add-product-button > div > salla-button > button{
+margin-top: auto !important;
+}
+.s-product-card-entry .s-product-card-content{
+padding-bottom: 0 !important;
+margin-bottom: 0 !important ;
+}
+.s-product-card-content  .s-product-card-content-sub  .s-product-card-rating{
+display: none !important;	
+}
