@@ -84,3 +84,9 @@ margin: 0 !important;
 section.kayan-text.kayan-text-1.h-12.w-full.flex.gap-10.justify-start.items-center.bg-green-300.s-block.s-block--marquee {
 margin-top:0 !important;
 }
+@media (max-width: 768px){
+.kayan-text.kayan-text-1{
+  margin-top:0 !important;
+  padding-top:0 !important;
+}
+}
