@@ -1,0 +1,45 @@
+
+form.form.product-form .bg-white{
+	background-color: transparent !important;
+}
+.s-product-options-wrapper {
+		background-color:  transparent  !important;
+}
+
+.s-product-options-grid-mode-span{
+	background-color: transparent  !important;
+	border-color: #358C9c !important;
+}
+
+
+.s-product-options-grid-mode input:checked+div{
+	background-color: #358C9c !important;
+	color: #fff !important;
+}
+
+.s-product-options-option-error .s-product-options-option-label{
+	color: #358C9c !important;
+}
+
+
+.index .kayan-header
+{
+	height: auto !important;
+}
+
+
+.kayan-header.overflow-hidden.w-full.h-full > div > div > div.flex-1.items-center.flex.gap-4.overflow-hidden > div.w-24{
+	display: none !important;
+}
+.kayan-features.kayan-features-4.px-10.py-10.border-y-2.border-black.overflow-hidden.block{
+	border-color: #358C9c !important ;
+}
+
+@media(max-width: 768px){
+	  #app > div.app-inner.flex.flex-col.min-h-full > footer > div > div.justify-center.items-center.w-full > div.border-gray-300.pb-8.flex.flex-col.gap-4> div.flex.justify-center.items-center,#app > div.app-inner.flex.flex-col.min-h-full > footer > div > div.justify-center.items-center.w-full > div.border-gray-300.pb-8.flex.flex-col.gap-4> div.flex.justify-center.items-center p{
+text-align: center !important;
+}
+.s-trust-badges-wrapper{
+	justify-content: center !important;
+}
+}
