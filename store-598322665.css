@@ -1,0 +1,26 @@
+ /* https://meemhaasa.com/ */
+ 
+.app-inner .custom-bar ,  .main-content.w-full > form > salla-product-options , .main-content > form > salla-product-options > salla-conditional-fields > div  > div > div > div > label  > div , .app-inner  > div.container > div > div , .content--single-page{
+background: var(--color-background) !important ;
+color: var(--color-primary) !important ;
+}
+.s-product-options-grid-mode input:checked + div{
+color: var(--color-background)  !important;
+background: var(--color-primary) !important;
+}
+.app-inner .custom-bar h3 {
+color: var(--color-primary) !important ;
+}
+.s-social-share-wrapper .s-social-share-btn button{
+color: var(--color-background) !important;
+background:  var(--color-primary) !important;
+}
+custom-salla-product-card  a  img {
+aspect-ratio: 12/18 !important;
+object-fit: cover !important;
+}
+footer  .kayan-copyright {
+display: none !important;
+}
+
+ 
