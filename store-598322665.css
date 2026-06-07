@@ -1,5 +1,7 @@
  /* https://meemhaasa.com/ */
  
+/* ////////////// */
+
 .app-inner .custom-bar ,  .main-content.w-full > form > salla-product-options , .main-content > form > salla-product-options > salla-conditional-fields > div  > div > div > div > label  > div , .app-inner  > div.container > div > div , .content--single-page{
 background: var(--color-background) !important ;
 color: var(--color-primary) !important ;
@@ -19,8 +21,6 @@ custom-salla-product-card  a  img {
 aspect-ratio: 12/18 !important;
 object-fit: cover !important;
 }
-footer  .kayan-copyright {
+footer  .kayan-copyright , #contact-slot:nth-child(2) > a{
 display: none !important;
 }
-
- 
