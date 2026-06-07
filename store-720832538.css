@@ -40,7 +40,7 @@ display: none !important;
 @media (max-width: 768px){
 
 #app > div.app-inner.flex.flex-col.min-h-full > section{
-margin-top: 5rem !important;
+/* margin-top: 5rem !important; */
 }
 
 .kayan-header > div > div > div.flex-1 > div.w-24 > a{
