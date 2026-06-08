@@ -4,7 +4,8 @@
 
 /* ////////////// */
 
-footer  .kayan-copyright , #contact-slot:nth-child(2) > a ,  
+.s-trust-badges-wrapper
+ , footer  .kayan-copyright , #contact-slot:nth-child(2) > a ,  
 salla-add-product-button > div > salla-button > button , 
 footer > div > div  > div  > div.flex > salla-trust-badges , 
 footer salla-trust-badges ,  footer > div > div > div > div.flex > salla-trust-badges, footer salla-trust-badges {
