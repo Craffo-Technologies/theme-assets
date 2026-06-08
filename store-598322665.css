@@ -4,6 +4,13 @@
 
 /* ////////////// */
 
+footer  .kayan-copyright , #contact-slot:nth-child(2) > a ,  
+salla-add-product-button > div > salla-button > button , 
+footer > div > div  > div  > div.flex > salla-trust-badges , 
+footer salla-trust-badges ,  footer > div > div > div > div.flex > salla-trust-badges, footer salla-trust-badges {
+display: none !important;
+}
+
 .app-inner .custom-bar ,  .main-content.w-full > form > salla-product-options , .main-content > form > salla-product-options > salla-conditional-fields > div  > div > div > div > label  > div , .app-inner  > div.container > div > div , .content--single-page{
 background: var(--color-background) !important ;
 color: var(--color-primary) !important ;
@@ -24,6 +31,4 @@ aspect-ratio: 12/18 !important;
 object-fit: cover !important;
 }
 
-footer  .kayan-copyright , #contact-slot:nth-child(2) > a ,  salla-add-product-button > div > salla-button > button ,  footer > div > div  > div  > div.flex > salla-trust-badges , footer salla-trust-badges  {
-display: none !important;
-}
+
