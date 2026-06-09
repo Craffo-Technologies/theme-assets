@@ -5,7 +5,7 @@
   aspect-ratio: 10 / 16 !important;
 }
 
-.kayan-copyright {
+.kayan-copyright , salla-trust-badges , footer > div > div  > div  > div.flex.flex-col.gap-4 > salla-trust-badges {
   display: none !important;
 }
 
