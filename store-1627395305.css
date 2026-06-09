@@ -1,10 +1,10 @@
 /*  dar fawzana */
 
 .s-block--tabs-produtcs .tab-trigger {
-    color: rgb(104 59 95) !important;
- }
-.abayat-size-guide-advanced .rounded-lg .size-guide-table-advanced  > div > table > tbody > tr  > td{
-    color:#cab18d !important;
+color: rgb(104 59 95) !important;
+}
+.abayat-size-guide-advanced .rounded-lg .size-guide-table-advanced  > div > table > tbody > tr  > td  , #height-help-advanced-6 {
+color:#cab18d !important;
 }
 .s-product-card-content .s-product-card-content-main  h3  a {
 height: 3rem !important;
