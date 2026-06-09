@@ -32,7 +32,9 @@ width: 40rem !important;
 margin: auto !important;
 } */
 
-
+.abayat-slider-categories a > div.w-full.h-full.relative.group > div {
+  padding:1rem !important;
+}
 /* ***** */
 
 #main-content > div > div > salla-search > div > div >  .s-search-input-wrapper > input , .s-product-card-image > salla-button  button , .s-comments.s-comments-product , .s-slider-block__title > div > div > button, .abayat-main-content.main-content > form > section , salla-product-options , .abayat-main-content  > div.mb-4.flex  ,  .s-product-card-content , .s-product-card-content > div {
