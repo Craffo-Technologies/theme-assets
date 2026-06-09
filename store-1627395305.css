@@ -25,9 +25,10 @@ font-size: 12px !important;
 line-height: 17px !important;
 }
  .abayat-photo-text  > div > div{
-  max-width:28rem !important ;
-  width: 28rem !important ;
-  margin:auto !important ;
+    max-width: 40rem !important;
+    height: 30rem !important;
+    width: 40rem !important;
+    margin: auto !important;
 }
 
 
