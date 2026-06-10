@@ -82,6 +82,250 @@ margin: auto !important;
 }
 /* ****** */
 
+/* **** */
+
+
+
+/* تحديد النص */
+::selection {
+background: #6a3b5f;
+color: #cab18d;
+}
+/* Scrollbar */
+::-webkit-scrollbar {
+width: 6px;
+}
+::-webkit-scrollbar-track {
+background: #683B5F;
+}
+::-webkit-scrollbar-thumb {
+background: #cab18d;
+border-radius: 44px;
+}
+::-webkit-scrollbar-thumb:hover {
+background: #cab18d;
+}
+/* Firefox */
+html {
+scrollbar-color: #bd9e72 #43233d;
+}
+
+/* **** */
+
+.s-product-options-grid-mode input:checked+div{
+background: #46283b !important;
+color: #cab18d !important ;
+fill: #cab18d !important ;
+}
+.s-block--tabs-produtcs .tab-trigger , .s-slider-block__title-right{
+color: #683B5F !important;
+fill: #683B5F !important;
+}
+.store-footer__inner  > div > div  > a > h2 , .store-footer__inner  > div > div  > div.flex > salla-trust-badges  div{
+color: #cab18d !important ;
+fill: #cab18d !important ;
+}
+#featured-products-style2-7, section.s-block.s-block-tabs.s-block--tabs-produtcs {
+background: white !important;
+}
+
+/* **** */
+
+
+nav {
+padding: 1rem !important;
+}
+nav .main-menu li a::before {
+content: '';
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+border-top: 2px solid #bd9e72;
+border-bottom: 2px solid #bd9e72;
+transform: scaleY(1.5);
+opacity: 0;
+transition: 0.3s;
+}
+nav .main-menu li a::after {
+content: '';
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background-color: #ffffff;
+transform: scale(0);
+opacity: 0;
+transition: 0.3s;
+z-index: -1;
+border-radius: 6px;
+}
+nav .main-menu li a:hover {
+color: #6a3b5f;
+}
+nav .main-menu li a:hover::before {
+opacity: 1;
+transform: scaleY(1);
+}
+nav .main-menu li a:hover::after {
+transform: scale(1);
+opacity: 1;
+}
+
+/* *** */
+@media (max-width: 768px){
+
+.mobile-menu {
+background: #683B5F !important ;
+color: #cab18d !important;
+}
+.mobile-menu ul li a{
+color: #cab18d !important;	
+}
+}
+/* **** */
+
+.abayat-banner-with-text  {
+padding: 2rem !important;
+}
+
+/*  ****** */
+
+
+custom-salla-product-card{
+position: relative;
+overflow: hidden;
+border-radius: 15px !important;
+transition: all 0.4s ease;
+padding: 1rem !important;
+}
+
+custom-salla-product-card::before,
+custom-salla-product-card::after {
+content: "";
+position: absolute;
+width: 20px;
+height: 20px;
+border: 0 solid transparent;
+transition: all 0.4s ease;
+pointer-events: none;
+z-index: 2;
+}
+
+custom-salla-product-card::before {
+top: 0px;
+left: 0px;
+border-top: 2px solid #bd9e72;
+border-left: 2px solid #bd9e72;
+}
+
+custom-salla-product-card::after {
+bottom: 0px;
+right: 0px;
+border-bottom: 2px solid #6a3b5f;
+border-right: 2px solid #6a3b5f;
+}
+
+custom-salla-product-card:hover::before,
+custom-salla-product-card:hover::after {
+width: calc(100% - 10px);
+height: calc(100% - 10px);
+}
+
+custom-salla-product-card:hover {
+transform: scale(1.03);
+box-shadow: 0 8px 25px rgba(106, 59, 95, 0.25);
+}
+
+/* *** */
+
+
+/* ========================= */
+/* Instagram Feed Hover */
+/* ========================= */
+
+.abayat-instagram-feed > div.grid.grid-cols-2.gap-1 > a {
+  position: relative;
+  overflow: hidden;
+  display: block;
+}
+
+.abayat-instagram-feed > div.grid.grid-cols-2.gap-1 > a > img {
+  transition: transform 0.7s ease;
+}
+
+.abayat-instagram-feed > div.grid.grid-cols-2.gap-1 > a::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -150%;
+  width: 60%;
+  height: 100%;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(202, 177, 141, 0.35),
+    transparent
+  );
+  transform: skewX(-25deg);
+  transition: 0.9s ease;
+  z-index: 2;
+  pointer-events: none;
+}
+
+.abayat-instagram-feed > div.grid.grid-cols-2.gap-1 > a:hover::before {
+  left: 180%;
+}
+
+.abayat-instagram-feed > div.grid.grid-cols-2.gap-1 > a:hover > img {
+  transform: scale(1.05);
+}
+
+
+/* ========================= */
+/* Countdown Button Hover */
+/* ========================= */
+
+.abayat-countdown.py-16 > div.container.mx-auto > div > a {
+  position: relative;
+  overflow: hidden;
+  transition: all 0.6s ease;
+}
+
+.abayat-countdown.py-16 > div.container.mx-auto > div > a::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -150%;
+  width: 60%;
+  height: 100%;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(202, 177, 141, 0.35),
+    transparent
+  );
+  transform: skewX(-25deg);
+  transition: 0.7s ease;
+  pointer-events: none;
+}
+
+.abayat-countdown.py-16 > div.container.mx-auto > div > a:hover::before {
+  left: 180%;
+}
+
+.abayat-countdown.py-16 > div.container.mx-auto > div > a:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(106, 59, 95, 0.25);
+}
+
+/* **** */
+
+
+
+
 
 
 
