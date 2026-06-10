@@ -4,3 +4,7 @@
 	color: #B9884A !important;
 	fill: #B9884A !important;
 }
+.nav-mobile > div > a  > span  ,  .nav-mobile > div > a > span , .mm-spn.mm-spn--navbar.mm-spn--main:where([dir=rtl],[dir=rtl] *):after , .mm-spn.mm-spn--navbar {
+color: #b9884a !important;
+fill:  #b9884a !important;
+}
