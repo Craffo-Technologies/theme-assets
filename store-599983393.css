@@ -4,7 +4,32 @@
 	color: #B9884A !important;
 	fill: #B9884A !important;
 }
-.nav-mobile > div > a  > span  ,  .nav-mobile > div > a > span , .mm-spn.mm-spn--navbar.mm-spn--main:where([dir=rtl],[dir=rtl] *):after , .mm-spn.mm-spn--navbar {
+#more-content , .nav-mobile > div > a  > span  ,  .nav-mobile > div > a > span , .mm-spn.mm-spn--navbar.mm-spn--main:where([dir=rtl],[dir=rtl] *):after , .mm-spn.mm-spn--navbar {
 color: #b9884a !important;
 fill:  #b9884a !important;
+}
+
+/* **السجل التجاري* */
+#app > footer > div.store-footer__inner.notah-store-footer__inner > div::after {
+    content: " السجل التجاري 7054431023";
+    display: flex !important;
+    align-items: center !important;
+    /* // justify-content: center !important; */
+    /* // margin-right: auto !important; */
+    /* // margin-left: auto !important; */
+    background-image: url("https://asas-tools.com/u/uploads/sara_craffo/4__1_-removebg-preview.png") !important;
+    background-size: contain !important;
+    background-repeat: no-repeat !important;
+    background-position: right center !important;
+    padding-right: 55px !important;
+    min-height: 45px !important;
+    margin-top: 10px !important;
+    color: #b9884a !important;
+    font-size: inherit !important;
+    font-family: inherit !important ;
+    line-height: 1.3 !important ;
+    text-align: right !important ;
+    direction: rtl !important;
+    max-width: 150px !important;
+    word-break: break-word !important;
 }
