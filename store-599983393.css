@@ -4,7 +4,7 @@
 	color: #B9884A !important;
 	fill: #B9884A !important;
 }
-#more-content , .nav-mobile > div > a  > span  ,  .nav-mobile > div > a > span , .mm-spn.mm-spn--navbar.mm-spn--main:where([dir=rtl],[dir=rtl] *):after , .mm-spn.mm-spn--navbar {
+.s-slider-block__title .s-slider-block__title-right h2 , #more-content , .nav-mobile > div > a  > span  ,  .nav-mobile > div > a > span , .mm-spn.mm-spn--navbar.mm-spn--main:where([dir=rtl],[dir=rtl] *):after , .mm-spn.mm-spn--navbar {
 color: #b9884a !important;
 fill:  #b9884a !important;
 }
