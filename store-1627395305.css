@@ -1,5 +1,6 @@
 /*  dar fawzana */
 
+
 .s-block--tabs-produtcs .tab-trigger {
 color: rgb(104 59 95) !important;
 }
@@ -38,7 +39,7 @@ margin: auto !important;
 } */
 
 .abayat-slider-categories .abayat-categories-slide a >div >div {
-  padding: 2rem !important;
+  padding: 1rem !important;
 }
 
 /* ***** */
@@ -324,13 +325,16 @@ box-shadow: 0 8px 25px rgba(106, 59, 95, 0.25);
 /* **** */
 
 .abayat-photo-text > div > div {
-max-width: unset !important;
-width: unset !important;
+max-width: 90% !important;
+width: 90% !important;
 margin: auto !important;
+
 }
  .abayat-photo-text > div > div:nth-child(1)   {
-  width: 100% !important;
-  height: 100% !important;
+  width: 90% !important;
+  padding: 1rem !important;
+  margin: 1rem !important;
+  height: 90% !important;
   max-height: 100% !important;
   object-fit: cover !important;
   clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%) !important ;
@@ -339,10 +343,3 @@ margin: auto !important;
  .abayat-photo-text > div > div:nth-child(1):hover{
  	transform: scale(0.9) !important;
  }
-
-
-
-
-
-
-
