@@ -1,0 +1,5 @@
+/* https://siyadvisuals.com/ */
+
+#main-content > section > div.relative.container.mx-auto  > div > div > a.bg-transparent {
+display: none !important;	
+}
