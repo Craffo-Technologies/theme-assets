@@ -92,10 +92,7 @@ display: none !important ;
 width: 4rem !important;
 max-width: 4rem !important;
 }
-.craffo-components-statistics > div{
-display: grid !important;
-grid-template-columns: auto auto auto !important;	
-}
+
 .mx-auto.craffo-components-statistics > div > div > div.mt-1{
 font-size: 1.6rem !important;	
 }
