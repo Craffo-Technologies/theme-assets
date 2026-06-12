@@ -1,11 +1,5 @@
 /* https://hamataltayib.com/ */
 
-
-
-
-/* https://hamataltayib.com/ */
-
-
 #app > div.app-inner.flex.flex-col.min-h-full > div.kayan-banners.py-10.overflow-hidden  > div > div.grid > div:nth-child(3){
 margin-right: 50% !important;
 }
@@ -68,7 +62,6 @@ z-index: 1 !important;
 salla-products-list > div.s-products-list-wrapper.s-products-list-vertical-cards > custom-salla-product-card > div > div.overflow-hidden.relative > a.block.flex.w-full.h-full.justify-center.items-end.px-8.duration-700 > span{
 font-size: 0.6rem !important;
 }
-
 footer > div > div > div  > div  > a > img ,
 footer > div > div  > div  > div > ul > salla-social , footer > div > div  > div > div.flex  > p{
 text-align: center !important;
@@ -92,13 +85,12 @@ display: none !important ;
 width: 4rem !important;
 max-width: 4rem !important;
 }
-
-.mx-auto.craffo-components-statistics > div > div > div.mt-1{
-font-size: 1.6rem !important;	
+ 
+.craffo-components-statistics > div{
+display: unset !important;
+grid-template-columns: unset !important;	
 }
-#app > div.app-inner.flex.flex-col.min-h-full > div.relative.px-10.py-10.container.mx-auto.craffo-components-statistics > div > div> div.mt-1.text-lg{
-font-size: 0.8rem !important;
-}
+ 
 .custom-bar > div > div > salla-social-share > div > slot-fb > salla-button > button {
 background: var(--color-background)  !important ;
 color:  var(--color-primary) !important ;
