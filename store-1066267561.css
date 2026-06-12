@@ -68,6 +68,8 @@ text-align: center !important;
 margin: auto !important;
 }
 
+ 
+
 /* ***** */
 
 
@@ -85,12 +87,24 @@ display: none !important ;
 width: 4rem !important;
 max-width: 4rem !important;
 }
- 
 .craffo-components-statistics > div{
 display: unset !important;
-grid-template-columns: unset !important;	
+grid-template-columns: unset !important;
 }
- 
+.craffo-components-statistics > div>div{
+padding: 1.25rem !important;
+margin: 1.25rem !important;	
+}
+.kayan-categories {
+	margin-top: 0 !important;
+	padding-top: 0  !important;
+}
+.mx-auto.craffo-components-statistics > div > div > div.mt-1{
+font-size: 2.9rem !important;	
+}
+#app > div.app-inner.flex.flex-col.min-h-full > div.relative.px-10.py-10.container.mx-auto.craffo-components-statistics > div > div> div.mt-1.text-lg{
+font-size: 1.3rem  !important;
+}
 .custom-bar > div > div > salla-social-share > div > slot-fb > salla-button > button {
 background: var(--color-background)  !important ;
 color:  var(--color-primary) !important ;
@@ -108,3 +122,4 @@ margin: 2rem auto !important;
 }
 
 }
+
