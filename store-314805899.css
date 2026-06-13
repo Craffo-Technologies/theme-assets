@@ -1,3 +1,8 @@
+.part-main-content.main-content.top-24.w-full> div.mb-4.flex.justify-between.bg-white.rounded-md.px-4.py-2{
+    border: 1px solid #000 !important;
+    border-radius: 6px !important;
+}
+
 @media(max-width: 768px){
 .s-product-card-content-footer .s-button-element {
     white-space: nowrap !important;
