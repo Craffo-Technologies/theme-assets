@@ -1,6 +1,10 @@
 /* https://tabelive.com/ */
 
 
+.khayal-main-content .s-add-product-button-main salla-mini-checkout-widget {
+	display: none !important;
+}
+
 @media (max-width: 1024px) {
 	.khayal-categories-slider salla-slider,
 .khayal-categories-slider .swiper,
