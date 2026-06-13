@@ -1,4 +1,31 @@
 /* https://naturalsilksa.com/latest-products */
+#main-content > section.py-16.container > div > div > h2{
+	color: #B9884A !important;
+}
+
+@media (max-width: 768px) {
+    .notah-faq h2 {
+        font-size: 25px !important;
+    }
+
+    .notah-faq .notah-label h5,
+    .notah-faq .notah-label h5 button {
+        font-size: 16px !important;
+    }
+
+    .notah-faq .notah-contentBox > div {
+        font-size: 16px !important;
+    }
+}
+
+.notah_show_language_currency span {
+    display: none !important;
+}
+
+#product-filter ,.form-input{
+	color: #B9884A !important;
+	border-color: #B9884A !important;
+}
 
 #main-content > div > nav > salla-breadcrumb > ol > li , #page-main-title , #main-content > div > nav > salla-breadcrumb  .s-breadcrumb-arrow  svg {
 color: #B9884A !important;
