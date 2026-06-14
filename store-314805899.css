@@ -1,3 +1,5 @@
+/* https://aboabed.com/%D9%84%D9%8A%D8%AF-%D9%88%D9%84%D8%A7%D8%B9%D9%87-%D9%84%D9%8A%D9%84%D9%8A/p729115203 */
+
 .part-main-content.main-content.top-24.w-full> div.mb-4.flex.justify-between.bg-white.rounded-md.px-4.py-2{
     border: 1px solid #000 !important;
     border-radius: 6px !important;
@@ -73,3 +75,12 @@
 .s-product-card-entry .s-product-card-content-sub .s-product-card-price {
 	color: #e3230c !important;
 }
+
+
+
+/* **** */
+
+.part-main-content  > form > section {
+background: var(--color-background) !important;
+}
+
