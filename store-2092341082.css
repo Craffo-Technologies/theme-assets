@@ -1,0 +1,94 @@
+/* https://ghson-line.com/ */
+
+#app > footer > div > div *{
+margin: auto !important;
+text-align: center !important;
+align-items: center !important;
+justify-content: center !important;
+}
+#app > footer > div > div > div  > div > h3{
+margin-bottom: 0.8rem !important;
+}
+.s-contacts-list {
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+flex-wrap: nowrap;
+gap: 0.2rem;
+margin: 0.2rem auto !important;
+}
+.s-contacts-icon:where([dir="rtl"], [dir="rtl"] *) {
+margin-left: unset !important;
+}
+.s-contacts-item {
+display: flex;
+align-items: center;
+justify-content: center;
+background: #FFEDEC;
+border: 1px solid #E52091;
+border-radius: 0.2rem;
+padding: 0.2rem 0.5rem !important;
+transition: all 0.5s ease;
+text-decoration: none;
+gap: 0.2rem;
+white-space: nowrap;
+cursor: pointer;
+min-height: 0.9rem;
+}
+.s-contacts-item:hover {
+background: #E52091;
+border-color: #E52091;
+transform: translateY(-2px);
+box-shadow: 0 6px 12px rgba(229, 32, 145, 0.15);
+}
+.s-contacts-icon {
+display: flex;
+align-items: center;
+justify-content: center;
+width: 18px;
+height: 18px;
+}
+.s-contacts-icon svg {
+width: 15px;
+height: 15px;
+fill: #E52091;
+transition: .5s;
+}
+.s-contacts-item:hover .s-contacts-icon svg {
+fill: #fff;
+}
+.s-contacts-item span:not(.s-contacts-icon),
+.s-contacts-item s,
+.s-contacts-item .contact-value {
+display: none !important;
+}
+
+
+
+/* ////////////////////// */
+
+@media (max-width: 768px){
+#app > footer{
+	position: relative !important;
+}
+#app > footer > div > div > div:nth-child(1) > ul.flex.items-stretch   {
+position: absolute !important;
+bottom:  0 !important;
+}
+#app > footer > div > div > div:nth-child(1) > ul.flex.mb-2{
+position: absolute !important;
+bottom: 3.5rem !important;
+left: 41% !important;
+transform: translatX(-50%) !important;
+background: #FFEDEC;
+border-radius: 0.2rem;
+}
+#app > footer > div > div > div:nth-child(1) > ul.flex.mb-2 li a span{
+color: #E52091 !important;
+border: 1px solid #E52091;
+fill: #E52091 !important;
+padding: 0.4rem !important;
+border-radius: 0.2rem !important;
+}
+}
