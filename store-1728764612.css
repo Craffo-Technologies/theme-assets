@@ -1,0 +1,68 @@
+@media (min-width: 1024px) {
+  #mainnav,.main-nav-container .mobile-menu .main-menu{
+  	padding-bottom: unset !important;
+  	margin-bottom: unset !important;
+  }
+  #mainnav .grid {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    justify-content: space-between !important;
+    justify-content: center !important;
+
+  }
+  #mainnav .grid > div:nth-child(1) {
+    order: 3 !important; 
+    width: 100% !important;
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+  }
+
+
+  #mainnav custom-main-menu {
+    width: 100% !important;
+    display: flex !important;
+    flex: 1 1 auto !important;
+    justify-content: center !important;
+  }
+
+  #mainnav .grid > div:nth-child(3) {
+    
+   display: flex !important;
+     flex-wrap: wrap !important;
+     justify-content: space-between !important;
+  }
+  #mainnav .grid > div:nth-child(3) > :nth-child(1),
+  #mainnav .grid > div:nth-child(3) > :nth-child(2) {
+    order: 1 !important;
+  }
+  #mainnav .grid > div:nth-child(3) > :nth-child(3),
+  #mainnav .grid > div:nth-child(3) > :nth-child(4) {
+   order: 2 !important;
+  }
+  #mainnav .grid > div:nth-child(3) > :nth-child(1) {
+    position: absolute !important;
+    left: 90px !important;
+  }
+
+  #mainnav .grid > div:nth-child(3) > :nth-child(2) {
+    position: absolute !important;
+    left: 50px !important;
+  }
+  #mainnav .grid > div:nth-child(3) > :nth-child(3) {
+    position: absolute !important;
+    right: 50px !important;
+  }
+  #mainnav .grid > div:nth-child(3) > :nth-child(4) {
+    position: absolute !important;
+    right: 90px !important;
+  }
+     body .navbar-brand {
+        margin-top: 6px !important;
+      	
+      }
+        
+}
+
+.art-store-footer .copyright-text p, .copyright-text p a,span.text-sm.copyright-text{
+	display: none !important;
+}
