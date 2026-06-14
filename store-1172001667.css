@@ -1,3 +1,22 @@
+body .s-gifting-widget .s-list-tile-item-title h3 {
+    color: #4C3C2F !important;
+}
+
+
+body .s-gifting-widget .s-list-tile-item-subtitle {
+    color: #4C3C2F !important;
+}
+body .s-offer-wrapper{
+	background-color: transparent !important;
+}
+body .s-offer-wrapper h2,body .s-offer-wrapper p,body .s-offer-wrapper .s-offer-card *{
+	  color: #4C3C2F !important;
+}
+
+body .s-offer-wrapper .s-offer-card{
+	background-color: #FFCB66 !important ;
+}
+
 .cart .shadow-default.bg-white {
     color: #4c3c2f !important;
 }
