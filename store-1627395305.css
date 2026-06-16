@@ -330,7 +330,7 @@ width: 90% !important;
 margin: auto !important;
 
 }
-.abayat-photo-text > div > div:nth-child(1)   {
+/* .abayat-photo-text > div > div:nth-child(1)   {
 width: 90% !important;
 padding: 1rem !important;
 margin: 1rem !important;
@@ -342,4 +342,4 @@ transition: all 0.4s ease !important;
 }
 .abayat-photo-text > div > div:nth-child(1):hover{
 transform: scale(0.9) !important;
-}
+} */
