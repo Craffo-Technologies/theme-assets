@@ -1,0 +1,14 @@
+
+/* https://dogina.co/
+store-1303706028.css */
+
+
+
+.yasmeen-video::after ,.sicon-quote-open:before{
+display: none !important;
+}
+.s-product-card-image a img ,.s-product-card-image{
+aspect-ratio: 12/16 !important;
+object-fit: cover !important;
+}
+
