@@ -161,10 +161,33 @@ color: var(--color-footer-text) !important;
 display: none !important;
 }
 
+footer .s-contacts-list  div:nth-child(3){
+display: none !important;
+}
+
+/* **** */
+
+
 .notah-store-footer .notah-store-footer__inner salla-social .s-social-list .s-social-link a {
 color: black !important;
 fill: black !important;
+border: solid 1px #e3342f !important;
 }
 footer .s-contacts-list  div:nth-child(3){
 display: none !important;
 }
+@media (max-width: 768px){
+.notah-store-footer .notah-store-footer__inner{
+position: relative !important;
+}
+.notah-store-footer .notah-store-footer__inner salla-social .s-social-list .s-social-link a{
+position: absolute !important;
+left: 44% !important;
+bottom: 3% !important;
+border-radius: 0 !important;
+padding: 0.2rem 0.6rem !important;
+height: 1.9rem !important;
+}
+}
+
+/* **** */
