@@ -1,5 +1,6 @@
 /* https://siyadvisuals.com/ */
 
-#main-content > section > div.relative.container.mx-auto  > div > div > a.bg-transparent {
+#main-content > section > div.relative.container.mx-auto  > div > div > a.bg-transparent ,
+ footer .store-footer__inner > div > div > div.flex.flex-col.gap-4 > div.flex{
 display: none !important;	
 }
