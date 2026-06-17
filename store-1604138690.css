@@ -6,3 +6,6 @@ footer .s-contacts .s-contacts-list > div:nth-child(2){
 display: none !important;
 }
 
+footer .s-contacts .s-contacts-list > div:nth-child(2) a{
+display: none !important;
+}
