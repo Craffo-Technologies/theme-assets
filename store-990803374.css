@@ -1,7 +1,6 @@
 /* https://siyadvisuals.com/ */
 
-#main-content > section > div.relative.container.mx-auto  > div > div > a.bg-transparent ,
-footer .store-footer__inner > div > div > div.flex.flex-col.gap-4 > div.flex{
+footer .s-trust-badges-wrapper {
 display: none !important;	
 }
 salla-trust-badges.s-trust-badges-wrapper, salla-trust-badges.s-trust-badges-wrapper * {
@@ -10,7 +9,10 @@ display: none !important;
 .black-store-footer .black-store-footer__inner salla-social .s-social-list .s-social-link a:hover {
 background-color: #c5a059 !important;
 }
+.black-store-footer__inner > div > div  > h3 ,#app > div.app-inner.flex.flex-col.min-h-full > footer   h3{
+color: #c5a059 !important;
+}
 .black-store-footer .black-store-footer__inner salla-contacts .s-contacts-item .s-contacts-icon , .black-store-footer .black-store-footer__inner salla-contacts ,#contact-slot > a > span.unicode , .store-footer__inner.black-store-footer__inner > div > div  > salla-menu > div > div > a , .black-store-footer .black-store-footer__inner salla-social .s-social-list .s-social-link a{
-color:  #c5a059 !important;
-fill:  #c5a059 !important;
+color: var(--color-disprice-single-product) !important;
+fill: var(--color-disprice-single-product) !important;
 }
