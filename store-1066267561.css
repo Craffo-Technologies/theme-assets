@@ -26,7 +26,7 @@ gap: 1rem !important;
 grid-column: 1 / -1;
 }
 custom-salla-product-card > div > div.overflow-hidden.relative > a  > img , .s-products-list-vertical-cards > custom-salla-product-card > div > div.overflow-hidden.relative > a> img{
-aspect-ratio: 12/18 !important;
+aspect-ratio: 1/1 !important;
 object-fit: cover !important;
 }
 #comments-filter ,  salla-comments > div > div > div.s-comments-header.has-total > div , form > salla-product-options > salla-conditional-fields > div  > div > div > div > label  > div, .main-content  > form > salla-product-options{
@@ -56,9 +56,6 @@ border: none !important;
 background: var(--color-primary) !important;
 color: var(--color-background) !important;
 }
-.app-inner.flex.flex-col .navbar.invisible{
-z-index: 1 !important;
-}
 salla-products-list > div.s-products-list-wrapper.s-products-list-vertical-cards > custom-salla-product-card > div > div.overflow-hidden.relative > a.block.flex.w-full.h-full.justify-center.items-end.px-8.duration-700 > span{
 font-size: 0.6rem !important;
 }
@@ -68,7 +65,7 @@ text-align: center !important;
 margin: auto !important;
 }
 
- 
+
 
 /* ***** */
 
@@ -96,8 +93,8 @@ padding: 1.25rem !important;
 margin: 1.25rem !important;	
 }
 .kayan-categories {
-	margin-top: 0 !important;
-	padding-top: 0  !important;
+margin-top: 0 !important;
+padding-top: 0  !important;
 }
 .mx-auto.craffo-components-statistics > div > div > div.mt-1{
 font-size: 2.9rem !important;	
@@ -121,5 +118,21 @@ margin: 11rem auto 1rem auto !important;
 margin: 2rem auto !important;
 }
 
+}
+
+.app-inner .navbar, .app-inner.flex.flex-col .navbar.invisible , .kayan-header{
+z-index: 99 !important;
+background: #fcfaf7 !important;
+}
+@media (max-width: 768px){
+.app-inner.flex.flex-col .navbar.inv , .kayan-header {
+z-index: 99 !important;
+}
+
+}
+.kayan-card img {
+aspect-ratio: 1/1 !important;
+width: 100% !important;
+object-fit: cover !important;
 }
 
