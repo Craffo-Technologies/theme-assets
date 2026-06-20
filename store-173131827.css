@@ -1,5 +1,51 @@
 /* https://acc-awan.com/ */
+@media (max-width: 768px){
 
+  .kayan-banners .grid{
+    grid-template-columns: repeat(3, 1fr) !important;
+    gap: 8px !important;
+  }
+
+ 
+  .kayan-banners .group{
+    aspect-ratio: 1/1 !important;
+    border-radius: 5px !important;
+  }
+
+  .kayan-banners .group img{
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover !important;
+        aspect-ratio: 1/1 !important;
+         border-radius: 5px !important;
+  }
+
+
+  .kayan-banners .banner-label{
+    font-size: 14px !important;
+padding-bottom: 0px !important;
+padding-top: 0px !important;
+    bottom: 0px !important;
+    right: 50% !important;
+    transform: translateX(50%);
+    white-space: nowrap;
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: center;
+    background-color: transparent !important;
+  }
+
+  .kayan-banners .banner-label{
+    bottom: 0px !important;
+    padding-bottom: 0px !important;
+padding-top: 0px !important;
+  }
+   .kayan-banners{
+  	    padding-top: 1rem  !important;
+    padding-bottom: 1rem !important;
+  }
+}
 .kayan-promotion_title{
 top: 0.4rem !important;
 right: 0.1rem !important ;
