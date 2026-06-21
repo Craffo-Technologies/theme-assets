@@ -7,3 +7,23 @@ color: white !important;
 body  , section{
 background: #151126 !important;
 } 
+
+
+.nova-categories.block  h2,
+#main-content > section.py-8.container > div.text-center.max-w-2xl.mx-auto.mb-12 > h2,
+.nova-why-us span{
+	color: #9a83a5 !important;
+}
+
+
+.nova-video-text-photo a:nth-child(2){
+	box-shadow: var(--tw-ring-offset-shadow, 0 0 transparent), var(--tw-ring-shadow, 0 0 transparent), var(--tw-shadow);
+	    --tw-shadow: 0 0 20px hsla(0, 0%, 100%, .2);
+    --tw-shadow-colored: 0 0 20px var(--tw-shadow-color);
+}
+
+
+#main-content > section.s-block.s-block--slider-with-bg.s-block--full-bg > div.slider-bg > div > div > h3,
+#main-content > section.s-block.s-block--slider-with-bg.s-block--full-bg > div.slider-bg > div > div > p{
+		color: #9a83a5 !important;
+}
