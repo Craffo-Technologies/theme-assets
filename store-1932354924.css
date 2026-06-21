@@ -1,5 +1,7 @@
 /* store-1932354924.css  https://salla.sa/sont/#mobile-menu */
-
+.nova-store-footer .nova-copyright{
+	display: none !important;
+}
 .mm-ocd__content .mobile-menu {
 background: #151126 !important;
 color: white !important;
