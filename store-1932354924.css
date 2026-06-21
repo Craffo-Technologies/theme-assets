@@ -1,4 +1,27 @@
 /* store-1932354924.css  https://salla.sa/sont/#mobile-menu */
+
+.nova-main-content.main-content salla-installment > div
+{
+	background-color: #9a83a5 !important;
+	color: #fff !important;
+}
+
+.nova-main-content .s-add-product-button-main>salla-button button{
+	background-color: #9a83a5 !important;
+	    border-color: #9a83a5 !important;
+	    border-radius: unset !important;
+	   
+}
+
+.nova-main-content .s-add-product-button-main .s-add-product-button-mini-checkout{
+	background-color: #9a83a5 !important ;
+	 color: #fff !important;
+	     --salla-fast-checkout-button-border-radius: 0px !important;
+    padding-bottom: 0px !important;
+}
+.s-fast-checkout-button.outline,.s-add-product-button-mini-checkout-content,.s-fast-checkout-button{
+	color: #fff !important;
+}
 .nova-store-footer .nova-copyright{
 	display: none !important;
 }
