@@ -1,3 +1,7 @@
+
+.tala-hero-image.relative.h-screen.overflow-hidden.block.block{
+	height: 70vh !important;
+}
 .tala-card img{
 	height: unset !important;
 	aspect-ratio: 6/7 !important;
