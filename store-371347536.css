@@ -59,11 +59,15 @@ background-color: var(--color-breadcrumbs) !important;
 
 /* ***** */
 
- .main-content  > section > form > salla-product-options > salla-conditional-fields  , .s-product-options-wrapper
+.main-content  > section > form > salla-product-options > salla-conditional-fields  , .s-product-options-wrapper
 {
-	color: var(--color-footer-main) !important;
-	background-color: var(--color-breadcrumbs) !important;
+color: var(--color-footer-main) !important;
+background-color: var(--color-breadcrumbs) !important;
 }
 .main-content > section > form > salla-product-options > salla-conditional-fields > div {
-		background-color: var(--color-breadcrumbs) !important;
+background-color: var(--color-breadcrumbs) !important;
+}
+
+.app-inner > div.container > div > div{
+background: var(--background-color-theme);
 }
