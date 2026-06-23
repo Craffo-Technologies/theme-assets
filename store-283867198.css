@@ -1,0 +1,11 @@
+/* https://salla.sa/sh_pottery */
+
+@media (max-width: 768px){
+.lamera-full-video video, .lamera-full-video div.absolute.inset-0.opacity-50 , .lamera-full-video{
+height: 20rem !important;	
+}
+}
+/* // .lamera-full-video video, .lamera-full-video div.absolute.inset-0.opacity-50 , .lamera-full-video{
+// height: 20rem !important;
+// width: 44rem !important;
+// } */
