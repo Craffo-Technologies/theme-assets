@@ -94,7 +94,7 @@ color: #cab18d;
 }
 /* Scrollbar */
 ::-webkit-scrollbar {
-width: 6px;
+width: 0.5rem !important;
 }
 ::-webkit-scrollbar-track {
 background: #683B5F;
@@ -343,3 +343,12 @@ transition: all 0.4s ease !important;
 .abayat-photo-text > div > div:nth-child(1):hover{
 transform: scale(0.9) !important;
 } */
+
+#height-help-advanced-11{
+color: rgb(104 59 95) !important;
+}
+.text-gray-500 {
+--tw-text-opacity: 1;
+color: rgb(104 59 95) !important;
+}
+
