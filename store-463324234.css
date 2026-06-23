@@ -1,0 +1,61 @@
+.index .app-inner.flex.flex-col.min-h-full > div.kayan-banner-full-width:nth-of-type(2) {
+  height: 60vh !important;
+}
+
+ .index .app-inner.flex.flex-col.min-h-full > div.kayan-banner-full-width:nth-of-type(2) .block.w-full.h-full.bg-no-repeat.bg-center.bg-cover:nth-child(2){
+	width: 30rem !important;
+}
+
+
+
+
+@media(max-width: 1024px){
+.index .kayan-header {
+    height: unset !important;
+}
+ footer > div > div.justify-center.items-center.w-full > div.border-gray-300.mb-8.pb-8.flex.flex-col.gap-4 > div.flex.justify-center.items-center{
+ 	text-align: center !important;
+ }
+ .kayan-faq.kayan-faq-3 {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.kayan-faq.kayan-faq-3 .kayan-faq-title h2 {
+  font-size: 1.2rem !important; 
+}
+
+.kayan-faq.kayan-faq-3 .kayan-label h5 button {
+  font-size: 0.9rem !important;
+}
+
+
+.kayan-faq.kayan-faq-3 .kayan-contentBox p {
+  font-size: 0.85rem !important;
+  line-height: 1.5 !important;
+}
+	
+}
+
+
+.content.content--single-page.w-full.bg-white,.s-product-options-wrapper{
+    background-color: transparent !important;
+}
+.product-single .custom-bar.w-full.py-5.mb-6.bg-primary.text-white{
+	color: var(--color-text-theme) !important;
+	background-color: transparent !important;
+}
+.product-single .s-social-share-btn.s-button-element.s-button-icon.s-button-outline.s-button-light-outline{
+	background-color: var(--color-text-theme) !important;
+}
+
+
+.kayan-card img{
+	aspect-ratio: 12/19 !important;
+}
+.product-single .s-social-share-btn.s-button-element.s-button-icon.s-button-outline.s-button-light-outline{
+color: var(--color-background) !important;
+}
+.kayan-copyright{
+	display: none !important;
+}
