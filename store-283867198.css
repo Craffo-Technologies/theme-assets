@@ -5,7 +5,7 @@
 height: 20rem !important;	
 max-height:20rem !important;
 margin-bottom:0 !important ;
-object-fil:cover !important;
+object-fit:cover !important; 
 background-size:cover !important;
 }
 }
