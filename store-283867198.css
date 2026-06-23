@@ -1,15 +1,7 @@
 /* https://salla.sa/sh_pottery */
 
 @media (max-width: 768px){
-.lamera-full-video video, .lamera-full-video div.absolute.inset-0.opacity-50 , .lamera-full-video{
-height: 20rem !important;	
-max-height:20rem !important;
-margin-bottom:0 !important ;
-object-fit:cover !important; 
-background-size:cover !important;
+section.lamera-full-video {
+    min-height: 25rem;
 }
 }
-/* // .lamera-full-video video, .lamera-full-video div.absolute.inset-0.opacity-50 , .lamera-full-video{
-// height: 20rem !important;
-// width: 44rem !important;
-// } */
