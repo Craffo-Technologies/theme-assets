@@ -1,0 +1,15 @@
+/* store-1450484629.css */
+/* https://donewiseacademey.com/ */
+
+
+.s-user-menu-dropdown , #main-content > div.container  > div > nav , #main-content > div.container > div > div > div.space-y-4 > table > tbody > tr , #main-content > div  > div > div > div.space-y-4 > div.bg-white.rounded-md.p-5.divide-y.divide-border-color.space-y-4{
+background: var(--color-description-single-product) !important;	
+}
+.s-orders-table  , .s-orders-table *  div , .s-orders-table-head-tr * , .shipping-orders , .shipping-orders * , .s-order-totals-card-panel , .s-order-totals-card-panel *{
+background:var(--color-background) !important ;
+color: white !important;
+border-color: var(--color-description-single-product) !important;	
+}
+.s-orders-table a , .s-orders-table span , .s-orders-table li , #main-content > div.container  > div > div > div.flex.justify-between.items-center.mb-2 > div > a{
+color: white !important;	
+}
