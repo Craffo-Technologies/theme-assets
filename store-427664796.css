@@ -228,3 +228,14 @@ button.fixed:has(.sicon-whatsapp) {
 .art-reviews-product div.flex-1.min-w-0 > div.flex.items-center.gap-2.mb-3 > span {
     display: none !important;
 }
+
+
+
+.s-product-card-entry .s-product-card-image {
+    border: 1px solid #f3f3f3 !important;
+}
+
+
+.s-products-list .s-slider-swiper-wrapper .s-product-card-entry .s-product-card-image, .s-products-list .s-products-list-wrapper .s-product-card-entry .s-product-card-image, .s-products-slider-slider .s-slider-swiper-wrapper .s-product-card-entry .s-product-card-image, .s-products-slider-slider .s-products-list-wrapper .s-product-card-entry .s-product-card-image {
+    border-radius: 20px !important;
+}
