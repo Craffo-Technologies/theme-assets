@@ -1,4 +1,26 @@
+.tala-card a h5{
+	font-size: 0.9rem !important;
+	      height: 4em !important;
+    overflow: hidden !important;
+    color: #4e1115 !important;
+        line-height: 1.5rem !important;
+}
+.tala-card span{
+	    color: #4e1115 !important;
+}
 
+@media(max-width: 768px){
+.tala-card a h5{
+	    font-size: 0.8rem !important;
+	        height: 4em !important;
+    overflow: hidden !important;
+        line-height: 1.5rem !important;
+}}
+
+.tala-card .s-button-btn {
+   background-color: transparent !important;
+   border: unset !important;
+}
 .tala-hero-image.relative.h-screen.overflow-hidden.block.block{
 	height: 70vh !important;
 }
