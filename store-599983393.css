@@ -1,4 +1,5 @@
 /* https://naturalsilksa.com/latest-products */
+
 #main-content > section.py-16.container > div > div > h2{
 	color: #B9884A !important;
 }
@@ -62,3 +63,14 @@ direction: rtl !important;
 max-width: 150px !important;
 word-break: break-word !important;
 }
+
+
+/* **** */
+
+@media (max-width: 768px){
+.wa-s-n{
+bottom: 67px !important;
+right: 23px !important ; 
+}
+}
+
