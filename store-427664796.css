@@ -244,3 +244,10 @@ button.fixed:has(.sicon-whatsapp) {
 .scroll-top {
     border-radius: 5px !important;
 }
+
+
+.s-products-list .s-product-card-content-footer .s-button-btn,
+.s-products-slider-slider .s-product-card-content-footer .s-button-btn {
+	border-radius: 0.5rem !important;
+}
+
