@@ -239,3 +239,8 @@ button.fixed:has(.sicon-whatsapp) {
 .s-products-list .s-slider-swiper-wrapper .s-product-card-entry .s-product-card-image, .s-products-list .s-products-list-wrapper .s-product-card-entry .s-product-card-image, .s-products-slider-slider .s-slider-swiper-wrapper .s-product-card-entry .s-product-card-image, .s-products-slider-slider .s-products-list-wrapper .s-product-card-entry .s-product-card-image {
     border-radius: 20px !important;
 }
+
+
+.scroll-top {
+    border-radius: 5px !important;
+}
