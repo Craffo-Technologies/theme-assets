@@ -77,3 +77,12 @@ right: 23px !important ;
 section div h2 {
 color:var(--color-btn-card) !important;	
 }
+@media (max-width: 768px){
+
+.notah-features > div > div .grid{
+display: grid !important;
+grid-template-columns: auto auto auto !important;
+font-size: 0.9rem !important;
+}
+}
+
