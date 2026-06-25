@@ -118,11 +118,11 @@ border-color:  var(--color-primary)  !important ;
 #app > div.app-inner.flex.flex-col.min-h-full > section > div > div.accordion-container.flex.flex-col.justify-center.items-center.w-full  , #app > div.app-inner.flex.flex-col.min-h-full > section > div , .kayan-faq{
 border: none !important;
 }
-.kayan-header  > div > div > div.flex-1 > div.w-24 > a > img ,  .kayan-header  > div > div > div.flex-1  {
+/* .kayan-header  > div > div > div.flex-1 > div.w-24 > a > img ,  .kayan-header  > div > div > div.flex-1  {
 display: none !important ;
 width: 4rem !important;
 max-width: 4rem !important;
-}
+} */
 
 /* ***** */
 
