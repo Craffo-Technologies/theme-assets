@@ -1,3 +1,8 @@
 salla-trust-badges.s-trust-badges-wrapper,salla-trust-badges.s-trust-badges-wrapper * {
     display: none !important;
 }
+custom-salla-product-card  .olla-general-radius  a  img{
+aspect-ratio: 12/18 !important;
+width: 100% !important;
+object-fit: cover !important;
+}
