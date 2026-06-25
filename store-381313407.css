@@ -1,15 +1,12 @@
+/* https://alkhameeshoney.com/ */
+
 .kayan-banners.py-10.overflow-hidden.block.block {
-    padding-bottom: 1.9rem !important;
-    padding-top: 0.7rem !important;
+padding-bottom: 1.9rem !important;
+padding-top: 0.7rem !important;
 }
-
 #app > div.app-inner.flex.flex-col.min-h-full > div:nth-child(16){
-	   padding-bottom: 0.6rem !important;
-    
+padding-bottom: 0.6rem !important; 
 }
-
 #app > div.app-inner.flex.flex-col.min-h-full > div:nth-child(14){
-	padding-bottom: 0.6rem !important;
+padding-bottom: 0.6rem !important;
 }
-
-
