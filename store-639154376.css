@@ -8,6 +8,9 @@ margin-right: 50% !important;
 background: var(--color-background)  !important ;
 color:  var(--color-primary) !important ;
 }
+.main-content form > salla-product-options > salla-conditional-fields  div > label > b , .main-content > form > salla-product-options > salla-conditional-fields  div label > small {
+color:  var(--color-primary) !important ;
+}
 .kayan-faq.kayan-faq-3> div > div.accordion-container{
 border: none !important;	
 }
@@ -92,8 +95,8 @@ padding: 1.25rem !important;
 margin: 1.25rem !important;	
 }
 .kayan-categories {
-	margin-top: 0 !important;
-	padding-top: 0  !important;
+margin-top: 1rem !important;
+padding-top: 1rem  !important;
 }
 .mx-auto.craffo-components-statistics > div > div > div.mt-1{
 font-size: 2.9rem !important;	
@@ -107,8 +110,8 @@ color:  var(--color-primary) !important ;
 }
 
 footer > div > div > div:nth-child(3) > salla-contacts > div , footer > div > div > div:nth-child(3) > salla-contacts > div a{
-	justify-content: center !important;
-	margin: auto !important;
+justify-content: center !important;
+margin: auto !important;
 }
 }
 
