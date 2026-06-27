@@ -60,9 +60,7 @@ border: none !important;
 background: var(--color-primary) !important;
 color: var(--color-background) !important;
 }
-.app-inner.flex.flex-col .navbar.invisible{
-z-index: 1 !important;
-}
+
 salla-products-list > div.s-products-list-wrapper.s-products-list-vertical-cards > custom-salla-product-card > div > div.overflow-hidden.relative > a.block.flex.w-full.h-full.justify-center.items-end.px-8.duration-700 > span{
 font-size: 0.6rem !important;
 }
@@ -120,8 +118,9 @@ margin: auto !important;
 #app > div.app-inner.flex.flex-col.min-h-full > div.relative.px-10.py-10.container.mx-auto.craffo-components-statistics{
 margin: 11rem auto 1rem auto !important;
 }
-.app-inner.flex.flex-col.min-h-full > div.navbar.invisible{
-margin: 2rem auto !important;
+.index .kayan-header
+{
+	height: auto !important;
 }
 
 }
