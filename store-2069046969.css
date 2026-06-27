@@ -1,9 +1,7 @@
 /* https://salla.sa/Pearl-2030-2026/category/DXZjqz */
 
 
-#app > div.app-inner.flex.flex-col.min-h-full > div.kayan-banners.py-10.overflow-hidden  > div > div.grid > div:nth-child(3){
-	margin-right: 50% !important;
-}
+
 .custom-bar > div > div > salla-social-share > div > slot-fb > salla-button > button {
 background: var(--color-background)  !important ;
 color:  var(--color-primary) !important ;
