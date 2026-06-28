@@ -1,5 +1,11 @@
 /* store-1932354924.css  https://salla.sa/sont/#mobile-menu */
 
+
+@media only screen and (min-width: 1024px) {
+    .main-menu .sub-menu {
+    	background-color: var(--color-header-background) !important;
+    }}
+
 .nova-main-content.main-content salla-installment > div
 {
 	background-color: #9a83a5 !important;
