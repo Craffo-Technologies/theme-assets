@@ -2,12 +2,13 @@
 	font-size: 0.9rem !important;
 	      height: 4em !important;
     overflow: hidden !important;
-    color: #4e1115 !important;
+     color: var(--main-text-color) !important;
         line-height: 1.5rem !important;
 }
 .tala-card span{
-	    color: #4e1115 !important;
+	 color: var(--main-text-color) !important;
 }
+
 
 @media(max-width: 768px){
 .tala-card a h5{
