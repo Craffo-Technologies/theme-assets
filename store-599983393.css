@@ -1,6 +1,9 @@
 /* https://naturalsilksa.com/latest-products */
 
-
+@media(max-width: 768px){
+.product-single .s-products-slider-card {
+    max-width: 150px !important;
+}}
 
 body .s-gifting-widget .s-list-tile-item-title h3 {
   color: var(--color-primary) !important;
