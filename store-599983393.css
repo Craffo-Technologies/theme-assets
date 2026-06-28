@@ -1,5 +1,10 @@
 /* https://naturalsilksa.com/latest-products */
-
+body .s-gifting-widget .s-list-tile-item-title h3 {
+  color: var(--color-primary) !important;
+}
+body .s-gifting-widget .s-list-tile-item-subtitle {
+   color: var(--color-primary) !important;
+}
 #main-content > section.py-16.container > div > div > h2{
 color: #B9884A !important;
 }
