@@ -29,3 +29,8 @@
 	height: unset !important;
 	aspect-ratio: 6/7 !important;
 }
+
+
+section.tala-fixed-products.s-block.container {
+    margin-top: 0;
+}
