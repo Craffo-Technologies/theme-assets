@@ -1,0 +1,11 @@
+.navbar-brand img{
+	filter: none !important;
+
+}
+
+.sense-store-footer .sense-store-footer__inner salla-social .s-social-list .s-social-link a{
+	    color: #fff !important;
+	    border-color: var(--color-primary) !important;
+	    background-color:  var(--color-primary) !important;
+}
+
