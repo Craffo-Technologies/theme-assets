@@ -16,3 +16,9 @@ color: #c5a059 !important;
 color: var(--color-disprice-single-product) !important;
 fill: var(--color-disprice-single-product) !important;
 }
+
+/* *** */
+
+.black-video > div.relative.container  > div > div > a.bg-transparent.border-2 {
+display: none !important;	
+}
