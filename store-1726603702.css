@@ -1,0 +1,53 @@
+#app > footer > div.store-footer__inner.notah-store-footer__inner > div > div:nth-child(1){
+  position: relative;
+}
+
+#app > footer > div.store-footer__inner.notah-store-footer__inner > div > div:nth-child(1)::after {
+  content: "";
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 16px;
+  padding: 15px 0;
+  position: relative;
+      bottom: 60px;
+
+  background-image: url("https://cdn.salla.network/cdn-cgi/image/fit=scale-down,width=70,height=70,onerror=redirect,format=auto/images/commercial-register.png");
+  background-repeat: no-repeat;
+     background-size: 25px;
+     background-position: right bottom;
+}
+#app > footer > div.store-footer__inner.notah-store-footer__inner > div > div:nth-child(1)::before {
+ content: "7052946592";
+white-space: pre-wrap;
+display: inline-block !important;
+  position: absolute;
+  right: 50px;
+   bottom: 50px;
+  font-size: 13px;
+  font-weight: 600;
+ color:  var(--color-footer-text) !important;
+  line-height: 1.6;
+}
+
+
+
+
+
+.store-footer .s-social-list::after {
+  content: "السجل التجاري";
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 2.5rem;
+  font-size: 13px;
+  font-weight: 500;
+  	color:  var(--color-footer-text) !important;
+  white-space: pre;
+    margin-inline-start: -8rem  !important;
+}
+
+
+.notah-store-footer .notah-store-footer__inner salla-social .s-social-list .s-social-link a{
+	color:  var(--color-footer-text) !important;
+}
