@@ -1,0 +1,35 @@
+/* https://jeelik-store.com/ */
+
+
+.s-products-slider-card{
+width: 16rem !important;
+max-width: 16rem !important;
+}
+.s-product-card-content  .s-product-card-content-footer salla-add-product-button  salla-button   button *{
+font-size: 0.9rem !important;
+}
+.s-product-card-content-title a , .s-product-card-entry .s-product-card-content .s-product-card-content-title a{
+font-size : 0.95rem !important ;
+height: 3.5rem !important;
+overflow: hidden !important;
+}
+.s-product-card-image{
+aspect-ratio: 1/1 !important;
+height: 100% !important;
+object-fit: cover !important;
+}
+
+@media (max-width: 768px){
+.s-products-slider-card{
+width: 11rem !important;
+max-width: 11rem !important;
+}
+.s-product-card-content-title a , .s-product-card-entry .s-product-card-content .s-product-card-content-title a{
+font-size : 0.8rem !important ;
+height: 3.5rem !important;
+overflow: hidden !important;
+}
+.s-product-card-content  .s-product-card-content-footer salla-add-product-button  salla-button   button{
+font-size: 0.8rem !important;
+}
+}
