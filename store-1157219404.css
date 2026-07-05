@@ -1,9 +1,21 @@
 /* https://swim1dive.com/ar/xAjEvXw */
 
 .art-main-content > div.flex  > div > div.gap-4.flex > h2 , .s-comments-count-label , .s-comments-item-content-container , .s-comments-item-content-container p
- {
- 	color: white !important;
- }
- .main-content.art-main-content > div.grid.grid-cols-1  > div{
- 	border-color: white !important;
- }
+{
+color: white !important;
+}
+.main-content.art-main-content > div.grid.grid-cols-1  > div{
+border-color: white !important;
+}
+
+
+.s-quantity-input-input ,  .container > div > div.sticky  > div.shadow-default   {
+color: var(--color-add-to-cart-text) !important;
+}
+.s-quantity-input-input ,  .container > div > div.sticky  > div.shadow-default   {
+color: var(--color-add-to-cart-text) !important;
+}
+.s-form-control , .form.product-form.art-product-form * div , .form.product-form.art-product-form input , .starting-or-normal-price   {
+color: #aeb0b3 !important;
+}
+
