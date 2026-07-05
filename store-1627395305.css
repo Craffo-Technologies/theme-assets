@@ -1,6 +1,6 @@
 /*  dar fawzana */
 
-
+/* 
 .s-block--tabs-produtcs .tab-trigger {
 color: rgb(104 59 95) !important;
 }
@@ -31,49 +31,28 @@ font-size: 12px !important;
 line-height: 17px !important;
 }
 
-/* .abayat-photo-text  > div > div{
-max-width: 40rem !important;
-height: 30rem !important;
-width: 40rem !important;
-margin: auto !important;
-} */
-
-/* .abayat-slider-categories .abayat-categories-slide a >div >div {
-padding: 0.3rem !important;
-}   */
-
-/* ***** */
-
+ 
 #main-content > div > div > salla-search > div > div >  .s-search-input-wrapper > input , .s-product-card-image > salla-button  button , .s-comments.s-comments-product , .s-slider-block__title > div > div > button, .abayat-main-content.main-content > form > section , salla-product-options , .abayat-main-content  > div.mb-4.flex  ,  .s-product-card-content , .s-product-card-content > div {
 background: var(--color-background) !important ;
 }
 .s-products-slider-card custom-salla-product-card {
-/* // border: 0.1rem solid var(--color-btn-single-product) !important; */
-/* box-shadow: var(--color-btn-single-product) 0px 6px 12px -2px, var(--color-btn-single-product) 0px 3px 7px -3px; */
-/* // border-radius: 0.8rem !important; */
-background: var(--color-background) !important ;
-/* // padding: 0.8rem 0.4rem; */
-}
+   background: var(--color-background) !important ;
+ }
 .s-reviews-testimonial{
 background: var(--color-background) !important ;
 border: 0.1rem solid var(--color-btn-single-product) !important;
 border-radius: 0.8rem !important;
 }
 .s-product-card-content salla-add-product-button salla-button  button{
-/* width: 77% !important; */
-margin: 0.8rem auto !important;
+ margin: 0.8rem auto !important;
 border-radius: 1rem !important;
 }
 .abayat-photo-text.py-0.block.block > div > div  > div > div > a.abayat-photo-text-btn-second {
-/* width: 11rem !important; */
-min-height: unset !important;
+ min-height: unset !important;
 height: unset !important;
-/* max-width:11rem !important; */
-// padding: 0.2rem 0.4rem !important;
-}
+ }
 
-/* ***** */
-
+ 
 .abayat-categories  > div > div{
 grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
 width: 40% !important;
@@ -81,19 +60,14 @@ max-width: 40% !important;
 justify-content: center !important;
 margin: auto !important;
 }
-/* ****** */
-
-/* **** */
+ 
 
 
-
-/* تحديد النص */
-::selection {
+ ::selection {
 background: #6a3b5f;
 color: #cab18d;
 }
-/* Scrollbar */
-::-webkit-scrollbar {
+ ::-webkit-scrollbar {
 width: 0.5rem !important;
 }
 ::-webkit-scrollbar-track {
@@ -106,13 +80,11 @@ border-radius: 44px;
 ::-webkit-scrollbar-thumb:hover {
 background: #cab18d;
 }
-/* Firefox */
-html {
+ html {
 scrollbar-color: #bd9e72 #43233d;
 }
 
-/* **** */
-
+ 
 .s-product-options-grid-mode input:checked+div{
 background: #46283b !important;
 color: #cab18d !important ;
@@ -130,8 +102,7 @@ fill: #cab18d !important ;
 background: white !important;
 }
 
-/* **** */
-
+ 
 
 nav {
 padding: 1rem !important;
@@ -175,8 +146,7 @@ transform: scale(1);
 opacity: 1;
 }
 
-/* *** */
-@media (max-width: 768px){
+ @media (max-width: 768px){
 
 .mobile-menu {
 background: #683B5F !important ;
@@ -186,15 +156,11 @@ color: #cab18d !important;
 color: #cab18d !important;	
 }
 }
-/* **** */
-
+ 
 .abayat-banner-with-text  {
 padding: 2rem !important;
 }
-
-/*  ****** */
-
-
+ 
 custom-salla-product-card{
 position: relative;
 overflow: hidden;
@@ -240,13 +206,7 @@ transform: scale(1.03);
 box-shadow: 0 8px 25px rgba(106, 59, 95, 0.25);
 }
 
-/* *** */
-
-
-/* ========================= */
-/* Instagram Feed Hover */
-/* ========================= */
-
+ 
 .abayat-instagram-feed > div.grid.grid-cols-2.gap-1 > a {
 position: relative;
 overflow: hidden;
@@ -283,12 +243,7 @@ left: 180%;
 .abayat-instagram-feed > div.grid.grid-cols-2.gap-1 > a:hover > img {
 transform: scale(1.05);
 }
-
-
-/* ========================= */
-/* Countdown Button Hover */
-/* ========================= */
-
+ 
 .abayat-countdown.py-16 > div.container.mx-auto > div > a {
 position: relative;
 overflow: hidden;
@@ -322,27 +277,14 @@ transform: translateY(-3px);
 box-shadow: 0 8px 20px rgba(106, 59, 95, 0.25);
 }
 
-/* **** */
-
+ 
 .abayat-photo-text > div > div {
 max-width: 90% !important;
 width: 90% !important;
 margin: auto !important;
 
 }
-/* .abayat-photo-text > div > div:nth-child(1)   {
-width: 90% !important;
-padding: 1rem !important;
-margin: 1rem !important;
-height: 90% !important;
-max-height: 100% !important;
-object-fit: cover !important;
-clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%) !important ;
-transition: all 0.4s ease !important;
-}
-.abayat-photo-text > div > div:nth-child(1):hover{
-transform: scale(0.9) !important;
-} */
+ 
 
 #height-help-advanced-11{
 color: rgb(104 59 95) !important;
@@ -351,4 +293,4 @@ color: rgb(104 59 95) !important;
 --tw-text-opacity: 1;
 color: rgb(104 59 95) !important;
 }
-
+ */
