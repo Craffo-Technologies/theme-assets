@@ -114,3 +114,18 @@ background-color: white  !important;
 }
 
 /* *** */
+
+header , header i{
+	fill: #612DAE !important;
+	color: #612DAE !important;
+}
+#mobile-menu > ul li a , #mobile-menu > ul li a i , #s-cart-icon > i , #mainnav > div > div > div > div.flex > button , #mainnav > div > div > div > div.flex.items-center  > button i , #mainnav > div > div > div > div.flex.items-center > div i{
+	color: #612DAE !important;
+	fill: #612DAE !important;
+}
+ .s-block--bundle-features-bar{
+	display: none !important;
+}
+#app > div.app-inner.flex.flex-col.min-h-full > section.s-block.s-block--bundle-announcement-ticker , #app > div.app-inner.flex.flex-col.min-h-full > section.s-block.s-block--bundle-hero-banner{
+	margin-top: 0.2rem !important;
+}
