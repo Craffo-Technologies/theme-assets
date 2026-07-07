@@ -1,6 +1,10 @@
 /* store-452888666.css */ 
 /* https://salla.sa/luxury-flowers- */
 
+
+.featured-categories-grid{
+background:  #F3F3F3 !important;
+}
 .featured-categories-grid > div > div.grid {
 margin: auto !important;
 grid-template-columns: repeat(5, minmax(0, 1fr));
