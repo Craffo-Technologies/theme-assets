@@ -10,4 +10,7 @@ margin: auto !important;
 grid-template-columns: repeat(5, minmax(0, 1fr));
 background:  #F3F3F3 !important;
 }
-
+.yasmeen-categories-slide , #swiper-wrapper-b820d3210416ff9e2 , .yasmeen-categories{
+margin: auto !important;
+justify-content: center !important;
+}
