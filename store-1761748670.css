@@ -2,5 +2,12 @@
 
 
 .ronaq-categories .aspect-square  a div , .ronaq-categories  .aspect-square  a img ,  .ronaq-categories .aspect-square  *{
-	border-radius: 0 !important;
+border-radius: 0 !important;
+}
+
+footer > div.store-footer__inner > div > div  > a > img ,  footer  .store-footer__inner > div > div  > a{
+display: flex !important;
+flex-direction: column !important;
+justify-content: center !important;
+margin: auto !important;
 }
