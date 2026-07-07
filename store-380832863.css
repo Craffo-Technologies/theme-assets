@@ -3,3 +3,10 @@ footer .beauty-footer-payments salla-payments { display: flex; align-items: cent
 }
 @media (max-width: 767px){
 footer .beauty-footer-payments salla-payments::after {         right: 29% !important;         top: 80% !important;     }  }
+ .beauty-main-content.main-content  > small , .store-footer__inner.beauty-store-footer__inner > div > div  > div.flex  > div{
+	color: white !important;
+}
+ .beauty-footer-payments.flex.flex-col.gap-3.items-center.justify-center.pt-8.mb-8.container.text-center > span , footer .beauty-footer-payments salla-payments::before{
+	padding: 0 !important;
+	margin: 0 !important;
+}
