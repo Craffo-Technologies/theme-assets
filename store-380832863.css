@@ -45,3 +45,8 @@ margin: 0 !important;
 footer .beauty-footer-payments salla-payments::before , footer .beauty-footer-payments salla-payments::after{
 display: none !important;
 }
+
+nav > salla-breadcrumb > ol .s-breadcrumb-item svg, #main-content > div:nth-child(2) > nav > salla-breadcrumb > ol > li  svg , nav > salla-breadcrumb > ol .s-breadcrumb-item {
+color: white !important;	
+fill: white !important;
+}
