@@ -1,0 +1,27 @@
+/* store-1211748205.css */
+/* https://salla.sa/awyess-hrb- */
+
+.s-product-card-content.space-y-2{
+gap: 0 !important;	
+padding: 0 !important;
+margin: 0 !important;
+}
+.s-product-card-content.space-y-2 > div.flex.items-center.justify-end , .s-product-card-tags{
+display: none !important;
+}
+.s-product-card-content-title a{
+font-size: 0.8rem !important;
+height: 3.8rem !important;
+overflow: hidden !important;
+}
+.s-product-card-content .s-product-card-content-footer salla-add-product-button salla-button button{
+font-size: 14px !important;
+}
+@media (max-width: 768px) {
+.s-product-card-entry .s-product-card-content .s-product-card-content-main .s-product-card-content-title a {
+font-size: 13px !important;
+
+}
+
+}
+
