@@ -11,16 +11,20 @@ display: none !important;
 }
 .s-product-card-content-title a{
 font-size: 0.8rem !important;
-height: 3.8rem !important;
+height: 3rem !important;
 overflow: hidden !important;
 }
 .s-product-card-content .s-product-card-content-footer salla-add-product-button salla-button button{
 font-size: 14px !important;
 }
+
+.s-product-card-content.space-y-2 > div.flex.items-center {
+display: none !important;
+}
+
 @media (max-width: 768px) {
 .s-product-card-entry .s-product-card-content .s-product-card-content-main .s-product-card-content-title a {
 font-size: 13px !important;
-
 }
 
 }
