@@ -1,12 +1,47 @@
 @media (min-width: 100px){
-footer .beauty-footer-payments salla-payments { display: flex; align-items: center !important; justify-content: center !important; flex-direction: column !important; gap: 10px; } footer .beauty-footer-payments salla-payments::before { content: "301061277200003"; display: flex !important; align-items: center !important; justify-content: center !important; padding-right: 1.6rem !important; font-size: 14px; color: #fff; margin-inline-start: 5px; } footer .beauty-footer-payments salla-payments::after { content: ""; position: absolute !important; right: 43% !important; top: 73% !important; display: flex !important; align-items: center !important; justify-content: center !important; width: 40px; height: 40px; background-image: url("https://asas-tools.com/u/uploads/sara_craffo/tax.webp"); background-size: contain; background-repeat: no-repeat; background-position: center; }  
+
+footer .beauty-footer-payments salla-payments { 
+display: flex;
+align-items: center !important;
+justify-content: center !important; 
+flex-direction: column !important;
+gap: 10px;
+} 
+
+/*
+footer .beauty-footer-payments salla-payments::before { 
+content: "301061277200003"; display: flex !important; 
+align-items: center !important; justify-content: center !important; 
+padding-right: 1.6rem !important; font-size: 14px; color: #fff; 
+margin-inline-start: 5px;
+} 
+footer .beauty-footer-payments salla-payments::after {
+content: ""; 
+position: absolute !important;
+right: 43% !important; top: 73% !important;
+display: flex !important; 
+align-items: center !important;
+justify-content: center !important; 
+width: 40px; height: 40px; 
+background-image: url("https://asas-tools.com/u/uploads/sara_craffo/tax.webp");
+background-size: contain; background-repeat: no-repeat; background-position: center;
+}  
+*/
+
 }
 @media (max-width: 767px){
-footer .beauty-footer-payments salla-payments::after {         right: 29% !important;         top: 80% !important;     }  }
- .beauty-main-content.main-content  > small , .store-footer__inner.beauty-store-footer__inner > div > div  > div.flex  > div{
-	color: white !important;
+footer .beauty-footer-payments salla-payments::after {  
+right: 29% !important;
+top: 80% !important;
+} 
 }
- .beauty-footer-payments.flex.flex-col.gap-3.items-center.justify-center.pt-8.mb-8.container.text-center > span , footer .beauty-footer-payments salla-payments::before{
-	padding: 0 !important;
-	margin: 0 !important;
+.beauty-main-content.main-content  > small , .store-footer__inner.beauty-store-footer__inner > div > div  > div.flex  > div{
+color: white !important;
+}
+.beauty-footer-payments.flex.flex-col.gap-3.items-center.justify-center.pt-8.mb-8.container.text-center > span , footer .beauty-footer-payments salla-payments::before{
+padding: 0 !important;
+margin: 0 !important;
+}
+footer .beauty-footer-payments salla-payments::before , footer .beauty-footer-payments salla-payments::after{
+display: none !important;
 }
