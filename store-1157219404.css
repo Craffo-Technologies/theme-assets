@@ -19,7 +19,7 @@ color: var(--color-add-to-cart-text) !important;
 .s-form-control , .form.product-form.art-product-form * div , .form.product-form.art-product-form input , .starting-or-normal-price   {
 color: #aeb0b3 !important;
 }
-.form-input , .form-input option , .iti__flag-box * , .iti__flag-container * , .s-tel-input-control , .iti__flag-box span , .iti__country-name  , #app > div.app-inner.flex.flex-col.min-h-full > div.container > div , #app > div.app-inner.flex.flex-col.min-h-full > div.container > div * , .s-button-element span{
+ .s-comments-item-content  .s-comments-item-content-container   p , .form-input , .form-input option , .iti__flag-box * , .iti__flag-container * , .s-tel-input-control , .iti__flag-box span , .iti__country-name  , #app > div.app-inner.flex.flex-col.min-h-full > div.container > div , #app > div.app-inner.flex.flex-col.min-h-full > div.container > div * , .s-button-element span{
 color: var(--color-primary) ;
 fill: var(--color-primary) !important;
 }
