@@ -1,0 +1,30 @@
+section.athar-main-banner .container.mx-auto.px-4.relative.z-10 {
+	display: none;
+}
+
+section.athar-main-banner {
+	background-color: transparent !important;
+	height: 80vh;
+	max-height: 80vh;
+}
+
+@media (max-width: 1024px) {
+	section.athar-main-banner {
+		height: 60vh;
+		max-height: 60vh;
+	}
+}
+
+@media (max-width: 767px) {
+	section.athar-main-banner {
+		height: 40vh;
+		max-height: 40vh;
+	}
+}
+
+@media (max-width: 480px) {
+	section.athar-main-banner {
+		height: 12.5rem;
+		max-height: 12.5rem;
+	}
+}
