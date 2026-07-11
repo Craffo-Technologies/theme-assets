@@ -105,4 +105,20 @@ display: none !important;
 
 
 
+body.product-index [data-aos] {
+  opacity: 1 !important;
+  transform: none !important;
+  transition: none !important;
+  animation: none !important;
+}
+
+body.product-index [data-aos].aos-init,
+body.product-index [data-aos].aos-animate {
+  opacity: 1 !important;
+  transform: none !important;
+  transition: none !important;
+}
+
+
+
 
