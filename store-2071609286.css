@@ -33,3 +33,80 @@ section.athar-main-banner {
     position: absolute !important;
     width: 100% !important;
 }
+
+.s-block--banners.container {
+    margin-top: -75px;
+    position: relative;
+    z-index: 10;
+}
+@media (min-width: 1024px) {
+    .s-block--hero-slider .swiper-slide{
+    	 min-height: unset !important;
+    	 height: 15rem !important;
+    }
+    .banner-entry
+{
+	height: 25rem !important;
+}
+.s-block--banners .banner-entry .lazy__bg {
+    border-radius: 16px 16px 0 0;
+    background-position: center;
+        background-size: cover !important;
+}
+}
+
+@media (max-width: 991px) {
+    .s-block--banners.container { margin-top: -100px; }
+    .s-block--hero-slider .swiper-slide,.s-block--hero-slider{
+    	 min-height: unset !important;
+    	 height: 15rem !important;
+    }
+}
+@media (max-width: 640px) {
+    .s-block--banners.container { margin-top: -40px; }
+   
+}
+
+.s-block--banners .banner-entry {
+    position: relative;
+    display: block;
+    border-radius: 16px;
+    overflow: visible;
+    padding-bottom: 130px; 
+}
+
+
+.s-block--banners .banner-entry{
+	background-color: unset !important;
+}
+ 
+
+
+ @media(max-width: 1024px){
+ 	.s-block--hero-slider .swiper-slide,.s-block--hero-slider{
+    	 min-height: unset !important;
+    	 height: 4rem !important;
+    }
+    .s-block--banners .banner-entry .lazy__bg {
+        background-size: contain !important;
+}
+    .banner-entry
+{
+	height: 18rem !important;
+}
+ }
+
+
+    
+  .s-block--hero-slider .overlay-bg::before,
+.s-block--hero-slider .overlay-bg::after {
+    display: none !important;
+    content: none !important;
+}
+
+.index header.store-header.athar-store-header{
+	z-index: 50 !important;
+}
+.index .athar-store-header .athar-main-nav-container{
+	background-color: transparent !important;
+}
