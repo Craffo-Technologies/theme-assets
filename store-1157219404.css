@@ -19,10 +19,11 @@ color: var(--color-add-to-cart-text) !important;
 .s-form-control , .form.product-form.art-product-form * div , .form.product-form.art-product-form input , .starting-or-normal-price   {
 color: #aeb0b3 !important;
 }
-body.testimonials .s-comments-item-content-container,body.testimonials .s-comments-item-content .s-comments-item-content-container p, .form-input , .form-input option , .iti__flag-box * , .iti__flag-container * , .s-tel-input-control , .iti__flag-box span , .iti__country-name  , #app > div.app-inner.flex.flex-col.min-h-full > div.container > div , #app > div.app-inner.flex.flex-col.min-h-full > div.container > div * , .s-button-element span{
+body.testimonials .s-comments-item-content-container,body.testimonials .s-comments-item-content .s-comments-item-content-container p, .form-input , .form-input option , .iti__flag-box * , .iti__flag-container * , .s-tel-input-control , .iti__flag-box span , .iti__country-name  , body.testimonials .app-inner.flex.flex-col.min-h-full > div.container > div , body.testimonials .app-inner.flex.flex-col.min-h-full > div.container > div * ,body.testimonials .s-button-element span{
 color: var(--color-primary)  !important;
 fill: var(--color-primary) !important;
-}
+} 
+
 .s-infinite-scroll-btn , .s-button-text , .s-infinite-scroll-wrapper button span{
 color: white !important;
 fill: white !important;
