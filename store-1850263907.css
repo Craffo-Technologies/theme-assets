@@ -69,3 +69,6 @@ salla-installment.hydrated{
 .s-comments-product{
 	background-color: transparent !important;
 }
+body .black-main-content.main-content .product__description *{
+    color: var(--color-description-single-product) !important;
+}
