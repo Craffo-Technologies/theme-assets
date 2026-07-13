@@ -14,3 +14,6 @@
 section.cart-item h1{
 	    color: var(--color-store) !important;
 }
+salla-comment-item.s-comments-item.hydrated .s-comments-item-content > div,salla-comment-item.s-comments-item div.s-comments-item-inner .s-comments-flex *,salla-comment-item.s-comments-item .s-comments-item-timestamp, .s-comments-count-label,.s-reviews-summary-overall-label,.s-reviews-summary-average{
+	color: #fff !important;
+}
