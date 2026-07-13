@@ -3,16 +3,16 @@
 }
 
 .ronaq-desc-header {
-	color: #fff;
-	background-color: #0b4d40;
-	margin-bottom: 0.25rem;
-	padding: 12px 0.5rem;
-	border-radius: 5px;
+	color: #fff !important;
+	background-color: #0b4d40 !important;
+	margin-bottom: 0.25rem !important;
+	padding: 12px 0.5rem !important;
+	border-radius: 5px !important;
 }
 
 .ronaq-desc-content {
-	background: #f8e2c266;
-	padding: 0 0.5rem;
-	border-radius: 10px;
-	margin-bottom: 0.5rem;
+	background: #f8e2c266 !important;
+	padding: 0 0.5rem !important;
+	border-radius: 10px !important;
+	margin-bottom: 0.5rem !important;
 }
