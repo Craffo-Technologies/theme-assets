@@ -1,0 +1,11 @@
+.s-reviews-testimonial {
+    background: #323232 !important;
+    border-radius: 2rem !important;
+}
+
+.content.content--single-page.w-full.bg-white{
+	background-color: transparent !important;
+}
+.content.content--single-page.w-full.bg-white .content-entry *{
+		color: #fff !important;
+}
