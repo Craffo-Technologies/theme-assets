@@ -9,3 +9,8 @@
 .content.content--single-page.w-full.bg-white .content-entry *{
 		color: #fff !important;
 }
+
+
+section.cart-item h1{
+	    color: var(--color-store) !important;
+}
