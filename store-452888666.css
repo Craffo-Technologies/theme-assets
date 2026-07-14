@@ -18,3 +18,6 @@ justify-content: center !important;
 margin: auto !important;
 padding: 0 !important;
 }
+.s-user-menu-trigger {
+background-color: transparent !important;
+}
