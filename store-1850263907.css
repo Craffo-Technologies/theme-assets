@@ -1,74 +1,89 @@
 .s-product-options-wrapper,salla-installment.hydrated *{
-	background-color: unset !important;
-	
+background-color: unset !important;
+
 }
 salla-installment.hydrated *,.s-product-options-wrapper .s-product-options-option-label b,.black-main-content > form > section.flex > div > label > span,.form-label{
-	color: #fff !important;
+color: #fff !important;
 }
 nav.breadcrumbs *{
-	color: #fff !important;
-	fill: #fff !important;
+color: #fff !important;
+fill: #fff !important;
 }
 salla-installment.hydrated{
-	border-color: #fff !important;	
+border-color: #fff !important;	
 }
 
 .s-product-options-grid-mode-span{
-	background-color: unset !important;
+background-color: unset !important;
 }
 
 .s-product-options-grid-mode input:checked+div{
-	background-color: #fff !important;
-	color: #000 !important;
+background-color: #fff !important;
+color: #000 !important;
 }
 
 .black-main-content .s-quantity-input-container .s-quantity-input-input{
-	color: #000 !important;
+color: #000 !important;
 }
 @media(min-width: 640px){
 
 .black-main-content.main-content> form > section.sticky-product-bar.bg-white{
-	background-color: transparent !important;
+background-color: transparent !important;
 }
-	
-.s-add-product-button-main .s-add-product-button-mini-checkout {
-    --salla-fast-checkout-button-border-radius: 0px !important;
-    	border: 1px solid #fff !important;
-    	    padding-bottom: 0px !important;
-}
-	.s-add-product-button-main .s-add-product-button-mini-checkout .s-add-product-button-mini-checkout-content{
-		color: #fff !important;
 
-	}
+.s-add-product-button-main .s-add-product-button-mini-checkout {
+--salla-fast-checkout-button-border-radius: 0px !important;
+border: 1px solid #fff !important;
+padding-bottom: 0px !important;
+}
+.s-add-product-button-main .s-add-product-button-mini-checkout .s-add-product-button-mini-checkout-content{
+color: #fff !important;
+
+}
 }
 
 @media(max-width: 640px){
-	.black-main-content .s-quantity-input-container,.black-main-content .s-quantity-input-container .s-quantity-input-button{
-		color: #000 !important;
-		border-color: #000 !important;
-		fill: #000 !important;
-	}
-	#main-content > section.black-statistics.py-20 > div > div > div > div.text-4xl.font-bold.mb-2{
-		font-size: 1.2rem !important;
-	}
-	#main-content > section.black-statistics.py-20 > div > div{
-		    grid-template-columns: repeat(4, minmax(0, 1fr)) !important;
-		    gap: 0.1rem !important;
-	}
-	#main-content > section.black-statistics.py-20 > div > div > div > div.text-sm{
-			font-size: 1rem !important;
-	}
-	section.black-statistics.py-20{
-		padding-bottom: 2rem !important;
-		padding-top: 2rem !important;
-	}
-	#main-content > section.py-20.container{
-		padding-top: 1rem !important;	
-	}
+.black-main-content .s-quantity-input-container,.black-main-content .s-quantity-input-container .s-quantity-input-button{
+color: #000 !important;
+border-color: #000 !important;
+fill: #000 !important;
+}
+#main-content > section.black-statistics.py-20 > div > div > div > div.text-4xl.font-bold.mb-2{
+font-size: 1.2rem !important;
+}
+#main-content > section.black-statistics.py-20 > div > div{
+grid-template-columns: repeat(4, minmax(0, 1fr)) !important;
+gap: 0.1rem !important;
+}
+#main-content > section.black-statistics.py-20 > div > div > div > div.text-sm{
+font-size: 1rem !important;
+}
+section.black-statistics.py-20{
+padding-bottom: 2rem !important;
+padding-top: 2rem !important;
+}
+#main-content > section.py-20.container{
+padding-top: 1rem !important;	
+}
 }
 .s-comments-product{
-	background-color: transparent !important;
+background-color: transparent !important;
 }
 body .black-main-content.main-content .product__description *{
-    color: var(--color-description-single-product) !important;
+color: var(--color-description-single-product) !important;
 }
+
+/* ************* */
+
+
+
+.cart-item , #main-content > div > div > div.sticky.top-24  > div.shadow-default{
+background: black !important;
+}
+.s-quantity-input-input{
+fill: black !important;
+color: black !important;
+}
+
+
+
