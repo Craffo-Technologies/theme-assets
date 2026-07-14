@@ -1,7 +1,6 @@
 .ronaq-desc-section {
 	border: none !important;
 }
-
 .ronaq-desc-header {
 	color: #fff !important;
 	background-color: #0b4d40 !important;
@@ -9,10 +8,34 @@
 	padding: 12px 0.5rem !important;
 	border-radius: 5px !important;
 }
-
 .ronaq-desc-content {
 	background: #f8e2c266 !important;
 	padding: 0 0.5rem !important;
 	border-radius: 10px !important;
 	margin-bottom: 0.5rem !important;
 }
+
+
+/* // العمل الحر اضافة  */
+
+footer > div.store-footer__inner > div > div:nth-child(2) {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+footer .store-footer__inner> div > div:nth-child(2)::after {
+content: "FL-565070883";
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 14px;
+margin-top: 14px;
+font-size: 13px;
+color: white !important;
+white-space: nowrap;
+}
+footer .store-footer__inner> div > div:nth-child(2)::after{
+padding-inline-start: 55px;
+background: url("https://asas-tools.com/u/uploads/sara_craffo/%D8%A7%D9%84%D8%B9%D9%85%D9%84_%D8%A7%D9%84%D8%AD%D8%B1_%D8%B1%D9%85%D8%B2_%D9%88%D8%AB%D9%8A%D9%82%D8%A9-removebg-preview.png") right center / 50px no-repeat;
+}
+
