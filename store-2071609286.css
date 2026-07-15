@@ -1,112 +1,123 @@
 section.athar-main-banner .container.mx-auto.px-4.relative.z-10 {
-    display: none;
+display: none;
 }
 
 section.athar-main-banner {
-    background-color: transparent !important;
-    height: 80vh;
-    max-height: 80vh;
+background-color: transparent !important;
+height: 80vh;
+max-height: 80vh;
 }
 
 @media (max-width: 1024px) {
-    section.athar-main-banner {
-        height: 60vh;
-        max-height: 60vh;
-    }
+section.athar-main-banner {
+height: 60vh;
+max-height: 60vh;
+}
 }
 
 @media (max-width: 767px) {
-    section.athar-main-banner {
-        height: 40vh;
-        max-height: 40vh;
-    }
+section.athar-main-banner {
+height: 40vh;
+max-height: 40vh;
+}
 }
 
 @media (max-width: 480px) {
-    section.athar-main-banner {
-        height: 12.5rem;
-        max-height: 12.5rem;
-    }
+section.athar-main-banner {
+height: 12.5rem;
+max-height: 12.5rem;
+}
 }
 
 .index header.store-header.athar-store-header {
-    position: absolute !important;
-    width: 100% !important;
+position: absolute !important;
+width: 100% !important;
 }
 
 .s-block--banners.container {
-    margin-top: -75px;
-    position: relative;
-    z-index: 10;
+margin-top: -75px;
+position: relative;
+z-index: 10;
 }
 @media (min-width: 1024px) {
-    .s-block--hero-slider .swiper-slide{
-    	 min-height: unset !important;
-    	 height: 15rem !important;
-    }
-    .banner-entry
+.s-block--hero-slider .swiper-slide{
+min-height: unset !important;
+height: 15rem !important;
+}
+.banner-entry
 {
-	height: 25rem !important;
+height: 25rem !important;
 }
 .s-block--banners .banner-entry .lazy__bg {
-    border-radius: 16px 16px 0 0;
-    background-position: center;
-        background-size: cover !important;
+border-radius: 16px 16px 0 0;
+background-position: center;
+background-size: cover !important;
 }
 }
 
 @media (max-width: 991px) {
-    .s-block--banners.container { margin-top: -100px; }
-    .s-block--hero-slider .swiper-slide,.s-block--hero-slider{
-    	 min-height: unset !important;
-    	 height: 15rem !important;
-    }
+.s-block--banners.container { margin-top: -100px; }
+.s-block--hero-slider .swiper-slide,.s-block--hero-slider{
+min-height: unset !important;
+height: 15rem !important;
+}
 }
 @media (max-width: 640px) {
-    .s-block--banners.container { margin-top: -40px; }
-   
+.s-block--banners.container { margin-top: -40px; }
+
 }
 
 .s-block--banners .banner-entry {
-    position: relative;
-    display: block;
-    border-radius: 16px;
-    overflow: visible;
-    padding-bottom: 130px; 
+position: relative;
+display: block;
+border-radius: 16px;
+overflow: visible;
+padding-bottom: 130px; 
 }
 
 
 .s-block--banners .banner-entry{
-	background-color: unset !important;
+background-color: unset !important;
 }
- 
 
 
- @media(max-width: 1024px){
- 	.s-block--hero-slider .swiper-slide,.s-block--hero-slider{
-    	 min-height: unset !important;
-    	 height: 4rem !important;
-    }
-    .s-block--banners .banner-entry .lazy__bg {
-        background-size: contain !important;
+
+@media(max-width: 1024px){
+.s-block--hero-slider .swiper-slide,.s-block--hero-slider{
+min-height: unset !important;
+height: 4rem !important;
 }
-    .banner-entry
+.s-block--banners .banner-entry .lazy__bg {
+background-size: contain !important;
+}
+.banner-entry
 {
-	height: 18rem !important;
+height: 18rem !important;
 }
- }
+}
 
 
-    
-  .s-block--hero-slider .overlay-bg::before,
+
+.s-block--hero-slider .overlay-bg::before,
 .s-block--hero-slider .overlay-bg::after {
-    display: none !important;
-    content: none !important;
+display: none !important;
+content: none !important;
 }
 
 .index header.store-header.athar-store-header{
-	z-index: 50 !important;
+z-index: 50 !important;
 }
 .index .athar-store-header .athar-main-nav-container{
-	background-color: transparent !important;
+background-color: transparent !important;
 }
+
+
+
+/* ***** */
+
+#main-content > section:nth-child(4) > div ,#main-content > section:nth-child(5) > div{
+padding: 0 !important;
+margin: 0 !important;
+}
+
+
