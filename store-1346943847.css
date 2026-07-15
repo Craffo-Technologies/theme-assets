@@ -31,7 +31,7 @@ justify-content: center;
 gap: 14px;
 margin-top: 14px;
 font-size: 13px;
-color: white !important;
+color: var(--color-footer-text) !important;
 white-space: nowrap;
 }
 footer .store-footer__inner> div > div:nth-child(2)::after{
