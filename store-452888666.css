@@ -21,3 +21,6 @@ padding: 0 !important;
 .s-user-menu-trigger {
 background-color: transparent !important;
 }
+.s-user-menu-trigger , .s-user-menu-trigger-slot , .s-user-menu-wrapper{
+background-color: var(--color-primary-light) !important;
+}
