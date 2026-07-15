@@ -1,18 +1,18 @@
 .ronaq-desc-section {
-	border: none !important;
+border: none !important;
 }
 .ronaq-desc-header {
-	color: #fff !important;
-	background-color: #0b4d40 !important;
-	margin-bottom: 0.25rem !important;
-	padding: 12px 0.5rem !important;
-	border-radius: 5px !important;
+color: #fff !important;
+background-color: #0b4d40 !important;
+margin-bottom: 0.25rem !important;
+padding: 12px 0.5rem !important;
+border-radius: 5px !important;
 }
 .ronaq-desc-content {
-	background: #f8e2c266 !important;
-	padding: 0 0.5rem !important;
-	border-radius: 10px !important;
-	margin-bottom: 0.5rem !important;
+background: #f8e2c266 !important;
+padding: 0 0.5rem !important;
+border-radius: 10px !important;
+margin-bottom: 0.5rem !important;
 }
 
 
@@ -52,4 +52,13 @@ width: 9rem !important;
 }
 }
 
-
+.s-product-card-image-cover{
+aspect-ratio: 1/1 !important;
+width: 100% !important;
+object-fit: cover !important;
+background-size: cover !important;
+}
+.s-block.s-block--best-offers.container{
+padding-top: 1rem !important;
+padding-bottom: 1rem !important;
+}
