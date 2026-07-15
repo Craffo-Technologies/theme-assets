@@ -39,3 +39,17 @@ padding-inline-start: 55px;
 background: url("https://asas-tools.com/u/uploads/sara_craffo/%D8%A7%D9%84%D8%B9%D9%85%D9%84_%D8%A7%D9%84%D8%AD%D8%B1_%D8%B1%D9%85%D8%B2_%D9%88%D8%AB%D9%8A%D9%82%D8%A9-removebg-preview.png") right center / 50px no-repeat;
 }
 
+
+/* **** */
+
+.s-products-slider-card.swiper-slide{
+width: 13rem !important;	
+}
+@media (max-width: 768px){
+
+.s-products-slider-card.swiper-slide{
+width: 9rem !important;	
+}
+}
+
+
