@@ -62,3 +62,26 @@ background-size: cover !important;
 padding-top: 1rem !important;
 padding-bottom: 1rem !important;
 }
+
+.ronaq-desc-header{
+background: var(--color-header-main) !important;
+}
+.main-content.ronaq-main-content .product__description .ronaq-desc-content > div > p {
+color: var(--color-header-text) !important;
+fill: var(--color-header-text) !important;
+}
+.s-social-share-wrapper button , .s-social-share-wrapper button span svg , .ronaq-btn--wishlist button ,  .ronaq-btn--wishlist button span i , .s-social-share-list , .ronaq-main-content  > div.flex  > salla-social-share > div > ul > li  a{
+background: var(--color-header-main) !important;
+color: var(--color-header-text) !important;
+fill: var(--color-header-text) !important;	
+}
+.s-social-share-wrapper , .ronaq-btn--wishlist {
+margin: 0 1.5rem !important;
+}
+
+.s-social-share-list.opened {
+display: flex !important;
+flex-direction: row !important;
+}
+
+
