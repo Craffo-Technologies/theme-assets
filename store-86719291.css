@@ -1,0 +1,126 @@
+@media (max-width: 768px) {
+  
+  #app > div.app-inner.flex.flex-col.min-h-full > footer > div > div.justify-center.items-center.w-full > div.border-gray-300.pb-8.flex.flex-col.gap-4> div.flex.justify-center.items-center,#app > div.app-inner.flex.flex-col.min-h-full > footer > div > div.justify-center.items-center.w-full > div.border-gray-300.pb-8.flex.flex-col.gap-4> div.flex.justify-center.items-center p{
+text-align: center !important;
+}
+
+}
+
+
+
+.s-product-options-wrapper{
+	background-color: transparent !important;
+}
+
+.index .kayan-header
+{
+	height: auto !important;
+}
+
+
+.index .kayan-header.overflow-hidden.w-full.h-full > div > div > div.flex-1.items-center.flex.gap-4.overflow-hidden > div.w-24{
+	display: none !important;
+}
+#app > div.app-inner.flex.flex-col.min-h-full > section > div > div.accordion-container.flex.flex-col.justify-center.items-center.w-full,#app > div.app-inner.flex.flex-col.min-h-full > section > div > div.accordion-container.flex.flex-col.justify-center.items-center.w-full> div{
+	border-color: #000 !important;
+}
+
+
+body .s-product-options-grid-mode-span{
+	background-color: #6265ad !important;
+	color:   #fff !important;
+}
+
+
+
+.custom-bar {
+background-color: transparent !important;
+color: #6265ad !important;
+}
+
+.custom-bar h3 {
+color:  #6265ad !important;
+}
+
+.custom-bar .s-button-element {
+background-color:  #6265ad!important;
+border-color:  #6265ad !important;
+color:  #fff !important;
+}
+
+.custom-bar svg,
+.custom-bar .sicon-heart {
+fill:  #fff !important;
+color:  #fff !important;
+}
+
+.s-social-share-list{
+	background-color:  #6265ad!important;
+}
+
+ 
+
+.kayan-faq .accordion-container {
+  border: none !important;
+  gap: 12px;
+}
+
+.kayan-faq .kayan-accordion {
+  background: #6265ad !important;
+  border-radius: 10px;
+  border: none !important;
+  padding: 0 !important;
+  overflow: hidden;
+  transition: 0.3s;
+}
+
+.kayan-faq .kayan-label {
+  padding: 16px 20px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.kayan-faq .kayan-accordion:hover .kayan-label {
+  background: var(--color-primary) !important;
+}
+
+.kayan-faq .kayan-label h5 {
+  margin: 0;
+  font-size: 16px;
+  color: #fff9ef;
+}
+
+.kayan-faq .kayan-label i {
+  color: #fff9ef;
+  transition: 0.3s;
+}
+
+.kayan-faq .kayan-accordion.active i {
+  transform: rotate(180deg);
+}
+
+.kayan-faq .kayan-contentBox {
+  padding: 0 20px;
+}
+
+
+.kayan-faq .kayan-contentBox p {
+  margin: 0;
+  padding: 10px 0 16px;
+  color: #fff9ef ;
+  border-top: 1px solid #fff9ef;
+}
+
+
+.s-product-options-grid-mode input:checked + div {
+background-color: transparent !important;
+border-color: #6265ad !important ;
+color: #6265ad !important ;
+}
+
+.kayan-features.kayan-features-5.px-10.py-10.border-y-2.border-black{
+	    border-top-color: #6265ad !important ;
+    border-bottom-color:  #6265ad !important ;
+
+}
