@@ -144,3 +144,6 @@ salla-trust-badges.s-trust-badges-wrapper.hydrated ,salla-trust-badges.s-trust-b
 .kayan-card .product-name {
     min-height: 2rem !important;
 }
+.kayan-copyright{
+	display: none !important;
+}
