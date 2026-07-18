@@ -71,6 +71,9 @@ justify-content: center !important;
   .kayan-header i {
     font-size: 1.1rem !important;
   }
+	#app > div.app-inner.flex.flex-col.min-h-full > header > div > div > div.flex-1.justify-end.items-center.flex.lg\:gap-6.gap-4{
+		gap: 3rem !important;
+	}
   
     .kayan-header .w-24 {
     position: absolute !important;
