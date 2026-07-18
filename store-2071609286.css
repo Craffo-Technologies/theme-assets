@@ -4,6 +4,11 @@ section.athar-main-banner .container.mx-auto.px-4.relative.z-10 {
 display: none;
 }
 
+ .cart .s-mobile-menu-wrapper{
+    	display: none !important;
+    }
+    
+    
 section.athar-main-banner {
 background-color: transparent !important;
 height: 80vh;
