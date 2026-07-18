@@ -281,3 +281,6 @@ button.whatsapp-float {
 
 
 
+.s-infinite-scroll-status {
+    display: none !important;
+}
