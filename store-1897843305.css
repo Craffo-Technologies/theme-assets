@@ -1,0 +1,19 @@
+@media (max-width: 768px){
+
+header  .khayal-top-navbar > div > div > div.flex-1.justify-end  > span{
+position: absolute !important;
+right: 15% !important;
+}
+header  .khayal-top-navbar > div > div > div.flex-1  > div a img {
+width: 3rem !important;
+height: 3rem !important;
+position: absolute !important;
+left: 50% !important;
+top: 50% !important;
+justify-content: center !important;
+align-items: center !important;
+margin: auto !important;
+transform: translate(-50% , -50%) !important;
+}
+
+}
