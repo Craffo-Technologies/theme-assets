@@ -1,0 +1,21 @@
+/* https://feebeauty0.com/ */
+
+
+custom-salla-product-card .s-product-card-content-title a{
+color: #502c12 !important;
+}
+salla-add-product-button{
+margin-top: 1rem !important;
+}
+.s-product-card-content-footer button ,salla-add-product-button {
+background: var(--color-footer-text) !important;
+color: #fff0d9 !important;
+padding: 0.8rem 1.8rem !important;
+border-radius: 1rem !important;
+
+}
+.s-product-card-content-footer button span , .s-product-card-content-footer button  i {
+color: #fff0d9 !important;
+
+}
+
