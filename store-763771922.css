@@ -1,0 +1,9 @@
+.s-block--marquee li::before {
+    content: "🚚";
+    display: inline-block;
+    margin-inline-end: 8px;
+    font-size: 16px;
+    line-height: 1;
+    vertical-align: middle;
+}
+
