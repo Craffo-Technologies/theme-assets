@@ -12,10 +12,20 @@ background: var(--color-footer-text) !important;
 color: #fff0d9 !important;
 padding: 0.8rem 1.8rem !important;
 border-radius: 1rem !important;
-
 }
 .s-product-card-content-footer button span , .s-product-card-content-footer button  i {
 color: #fff0d9 !important;
-
 }
 
+.store-footer__inner{
+justify-content: center !important;
+margin:  auto !important;
+}
+.store-footer__inner>div{
+grid-template-columns: repeat(4, minmax(0, 1fr)) !important;	
+}
+footer > div.store-footer__inner > div > div> a > img , footer > div.store-footer__inner > div > div> a{
+margin-top: 0.5rem !important;
+margin: auto !important;
+justify-content: center !important;
+}
