@@ -156,3 +156,9 @@ grid-template-columns: auto auto auto !important;
 .notah-video  a{
 display: none !important;
 }
+.cart .nav-mobile {
+  display: none !important;
+}
+.s-button-text{
+color:white !important;	
+}
