@@ -191,3 +191,7 @@ height: 1.9rem !important;
 }
 
 /* **** */
+
+.cart .nav-mobile {
+  display: none !important;
+}
