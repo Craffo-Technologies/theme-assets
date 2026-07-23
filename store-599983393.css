@@ -159,6 +159,6 @@ display: none !important;
 .cart .nav-mobile {
   display: none !important;
 }
-.s-button-text{
-color:white !important;	
+.cart .s-button-text{
+color:white !important;
 }
