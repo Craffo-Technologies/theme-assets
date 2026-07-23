@@ -140,7 +140,7 @@ color:var(--color-btn-card) !important;
 .notah-features > div > div .grid{
 display: grid !important;
 grid-template-columns: auto auto auto !important;
-font-size: 0.9rem !important;
+/* font-size: 0.9rem !important; */
 }
 }
 
@@ -148,10 +148,10 @@ font-size: 0.9rem !important;
 
 
 .notah-before-and-after h2{
-font-size: 1.64rem !important;	
+/* font-size: 1.64rem !important;	 */
 }
 .notah-before-and-after span{
-font-size: 0.8rem !important;		
+/* font-size: 0.8rem !important;		 */
 }
 .notah-video  a{
 display: none !important;
