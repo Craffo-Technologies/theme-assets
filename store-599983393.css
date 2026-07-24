@@ -12,19 +12,19 @@ color: #B9884A !important;
 }
 
 .notah-main-content.main-content.top-24.w-full > div.mb-4.flex.justify-between.bg-white.rounded-md.px-4.py-2{
-	display: none !important;
+display: none !important;
 }
 
 body.product-single salla-installment > .mb-5{
-	color: #231f1e !important;
+color: #231f1e !important;
 }
 
 
 .cart *{
-	color: #B9884A !important;
+color: #B9884A !important;
 } 
 .cart .cart-submit-wrap .s-button-primary .s-button-text {
-	color: #fff !important;
+color: #fff !important;
 }
 
 .s-add-product-toast__details .s-add-product-toast__options span,
@@ -34,29 +34,29 @@ body.product-single salla-installment > .mb-5{
 .s-add-product-toast__name,
 .s-add-product-toast__price-original
 {
-	color: #B9884A !important;
-	border-color:  #B9884A !important;
+color: #B9884A !important;
+border-color:  #B9884A !important;
 }
 
 body .s-add-product-toast__actions salla-button .s-button-btn{
 background-color: transparent !important;
-	color: #B9884A !important;
-		border-color:  #B9884A !important;
+color: #B9884A !important;
+border-color:  #B9884A !important;
 }
 .notah-main-content.main-content form .price-wrapper.gap-4.items-center > div.price_is_on_sale > h2{
-    color: var(--color-price-single-product) !important;
+color: var(--color-price-single-product) !important;
 }
 
 @media(max-width: 768px){
 .product-single .s-products-slider-card {
-    max-width: 150px !important;
+max-width: 150px !important;
 }}
 
 body .s-gifting-widget .s-list-tile-item-title h3 {
-  color: var(--color-primary) !important;
+color: var(--color-primary) !important;
 }
 body .s-gifting-widget .s-list-tile-item-subtitle {
-   color: var(--color-primary) !important;
+color: var(--color-primary) !important;
 }
 #main-content > section.py-16.container > div > div > h2{
 color: #B9884A !important;
@@ -157,8 +157,9 @@ grid-template-columns: auto auto auto !important;
 display: none !important;
 }
 .cart .nav-mobile {
-  display: none !important;
+display: none !important;
 }
-.cart .s-button-text{
+.cart .s-button-text ,#s-cart-summary-card-submit > button > span {
 color:white !important;
 }
+
