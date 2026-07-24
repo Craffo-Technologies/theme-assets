@@ -19,7 +19,7 @@ transform: translate(-50% , -50%) !important;
 }
 
 
-.khayal-logo-footer > div {
-	display: none !important;
+.khayal-logo-footer > div  , footer > div.store-footer__inner > div > div > div.khayal-logo-footer > div{
+display: none !important;
 }
 
