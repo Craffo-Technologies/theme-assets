@@ -18,7 +18,7 @@ text-align: center !important;
 }
 
 
-.index .kayan-header.overflow-hidden.w-full.h-full > div > div > div.flex-1.items-center.flex.gap-4.overflow-hidden > div.w-24,.product-single .kayan-header.overflow-hidden.w-full.h-full > div > div > div.flex-1.items-center.flex.gap-4.overflow-hidden > div.w-24{
+.index .kayan-header.overflow-hidden.w-full.h-full > div > div > div.flex-1.items-center.flex.gap-4.overflow-hidden > div.w-24,.product-single .kayan-header.overflow-hidden.w-full.h-full > div > div > div.flex-1.items-center.flex.gap-4.overflow-hidden > div.w-24,.product-index .kayan-header.overflow-hidden.w-full.h-full > div > div > div.flex-1.items-center.flex.gap-4.overflow-hidden > div.w-24{
 	display: none !important;
 }
 #app > div.app-inner.flex.flex-col.min-h-full > section > div > div.accordion-container.flex.flex-col.justify-center.items-center.w-full,#app > div.app-inner.flex.flex-col.min-h-full > section > div > div.accordion-container.flex.flex-col.justify-center.items-center.w-full> div{
