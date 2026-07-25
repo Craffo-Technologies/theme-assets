@@ -1,0 +1,19 @@
+@media (max-width: 1024px) {
+   .mobile-menu .main-menu > li > a,
+.mobile-menu .main-menu > li > span,
+.mm-spn.mm-spn--light,
+.mobile-menu .sub-menu li a
+{
+  color: #dc5434 !important;
+}
+
+}
+
+.yasmeen-squares-title h2,
+.yasmeen-special-banners h2{
+	    color: #8c9681 !important;
+}
+.yasmeen-squares-title span,
+.yasmeen-special-banners span,#app > section.s-block.s-block--testimonials.container.overflow-hidden > div > div > h1{
+	    color: #d25031 !important;
+}
