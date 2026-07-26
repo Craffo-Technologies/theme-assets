@@ -21,14 +21,23 @@ color: #fff0d9 !important;
 justify-content: center !important;
 margin:  auto !important;
 }
+
+@media (max-width: 768px){
+
 .store-footer__inner>div{
 grid-template-columns: repeat(4, minmax(0, 1fr)) !important;	
+}
+
+.s-products-slider-card{
+width: 9rem !important;  
+}
+
 }
 footer > div.store-footer__inner > div > div> a > img , footer > div.store-footer__inner > div > div> a{
 margin-top: 0.5rem !important;
 margin: auto !important;
 justify-content: center !important;
 }
-salla-add-product-button{
+salla-add-product-button , .s-product-card-content-footer{
 background: var(--color-footer-main) !important;
 }
