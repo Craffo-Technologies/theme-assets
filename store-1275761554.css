@@ -2,28 +2,47 @@
 /* https://wabarsa.com/ */
 
 @media (max-width: 768px) {
-	.store-footer {
-  position: relative;
+.store-footer {
+position: relative;
 }
 .store-footer .s-trust-badges-wrapper {
-  position: absolute;
-  bottom: 8rem !important;
-  right: 50%;
-    transform: translateX(60px);
+position: absolute;
+bottom: 8rem !important;
+right: 50%;
+transform: translateX(60px);
 }
 
 .store-footer .s-trust-badges-image {
-  width: 38px !important;
-  height: 38px !important;
+width: 38px !important;
+height: 38px !important;
 }
 
 .store-footer .s-trust-badges-label {
-  font-size: 11px !important;
-  line-height: 0.1 !important;
+font-size: 11px !important;
+line-height: 0.1 !important;
 }
 
 .store-footer .s-trust-badges-number {
-  font-size: 10px !important;
+font-size: 10px !important;
 }
 
 }
+
+
+/* ***** */
+
+
+
+.s-product-card-image a  , .s-product-card-image ,  .s-product-card-content > div.art-product-card-content-footer-text.s-product-card-content-footer  > salla-add-product-button > div > salla-button > button {
+border-radius: 1.5rem !important;
+}
+.s-product-card-content  .art-product-card-content-footer-text.s-product-card-content-footer  > salla-add-product-button > div > salla-button > button{
+border-radius: 1.5rem !important;
+background: var(--color-add-to-cart-text) !important ;
+}
+.s-product-card-image-contain{
+object-fit: cover !important;
+}
+
+
+
