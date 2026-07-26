@@ -1,6 +1,5 @@
 /* https://feebeauty0.com/ */
 
-
 custom-salla-product-card .s-product-card-content-title a{
 color: #502c12 !important;
 }
@@ -16,22 +15,9 @@ border-radius: 1rem !important;
 .s-product-card-content-footer button span , .s-product-card-content-footer button  i {
 color: #fff0d9 !important;
 }
-
 .store-footer__inner{
 justify-content: center !important;
 margin:  auto !important;
-}
-
-@media (min-width: 768px){
-
-.store-footer__inner>div{
-grid-template-columns: repeat(4, minmax(0, 1fr)) !important;	
-}
-
-.s-products-slider-card{
-width: 9rem !important;  
-}
-
 }
 footer > div.store-footer__inner > div > div> a > img , footer > div.store-footer__inner > div > div> a{
 margin-top: 0.5rem !important;
@@ -41,3 +27,23 @@ justify-content: center !important;
 salla-add-product-button , .s-product-card-content-footer{
 background: var(--color-footer-main) !important;
 }
+salla-products-slider .s-products-slider-slider .s-product-card-entry .s-product-card-content .s-product-card-content-footer button{
+background: var(--color-footer-main) !important;
+border: none !important;
+text-decoration: none !important;
+}
+
+
+@media (min-width: 768px){
+.store-footer__inner>div{
+grid-template-columns: repeat(4, minmax(0, 1fr)) !important;	
+}
+}
+
+@media (max-width: 768px){
+.s-products-slider-card{
+width: 11rem !important;
+max-width: 11rem !important;
+}
+}
+
