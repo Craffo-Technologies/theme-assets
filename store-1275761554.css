@@ -33,7 +33,8 @@ font-size: 10px !important;
 
 
 
-.s-product-card-image a  , .s-product-card-image ,  .s-product-card-content > div.art-product-card-content-footer-text.s-product-card-content-footer  > salla-add-product-button > div > salla-button > button , .art-promotion-title  , .s-products-list .s-product-card-content-footer .s-button-btn, .s-products-slider-slider .s-product-card-content-footer .s-button-btn{
+
+.s-product-card-image a  , .s-product-card-image ,  .s-product-card-content > div.art-product-card-content-footer-text.s-product-card-content-footer  > salla-add-product-button > div > salla-button > button , .s-products-list .s-product-card-content-footer .s-button-btn, .s-products-slider-slider .s-product-card-content-footer .s-button-btn{
 border-radius: 1.5rem !important;
 }
 .s-product-card-content  .art-product-card-content-footer-text.s-product-card-content-footer  > salla-add-product-button > div > salla-button > button{
@@ -43,6 +44,12 @@ background: var(--color-add-to-cart-text) !important ;
 .s-product-card-image-contain{
 object-fit: cover !important;
 }
+.art-promotion-title {
+border-radius:  1.5rem 0 0 1.5rem   !important;
+margin-right: -1rem !important;
+overflow: hidden !important;
+}
+
 
 
 
