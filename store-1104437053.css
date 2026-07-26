@@ -22,7 +22,7 @@ justify-content: center !important;
 margin:  auto !important;
 }
 
-@media (max-width: 768px){
+@media (min-width: 768px){
 
 .store-footer__inner>div{
 grid-template-columns: repeat(4, minmax(0, 1fr)) !important;	
