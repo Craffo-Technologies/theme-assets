@@ -1,0 +1,9 @@
+/* store-1922171666.css */
+/* https://salla.sa/drbkk7 */
+
+@media (max-width: 768px){
+.part-categories.py-16.block.block > div > div.grid.grid-cols-2 {
+grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+}
+
+}
