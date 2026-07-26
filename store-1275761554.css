@@ -33,7 +33,7 @@ font-size: 10px !important;
 
 
 
-.s-product-card-image a  , .s-product-card-image ,  .s-product-card-content > div.art-product-card-content-footer-text.s-product-card-content-footer  > salla-add-product-button > div > salla-button > button {
+.s-product-card-image a  , .s-product-card-image ,  .s-product-card-content > div.art-product-card-content-footer-text.s-product-card-content-footer  > salla-add-product-button > div > salla-button > button , .art-promotion-title  , .s-products-list .s-product-card-content-footer .s-button-btn, .s-products-slider-slider .s-product-card-content-footer .s-button-btn{
 border-radius: 1.5rem !important;
 }
 .s-product-card-content  .art-product-card-content-footer-text.s-product-card-content-footer  > salla-add-product-button > div > salla-button > button{
