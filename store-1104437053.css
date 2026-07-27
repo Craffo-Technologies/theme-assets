@@ -25,7 +25,7 @@ margin: auto !important;
 justify-content: center !important;
 }
 salla-add-product-button , .s-product-card-content-footer{
-background: var(--color-footer-main) !important;
+background: var(--color-footer-text) !important;
 }
 salla-products-slider .s-products-slider-slider .s-product-card-entry .s-product-card-content .s-product-card-content-footer button{
 background: var(--color-footer-main) !important;
@@ -47,3 +47,6 @@ max-width: 11rem !important;
 }
 }
 
+.s-button-text , .s-product-card-content-footer button span, .s-product-card-content-footer button i{
+background: var(--color-footer-text) !important;
+}
