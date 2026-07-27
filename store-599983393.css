@@ -163,3 +163,33 @@ display: none !important;
 color:white !important;
 }
 
+
+/* *** */
+
+
+#app > footer > div.notah-copyright > div > span > p {
+  visibility: hidden !important;
+  position: relative !important;
+  margin: auto !important;
+}
+#app > footer > div.notah-copyright > div > span{
+	padding-bottom: 1rem !important;
+}
+#app > footer > div.notah-copyright > div > span > p::after {
+  content: "صنع على naturalsilksa  ";
+  visibility: visible !important;
+  position: absolute !important;
+  left: 50% !important;
+  top: 40%  !important;
+  width: 100% !important;
+  text-align: center !important;
+  transform: translate(-50%, -50%) !important;
+  margin:  1rem auto !important;
+  padding: 1rem !important;
+}
+
+
+
+/* **** */
+
+
