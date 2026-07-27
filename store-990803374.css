@@ -22,3 +22,8 @@ fill: var(--color-disprice-single-product) !important;
 .black-video > div.relative.container  > div > div > a.bg-transparent.border-2 {
 display: none !important;	
 }
+
+
+.s-contacts-list a[href^="tel:"] {
+    display: none !important;
+}
