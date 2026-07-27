@@ -17,3 +17,11 @@
 .yasmeen-special-banners span,#app > section.s-block.s-block--testimonials.container.overflow-hidden > div > div > h1{
 	    color: #d25031 !important;
 }
+
+
+.s-product-card-content-main > h3 > a,div#page-main-title{
+		    color: #d25031 !important;
+}
+.s-product-card-entry .s-product-card-price{
+	    color: #8c9681 !important;
+}
