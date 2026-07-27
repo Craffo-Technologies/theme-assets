@@ -1,7 +1,6 @@
 /* store-1489906825.css */
 /* https://salla.sa/Smaarlabel */
-
-footer .copyright-text > span > p{
+footer .copyright-text > p{
 visibility: hidden !important;
 position: relative !important;
 margin: auto !important;
@@ -9,7 +8,7 @@ margin: auto !important;
 footer .copyright-text span  {
 padding-bottom: 1rem !important;
 }
-footer .copyright-text span > p::after {
+footer .copyright-text p::after {
 content:  "الحقوق محفوظة | SMAAR LABEL ";
 visibility: visible !important;
 position: absolute !important;
@@ -23,7 +22,7 @@ margin:  1rem auto !important;
 }
 
 @media (max-width: 768px){
-footer .copyright-text span > p::after{
+footer .copyright-text p::after{
 top: unset !important;
 margin:  0 auto !important;
 padding: 0 !important;  
