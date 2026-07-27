@@ -43,7 +43,8 @@ border-radius: 1.5rem !important;
 border-radius: 1.5rem !important;
 background: var(--color-add-to-cart-text) !important ;
 }
-.s-product-card-image-contain{
+.s-product-card-image-contain , 
+html body .s-products-list .s-products-list-wrapper .s-product-card-entry .s-product-card-image{
 object-fit: cover !important;
 }
 .art-promotion-title {
@@ -55,7 +56,8 @@ overflow: hidden !important;
 /* **** */
 
 
-html body .s-products-list .s-products-list-wrapper .s-product-card-entry .s-product-card-image {
+html body .s-products-list .s-products-list-wrapper .s-product-card-entry .s-product-card-image , .s-product-card-image-contain , 
+html body  .s-product-card-image{
 border-radius: 1.5rem !important;
 }
 
