@@ -26,5 +26,12 @@ margin:  1rem auto !important;
 padding: 1rem !important;
 }
 
+@media (max-width: 768px){
 
+footer > div.py-4.text-center > div > span > p::after{
+top: unset !important;
+margin:  0 auto !important;
+padding: 0 !important;  
+}
+}
 
