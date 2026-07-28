@@ -1,0 +1,26 @@
+/* store-1962623793.css */
+/* https://pureglow-as.com/ */
+
+
+.kayan-card {
+background: white !important;
+padding: 0.4rem !important;
+border-radius: 1rem !important;
+border: 1px solid white !important;
+box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px !important;
+	
+}
+.kayan-card h4{
+font-size: 0.8rem !important;
+height: 2rem !important;
+overflow: hidden !important;
+}
+.kayan-card  a img {
+border-radius: 1rem !important;
+padding: 0.4rem !important;
+}
+salla-products-list > div.s-products-list-wrapper.s-products-list-horizontal-cards > custom-salla-product-card  > div > salla-add-product-button > div > salla-button > button > span > div > button{
+box-shadow: rgba(40, 91, 226,0.15) 0px 48px 100px 0px;
+background: var(--color-primary) !important;
+color: white !important;
+}
