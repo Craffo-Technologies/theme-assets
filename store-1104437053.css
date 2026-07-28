@@ -50,3 +50,7 @@ max-width: 11rem !important;
 .s-product-card-content-footer button span, .s-product-card-content-footer button i{
 background: var(--color-footer-text) !important;
 }
+
+.total-price{
+color: #512c13 !important ;
+}
