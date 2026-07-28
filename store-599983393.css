@@ -167,4 +167,17 @@ color:white !important;
 
 /* **** */
 
+.cart #has_discount, .cart #has_discount *  ,.item-total  *{
+color: var(--color-price-card) !important;
+fill: var(--color-price-card) !important;
+	
+}
+
+.s-button-primary-outline:hover {
+background-color: #b9884a5e !important ;
+}
+
+/* *** */
+
+
 
