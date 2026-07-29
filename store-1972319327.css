@@ -1,10 +1,3 @@
-@media (max-width: 768px) {
-
-#app > div.app-inner.flex.flex-col.min-h-full > footer > div > div.justify-center.items-center.w-full > div.border-gray-300.pb-8.flex.flex-col.gap-4> div.flex.justify-center.items-center,#app > div.app-inner.flex.flex-col.min-h-full > footer > div > div.justify-center.items-center.w-full > div.border-gray-300.pb-8.flex.flex-col.gap-4> div.flex.justify-center.items-center p{
-text-align: center !important;
-}
-
-}
 
 
 
@@ -131,8 +124,21 @@ border-bottom-color: #5e5e3c !important ;
 /* *** */
 
 .s-cart-summary-count{
-background: #b2b19e !important;
+background: #404025 !important;
 }
 header > div > div > div.flex-1  > div.w-24 > a{
 display: none !important;
 }
+
+
+/* ******* */
+
+
+@media (max-width: 768px) {
+
+#app > div.app-inner.flex.flex-col.min-h-full > footer > div > div.justify-center.items-center.w-full > div.border-gray-300.pb-8.flex.flex-col.gap-4> div.flex.justify-center.items-center,#app > div.app-inner.flex.flex-col.min-h-full > footer > div > div.justify-center.items-center.w-full > div.border-gray-300.pb-8.flex.flex-col.gap-4> div.flex.justify-center.items-center p{
+text-align: center !important;
+}
+
+}
+
