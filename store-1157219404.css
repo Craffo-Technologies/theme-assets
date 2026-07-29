@@ -27,3 +27,7 @@ color: var(--color-primary)  !important;
 color: white !important;
 fill: white !important;
 }
+
+salla-bought-together * div {
+color: var(--color-add-to-cart-text) !important;
+}
