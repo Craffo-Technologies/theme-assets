@@ -63,8 +63,9 @@ border-radius: 1.5rem !important;
 
 /* ***** */
 
-
-
+.art-main-content  .product-count-down ,  .art-main-content  .product-count-down *{
+display: none !important;
+}
 
 
 
