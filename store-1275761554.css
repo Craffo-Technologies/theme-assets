@@ -67,5 +67,7 @@ border-radius: 1.5rem !important;
 display: none !important;
 }
 
-
+.tabs.hide-scroll > salla-button:nth-child(2) > button .s-button-text{
+ 	color: white !important;
+ }
 
