@@ -61,8 +61,8 @@ color:  var(--color-background)  !important;
 }
 
 .kayan-faq .accordion-container > div {
-	padding: 0.8rem !important;
-	margin: 0.4rem !important;
+padding: 0.8rem !important;
+margin: 0.4rem !important;
 }
 
 footer div , salla-trust-badges, footer .contact-slot  , footer .contact-slot .s-contacts-item *{
@@ -71,7 +71,11 @@ justify-content: center !important;
 text-align: center !important;
 }
 #app > div.app-inner.flex.flex-col.min-h-full > header > div > div > div.flex-1.lg\:justify-center.items-center.flex.gap-4.overflow-hidden > div.w-24{
-	display: flex !important;
+display: flex !important;
+}
+.craffo-components-statistics{
+padding-bottom: 0rem !important;
+margin-bottom: 0 !important;
 }
 
 @media (max-width: 767px) {
@@ -86,15 +90,17 @@ padding-top: 0 !important;
 .kayan-header  a img {
 display: none !important;
 }
-.craffo-components-statistics > div {
-display: grid !important;
-grid-template-columns: auto auto auto !important;
-}
 .mx-auto.craffo-components-statistics > div > div > div.mt-1 {
 font-size: 1.6rem !important;
 }
-#app > div.app-inner.flex.flex-col.min-h-full > div.relative.px-10.py-10.container.mx-auto.craffo-components-statistics > div > div > div.mt-1.text-lg {
-font-size: 0.8rem !important;
+.craffo-components-statistics > div {
+display: grid !important;
+margin: auto !important;
+justify-content: center !important;
+grid-template-columns: auto auto auto !important;
+}
+.craffo-components-statistics > div > div > div.mt-1.text-lg {
+font-size: 1rem !important;
 }
 .index .kayan-header {
 height: 100px !important;
