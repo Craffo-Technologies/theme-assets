@@ -60,6 +60,19 @@ background: var(--color-primary) !important ;
 color:  var(--color-background)  !important;	
 }
 
+.kayan-faq .accordion-container > div {
+	padding: 0.8rem !important;
+	margin: 0.4rem !important;
+}
+
+footer div , salla-trust-badges, footer .contact-slot  , footer .contact-slot .s-contacts-item *{
+margin: auto !important;
+justify-content: center !important;
+text-align: center !important;
+}
+#app > div.app-inner.flex.flex-col.min-h-full > header > div > div > div.flex-1.lg\:justify-center.items-center.flex.gap-4.overflow-hidden > div.w-24{
+	display: flex !important;
+}
 
 @media (max-width: 767px) {
 
