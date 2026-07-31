@@ -28,3 +28,6 @@ footer salla-social::after {
     margin-top: 5% !important;
 }
 
+.mobile-menu.mm-spn--light ul li span{
+	color: black !important;
+}
