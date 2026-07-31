@@ -31,3 +31,6 @@ footer salla-social::after {
 .mobile-menu.mm-spn--light ul li span{
 	color: black !important;
 }
+#part-store-header > div >  .main-nav-container.part-main-nav ul li span {
+	color: white  !important;
+}
