@@ -24,3 +24,35 @@ box-shadow: rgba(40, 91, 226,0.15) 0px 48px 100px 0px;
 background: var(--color-primary) !important;
 color: white !important;
 }
+
+
+
+
+@media (max-width: 767px) {
+.kayan-card .discountPercentage {
+        padding: 2px 4px !important;
+        font-size: 8px !important;
+        bottom: 8px !important;
+        right: 7px;
+}
+ .kayan-card .discountPercentage i {
+    font-size: 10px !important;
+    margin-left: 2px !important;
+  }
+  .kayan-reviews .swiper-slide {
+  padding-bottom: 0px !important;
+}
+.kayan-reviews{
+	padding-bottom: 0rem !important;
+}
+}
+
+ .kayan-card .kayan-promotion_title{
+	background-color: transparent !important;
+}
+
+
+#app > div.app-inner.flex.flex-col.min-h-full > footer{
+	padding-top: unset !important;
+}
+
