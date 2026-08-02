@@ -2,63 +2,63 @@
 
 
 .khayal-main-content .s-add-product-button-main salla-mini-checkout-widget {
-	display: none !important;
+display: none !important;
 }
 
 @media (max-width: 1024px) {
-	.khayal-categories-slider salla-slider,
+.khayal-categories-slider salla-slider,
 .khayal-categories-slider .swiper,
 .khayal-categories-slider .s-slider-container {
-    overflow: visible !important;
+overflow: visible !important;
 }
 .khayal-categories-slider .khayal-category-slide {
-    width: 100% !important;
-    max-width: 100% !important;
+width: 100% !important;
+max-width: 100% !important;
 }
 
 .khayal-category-slide img {
-    display: none !important;
+display: none !important;
 }
-   .khayal-categories .khayal-categories-slider .swiper-wrapper {
-            display: grid !important;
-        grid-template-columns: repeat(4, 1fr) !important;
-        gap: 6px !important;
-    transform: none !important;
-    transition: none !important;
-    flex-wrap: nowrap !important;
-    }
+.khayal-categories .khayal-categories-slider .swiper-wrapper {
+display: grid !important;
+grid-template-columns: repeat(4, 1fr) !important;
+gap: 6px !important;
+transform: none !important;
+transition: none !important;
+flex-wrap: nowrap !important;
+}
 
 .khayal-category-slide button .sicon-arrow-right,
 .khayal-category-slide button .sicon-arrow-left {
-    display: none !important;
+display: none !important;
 }
 
 .khayal-category-slide button {
-    font-size: 10px !important;
-    padding-left: 6px;
-    padding-right: 6px;
-    padding-bottom: 0.625rem;
-    padding-top: 0.5rem;
-    flex-direction: column !important;
-    line-height: 1.3 !important;
-    white-space: nowrap !important;
-        overflow: visible;
-            background-color: #fff !important;
-             border-radius: 10px !important;
-    box-shadow: rgba(0, 0, 0, .15) 1.95px 1.95px 2.6px !important;
-    font-weight: 200 !important;
-    text-transform: capitalize !important;
-        border: 1px solid  var(--color-primary);
+font-size: 10px !important;
+padding-left: 6px;
+padding-right: 6px;
+padding-bottom: 0.625rem;
+padding-top: 0.5rem;
+flex-direction: column !important;
+line-height: 1.3 !important;
+white-space: nowrap !important;
+overflow: visible;
+background-color: #fff !important;
+border-radius: 10px !important;
+box-shadow: rgba(0, 0, 0, .15) 1.95px 1.95px 2.6px !important;
+font-weight: 200 !important;
+text-transform: capitalize !important;
+border: 1px solid  var(--color-primary);
 }
 
 .khayal-category-slide button span {
-    white-space: nowrap !important;
-    max-width: 100% !important;
-        overflow: visible;
+white-space: nowrap !important;
+max-width: 100% !important;
+overflow: visible;
 }
 
 .khayal-category-slide.group.w-80.max-w-80.h-auto.overflow-hidden.shadow-md.duration-300.bg-white.flex.flex-col.justify-center.items-center.swiper-slide{
-	  overflow: visible;
+overflow: visible;
 }
 
 }
@@ -269,8 +269,8 @@ display: none !important;
 /* الغاء الجزء الي في صفحة المنتج  */
 
 
- .main-content.khayal-main-content  > form > salla-fulfillment-methods > div{
-	display: none !important;
+.main-content.khayal-main-content  > form > salla-fulfillment-methods > div{
+display: none !important;
 }
 
 
@@ -278,6 +278,24 @@ display: none !important;
 
 
 footer .store-footer__inner .khayal-logo-footer  .s-trust-badges-wrapper  ,footer salla-trust-badges , footer salla-trust-badges *{
-	display: none !important;
+display: none !important;
 }
+
+
+
+/* ****************** */
+
+
+.s-product-card-content  .s-product-card-content-footer  salla-add-product-button   salla-button  ,  .s-product-card-content  .s-product-card-content-footer  salla-add-product-button   salla-button  button{
+background: rgb(55, 33, 115) !important;
+color: white !important;
+}
+.s-product-card-content > div.s-product-card-content-footer.gap-2 > salla-add-product-button > div > salla-button > button , .main-content.khayal-main-content > form > section.sticky-product-bar > salla-add-product-button > div > salla-button > button, salla-add-product-button > div > salla-button > button  {
+background: rgb(55, 33, 115) !important;
+color: white !important;
+}
+salla-comments , salla-bought-together , .main-content.khayal-main-content  > salla-bought-together , .s-comments{
+display: none !important;
+}
+
 
