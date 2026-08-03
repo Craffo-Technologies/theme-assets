@@ -156,7 +156,7 @@ max-width: 100% !important;
 padding: 0 !important;
 margin: 0 !important;
 }
-salla-products-list > div.s-products-list-wrapper.s-products-list-vertical-cards > custom-salla-product-card  > div > salla-add-product-button > div > salla-button  .s-button-element.s-button-btn{
+salla-products-list > div.s-products-list-wrapper.s-products-list-vertical-cards > custom-salla-product-card  > div > salla-add-product-button > div > salla-button  .s-button-btn , salla-add-product-button > div > salla-button > button {
 margin: 0 !important;
 padding: 0 !important;
 }
