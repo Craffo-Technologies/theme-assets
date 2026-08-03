@@ -1,0 +1,28 @@
+/* store-891067951.css */
+
+/* https://salla.sa/DrsHealth?_ */
+
+@media (max-width: 768px){
+
+.ronaq-categories .ronaq-categories-slide {
+min-width: 70px !important;
+max-width: 70px !important;
+}
+.ronaq-categories-slide.swiper-slide  > div > a > div.text  > h4{
+font-size: 0.75rem !important;
+margin: auto !important;
+text-align: center !important;
+}
+
+.nav-logo{
+position: absolute !important;
+left: 50% !important;
+transform: translateX(-50%) !important;
+width: 50% !important;
+}
+
+
+}
+
+
+
