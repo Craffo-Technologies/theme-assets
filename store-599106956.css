@@ -286,6 +286,9 @@ display: none !important;
 /* ****************** */
 
 
+.khayal-main-content salla-bought-together , .s-comments-container salla-reviews-summary , .s-comments-container salla-reviews-summary *{
+	display: none !important;
+}
 .s-product-card-content .s-product-card-content-footer salla-add-product-button salla-button button, .s-product-card-content > div.s-product-card-content-footer.gap-2 > salla-add-product-button > div > salla-button > button , .s-product-card-content > div.s-product-card-content-footer.gap-2 > salla-add-product-button > div > salla-button > button{
 color: rgb(55, 33, 115) !important ;
 background: white !important;
@@ -295,9 +298,4 @@ border-color:  rgb(55, 33, 115) !important ;
 background: rgb(55, 33, 115) !important;
 color: white !important;
 }
-salla-comments , salla-bought-together , .main-content.khayal-main-content  > salla-bought-together , .s-comments{
-display: none !important;
-}
-
-
 
