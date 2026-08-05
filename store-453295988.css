@@ -2,28 +2,20 @@
 
 
 @media (max-width: 768px) {
-/* .lamera-store-footer .lamera-store-footer__inner salla-payments .s-payments-list-item {
-    align-items: center;
-    background-color: white !important;
-} */
+
 footer > div.store-footer__inner.lamera-store-footer__inner > div > div.flex > div > salla-payments > ul > li:nth-child(9) {
-    position: absolute !important;
-    top: 14rem !important;
-    left: 3rem !important;
-    width: 9rem !important;
-    height: 3.5rem !important;
-     
-    background-image: url("https://asas-tools.com/u/uploads/sara_craffo/27564879786538424_1x01gc9-removebg-preview.png") !important;
-    background-size: contain !important;
-    background-position: center !important;
-    background-repeat: no-repeat !important;
-
-    font-size: 0 !important;
+position: absolute !important;
+top: 12.5rem !important;
+left: 3rem !important;
+width: 9rem !important;
+background-image: url("https://asas-tools.com/u/uploads/sara_craffo/1370842228343480_rzteeu-removebg-preview.png") !important;
+background-size: contain !important;
+background-position: center !important;
+background-repeat: no-repeat !important;
+font-size: 0 !important;
 }
-
 footer > div.store-footer__inner.lamera-store-footer__inner > div > div.flex > div > salla-payments > ul > li:nth-child(9) * {
-    opacity: 0 !important;
+opacity: 0 !important;
 }
 
 }
-
