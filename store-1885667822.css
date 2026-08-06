@@ -1,0 +1,31 @@
+/* store-1885667822.css */
+/* https://salla.sa/https-feeor */
+
+#app > div.app-inner.flex.flex-col.min-h-full > section.s-block--fixed-banner.wide-placeholder > div > div{
+margin-top: 0 !important;
+padding-top: 0 !important;
+margin: 0 !important;
+padding: 0 !important;
+width: 100% !important;
+max-width: 100% !important;
+}
+
+.khayal-categories .khayal-categories-slider salla-slider .swiper-wrapper > div{
+width: 10rem !important;
+height: 10rem !important;
+}
+.khayal-categories .khayal-categories-slider salla-slider .swiper-wrapper > div a >div{
+width: 10rem !important;
+height: 10rem !important;
+}
+.khayal-categories .khayal-categories-slider salla-slider .swiper-wrapper > div  a , .khayal-categories .khayal-categories-slider salla-slider .swiper-wrapper > div a >div img{
+width: 10rem !important;
+height: 10rem !important;	
+object-fit: cover !important;
+background-size: cover !important;
+}
+.khayal-categories .khayal-categories-slider .swiper-wrapper {
+justify-content: center  !important;
+gap:0.5rem !important;
+}
+
