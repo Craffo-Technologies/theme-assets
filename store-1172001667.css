@@ -1,64 +1,73 @@
 body .s-gifting-widget .s-list-tile-item-title h3 {
-    color: #4C3C2F !important;
+color: #4C3C2F !important;
 }
 
 
 body .s-gifting-widget .s-list-tile-item-subtitle {
-    color: #4C3C2F !important;
+color: #4C3C2F !important;
 }
 body .s-offer-wrapper{
-	background-color: transparent !important;
+background-color: transparent !important;
 }
 body .s-offer-wrapper h2,body .s-offer-wrapper p,body .s-offer-wrapper .s-offer-card *{
-	  color: #4C3C2F !important;
+color: #4C3C2F !important;
 }
 
 body .s-offer-wrapper .s-offer-card{
-	background-color: #FFCB66 !important ;
+background-color: #FFCB66 !important ;
 }
 
 .cart .shadow-default.bg-white {
-    color: #4c3c2f !important;
+color: #4c3c2f !important;
 }
 
 .s-cart-summary-count {
-    background-color: #d088b9 !important;
+background-color: #d088b9 !important;
 }
 
 
 .s-reviews-container .swiper-slide-active .s-reviews-testimonial__text p,
 section.cart-item p.text-primary.flex-none.font-bold.text-sm {
-	color: #4c3c2f;
+color: #4c3c2f;
 }
 
 .s-product-options-grid-mode
-	input[type='radio']:checked
-	+ .s-product-options-grid-mode-span {
-	background-color: #ffcb66 !important;
-	color: #ffffff !important;
-	border-color: #ffcb66 !important;
+input[type='radio']:checked
++ .s-product-options-grid-mode-span {
+background-color: #ffcb66 !important;
+color: #ffffff !important;
+border-color: #ffcb66 !important;
 }
 
 .s-product-options-grid-mode label {
-	cursor: pointer;
+cursor: pointer;
 }
 
 .s-product-options-grid-mode-span {
-	border: 1px solid var(--color-primary);
+border: 1px solid var(--color-primary);
 }
 
 .s-product-options-colors-wrapper input[type='radio'] + label div {
-	color: #4c3c2f;
+color: #4c3c2f;
 }
 
 .s-products-slider-slider .s-slider-block__title h2,.s-products-slider-slider .s-slider-block__display-all{
-	color: #4c3c2f !important;
+color: #4c3c2f !important;
 }
 salla-products-slider .s-slider-block__title
 {
-	padding-top: 2rem !important;
+padding-top: 2rem !important;
 }
 
 .s-block.s-block--testimonials.container.overflow-hidden.component-spacing > salla-reviews > div > div > h1,.s-block.s-block--testimonials.container.overflow-hidden.component-spacing > salla-reviews > div > div > a{
-	color: #4c3c2f !important;
+color: #4c3c2f !important;
+}
+
+
+
+/* **** */
+
+
+.s-reviews-swiper-slide.swiper-slide .s-reviews-testimonial__info > h2{
+color: #4C3C2F !important;	
 }
