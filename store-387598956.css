@@ -18,3 +18,23 @@ height: 82vh !important;
 max-height: 82vh !important;
 }
 
+/* **** */
+
+
+@media(min-width: 768px){
+	.concept-video{
+		height: 88vh !important;
+	}
+}
+
+@media(max-width: 1024px){
+#app > div.app-inner.flex.flex-col.min-h-full.overflow-x-hidden > div.concept-video.py-5.w-full.relative.bg-no-repeat.bg-center.bg-cover.bg-origin-border.overflow-hidden.block.block{
+	    max-height: 88vh !important;
+
+}
+
+}
+
+#app > div.app-inner.flex.flex-col.min-h-full.overflow-x-hidden > section.concept-categories.mt-20.mb-4.block.block{
+	margin-top: 1rem !important;
+}
