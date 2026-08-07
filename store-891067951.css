@@ -25,4 +25,9 @@ width: 50% !important;
 }
 
 
-
+.container  salla-products-list  .s-products-list-vertical-cards{
+overflow: hidden !important;	
+} 
+salla-products-list > div.s-infinite-scroll-status > p.s-infinite-scroll-last.infinite-scroll-last{
+display: hidden !important;
+}
