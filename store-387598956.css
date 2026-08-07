@@ -1,9 +1,20 @@
 @media(min-width: 768px){
 .concept-video{
-height: 100vh !important;
+height: 82vh !important;
+max-height: 82vh !important;
 }
+}
+@media(max-width: 768px){
+.concept-video{
+height: 82vh !important;
+max-height: 82vh !important;
+}
+}
+.concept-video ,
+.concept-video video ,
+.concept-video > div.flex.absolute.top-0.left-0.w-full.h-full.bg-no-repeat.bg-center.bg-cover.bg-origin-border , 
+.concept-video.py-5.w-full.relative.bg-no-repeat.bg-center.bg-cover.bg-origin-border.overflow-hidden.block.block{
+height: 82vh !important;
+max-height: 82vh !important;
 }
 
-.concept-video{
-height: 100vh !important;
-}
