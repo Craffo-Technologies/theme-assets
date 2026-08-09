@@ -1,4 +1,8 @@
 
+body{
+color:black !important;
+}
+
 .py-20.sense-categories.block  > div > div.grid.grid-cols-3  a > div:nth-child(5){
 display: none !important;
 }
@@ -8,8 +12,8 @@ grid-template-columns: repeat(5, minmax(0, 1fr)) !important;
 }
 @media (max-width: 768px){
 .s-products-slider-card{
-	width: 11rem !important;
-	max-width: 11rem !important;
+width: 11rem !important;
+max-width: 11rem !important;
 }
 #main-content > section.py-20.sense-categories.block.block > div > div:nth-child(2)  {
 display: grid !important;
@@ -25,13 +29,13 @@ width: 3.8rem !important;
 height: 3.8rem !important;
 }
 #main-content > section.py-20.sense-categories.block.block > div > div.text-center.mb-12 > p{
-	font-size: 1.5rem !important;
+font-size: 1.5rem !important;
 }
 #main-content > section.sense-features.py-16 > div > div{
-	grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
 }
 #main-content > section.sense-features.py-16 > div > div > div  > h4{
-	font-size: 0.9rem !important;
+font-size: 0.9rem !important;
 }
 }
 
