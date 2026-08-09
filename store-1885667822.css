@@ -60,6 +60,8 @@ background-size: cover !important;
   
 }
 
-
+.s-reviews-testimonial{
+background: var(--color-background) !important;
+}
 
 
