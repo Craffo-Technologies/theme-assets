@@ -1,0 +1,9 @@
+/* store-358575884.css */
+/* https://myayro.com/ar */
+
+@media (max-width: 768px){
+
+section > div.content-grid.image-right > div.features-content > div.cta-wrapper > a{
+	width: 7rem !important;
+}
+}
