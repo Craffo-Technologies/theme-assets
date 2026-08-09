@@ -1,7 +1,7 @@
 
-body{
+/* body{
 color:black !important;
-}
+} */
 
 .py-20.sense-categories.block  > div > div.grid.grid-cols-3  a > div:nth-child(5){
 display: none !important;
