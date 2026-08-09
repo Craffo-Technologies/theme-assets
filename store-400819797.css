@@ -1,0 +1,15 @@
+/* store-400819797.css */
+/* https://gemvera.online/ */
+
+
+
+#mainnav  .navbar-brand img{
+width: 5rem !important;
+max-width: 5rem !important;
+height: 5rem !important;
+max-height: 5rem !important;
+}
+#page-main-title , .s-contacts-list > div:nth-child(2){
+display: none !important;
+}
+
