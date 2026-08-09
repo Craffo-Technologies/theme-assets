@@ -34,3 +34,26 @@ height: 3.8rem !important;
 	font-size: 0.9rem !important;
 }
 }
+
+@media (max-width: 768px){
+
+.sense-features > div > div{
+grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+}
+.sense-features.py-16 > div > div > div  > div > i{
+font-size: 1.2rem !important;
+}
+.sense-features.py-16 > div > div > div > h4{
+font-size: 0.9rem !important;
+}
+.sense-features > div > div > div  > p{
+font-size: 0.7rem !important;
+width: 100% !important;
+max-width: 100% !important;
+}
+.sense-features.py-16 > div > div > div{
+padding: 0.2rem !important;
+}
+}
+
+
