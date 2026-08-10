@@ -58,6 +58,20 @@ max-width: 100% !important;
 .sense-features.py-16 > div > div > div{
 padding: 0.2rem !important;
 }
+/* **** */
+
+
+.s-slider-block__title  .s-slider-block__title-right > h2{
+font-size: 0.8rem !important;	
 }
+.sense-categories > div > div.grid  > a  > span{
+font-size: 0.6rem !important;
+text-align: center !important;
+justify-content: center !important;
+margin: auto !important;
+line-height: 0.9rem !important;
+}
+}
+
 
 
