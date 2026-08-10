@@ -74,8 +74,15 @@ background: var(--background-color-theme);
 
 /* ****** */
 
-
 .navbar-mobile-menu  , #mobile-menu > ul  , .mobile-menu   , .mm-spn.mm-spn--navbar.mm-spn--main:after{
 background: var(--color-breadcrumbs) !important;
 color: white !important;
 }
+.s-product-card-price{
+color: black !important;
+}
+
+
+/* ****** */
+
+
