@@ -15,7 +15,7 @@ max-width:7rem !important;
 }
 
 
-.s-block.s-block--bundle-hero-banner{
+.s-block.s-block--bundle-hero-banner ,  .s-block.s-block--bundle-product-features{
 padding-top: 0 !important;
 margin-top: 0 !important;
 }
