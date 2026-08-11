@@ -84,5 +84,13 @@ color: black !important;
 
 
 /* ****** */
+div.main-content.w-full > section > form > salla-product-options > salla-conditional-fields > div > div, div.main-content.w-full > section > form > salla-product-options, .s-product-options-option-label b{
+background: var(--background-color-theme) !important;
+}
+.prestige-card  a img{
+aspect-ratio: 12/14 !important;
+}
+
+/* ****** */
 
 
