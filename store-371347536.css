@@ -51,10 +51,11 @@ color: #5D60EE !important;
 
 .main-content  > section > form > salla-product-options > salla-conditional-fields{
 color: var(--color-footer-main) !important;
-background-color: var(--color-breadcrumbs) !important;
+/* background-color: var(--color-breadcrumbs) !important; */
 }
+
 .main-content > section > form > salla-product-options > salla-conditional-fields > div {
-background-color: var(--color-breadcrumbs) !important;
+/* background-color: var(--color-breadcrumbs) !important; */
 }
 
 /* ***** */
@@ -89,6 +90,10 @@ background: var(--background-color-theme) !important;
 }
 .prestige-card  a img{
 aspect-ratio: 12/14 !important;
+}
+.main-content > section > form > salla-product-options > salla-conditional-fields, .s-product-options-wrapper , .s-product-options-option , .s-product-options-option *{
+background: var(--background-color-theme) !important;
+
 }
 
 /* ****** */
