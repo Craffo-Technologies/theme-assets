@@ -97,14 +97,13 @@ fill:  #b9884a !important;
 #featured-products-style2-1 , section , section.s-block.s-block-tabs  {
 background: var(--color-background) !important;
 }
+
 /* **السجل التجاري* */
+/* 
 #app > footer > div.store-footer__inner.notah-store-footer__inner > div::after {
 content: " السجل التجاري 7054431023";
 display: flex !important;
 align-items: center !important;
-/* // justify-content: center !important; */
-/* // margin-right: auto !important; */
-/* // margin-left: auto !important; */
 background-image: url("https://asas-tools.com/u/uploads/sara_craffo/4__1_-removebg-preview.png") !important;
 background-size: contain !important;
 background-repeat: no-repeat !important;
@@ -120,8 +119,7 @@ text-align: right !important ;
 direction: rtl !important;
 max-width: 150px !important;
 word-break: break-word !important;
-}
-
+} */
 
 /* **** */
 
@@ -140,12 +138,10 @@ color:var(--color-btn-card) !important;
 .notah-features > div > div .grid{
 display: grid !important;
 grid-template-columns: auto auto auto !important;
-/* font-size: 0.9rem !important; */
 }
 }
 
 /* **** */
-
 
 .notah-before-and-after h2{
 /* font-size: 1.64rem !important;	 */
@@ -162,8 +158,6 @@ display: none !important;
 .cart .s-button-text ,#s-cart-summary-card-submit > button > span {
 color:white !important;
 }
-
-
 
 /* **** */
 
