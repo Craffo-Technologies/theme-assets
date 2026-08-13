@@ -57,3 +57,23 @@ order: 2 !important;
 .art-single-btns{
 order: 3 !important;
 }
+
+/* **** */
+
+@media (max-width: 768px){
+
+footer > div.md\:px-10.px-5.lg\:py-9.md\:py-7.py-5 > div > div.lg\:col-span-2.rtl\:lg\:pl-20.ltr\:lg\:pr-20 > div.block.mb-6{
+padding: 0 !important;
+margin:  0 auto !important;
+}
+footer > div> div > div > p:nth-child(3) , footer > div > div > div > p.max-w-sm.leading-6 {
+display: none !important;
+}
+#app > div.app-inner.flex.flex-col.min-h-full > footer > div.md\:flex.items-center.justify-between.md\:px-10.px-5.py-4.text-center{
+margin-top: 3rem !important;
+}
+salla-trust-badges{
+position: absolute;
+bottom: 3rem !important;
+}
+}
