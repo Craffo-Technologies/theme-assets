@@ -7,10 +7,12 @@ display: none !important;
 .sicon-star.text-purple-400 , .sicon-star {
 fill: var(--color-add-to-cart-text) !important;
 color: var(--color-add-to-cart-text) !important;
+-webkit-text-fill-color:var(--color-add-to-cart-text)  !important;
 }
 .sicon-star:before {
 fill: var(--color-add-to-cart-text) !important;
 color: var(--color-add-to-cart-text) !important;
+-webkit-text-fill-color:var(--color-add-to-cart-text)  !important;
 }
 footer > div  > div > div  > div.flex.flex-col , salla-trust-badges , salla-trust-badges * ,  footer > div  > div > div  , footer salla-social , footer salla-social ul   ,  footer > div  > div > div  > a{
 justify-content: center !important;
