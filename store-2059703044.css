@@ -1,0 +1,27 @@
+/* store-2059703044.css */
+/* https://vanciersa.com/ */
+
+.copyright-text {
+display: none !important;
+}
+.sicon-star.text-purple-400 , .sicon-star {
+color: var(--color-add-to-cart-text) !important;
+}
+.sicon-star:before {
+fill: var(--color-add-to-cart-text) !important;
+background: var(--color-add-to-cart-text) !important;
+}
+footer > div  > div > div  > div.flex.flex-col , salla-trust-badges , salla-trust-badges * ,  footer > div  > div > div  , footer salla-social , footer salla-social ul   ,  footer > div  > div > div  > a{
+justify-content: center !important;
+margin: auto !important;
+} 
+.main-content.art-main-content{
+display: flex !important;
+flex-direction: column !important;
+}
+.product__description {
+order: 2 !important;
+}
+.art-single-btns{
+order: 3 !important;
+}
