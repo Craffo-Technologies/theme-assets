@@ -4,6 +4,14 @@
 /* https://eternitykaftan.com/ */
 
 
+@media(max-width: 768px){
+#app > div.app-inner.flex.flex-col.min-h-full > section.kayan-countdown-2.kayan-countdown-2-1{
+	margin-top: 4rem !important;
+}
+}
+#app > div.app-inner.flex.flex-col.min-h-full > section.kayan-countdown-2.kayan-countdown-2-1 .kayan-countdown{
+	display: none !important;
+}
 
 .s-product-options-option-container ,.main-content   form ,.main-content   form  salla-product-options ,   .main-content   form  salla-product-options * , .custom-bar > div > div > salla-social-share > div > slot-fb > salla-button > button {
 background: var(--color-background) !important;
