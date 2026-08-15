@@ -1,3 +1,7 @@
+#main-content > section.s-block.s-block--bundle-marquee{
+	margin-top: unset !important;
+}
+
 .s-product-options-wrapper,salla-installment.hydrated *{
 background-color: unset !important;
 
