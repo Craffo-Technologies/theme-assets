@@ -2,25 +2,25 @@
 /* https://vanciersa.com/ */
 
 .art-product-form salla-product-options::before {
-  content: "";
-  display: block;
-  width: 100%;
-  height: 100px; 
-  background-image: url('https://asas-tools.com/u/uploads/nada.s/banner.jpg');
-  background-size: cover;
-  background-position: center;
-  border-radius: 8px;
-  margin-bottom: 16px;
-    border-bottom: 2px solid #e5e5e5; 
+content: "";
+display: block;
+width: 100%;
+height: 100px; 
+background-image: url('https://asas-tools.com/u/uploads/nada.s/banner.jpg');
+background-size: cover;
+background-position: center;
+border-radius: 8px;
+margin-bottom: 16px;
+border-bottom: 2px solid #e5e5e5; 
 
 }
 
 @media(max-width: 768px){
-	.art-product-form salla-product-options::before {
-  content: "";
-  display: block;
-  width: 100%;
-  height: 70px; 
+.art-product-form salla-product-options::before {
+content: "";
+display: block;
+width: 100%;
+height: 70px; 
 }}
 
 .copyright-text {
@@ -97,5 +97,16 @@ margin-top: 3rem !important;
 salla-trust-badges{
 position: absolute;
 bottom: 3rem !important;
+}
+}
+
+
+
+/* **** */
+
+@media (max-width: 768px){
+
+footer salla-trust-badges{
+top: 29rem !important ;	
 }
 }
