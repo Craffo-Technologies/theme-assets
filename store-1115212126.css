@@ -11,3 +11,9 @@
 #part-store-header > div >  .main-nav-container.part-main-nav ul li span {
 	color: white  !important;
 }
+
+@media (max-width: 767px) {
+    .s-search-container-open {
+        height: 40vh;
+    }
+}
