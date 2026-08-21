@@ -1,5 +1,8 @@
 /* store-531962184.css */
 
+ ul.flex.items-stretch li:nth-child(9){
+	display: flex !important;
+}
 ul.flex.items-stretch li:nth-child(9) img {
   content: url("https://asas-tools.com/u/uploads/sara_craffo/download%20%281%29.webp") !important;
   width: 100% !important ;
