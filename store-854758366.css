@@ -159,9 +159,8 @@ margin: 11rem auto 1rem auto !important;
 
 
 
-.navbar  ul > li .more-one-sub.dropdown-menu > li  > a{
+.navbar  .dropdown-menu li  a{
 color: var(--color-primary) !important ;
 }
-
 
 
