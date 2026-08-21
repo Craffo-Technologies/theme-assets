@@ -98,4 +98,6 @@ background: var(--background-color-theme) !important;
 
 /* ****** */
 
-
+.s-product-options-grid-mode-span{
+background: var(--color-breadcrumbs) !important;
+}
