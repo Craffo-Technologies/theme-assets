@@ -1,6 +1,10 @@
 /* store-1885667822.css */
 /* https://salla.sa/https-feeor */
 
+@media(max-width: 768px){
+.khayal-categories-slider .swiper-wrapper {
+  padding-inline-start: 5rem !important;
+}}
 
 #app > div.app-inner.flex.flex-col.min-h-full > section.s-block--fixed-banner.wide-placeholder > div > div{
 margin-top: 0 !important;
