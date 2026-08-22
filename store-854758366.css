@@ -2,7 +2,10 @@
 
 
 /* https://eternitykaftan.com/ */
-
+@media(max-width: 1024px){
+.index .navbar{
+	position: fixed !important;
+}}
 
 @media(max-width: 768px){
 #app > div.app-inner.flex.flex-col.min-h-full > section.kayan-countdown-2.kayan-countdown-2-1{
