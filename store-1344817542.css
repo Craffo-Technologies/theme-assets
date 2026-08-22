@@ -1,0 +1,17 @@
+.ronaq-influence .container > div {
+  display: flex !important;
+  gap: 16px;
+  overflow-x: auto;
+  grid-template-columns: unset !important;
+}
+
+.ronaq-influence .container > div > a {
+  flex-shrink: 0;
+  width: 150px;
+}
+
+@media (min-width: 768px) {
+  .ronaq-influence .container > div > a {
+    width: 250px;
+  }
+}
