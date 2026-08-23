@@ -155,17 +155,12 @@ height: 100%;
 }
 }
 
-
-
-
 /* **** */
-
-/* @media (min-width: 768px) { */
+ 
 .navbar  .dropdown-menu li  a{
 color: var(--color-primary-reverse) !important;	
 }
-/* } */
-
+ 
 @media (max-width: 767px) {
 .navbar.invisible  > div > ul > li  > ul.more-one-sub.dropdown-menu  > li  a , .navbar .dropdown-menu li a {
 color: var(--color-primary-reverse) !important;	
