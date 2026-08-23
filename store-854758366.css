@@ -4,16 +4,16 @@
 /* https://eternitykaftan.com/ */
 @media(max-width: 1024px){
 .index .navbar{
-	position: fixed !important;
+position: fixed !important;
 }}
 
 @media(max-width: 768px){
 #app > div.app-inner.flex.flex-col.min-h-full > section.kayan-countdown-2.kayan-countdown-2-1{
-	margin-top: 4rem !important;
+margin-top: 4rem !important;
 }
 }
 #app > div.app-inner.flex.flex-col.min-h-full > section.kayan-countdown-2.kayan-countdown-2-1 .kayan-countdown{
-	display: none !important;
+display: none !important;
 }
 
 .s-product-options-option-container ,.main-content   form ,.main-content   form  salla-product-options ,   .main-content   form  salla-product-options * , .custom-bar > div > div > salla-social-share > div > slot-fb > salla-button > button {
@@ -123,36 +123,36 @@ margin: 11rem auto 1rem auto !important;
 }
 
 @media (min-width: 1024px) {
-    .index .navbar {
-        height: 135px !important;
-            position: relative !important;
-    }
-     .index .kayan-header{
-      height: 100% !important;
-    }
+.index .navbar {
+height: 135px !important;
+position: relative !important;
+}
+.index .kayan-header{
+height: 100% !important;
+}
 .navbar> div > ul > li{
-	        color: var(--header-text-menu-color) !important;
+color: var(--header-text-menu-color) !important;
 }
 
 }
 
 
 @media (min-width: 768px) {
-    .index .navbar {
-      z-index: 50 !important;
-      background-color: var(--header-menu-color) !important;
-      top: unset !important;
-    
-    }
-    .app-inner.flex.flex-col.min-h-full > div.navbar.invisible{
-    	margin: unset !important;
-    }
-    .index .kayan-header{
-    	position: relative !important;
-    	z-index: 10 !important;
-      background-color: var(--header-main-color) !important;
-      height: 100%;
-    }
+.index .navbar {
+z-index: 50 !important;
+background-color: var(--header-menu-color) !important;
+top: unset !important;
+
+}
+.app-inner.flex.flex-col.min-h-full > div.navbar.invisible{
+margin: unset !important;
+}
+.index .kayan-header{
+position: relative !important;
+z-index: 10 !important;
+background-color: var(--header-main-color) !important;
+height: 100%;
+}
 }
 
 
@@ -160,10 +160,15 @@ margin: 11rem auto 1rem auto !important;
 
 /* **** */
 
-
-
+@media (min-width: 768px) {
 .navbar  .dropdown-menu li  a{
 color: var(--color-primary) !important ;
 }
+}
 
+@media (max-width: 767px) {
+.navbar.invisible  > div > ul > li  > ul.more-one-sub.dropdown-menu  > li  a , .navbar .dropdown-menu li a {
+color: var(--color-primary-reverse) !important;	
+}
+}
 
