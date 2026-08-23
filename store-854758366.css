@@ -162,7 +162,7 @@ height: 100%;
 
 @media (min-width: 768px) {
 .navbar  .dropdown-menu li  a{
-color: var(--color-primary) !important ;
+color: var(--color-primary-reverse) !important;	
 }
 }
 
