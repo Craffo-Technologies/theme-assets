@@ -164,7 +164,7 @@ color:white !important;
 .cart #has_discount, .cart #has_discount *  ,.item-total  *{
 color: var(--color-price-card) !important;
 fill: var(--color-price-card) !important;
-	
+
 }
 
 .s-button-primary-outline:hover {
@@ -173,5 +173,15 @@ background-color: #b9884a5e !important ;
 
 /* *** */
 
+@media (max-width: 768px){
 
+#app > a , .wa-s-n{
+bottom: 8rem !important;
+}
+}
+
+.s-cart-item-offers-details , .s-cart-item-offers-details *{
+color: #3f613f !important;
+fill: #3f613f !important;
+}
 
