@@ -1,0 +1,20 @@
+/* store-337971761.css */
+
+
+
+.cart-item , salla-cart-summary-card , .s-cart-summary-card-bar , .s-quantity-input-input , .s-comments.s-comments-product{
+background: var(--color-background-store) !important;
+color: white !important;
+}
+.cart-item , salla-cart-summary-card{
+border: 1px soild var(--color-btn-card) !important;
+
+}
+salla-cart-summary-card *{
+color: white !important;
+}
+.cart-item  h1 > a{
+color: var(--color-btn-single-product) !important;
+}
+
+
