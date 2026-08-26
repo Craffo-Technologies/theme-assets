@@ -13,3 +13,16 @@ section.s-block.s-block--bundle-before-after,
 section.s-block.s-block--bundle-hero-stacked{
 	margin: unset !important;
 }
+section.art-testimonials-slider .art-slide > div.w-full.h-64.bg-gray-200.flex.items-center.justify-center.text-gray-500{
+	display: none !important;
+}
+section.art-testimonials-slider {
+	background-color: #ECD9C4 !important;
+}
+section.art-testimonials-slider i{
+	color: #fbbf24 !important;
+}
+
+section.art-testimonials-slider .art-slide.bg-white{
+	background-color: #fcf3e7 !important;
+}
