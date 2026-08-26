@@ -1,0 +1,8 @@
+.s-product-card-entry .s-product-card-image img{
+	aspect-ratio: 10/14 !important;
+}
+
+.s-product-card-entry .s-product-card-image{
+	height: unset !important;
+	max-height: unset !important;
+}
