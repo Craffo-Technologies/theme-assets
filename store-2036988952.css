@@ -1,0 +1,15 @@
+section.s-block.s-block--bundle-marsoom-conversion-cta {
+	overflow: hidden !important;
+	margin: unset !important;
+	padding: unset !important;
+}
+
+section.s-block.s-block--bundle-scarcity-limited-edition,
+section.s-block.s-block--bundle-faq-accordion,
+section.s-block.s-block--bundle-testimonials-community,
+section.s-block.s-block--bundle-art-video-hero,
+section.s-block.s-block--bundle-art-banner,
+section.s-block.s-block--bundle-before-after,
+section.s-block.s-block--bundle-hero-stacked{
+	margin: unset !important;
+}
