@@ -6,3 +6,6 @@
 #mainnav > div > div > div > div.flex.items-center  , #mainnav > div > div > div > div.flex  > div{
 	display: flex !important;
 }
+.cart salla-basket-gap{
+	display: none !important;
+}
