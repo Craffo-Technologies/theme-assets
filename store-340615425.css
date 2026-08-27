@@ -15,3 +15,14 @@ body.index .yasmeen-features .yasmeen-features-slider .swiper-wrapper .swiper-sl
 	font-size: 16px !important;
 }
 
+.s-product-card-image img {
+	object-fit: cover !important;
+}
+.s-product-card-entry .s-product-card-image {
+	    flex: 1 1 0% !important;
+	    aspect-ratio: 1 / 1 !important;
+	    height: unset !important;
+	    max-height: unset !important;
+	    background-color: transparent !important;
+	
+}
