@@ -1,1 +1,8 @@
+/* https://topblacksa.com/191/p589676298 */
+
+.s-product-options-grid-mode input:checked + div{
+border-color: var(--color-footer-main) !important;
+background: var(--color-footer-main) !important;
+color: #F3E7E1 !important;
+}
 
