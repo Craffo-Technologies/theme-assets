@@ -9,15 +9,11 @@
 .main-content  > div.product__description  > article > p > span{
 background-color: var(--color-background) !important;
 }
-
-
-
 .s-product-options-option-container ,.main-content   form ,.main-content   form  salla-product-options ,   .main-content   form  salla-product-options * , .custom-bar > div > div > salla-social-share > div > slot-fb > salla-button > button {
 background: var(--color-background) !important;
 color: var(--color-primary) !important;
 fill:  var(--color-primary) !important;
 }
-
 .kayan-banners > div > div  > div > h2{
 margin: auto !important;
 justify-content: center !important;
@@ -30,7 +26,6 @@ background: var(--color-background) !important;
 color: var(--color-primary) !important;
 fill:  var(--color-primary) !important;
 }
-
 .kayan-faq.kayan-faq-3 > div > div.accordion-container {
 border: none !important;
 }
@@ -83,7 +78,6 @@ border: none !important;
 background: var(--color-primary) !important ;
 color:  var(--color-background)  !important;	
 }
-
 .kayan-faq .accordion-container > div {
 padding: 0.8rem !important;
 margin: 0.4rem !important;
@@ -92,7 +86,6 @@ margin: 0.4rem !important;
 background: var(--color-text-theme) !important;
 filter: brightness(75%) !important;
 }
-
 footer div , salla-trust-badges, footer .contact-slot  , footer .contact-slot .s-contacts-item *{
 margin: auto !important;
 justify-content: center !important;
@@ -103,7 +96,6 @@ display: flex !important;
 }
 
 @media (max-width: 767px) {
-
 
 #app > div.app-inner.flex.flex-col.min-h-full > div.kayan-banners.py-10.overflow-hidden {
 margin-top: 0 !important;
@@ -119,17 +111,23 @@ height: 120px !important;
 
 }
 
-@media (min-width: 768px) {
+@media (max-width: 767px) {
+.index .kayan-header {
+height: 3.5rem !important;
+}
+}
 
+ header > div > div > div.flex-1  > div.w-24 > a > img{
+	display: none !important;
+}
+@media (min-width: 768px) {
 .app-inner.flex.flex-col.min-h-full > div.navbar.invisible {
 margin: 2rem auto !important;
 }
- 
 
 }
 
 /* **** */
-
 
 .kayan-categories.py-16.block.block > div > div > a  > div.absolute * , .kayan-categories.py-16.block.block > div > div > a  > div.absolute{
 font-size: 0.9rem !important;
