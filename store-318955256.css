@@ -5,3 +5,8 @@
 display: none !important;
 }
 
+.canvas-gifts > div > div > div > div.absolute.inset-0.transition-colors.z-1 ,
+.canvas-categories a > div.absolute.inset-0{
+  display: none !important;
+}
+
