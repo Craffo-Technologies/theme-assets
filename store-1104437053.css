@@ -54,3 +54,6 @@ background: var(--color-footer-text) !important;
 .total-price , .s-product-card-content-sub{
 color: #512c13 !important ;
 }
+.current-price {
+color: #37281a !important;
+}
