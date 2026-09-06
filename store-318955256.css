@@ -10,3 +10,10 @@ display: none !important;
   display: none !important;
 }
 
+
+
+section.s-block.s-block--fixed-banner.wide-placeholder, section.s-block.s-block--fixed-banner.wide-placeholder * {
+    max-width: unset;
+    padding: unset;
+    margin: unset;
+}
