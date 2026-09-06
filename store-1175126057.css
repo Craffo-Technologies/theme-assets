@@ -2,6 +2,28 @@
 /* وتيرة */
 
 
+/* Scrollbar */
+::-webkit-scrollbar {
+width: 8px;
+}
+::-webkit-scrollbar-track {
+background: var(--color-primary) !important;
+}
+::-webkit-scrollbar-thumb {
+background: var(--color-background) !important;
+border-radius: 999px;
+}
+::-webkit-scrollbar-thumb:hover {
+background: var(--color-background)!important;
+}
+/* Firefox */
+html {
+scrollbar-width: thin !important;
+scrollbar-color: var(--color-background) var(--color-primary) !important;
+}
+
+/* *** */
+
 .main-content  > div.product__description  > article > p > span{
 background-color: var(--color-background) !important;
 }
