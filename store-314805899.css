@@ -90,3 +90,8 @@ background: var(--color-background) !important;
 display: none !important;	
 }
 
+
+.s-search-grid-item .s-search-product-card-image a,
+.s-search-grid-item .s-search-product-card-content-title a {
+pointer-events: auto !important;
+}
