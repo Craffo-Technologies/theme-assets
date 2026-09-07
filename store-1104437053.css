@@ -57,3 +57,29 @@ color: #512c13 !important ;
 .current-price {
 color: #37281a !important;
 }
+
+
+@media (max-width: 768px){
+
+#app > div.app-inner.flex.flex-col.min-h-full > footer > div.store-footer__inner > div {
+display: flex !important;
+flex-direction: row !important;
+gap: 0 !important;
+font-size: 0.7rem !important;
+margin: auto !important;
+text-align: center !important;
+}
+#app > div.app-inner.flex.flex-col.min-h-full > footer > div.store-footer__inner > div *{
+font-size: 0.7rem !important;
+gap: 0 !important;
+padding: 0.1rem !important;
+margin:  0.1rem auto  !important;
+}
+#app > div.app-inner.flex.flex-col.min-h-full > footer{
+padding-bottom: 6rem !important;
+}
+#app > div.scroll-top.fixed {
+bottom: 6rem !important;
+}
+}
+
