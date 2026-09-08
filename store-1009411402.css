@@ -1,1 +1,29 @@
  
+.sense-main-content.main-content{
+display: flex !important;
+flex-direction: column !important;
+}
+.sense-main-content.main-content  form{
+display: flex !important;
+flex-direction: column !important;
+order: 2 !important;
+}
+.sense-main-content.main-content .product__description {
+order: 1 !important;
+}
+.sense-main-content.main-content  salla-installment{
+display: flex !important;
+flex-direction: column !important;
+order: 3 !important;
+}
+.sense-main-content.main-content .inline-flex.text-sm.py-4{
+display: flex !important;
+flex-direction: column !important;
+order: 3 !important;
+}
+.sense-main-content.main-content  salla-cashback-banner{
+display: flex !important;
+flex-direction: column !important;
+order: 4 !important;
+}
+
