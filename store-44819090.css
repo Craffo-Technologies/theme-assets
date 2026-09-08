@@ -168,3 +168,8 @@ salla-comments .s-comments.s-comments-product{
     margin-top: 0.2rem !important;
   }
 }
+
+
+.art-main-nav  .salla-wishlist-summary , .art-main-nav  .s-wishlist-summary-wrapper{
+display: none !important;	
+}
