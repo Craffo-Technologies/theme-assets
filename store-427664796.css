@@ -1,3 +1,7 @@
+ salla-wishlist-summary *{
+	display: none !important;
+}
+
 @media (min-width: 768px) {
     footer .grid {
         grid-template-columns: repeat(4, minmax(0, 1fr)) !important;
