@@ -1,0 +1,111 @@
+.s-product-card-entry .s-product-card-content{
+	background-color: #fffdf6 !important ;
+}
+
+.s-product-card-entry{
+	border: 1px solid #f0dfce !important;
+}
+
+
+
+.abayat-main-content.main-content > form .bg-white,
+body .s-product-options-wrapper,
+.abayat-main-content .s-product-options-grid-mode-span{
+	background-color: #fffdf6 !important;
+}
+.abayat-main-content .s-product-options-grid-mode-span{
+	border-color: #9b5458 !important;
+	color: #9b5458 !important;
+}
+
+.s-product-options-grid-mode input:checked+div{
+	background-color: #9b5458 !important;
+	color: #fffdf6  !important;
+}
+
+.content.content--single-page{
+	background-color: transparent !important;
+}
+
+
+.store-footer a ,
+.s-trust-badges-label, .s-trust-badges-number{
+	color: var(--color-footer-text)!important;
+}
+.store-footer .opacity-65,
+.abayat-store-footer .abayat-store-footer__inner salla-menu a,
+.abayat-store-footer .abayat-store-footer__inner salla-contacts .s-contacts-item .unicode,
+.abayat-store-footer .abayat-store-footer__inner salla-social .s-social-list .s-social-link a{
+	opacity: 1 !important;
+}
+
+#main-content > section.abayat-size-guide > div > div.bg-white{
+	background-color: #d3bca7 !important;
+}
+#height-help-2{
+	color: #fffdf6 !important;
+}
+
+.size-guide-result  > div,
+.abayat-size-guide .size-guide-input .size-guide-input-field.valid{
+border-color: #f0dece !important;
+}
+.size-guide-result #size-description-2,
+.size-guide-result .size-guide-reset-btn{
+	color: #9b5458 !important;
+}
+
+
+
+
+.s-reviews-testimonial {
+  background:  #fffdf6 !important;
+  border: 1px solid #9b5458;
+  box-shadow: -2px 1px 3px 0px rgb(1 36 61 / 15%);
+  transition: box-shadow .3s ease, transform .3s ease;
+}
+
+.s-reviews-display-all {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--color-primary, #1abc9c);
+  transition: gap .25s ease;
+}
+.s-reviews-header{
+	  color: var(--color-primary, #1abc9c);
+}
+
+
+
+
+#main-content > section.py-16.abayat-features{
+	padding-top: 1.5rem !important;
+	padding-bottom: 1.5rem !important;
+}
+
+.s-block--testimonials.container{
+	margin-bottom: 1.5rem !important;
+}
+#main-content > section.py-16.abayat-features > div > div.grid{
+	gap: 0.8rem !important;
+}
+
+
+
+a[href*="عروض-اليوم-الوطني"] {
+  color: #e02020 !important;
+}
+a[href*="عروض-اليوم-الوطني"] span {
+  color: #e02020 !important;
+}
+
+a[href*="عروض-اليوم-الوطني"]:hover span {
+  color: #b30000 !important;
+}
+
+.s-product-card-entry .s-product-card-image img{
+	aspect-ratio: 10/16 !important;
+}
