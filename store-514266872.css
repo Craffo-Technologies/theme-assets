@@ -1,3 +1,8 @@
+.s-product-options-grid-mode input:checked+div{
+	background-color: transparent !important;
+	color: var(--color-primary) !important;
+}
+
 @media(max-width: 768px) {
   .kayan-header .w-24 {
     width: 9rem !important;
