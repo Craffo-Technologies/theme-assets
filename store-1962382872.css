@@ -40,7 +40,5 @@ height: 117px !important;
 .kayan-header> div > div > div.flex-1 > div.w-24 > a{
 display: none !important;
 }
-#app > div.app-inner.flex.flex-col.min-h-full > div.kayan-banners.py-10.overflow-hidden  > div > div.grid > div:nth-child(3){
-margin-right: 50% !important;
-}
+
 }
