@@ -109,3 +109,88 @@ a[href*="عروض-اليوم-الوطني"]:hover span {
 .s-product-card-entry .s-product-card-image img{
 	aspect-ratio: 10/16 !important;
 }
+
+
+
+.abayat-desc-header span:first-child::after {
+content: " الوصف ";
+    color: #fffdf6 !important;
+    font-size: 16px !important;
+    font-weight: 600 !important;
+}
+
+
+.abayat-desc-container {
+    margin-top: 20px;
+}
+
+.abayat-desc-section {
+    background: #f8f5ef !important;
+    border: 1px solid #d8c8b0 !important;
+    border-radius: 12px !important;
+    overflow: hidden;
+}
+
+.abayat-desc-header {
+    padding: 16px 20px !important;
+    background: #9b5458 !important;
+    color: #fff !important;
+}
+
+.abayat-desc-header span:first-child {
+    color: #fff !important;
+}
+
+.abayat-desc-icon {
+    color: #d8b98a !important;
+}
+
+.abayat-desc-content {
+    background: #f8f5ef !important;
+}
+
+.abayat-desc-content-inner {
+    padding: 20px !important;
+}
+
+.abayat-desc-content-inner p {
+    color: #4a3a30 !important;
+    font-size: 15px !important;
+    line-height: 2 !important;
+    margin: 0 0 8px !important;
+}
+
+.abayat-desc-content-inner p:last-child {
+    margin-bottom: 0 !important;
+}
+
+.abayat-slider-categories .abayat-categories-slide {
+  margin: unset !important;
+}
+
+salla-wishlist-summary.hydrated *{
+	display: none !important;
+}
+@media(max-width: 768px){
+.abayat-slider-categories .abayat-categories-slide {
+    max-width: 200px !important;
+    min-width: 150px !important;
+    padding: 0 !important;
+}
+	.s-products-slider-card {
+    max-width: 200px !important;
+	}
+	.s-products-slider-wrapper .carousel-slider .s-slider-block__title-nav{
+		display: flex !important;
+	}
+}
+
+
+
+.abayat-categories-slide.swiper-slide > div > a > div.text.flex.justify-center.items-center.mt-6{
+	margin-top: unset !important;
+}
+
+.s-slider-block__title h2{
+	color: #9b5458 !important;
+}
