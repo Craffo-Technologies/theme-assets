@@ -1,0 +1,13 @@
+/* store-724958910.css */
+/* https://oudcollect.com/%D8%AE%D8%B4%D8%A8-%D8%A7%D9%84%D8%B9%D9%88%D8%AF-%D8%A7%D9%84%D8%B7%D8%A8%D9%8A%D8%B9%D9%8A/c46976888 */
+
+.s-product-card-entry {
+background-color: var(--color-background-store) !important;
+border: 1px solid #C9B374 !important;
+border-radius: 0.5rem !important;
+padding-bottom: 0 !important;
+margin-bottom: 0 !important;
+}
+.s-product-card-content-sub  , .s-product-card-content-main {
+padding: 0.5rem !important;
+}
