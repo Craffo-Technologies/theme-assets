@@ -11,3 +11,8 @@ margin-bottom: 0 !important;
 .s-product-card-content-sub  , .s-product-card-content-main {
 padding: 0.5rem !important;
 }
+
+.kesra-main-content .s-quantity-input-container .s-quantity-input-input ,.s-quantity-input-input , .s-quantity-input-container ,.sticky-product-bar.py-5{
+background: var(--color-background-store) !important;
+}
+ 
