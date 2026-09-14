@@ -98,11 +98,10 @@ border: 1px solid var(--color-primary) !important;
 background: var(--color-primary) !important;
 color: var(--color-background) !important;
 }
-.s-product-options-option ,  .main-content.w-full  > form > section.flex  > div ,.main-content.w-full > form > section.p-5.rounded-md.mb-5 > div{
+ .main-content.w-full  > form > section.flex  > div ,.main-content.w-full > form > section.p-5.rounded-md.mb-5 > div{
 border: 1px solid var(--color-primary) !important;
 border-radius: 0.4rem !important;
 padding: 0.4rem !important;
 }
-
 
 
