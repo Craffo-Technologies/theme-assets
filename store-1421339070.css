@@ -1,0 +1,31 @@
+/* store-1421339070.css */
+
+body{
+color: #935231 !important;
+}
+.s-product-card-entry .s-product-card-content-footer salla-button button:hover > span {
+background-color: #526c95 !important;
+color: #fcebd9 !important;
+}
+.s-product-card-content-main  , .s-block--features__item * , .s-product-card-content-main *{
+color: #526c95 ;
+}
+.s-product-card-content-main *{
+color: #526c95 !important ;
+}
+.feature-icon{
+color: #fcebd9 !important;
+}
+.s-product-card-image{
+border-radius: 0.5rem !important;
+}
+.s-product-card-image > a ,  .s-product-card-image > a img{
+background: white !important;
+}
+
+@media (max-width: 768px){
+#mobile-menu {
+background-color: #935231 !important;
+color: #fcebd9 !important;
+}
+}
