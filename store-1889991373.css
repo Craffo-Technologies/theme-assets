@@ -83,5 +83,26 @@ border-color:  var(--header-textmain-color)  !important ;
 
 
 
+/* *** */
+
+
+footer salla-trust-badges ,   footer   salla-contacts > div{
+justify-content: center !important;
+margin: auto !important;
+align-items: center !important;
+}
+.kayan-faq > div > div.accordion-container ,  .kayan-faq  > div > div.accordion-container  > div {
+border: 1px solid var(--color-primary) !important;
+}
+.s-product-options-grid-mode input:checked+div{
+background: var(--color-primary) !important;
+color: var(--color-background) !important;
+}
+.s-product-options-option ,  .main-content.w-full  > form > section.flex  > div ,.main-content.w-full > form > section.p-5.rounded-md.mb-5 > div{
+border: 1px solid var(--color-primary) !important;
+border-radius: 0.4rem !important;
+padding: 0.4rem !important;
+}
+
 
 
