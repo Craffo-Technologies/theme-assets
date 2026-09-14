@@ -194,3 +194,50 @@ salla-wishlist-summary.hydrated *{
 .s-slider-block__title h2{
 	color: #9b5458 !important;
 }
+
+@media (max-width: 420px) {
+  .abayat-store-header .w-full.px-4 {
+    padding-left: 16px !important;
+    padding-right: 16px !important;
+  }
+
+  .abayat-store-header .hidden.items-center.flex-1.px-8 {
+    padding-left: 12px !important;
+    padding-right: 12px !important;
+  }
+
+  .abayat-store-header .flex.items-center.flex-1.gap-1.justify-end {
+    gap: 0.35rem !important;
+    margin-right: -2.9rem !important;
+  }
+
+  .abayat-store-header .notah_show_language_currency {
+    padding-left: 3.5px !important;
+    padding-right: 3.5px !important;
+    gap: 0rem !important;
+        font-size: 13.5px !important;
+  }
+
+  .abayat-store-header .header-search {
+    padding-left: 4px !important;
+    padding-right: 4px !important;
+   
+  }
+  .abayat-store-header .header-btn__icon{
+  	 width: 17px !important;
+  }
+  .s-user-menu-trigger{
+  	background-color: transparent !important;
+  }
+  .s-user-menu-trigger{
+  	padding: 0.25rem !important;
+  }
+  .abayat-main-content.main-content .price-wrapper .price_is_on_sale h2{
+	font-size: 18px !important;
+}
+#mainnav > div > div > div > div.flex.items-center.justify-between.flex-1{
+	    padding-left: 2.5rem !important;
+}
+}
+
+
