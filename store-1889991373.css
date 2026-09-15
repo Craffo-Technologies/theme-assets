@@ -1,32 +1,22 @@
 /* https://toucanline.com/ */
 
-@media (max-width: 767px){
 
-.relative.px-10.py-10.container.mx-auto.craffo-components-statistics{
-margin: 0 !important;
+footer salla-trust-badges ,   footer   salla-contacts > div{
+justify-content: center !important;
+margin: auto !important;
+align-items: center !important;
 }
-#app > div.app-inner.flex.flex-col.min-h-full > div.kayan-banners.py-10.overflow-hidden{
-margin-top: 0 !important;
-padding-top: 0 !important;
+.kayan-faq > div > div.accordion-container ,  .kayan-faq  > div > div.accordion-container  > div {
+border: 1px solid var(--color-primary) !important;
 }
-.kayan-header  > div > div > div.flex-1 > div.w-24 > a > img{
-width: 4rem !important;
-max-width: 4rem !important;
+.s-product-options-grid-mode input:checked+div{
+background: var(--color-primary) !important;
+color: var(--color-background) !important;
 }
-.craffo-components-statistics > div{
-display: grid !important;
-grid-template-columns: auto auto auto !important;	
-}
-.mx-auto.craffo-components-statistics > div > div > div.mt-1{
-font-size: 1.6rem !important;	
-}
-#app > div.app-inner.flex.flex-col.min-h-full > div.relative.px-10.py-10.container.mx-auto.craffo-components-statistics > div > div> div.mt-1.text-lg{
-font-size: 0.8rem !important;
-}
-.custom-bar > div > div > salla-social-share > div > slot-fb > salla-button > button {
-background: var(--color-background)  !important ;
-color:  var(--header-textmain-color) !important ;
-}
+.main-content.w-full  > form > section.flex  > div ,.main-content.w-full > form > section.p-5.rounded-md.mb-5 > div{
+border: 1px solid var(--color-primary) !important;
+border-radius: 0.4rem !important;
+padding: 0.4rem !important;
 }
 
 .custom-bar > div > div > salla-social-share > div > slot-fb > salla-button > button {
@@ -65,6 +55,43 @@ salla-products-list > div.s-products-list-wrapper.s-products-list-vertical-cards
 background: var(--header-textmain-color) !important ;
 color: var(--color-background) !important ;
 }
+.separator-wave {
+background: linear-gradient(90deg, transparent,var(--header-textmain-color), transparent) !important ;
+} 
+.kayan-features.kayan-features-5, .separator-wave {
+border-color:  var(--header-textmain-color)  !important ;
+}
+
+
+@media (max-width: 767px){
+
+.relative.px-10.py-10.container.mx-auto.craffo-components-statistics{
+margin: 0 !important;
+}
+#app > div.app-inner.flex.flex-col.min-h-full > div.kayan-banners.py-10.overflow-hidden{
+margin-top: 0 !important;
+padding-top: 0 !important;
+}
+.kayan-header  > div > div > div.flex-1 > div.w-24 > a > img{
+width: 4rem !important;
+max-width: 4rem !important;
+}
+.craffo-components-statistics > div{
+display: grid !important;
+grid-template-columns: auto auto auto !important;	
+}
+.mx-auto.craffo-components-statistics > div > div > div.mt-1{
+font-size: 1.6rem !important;	
+}
+#app > div.app-inner.flex.flex-col.min-h-full > div.relative.px-10.py-10.container.mx-auto.craffo-components-statistics > div > div> div.mt-1.text-lg{
+font-size: 0.8rem !important;
+}
+.custom-bar > div > div > salla-social-share > div > slot-fb > salla-button > button {
+background: var(--color-background)  !important ;
+color:  var(--header-textmain-color) !important ;
+}
+}
+
 
 @media (min-width: 767px){
 #app > div.app-inner.flex.flex-col.min-h-full > div.relative.px-10.py-10.container.mx-auto.craffo-components-statistics{
@@ -74,34 +101,7 @@ margin: 11rem auto 1rem auto !important;
 margin: 2rem auto !important;
 }
 }
-.separator-wave {
-background: linear-gradient(90deg, transparent,var(--header-textmain-color), transparent) !important ;
-} 
-.kayan-features.kayan-features-5, .separator-wave {
-border-color:  var(--header-textmain-color)  !important ;
-}
 
 
 
 /* *** */
-
-
-footer salla-trust-badges ,   footer   salla-contacts > div{
-justify-content: center !important;
-margin: auto !important;
-align-items: center !important;
-}
-.kayan-faq > div > div.accordion-container ,  .kayan-faq  > div > div.accordion-container  > div {
-border: 1px solid var(--color-primary) !important;
-}
-.s-product-options-grid-mode input:checked+div{
-background: var(--color-primary) !important;
-color: var(--color-background) !important;
-}
- .main-content.w-full  > form > section.flex  > div ,.main-content.w-full > form > section.p-5.rounded-md.mb-5 > div{
-border: 1px solid var(--color-primary) !important;
-border-radius: 0.4rem !important;
-padding: 0.4rem !important;
-}
-
-
