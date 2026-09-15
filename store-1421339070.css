@@ -1,5 +1,40 @@
 /* store-1421339070.css */
 
+::selection {
+background-color: #935231 ; 
+color: #ffffff;          
+}
+::-moz-selection {
+background-color: #935231;
+color: #ffffff;
+}
+/* ==========================================================================
+2. تخصيص لون شريط التمرير للمتصفح (Scrollbar)
+========================================================================== */
+
+::-webkit-scrollbar {
+width: 10px;         
+height: 10px;      
+}
+::-webkit-scrollbar-track {
+background: #ffffff;    
+}
+::-webkit-scrollbar-thumb {
+background: #935231;     
+border-radius: 5px;    
+border: 2px solid #ffffff; 
+}
+::-webkit-scrollbar-thumb:hover {
+background: #935231;       
+}
+html {
+scrollbar-color: #935231 #ffffff; 
+scrollbar-width: thin !important ;            
+}
+
+/* **** */
+
+
 body{
 color: #935231 !important;
 }
@@ -28,10 +63,9 @@ font-size: 1.2rem !important;
 font-weight: 500 !important;
 padding-bottom: 0.6rem !important;
 }
-.s-block--bundle-statistics .label{
+.s-block--bundle-statistics .label , div > div > div  > div p{
 font-size: 0.8rem !important;
 }
-
 
 @media (max-width: 768px){
 #mobile-menu {
