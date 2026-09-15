@@ -23,6 +23,16 @@ border-radius: 0.5rem !important;
 background: white !important;
 }
 
+.s-block.s-block-statistics .value {
+font-size: 1.2rem !important;
+font-weight: 500 !important;
+padding-bottom: 0.6rem !important;
+}
+.s-block--bundle-statistics .label{
+font-size: 0.8rem !important;
+}
+
+
 @media (max-width: 768px){
 #mobile-menu {
 background-color: #935231 !important;
