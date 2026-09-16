@@ -74,6 +74,6 @@ color: #fcebd9 !important;
 }
 }
 
-#app > div.app-inner.flex.flex-col.min-h-full > footer > div.store-footer__inner > div > div:nth-child(3) > salla-contacts{
+footer #contact-slot .unicode{
 display: none !important;
 }
