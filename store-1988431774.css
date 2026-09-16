@@ -1,3 +1,11 @@
+.s-product-card-entry .s-product-card-content-sub{
+	padding-bottom: 0.8rem !important;
+}
+#main-content > section.abayat-photo-text.py-0.block.block,#main-content > section.abayat-size-guide{
+	margin-bottom: 4rem !important;
+}
+
+
 .abayat-instagram-feed.py-16.block.block{
 	padding-bottom: 0rem !important;
 	padding-top: 3.5rem !important;
