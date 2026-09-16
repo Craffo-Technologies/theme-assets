@@ -74,6 +74,6 @@ color: #fcebd9 !important;
 }
 }
 
-footer #contact-slot .unicode{
+footer salla-contacts .s-contacts-list > div:nth-child(1){
 display: none !important;
 }
