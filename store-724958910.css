@@ -16,6 +16,10 @@ padding: 0.5rem !important;
 background: var(--color-background-store) !important;
 }
 
+@media (max-width: 768px){
+
 .header-search.header-btn__icon {
 display: flex !important;	
+}
+
 }
