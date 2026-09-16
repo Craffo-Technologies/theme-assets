@@ -15,4 +15,7 @@ padding: 0.5rem !important;
 .kesra-main-content .s-quantity-input-container .s-quantity-input-input ,.s-quantity-input-input , .s-quantity-input-container ,.sticky-product-bar.py-5{
 background: var(--color-background-store) !important;
 }
- 
+
+.header-search.header-btn__icon {
+display: flex !important;	
+}
