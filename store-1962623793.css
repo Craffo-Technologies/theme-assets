@@ -62,6 +62,9 @@ padding-top: unset !important;
 .kayan-faq.kayan-faq-8.w-full.h-full.relative.px-10.py-10 > div > div.accordion-container.flex.flex-col.justify-center{
 border-color: var(--color-background) !important;
 }
+.kayan-before-and-after  h2{
+font-size: 15px !important;
+}
 
 /* *** */
 
