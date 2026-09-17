@@ -18,6 +18,10 @@ max-width: 100% !important;
 border-radius: 0rem !important;
 margin: 0 !important;
 }
+.kayan-card  .kayan-card-button:hover ,  salla-products-list > div.s-products-list-wrapper.s-products-list-vertical-cards > custom-salla-product-card  > div > salla-add-product-button > div > salla-button > button:hover .kayan-card-button  {
+background: var(--color-primary) !important;
+color: var(--color-background) !important;
+}
 salla-products-list > div.s-products-list-wrapper.s-products-list-horizontal-cards > custom-salla-product-card  > div > salla-add-product-button > div > salla-button > button{
 padding: 0 !important;
 margin: 0 !important;
