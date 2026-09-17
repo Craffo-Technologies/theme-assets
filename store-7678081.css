@@ -1,3 +1,21 @@
 #contact-slot > a[href="tel:+966546068506"]{
 	display: none !important;
 }
+
+.cart .cart-item p{
+	color: #70223d !important;
+}
+
+.cart .cart-item .s-product-options-grid-mode input:checked+div{
+	background-color: #70223d !important;
+	color: #fff !important;
+}
+.cart .cart-item .s-product-options-grid-mode input{
+	background-color: transparent !important;
+	border-color: #70223d !important;
+	color: #70223d !important;
+}
+.cart .s-button-primary{
+		background-color: #70223d !important;
+	color: #fff !important;
+}
