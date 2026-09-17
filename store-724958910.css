@@ -15,11 +15,20 @@ padding: 0.5rem !important;
 .kesra-main-content .s-quantity-input-container .s-quantity-input-input ,.s-quantity-input-input , .s-quantity-input-container ,.sticky-product-bar.py-5{
 background: var(--color-background-store) !important;
 }
-
+ 
+.kesra-main-banner  span ,  .kesra-main-banner .relative.z-10.text-center.container  span{
+display: none !important;
+}
 @media (max-width: 768px){
 
 .header-search.header-btn__icon {
 display: flex !important;	
+visibility: visible !important;
+opacity: 1 !important;
 }
-
+  
+#main-content > section:nth-child(3){
+display: none !important;
+}
+  
 }
