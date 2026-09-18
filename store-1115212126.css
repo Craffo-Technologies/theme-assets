@@ -6,16 +6,16 @@
 
 
 .mobile-menu.mm-spn--light ul li span{
-	color: black !important;
+color: black !important;
 }
 #part-store-header > div >  .main-nav-container.part-main-nav ul li span {
-	color: white  !important;
+color: white  !important;
 }
 
 @media (max-width: 767px) {
-    .s-search-container-open {
-        height: 40vh;
-    }
+.s-search-container-open {
+height: 40vh;
+}
 }
 
 
@@ -23,4 +23,10 @@
 .s-search-grid-item .s-search-product-card-image a,
 .s-search-grid-item .s-search-product-card-content-title a {
 pointer-events: auto !important;
+}
+
+
+.s-search-grid-item .s-search-product-card-overlay-link {
+pointer-events: auto !important;
+z-index: 2;
 }
