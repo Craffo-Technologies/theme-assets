@@ -1,0 +1,6 @@
+/* store-1834526548.css */
+
+.s-product-card-image > a > img , .s-product-card-entry .s-product-card-image img {
+	object-fit: contain !important;
+	background: white !important;
+}
