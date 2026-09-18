@@ -77,3 +77,8 @@ color: #fcebd9 !important;
 footer salla-contacts .s-contacts-list > div:nth-child(1){
 display: none !important;
 }
+
+
+.value {
+font-size: 0.9rem !important;
+}
