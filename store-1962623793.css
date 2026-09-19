@@ -1,11 +1,7 @@
 /* store-1962623793.css */
 /* https://pureglow-as.com/ */
 
-@media(max-width: 768px){
 
-.kayan-before-and-after h2 {
-    font-size: 12px !important;
-}}
 
 .kayan-card {
 background: white !important;
@@ -70,6 +66,7 @@ border-color: var(--color-background) !important;
 .kayan-before-and-after  h2{
 font-size: 15px !important;
 }
+
 
 /* *** */
 
