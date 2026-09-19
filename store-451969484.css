@@ -27,8 +27,9 @@ text-align: center !important;
 
 
 body .s-product-options-grid-mode-span{
-	background-color: #735b3e  !important;
-	color:   #f2f1ec !important;
+background-color: transparent !important;
+border-color: #735b3e  !important ;
+color: #735b3e   !important ;
 }
 
 
@@ -116,11 +117,12 @@ color:  #f2f1ec !important;
 }
 
 
+
 .s-product-options-grid-mode input:checked + div {
-background-color: transparent !important;
-border-color: #735b3e  !important ;
-color: #735b3e   !important ;
+	background-color: #735b3e  !important;
+	color:   #f2f1ec !important;
 }
+
 
 .kayan-features.kayan-features-5.px-10.py-10.border-y-2.border-black{
 	    border-top-color: #735b3e   !important ;
