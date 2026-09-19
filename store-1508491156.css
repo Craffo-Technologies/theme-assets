@@ -2,6 +2,9 @@
 
 /* https://salla.sa/rawnq-line */
 
+body .abayat-store-header custom-main-menu .mobile-menu .main-menu li a {
+    font-weight: 500 !important;
+}
 
  @media (max-width: 768px){
 
