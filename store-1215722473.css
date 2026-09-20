@@ -19,12 +19,15 @@ custom-salla-product-card div div.overflow-hidden.relative a.block.flex.w-full.h
 
 @media (max-width: 767px) {
     .kayan-header .w-24 {
-    	width: 8rem !important;
-    	  transform: translateX(-65px);
+    	width: 7rem !important;
+    	  transform: translateX(5px);
     }
      header > div > div > div.flex-1.items-center.flex.gap-4.overflow-hidden{
 	overflow: visible !important;
 }
+	.kayan-header .w-24 {
+        margin-right: 6rem !important;
+    }
 	
 }
 
