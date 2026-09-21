@@ -163,3 +163,8 @@ margin: 2rem auto !important;
 #app > div.app-inner.flex.flex-col.min-h-full > header > div > div > div.flex-1  > div.w-24 > a > img{
 display: none !important;
 }
+
+.navbar > div > ul > li > a{
+color: var(--color-primary) !important ;
+}
+
