@@ -26,6 +26,29 @@ display: flex !important;
 visibility: visible !important;
 opacity: 1 !important;
 }
-  
-  
+   
+}
+
+@media (max-width: 767px) {
+  .kesra-banner .grid {
+    grid-template-columns: repeat(3, 1fr) !important;
+    gap: 8px !important;
+  }
+  .kesra-banner{
+  	padding-top: 1rem !important;
+  }
+
+  .kesra-banner .group {
+    height: 7.2rem !important;
+    width: 7.2rem !important;
+  }
+
+  .kesra-banner .group h3 {
+    font-size: 14px !important;
+    line-height: 1.5 !important;
+  }
+
+  .kesra-banner .group > a > div:last-child {
+    padding: 12px !important;
+  }
 }
