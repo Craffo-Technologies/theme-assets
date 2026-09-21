@@ -34,3 +34,16 @@
     height: auto !important;
     padding-bottom: 0 !important;
 }
+
+.fixed-products-header {
+    position: relative !important ;
+    margin-top: 2rem !important;
+}
+
+.fixed-products-title {
+    position: absolute !important;
+    left: 50% !important;
+    transform: translateX(-50%) !important;
+    text-align: center !important;
+       margin-top: -2.5rem !important;
+}
