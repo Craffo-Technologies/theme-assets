@@ -27,8 +27,5 @@ visibility: visible !important;
 opacity: 1 !important;
 }
   
-#main-content > section:nth-child(3){
-display: none !important;
-}
   
 }
