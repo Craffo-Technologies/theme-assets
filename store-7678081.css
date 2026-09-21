@@ -19,3 +19,14 @@
 		background-color: #70223d !important;
 	color: #fff !important;
 }
+
+
+
+
+/* * edited by sara 21-09-2026 ** */
+#main-content > section:nth-child(7) , #main-content > section:nth-child(8) , #main-content > section.s-block.s-block--hero-slider.s-block--full-bg.wide-placeholder{
+	margin-bottom: 0 !important;
+	padding-bottom: 0 !important;
+	padding-top: 0 !important;
+	margin-top: 0 !important;
+}
