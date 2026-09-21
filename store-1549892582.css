@@ -55,7 +55,7 @@ fill:  var(--color-primary) !important;
 margin: auto !important;
 justify-content: center !important;
 }
-.custom-bar > div > h3,  .navbar > div > ul > li  > a  ,   salla-quantity-input > div > button  span   svg  ,   salla-quantity-input   .s-quantity-input-button{
+.custom-bar > div > h3,  salla-quantity-input > div > button  span   svg  ,   salla-quantity-input   .s-quantity-input-button{
 color: var(--color-background) !important;
 }
 #app > div.app-inner.flex.flex-col.min-h-full > div.custom-bar.w-full.py-5.mb-6.bg-primary.text-white > div > div > salla-button button{
