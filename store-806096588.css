@@ -24,7 +24,12 @@ Palette: #4A70A9 | #8FABD4 | #EFECE3 | #000000
 [style*="#ff6a00"], [style*="#FF6A00"],
 [style*="#ffb347"], [style*="#FFB347"],
 [style*="#f59e37"], [style*="#F59E37"],
-[style*="#a56f2a"], [style*="#A56F2A"] {
+[style*="#a56f2a"], [style*="#A56F2A"],
+[style*="#ff8c00"], [style*="#FF8C00"],
+[style*="#ff7f00"], [style*="#FF7F00"],
+[style*="#e85d00"], [style*="#E85D00"],
+[style*="#e55b00"], [style*="#E55B00"],
+[style*="orange"], [style*="Orange"] {
 color: var(--rehla-light-blue) !important;
 background-color: transparent !important;
 background-image: none !important;
@@ -81,7 +86,7 @@ transition: transform 300ms ease, box-shadow 300ms ease !important;
 }
 .rehla-component-1 .rounded-xl.overflow-hidden:hover {
 transform: scale(1.05) !important;
-box-shadow: 0 12px 30px rgba(0, 0, 0, 0.18) !important;
+box-shadow: 0 12px 30px rgba(74, 112, 169, 0.25) !important;
 }
 
 /* =========================================
@@ -224,6 +229,13 @@ display: grid !important;
 grid-template-columns: repeat(4, minmax(0, 1fr)) !important;
 gap: 16px !important;
 width: 100% !important;
+align-items: stretch !important;
+}
+.rehla-default-product.rehla-fixed-products .s-products-list-wrapper > custom-salla-product-card {
+display: block !important;
+width: 100% !important;
+max-width: 100% !important;
+height: 100% !important;
 }
 .rehla-default-product.rehla-fixed-products .rehla-product-card {
 position: relative !important;
@@ -234,13 +246,14 @@ border: 2px solid var(--rehla-cream) !important;
 box-shadow: 0 4px 15px rgba(0, 0, 0, 0.06) !important;
 display: flex !important;
 flex-direction: column !important;
+height: 100% !important;
 transition: transform 0.4s cubic-bezier(0.22, 1, 0.36, 1),
 box-shadow 0.4s ease,
 border-color 0.4s ease !important;
 }
 .rehla-default-product.rehla-fixed-products .rehla-product-card:hover {
 transform: translateY(-8px) !important;
-box-shadow: 0 18px 36px rgba(0, 0, 0, 0.12) !important;
+box-shadow: 0 18px 36px rgba(74, 112, 169, 0.22) !important;
 border-color: var(--rehla-light-blue) !important;
 }
 .rehla-default-product.rehla-fixed-products .rehla-product-card h4 {
@@ -274,6 +287,84 @@ transition: color 0.3s ease, transform 0.3s ease !important;
 .rehla-default-product.rehla-fixed-products .rehla-product-card .sicon-eye:hover {
 color: var(--rehla-light-blue) !important;
 transform: scale(1.15) !important;
+}
+
+/* =========================================
+6.b GLASS SHINE على صورة كارت المنتج
+========================================= */
+.rehla-default-product.rehla-fixed-products .rehla-product-card > div > div:first-child > a {
+position: relative !important;
+display: block !important;
+overflow: hidden !important;
+border-radius: 12px 12px 0 0 !important;
+}
+.rehla-default-product.rehla-fixed-products .rehla-product-card > div > div:first-child > a::before {
+content: "" !important;
+position: absolute !important;
+top: 0 !important;
+left: -150% !important;
+width: 100% !important;
+height: 100% !important;
+background: linear-gradient(120deg,
+rgba(255, 255, 255, 0) 20%,
+rgba(143, 171, 212, 0.20) 40%,
+rgba(239, 236, 227, 0.85) 50%,
+rgba(143, 171, 212, 0.20) 60%,
+rgba(255, 255, 255, 0) 80%) !important;
+transform: skewX(-25deg) !important;
+transition: left 0.9s cubic-bezier(0.22, 1, 0.36, 1) !important;
+pointer-events: none !important;
+z-index: 3 !important;
+}
+.rehla-default-product.rehla-fixed-products .rehla-product-card:hover > div > div:first-child > a::before {
+left: 150% !important;
+}
+.rehla-default-product.rehla-fixed-products .rehla-product-card > div > div:first-child > a > img {
+display: block !important;
+width: 100% !important;
+height: auto !important;
+transition: transform 0.7s cubic-bezier(0.22, 1, 0.36, 1) !important;
+}
+.rehla-default-product.rehla-fixed-products .rehla-product-card:hover > div > div:first-child > a > img {
+transform: scale(1.06) !important;
+}
+
+/* =========================================
+6.c ضبط مسافات ومحتوى كارت المنتج
+========================================= */
+.rehla-default-product.rehla-fixed-products .rehla-product-card > div {
+display: flex !important;
+flex-direction: column !important;
+height: 100% !important;
+}
+.rehla-default-product.rehla-fixed-products .rehla-product-card > div > div:nth-child(2) {
+display: flex !important;
+flex-direction: column !important;
+flex: 1 1 auto !important;
+justify-content: space-between !important;
+gap: 10px !important;
+padding: 14px !important;
+}
+.rehla-default-product.rehla-fixed-products .rehla-product-card h4 {
+margin: 0 !important;
+padding: 0 !important;
+line-height: 1.45 !important;
+}
+.rehla-default-product.rehla-fixed-products .rehla-product-card p {
+margin: 0 !important;
+padding: 0 !important;
+}
+.rehla-default-product.rehla-fixed-products .rehla-product-card .h-28 {
+height: auto !important;
+min-height: 0 !important;
+}
+.rehla-default-product.rehla-fixed-products .rehla-product-card .border-t {
+margin-top: auto !important;
+padding-top: 10px !important;
+display: flex !important;
+justify-content: space-between !important;
+align-items: center !important;
+gap: 8px !important;
 }
 
 /* =========================================
@@ -345,7 +436,7 @@ transition: transform 0.4s ease, box-shadow 0.4s ease, border-color 0.4s ease !i
 }
 section.s-block--best-offers custom-salla-product-card:hover {
 transform: translateY(-8px) !important;
-box-shadow: 0 18px 36px rgba(0, 0, 0, 0.12) !important;
+box-shadow: 0 18px 36px rgba(74, 112, 169, 0.22) !important;
 border-color: var(--rehla-light-blue) !important;
 }
 section.s-block--best-offers .product-card__title a {
@@ -357,6 +448,40 @@ section.s-block--best-offers custom-salla-product-card:hover .product-card__titl
 color: var(--rehla-light-blue) !important;
 }
 section.s-block--best-offers .total-price { color: var(--rehla-text) !important; font-weight: 800 !important; }
+
+/* Glass Shine على صور السلايدر */
+section.s-block--best-offers .product-card__image {
+position: relative !important;
+overflow: hidden !important;
+border-radius: 14px 14px 0 0 !important;
+}
+section.s-block--best-offers .product-card__image::before {
+content: "" !important;
+position: absolute !important;
+top: 0 !important;
+left: -150% !important;
+width: 100% !important;
+height: 100% !important;
+background: linear-gradient(120deg,
+rgba(255, 255, 255, 0) 20%,
+rgba(143, 171, 212, 0.20) 40%,
+rgba(239, 236, 227, 0.85) 50%,
+rgba(143, 171, 212, 0.20) 60%,
+rgba(255, 255, 255, 0) 80%) !important;
+transform: skewX(-25deg) !important;
+transition: left 0.9s cubic-bezier(0.22, 1, 0.36, 1) !important;
+pointer-events: none !important;
+z-index: 3 !important;
+}
+section.s-block--best-offers custom-salla-product-card:hover .product-card__image::before {
+left: 150% !important;
+}
+section.s-block--best-offers .product-card__image img {
+transition: transform 0.7s cubic-bezier(0.22, 1, 0.36, 1) !important;
+}
+section.s-block--best-offers custom-salla-product-card:hover .product-card__image img {
+transform: scale(1.06) !important;
+}
 
 /* =========================================
 9. CATEGORIES
@@ -418,7 +543,7 @@ transition: max-height 0.5s ease, opacity 0.4s ease 0.1s !important;
 }
 .rehla-component-2 .rounded-xl.overflow-hidden.group:hover {
 transform: translateY(-10px) !important;
-box-shadow: 0 25px 50px rgba(0, 0, 0, 0.35) !important;
+box-shadow: 0 25px 50px rgba(74, 112, 169, 0.35) !important;
 }
 .rehla-component-2 .rounded-xl.overflow-hidden.group:hover img { transform: scale(1.12) !important; }
 .rehla-component-2 .rounded-xl.overflow-hidden.group:hover h4 { transform: translateY(-6px) !important; }
@@ -441,16 +566,19 @@ border-color: var(--rehla-light-blue) !important;
 }
 
 /* =========================================
-10. HEADER — LOGO
+10. HEADER — LOGO (هوفر أزرق)
 ========================================= */
-header a.logo img { transition: transform 0.4s ease, filter 0.4s ease !important; }
+header a.logo img {
+transition: transform 0.4s cubic-bezier(0.22, 1, 0.36, 1),
+            filter 0.4s ease !important;
+}
 header a.logo:hover img {
-transform: scale(1.06) rotate(-2deg) !important;
-filter: drop-shadow(0 4px 12px rgba(0, 0, 0, 0.18)) !important;
+transform: scale(1.08) rotate(-3deg) !important;
+filter: drop-shadow(0 6px 14px rgba(74, 112, 169, 0.45)) !important;
 }
 
 /* =========================================
-11. HEADER MENU
+11. HEADER MENU (خط متحرك أزرق)
 ========================================= */
 header nav > ul > li > a,
 header nav > ul > li.root-level > a,
@@ -459,34 +587,63 @@ position: relative !important;
 display: inline-block !important;
 color: var(--rehla-text) !important;
 text-decoration: none !important;
-transition: color 0.3s ease !important;
+transition: color 0.35s ease,
+            transform 0.35s cubic-bezier(0.22, 1, 0.36, 1) !important;
 }
 header nav > ul > li > a::before,
 header nav > ul > li > a::after,
 header nav > ul > li.root-level > a::before,
 header nav > ul > li.root-level > a::after,
 header nav ul li a::before,
-header nav ul li a::after,
-header nav ul li span.align-center::after,
-header nav ul li span.align-center::before {
+header nav ul li a::after {
 content: none !important;
 display: none !important;
 background: none !important;
+}
+header nav ul li span.align-center {
+position: relative !important;
+display: inline-block !important;
+padding-bottom: 6px !important;
+}
+header nav ul li span.align-center::before {
+content: none !important;
+display: none !important;
+}
+header nav ul li span.align-center::after {
+content: "" !important;
+display: block !important;
+position: absolute !important;
+bottom: 0 !important;
+right: 0 !important;
+left: 0 !important;
+height: 2px !important;
+background: linear-gradient(90deg,
+    transparent,
+    var(--rehla-dark-blue),
+    var(--rehla-light-blue),
+    var(--rehla-dark-blue),
+    transparent) !important;
+border-radius: 2px !important;
+transform: scaleX(0) !important;
+transform-origin: center !important;
+transition: transform 0.4s cubic-bezier(0.22, 1, 0.36, 1) !important;
 }
 header nav > ul > li > a:hover,
 header nav > ul > li.root-level > a:hover,
 header nav ul li a:hover,
 header nav ul li a:hover span {
-color: var(--rehla-light-blue) !important;
+color: var(--rehla-dark-blue) !important;
 text-decoration: none !important;
 background: transparent !important;
-transform: none !important;
+transform: translateY(-2px) !important;
+}
+header nav ul li a:hover span.align-center::after {
+transform: scaleX(1) !important;
 }
 
 /* =========================================
-12. ★★★ HEADER ACTION ICONS — لون فقط بدون أي دائرة أو خلفية ★★★
+12. HEADER ACTION ICONS
 ========================================= */
-/* الأزرار — بدون أي خلفية أو دائرة */
 header nav button,
 nav button,
 .col-span-7 button,
@@ -507,8 +664,6 @@ box-shadow: none !important;
 outline: none !important;
 filter: none !important;
 }
-
-/* الأيقونات — اللون الأساسي */
 header nav button i,
 nav button i,
 .col-span-7 button i,
@@ -527,8 +682,6 @@ background: transparent !important;
 background-color: transparent !important;
 transition: color 0.3s ease, fill 0.3s ease !important;
 }
-
-/* ★ الهوفر: فقط يتغير لون الأيقونة — بدون دائرة، بدون خلفية، بدون حركة، بدون ظل ★ */
 header nav button:hover,
 nav button:hover,
 .col-span-7 button:hover,
@@ -560,8 +713,6 @@ background: transparent !important;
 background-color: transparent !important;
 transform: none !important;
 }
-
-/* أي pseudo-element على الأزرار — نحذفه */
 header nav button::before,
 header nav button::after,
 nav button::before,
@@ -576,8 +727,6 @@ background: none !important;
 width: 0 !important;
 height: 0 !important;
 }
-
-/* ★ السلة — نفس المعاملة ★ */
 header nav salla-cart-summary,
 nav salla-cart-summary,
 .col-span-7 salla-cart-summary,
@@ -608,7 +757,6 @@ fill: var(--rehla-text) !important;
 background: transparent !important;
 transition: fill 0.3s ease, color 0.3s ease !important;
 }
-/* ★ هوفر السلة: لون فقط ★ */
 header nav salla-cart-summary:hover,
 .col-span-7 salla-cart-summary:hover,
 .col-span-7 .s-cart-summary-wrapper:hover,
@@ -628,7 +776,6 @@ color: var(--rehla-light-blue) !important;
 fill: var(--rehla-light-blue) !important;
 transform: none !important;
 }
-/* Badge العدد */
 .col-span-7 .s-cart-summary-count,
 [class*="col-span-7"] .s-cart-summary-count {
 background: var(--rehla-dark-blue) !important;
@@ -642,9 +789,25 @@ color: var(--rehla-cream) !important;
 }
 
 /* =========================================
+12.b BACKGROUND-COLORED SECTIONS (لون الخلفية)
+========================================= */
+#app > div.app-inner.flex.flex-col.min-h-full > div:nth-child(9) > div:nth-child(2) > div > div > div,
+.form.product-form,
+.product-form,
+.form product-form,
+.form product-form *,
+.product-form *,
+salla-product-form,
+salla-product-form *,
+.s-comments.s-comments-product,
+.s-comments.s-comments-product * {
+background-color: var(--rehla-bg) !important;
+background: var(--rehla-bg) !important;
+}
+
+/* =========================================
 13. FOOTER
 ========================================= */
-
 footer.store-footer,
 footer.store-footer p,
 footer.store-footer span,
@@ -879,7 +1042,6 @@ footer.store-footer p.text-gray-400 a:hover {
 color: var(--rehla-cream) !important;
 }
 
-
 footer.store-footer {
 background: black !important
 }
@@ -890,6 +1052,7 @@ box-shadow:  unset !important;
 footer.store-footer::before {
 display: none !important;
 }
+
 /* =========================================
 14. MOBILE
 ========================================= */
@@ -932,12 +1095,33 @@ display: block !important;
 margin-top: 8px !important;
 text-align: center !important;
 }
-.rehla-default-product.rehla-fixed-products .s-products-list-wrapper.s-products-list-vertical-cards {
+
+/* ✅ كارت واحد في الصف على الموبايل */
+.rehla-default-product.rehla-fixed-products .s-products-list-wrapper.s-products-list-vertical-cards,
+.rehla-default-product.rehla-fixed-products salla-products-list,
+.rehla-default-product.rehla-fixed-products .s-products-list-wrapper,
+.rehla-default-product.rehla-fixed-products .s-products-list-wrapper > custom-salla-product-card,
+html body .rehla-default-product.rehla-fixed-products .s-products-list-wrapper {
 display: grid !important;
 grid-template-columns: 1fr !important;
+grid-auto-columns: 1fr !important;
+grid-auto-flow: row !important;
 gap: 20px !important;
+width: 100% !important;
+max-width: 100% !important;
 padding: 0 16px !important;
+box-sizing: border-box !important;
 }
+.rehla-default-product.rehla-fixed-products .s-products-list-wrapper > custom-salla-product-card {
+display: block !important;
+width: 100% !important;
+max-width: 100% !important;
+margin: 0 !important;
+}
+.rehla-default-product.rehla-fixed-products .rehla-product-card {
+width: 100% !important;
+}
+
 .rehla-component-2 { padding: 20px 0 !important; }
 .rehla-component-2 .relative.text-center h2 {
 font-size: 1.15rem !important;
@@ -974,10 +1158,6 @@ footer.store-footer a.social-link { width: 38px !important; height: 38px !import
 footer.store-footer a.social-link i { font-size: 16px !important; }
 }
 
-
-
-
-
 /* =========================================
 15. TABLET
 ========================================= */
@@ -996,7 +1176,6 @@ width: 14rem !important;
 height: 14rem !important;
 }
 }
-
 
 .rehla-statistics.relative.container.mx-auto.py-20.text-center > div > div{
 background: var(--header-background-color) !important;
@@ -1018,13 +1197,11 @@ width: 100% !important;
 direction: rtl !important;
 gap: 14px !important;
 }
-
 .s-contacts-list.s-contacts-list-vertical #contact-slot {
 width: 100% !important;
 display: flex !important;
 justify-content: flex-end !important;
 }
-
 .s-contacts-list.s-contacts-list-vertical .s-contacts-item {
 display: flex !important;
 flex-direction: row !important;
@@ -1036,7 +1213,6 @@ width: max-content !important;
 margin-left: auto !important;
 text-decoration: none !important;
 }
-
 .s-contacts-list.s-contacts-list-vertical .s-contacts-icon {
 order: 1 !important;
 flex-shrink: 0 !important;
@@ -1044,14 +1220,12 @@ display: flex !important;
 align-items: center !important;
 justify-content: center !important;
 }
-
 #app > div.app-inner.flex.flex-col.min-h-full > div.rehla-statistics.relative.container.mx-auto.py-20.text-center > div{
 box-shadow:
 0 2px 6px rgba(74, 112, 169, 0.06),
 0 8px 24px rgba(74, 112, 169, 0.10);
 border: 1px solid rgba(143, 171, 212, 0.20);
 }
-
 .s-contacts-list.s-contacts-list-vertical .unicode {
 order: 2 !important;
 direction: ltr !important;
