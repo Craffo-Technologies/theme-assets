@@ -47,3 +47,34 @@
     text-align: center !important;
        margin-top: -2.5rem !important;
 }
+
+
+
+
+/* **edited by sara 22-09-2026* */
+
+
+
+.notah-main-content  > .rounded-md.inline-flex.text-sm , .SnippetDefault__SnippetDefault__Content--d4e71 , .notah-main-content.main-content > form > section.rounded-md.mb-5 , .sticky-product-bar , .notah-main-content ,  .notah-main-content.main-content  > form > section.flex.bg-white.p-5 , salla-accordion-body , salla-accordion-head{
+background: var(--color-background) !important;
+color: var(--color-footer) !important;
+fill: var(--color-footer) !important;
+}	
+salla-accordion-head{
+box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px !important;
+}
+.s-multiple-bundle-product-image-wrapper{
+height: 5rem !important;
+width: 5rem !important;
+background: var(--color-background) !important;
+
+}
+.notah-main-content  > div > salla-social-share > div > slot-fb > salla-button > button ,  .notah-main-content > div.flex > salla-button > button{
+background: var(--color-background) !important;
+color: var(--color-footer) !important;
+fill: var(--color-footer) !important;
+}
+
+
+
+/* **** */
