@@ -1,23 +1,23 @@
 /* ============================================================
-   store-806096588.css — FINAL COMPLETE
-   Palette: #4A70A9 | #8FABD4 | #EFECE3 | #000000
+store-806096588.css — FINAL COMPLETE
+Palette: #4A70A9 | #8FABD4 | #EFECE3 | #000000
 ============================================================ */
 
 :root {
-    --rehla-dark-blue:   #4A70A9;
-    --rehla-light-blue:  #8FABD4;
-    --rehla-cream:       #EFECE3;
-    --rehla-black:       #000000;
+--rehla-dark-blue:   #4A70A9;
+--rehla-light-blue:  #8FABD4;
+--rehla-cream:       #EFECE3;
+--rehla-black:       #000000;
 
-    --rehla-bg:          #EFECE3;
-    --rehla-text:        #000000;
+--rehla-bg:          #EFECE3;
+--rehla-text:        #000000;
 
-    --rehla-footer-bg:   #000000;
-    --rehla-footer-text: #EFECE3;
-    --rehla-footer-head: #8FABD4;
+--rehla-footer-bg:   #000000;
+--rehla-footer-text: #EFECE3;
+--rehla-footer-head: #8FABD4;
 
-    --rehla-hover:       #8FABD4;
-    --footer-background-color: #000000;
+--rehla-hover:       #8FABD4;
+--footer-background-color: #000000;
 }
 
 /* ═══ Anti-Orange ═══ */
@@ -25,26 +25,26 @@
 [style*="#ffb347"], [style*="#FFB347"],
 [style*="#f59e37"], [style*="#F59E37"],
 [style*="#a56f2a"], [style*="#A56F2A"] {
-    color: var(--rehla-light-blue) !important;
-    background-color: transparent !important;
-    background-image: none !important;
-    border-color: var(--rehla-light-blue) !important;
-    fill: var(--rehla-light-blue) !important;
+color: var(--rehla-light-blue) !important;
+background-color: transparent !important;
+background-image: none !important;
+border-color: var(--rehla-light-blue) !important;
+fill: var(--rehla-light-blue) !important;
 }
 
 html, body {
-    background-color: var(--rehla-bg) !important;
-    color: var(--rehla-text) !important;
+background-color: var(--rehla-bg) !important;
+color: var(--rehla-text) !important;
 }
 
 /* =========================================
-   1. ADVERTISEMENT BAR
+1. ADVERTISEMENT BAR
 ========================================= */
 .salla-advertisement {
-    background: var(--rehla-black) !important;
-    color: var(--rehla-cream) !important;
-    border-bottom: 1px solid var(--rehla-dark-blue) !important;
-    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.15) !important;
+background: var(--rehla-black) !important;
+color: var(--rehla-cream) !important;
+border-bottom: 1px solid var(--rehla-dark-blue) !important;
+box-shadow: 0 1px 8px rgba(0, 0, 0, 0.15) !important;
 }
 .salla-advertisement h2,
 .salla-advertisement h2 a { color: var(--rehla-cream) !important; }
@@ -52,40 +52,40 @@ html, body {
 .salla-advertisement h2 a:hover { color: var(--rehla-light-blue) !important; }
 .salla-advertisement .ad-close { color: var(--rehla-cream) !important; }
 .salla-advertisement .ad-close:hover {
-    color: var(--rehla-light-blue) !important;
-    transform: rotate(90deg) !important;
+color: var(--rehla-light-blue) !important;
+transform: rotate(90deg) !important;
 }
 
 /* =========================================
-   2. SELECTION & SCROLLBAR
+2. SELECTION & SCROLLBAR
 ========================================= */
 ::selection { background-color: var(--rehla-dark-blue); color: var(--rehla-cream); }
 ::-moz-selection { background-color: var(--rehla-dark-blue); color: var(--rehla-cream); }
 ::-webkit-scrollbar { width: 10px; height: 10px; }
 ::-webkit-scrollbar-track { background: var(--rehla-cream); }
 ::-webkit-scrollbar-thumb {
-    background: var(--rehla-black);
-    border-radius: 5px;
-    border: 2px solid var(--rehla-cream);
+background: var(--rehla-black);
+border-radius: 5px;
+border: 2px solid var(--rehla-cream);
 }
 ::-webkit-scrollbar-thumb:hover { background: var(--rehla-dark-blue); }
 html { scrollbar-color: var(--rehla-black) var(--rehla-cream); scrollbar-width: thin !important; }
 
 /* =========================================
-   3. COMPONENT 1 — CARD BORDER
+3. COMPONENT 1 — CARD BORDER
 ========================================= */
 .rehla-component-1 .rounded-xl.overflow-hidden {
-    position: relative !important;
-    overflow: hidden !important;
-    transition: transform 300ms ease, box-shadow 300ms ease !important;
+position: relative !important;
+overflow: hidden !important;
+transition: transform 300ms ease, box-shadow 300ms ease !important;
 }
 .rehla-component-1 .rounded-xl.overflow-hidden:hover {
-    transform: scale(1.05) !important;
-    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.18) !important;
+transform: scale(1.05) !important;
+box-shadow: 0 12px 30px rgba(0, 0, 0, 0.18) !important;
 }
 
 /* =========================================
-   4. UNIFIED ANIMATED TITLES
+4. UNIFIED ANIMATED TITLES
 ========================================= */
 .rehla-letter-title,
 .rehla-services-title,
@@ -96,31 +96,31 @@ html { scrollbar-color: var(--rehla-black) var(--rehla-cream); scrollbar-width: 
 .rehla-countdown-title,
 .rehla-timing-title,
 section.s-block--best-offers .s-slider-block__title h2 {
-    display: block !important;
-    width: 100% !important;
-    margin: 0 auto 34px !important;
-    padding-bottom: 26px !important;
-    position: relative !important;
-    text-align: center !important;
-    font-size: clamp(1.35rem, 3vw, 2rem) !important;
-    font-weight: 800 !important;
-    line-height: 1.35 !important;
-    background-image: linear-gradient(90deg,
-        var(--rehla-black) 0%,
-        var(--rehla-light-blue) 25%,
-        var(--rehla-black) 50%,
-        var(--rehla-dark-blue) 75%,
-        var(--rehla-black) 100%) !important;
-    background-size: 200% auto !important;
-    -webkit-background-clip: text !important;
-    background-clip: text !important;
-    -webkit-text-fill-color: transparent !important;
-    color: transparent !important;
-    animation: rehlaTitleGradient 5s linear infinite !important;
+display: block !important;
+width: 100% !important;
+margin: 0 auto 34px !important;
+padding-bottom: 26px !important;
+position: relative !important;
+text-align: center !important;
+font-size: clamp(1.35rem, 3vw, 2rem) !important;
+font-weight: 800 !important;
+line-height: 1.35 !important;
+background-image: linear-gradient(90deg,
+var(--rehla-black) 0%,
+var(--rehla-light-blue) 25%,
+var(--rehla-black) 50%,
+var(--rehla-dark-blue) 75%,
+var(--rehla-black) 100%) !important;
+background-size: 200% auto !important;
+-webkit-background-clip: text !important;
+background-clip: text !important;
+-webkit-text-fill-color: transparent !important;
+color: transparent !important;
+animation: rehlaTitleGradient 5s linear infinite !important;
 }
 @keyframes rehlaTitleGradient {
-    0% { background-position: 0% center; }
-    100% { background-position: 200% center; }
+0% { background-position: 0% center; }
+100% { background-position: 200% center; }
 }
 .rehla-letter-title::before,
 .rehla-services-title::before,
@@ -131,34 +131,34 @@ section.s-block--best-offers .s-slider-block__title h2 {
 .rehla-countdown-title::before,
 .rehla-timing-title::before,
 section.s-block--best-offers .s-slider-block__title h2::before {
-    content: "" !important;
-    position: absolute !important;
-    bottom: 0 !important;
-    left: 50% !important;
-    transform: translateX(-50%) !important;
-    width: 180px !important;
-    max-width: 75% !important;
-    height: 2px !important;
-    border-radius: 2px !important;
-    -webkit-text-fill-color: initial !important;
-    -webkit-background-clip: border-box !important;
-    background-clip: border-box !important;
-    background-image: linear-gradient(90deg,
-        transparent 0%,
-        var(--rehla-black) 12%,
-        var(--rehla-light-blue) 36%,
-        transparent 46%,
-        transparent 54%,
-        var(--rehla-dark-blue) 64%,
-        var(--rehla-black) 88%,
-        transparent 100%) !important;
-    background-size: 200% auto !important;
-    animation: rehlaLineGradient 4s linear infinite !important;
-    z-index: 1 !important;
+content: "" !important;
+position: absolute !important;
+bottom: 0 !important;
+left: 50% !important;
+transform: translateX(-50%) !important;
+width: 180px !important;
+max-width: 75% !important;
+height: 2px !important;
+border-radius: 2px !important;
+-webkit-text-fill-color: initial !important;
+-webkit-background-clip: border-box !important;
+background-clip: border-box !important;
+background-image: linear-gradient(90deg,
+transparent 0%,
+var(--rehla-black) 12%,
+var(--rehla-light-blue) 36%,
+transparent 46%,
+transparent 54%,
+var(--rehla-dark-blue) 64%,
+var(--rehla-black) 88%,
+transparent 100%) !important;
+background-size: 200% auto !important;
+animation: rehlaLineGradient 4s linear infinite !important;
+z-index: 1 !important;
 }
 @keyframes rehlaLineGradient {
-    0% { background-position: 0% center; }
-    100% { background-position: 200% center; }
+0% { background-position: 0% center; }
+100% { background-position: 200% center; }
 }
 .rehla-letter-title::after,
 .rehla-services-title::after,
@@ -169,297 +169,297 @@ section.s-block--best-offers .s-slider-block__title h2::before {
 .rehla-countdown-title::after,
 .rehla-timing-title::after,
 section.s-block--best-offers .s-slider-block__title h2::after {
-    content: "✈" !important;
-    position: absolute !important;
-    bottom: -9px !important;
-    left: 50% !important;
-    transform: translateX(-50%) rotate(-10deg) !important;
-    color: var(--rehla-light-blue) !important;
-    -webkit-text-fill-color: var(--rehla-light-blue) !important;
-    background: transparent !important;
-    font-size: 20px !important;
-    font-weight: 700 !important;
-    padding: 0 !important;
-    line-height: 1 !important;
-    z-index: 5 !important;
-    animation: rehlaPlaneFloat 3s ease-in-out infinite !important;
+content: "✈" !important;
+position: absolute !important;
+bottom: -9px !important;
+left: 50% !important;
+transform: translateX(-50%) rotate(-10deg) !important;
+color: var(--rehla-light-blue) !important;
+-webkit-text-fill-color: var(--rehla-light-blue) !important;
+background: transparent !important;
+font-size: 20px !important;
+font-weight: 700 !important;
+padding: 0 !important;
+line-height: 1 !important;
+z-index: 5 !important;
+animation: rehlaPlaneFloat 3s ease-in-out infinite !important;
 }
 @keyframes rehlaPlaneFloat {
-    0%, 100% { transform: translateX(-50%) rotate(-10deg) translateY(0); }
-    50% { transform: translateX(-50%) rotate(-10deg) translateY(-4px); }
+0%, 100% { transform: translateX(-50%) rotate(-10deg) translateY(0); }
+50% { transform: translateX(-50%) rotate(-10deg) translateY(-4px); }
 }
 
 /* =========================================
-   5. SLIDER TITLE
+5. SLIDER TITLE
 ========================================= */
 section.s-block--best-offers .s-slider-block__title { position: relative !important; display: flex !important; justify-content: center !important; align-items: center !important; width: 100% !important; }
 section.s-block--best-offers .s-slider-block__title-right { text-align: center !important; margin: 0 auto !important; width: 100% !important; }
 section.s-block--best-offers .s-slider-block__title-left {
-    position: absolute !important;
-    left: 0 !important;
-    top: 50% !important;
-    transform: translateY(-50%) !important;
-    font-size: 0.85rem !important;
-    color: var(--rehla-dark-blue) !important;
+position: absolute !important;
+left: 0 !important;
+top: 50% !important;
+transform: translateY(-50%) !important;
+font-size: 0.85rem !important;
+color: var(--rehla-dark-blue) !important;
 }
 section.s-block--best-offers .s-slider-block__title-left a {
-    color: var(--rehla-dark-blue) !important;
-    transition: color 0.3s ease !important;
+color: var(--rehla-dark-blue) !important;
+transition: color 0.3s ease !important;
 }
 section.s-block--best-offers .s-slider-block__title-left a:hover {
-    color: var(--rehla-light-blue) !important;
+color: var(--rehla-light-blue) !important;
 }
 
 /* =========================================
-   6. PRODUCT CARDS SECTION
+6. PRODUCT CARDS SECTION
 ========================================= */
 .rehla-default-product.rehla-fixed-products,
 .rehla-default-product.rehla-fixed-products.bg-white,
 div.rehla-default-product.rehla-fixed-products {
-    background: var(--rehla-bg) !important;
-    background-color: var(--rehla-bg) !important;
+background: var(--rehla-bg) !important;
+background-color: var(--rehla-bg) !important;
 }
 .rehla-default-product.rehla-fixed-products .s-products-list-wrapper.s-products-list-vertical-cards {
-    display: grid !important;
-    grid-template-columns: repeat(4, minmax(0, 1fr)) !important;
-    gap: 16px !important;
-    width: 100% !important;
+display: grid !important;
+grid-template-columns: repeat(4, minmax(0, 1fr)) !important;
+gap: 16px !important;
+width: 100% !important;
 }
 .rehla-default-product.rehla-fixed-products .rehla-product-card {
-    position: relative !important;
-    overflow: hidden !important;
-    border-radius: 14px !important;
-    background: var(--rehla-cream) !important;
-    border: 2px solid var(--rehla-cream) !important;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.06) !important;
-    display: flex !important;
-    flex-direction: column !important;
-    transition: transform 0.4s cubic-bezier(0.22, 1, 0.36, 1),
-                box-shadow 0.4s ease,
-                border-color 0.4s ease !important;
+position: relative !important;
+overflow: hidden !important;
+border-radius: 14px !important;
+background: var(--rehla-cream) !important;
+border: 2px solid var(--rehla-cream) !important;
+box-shadow: 0 4px 15px rgba(0, 0, 0, 0.06) !important;
+display: flex !important;
+flex-direction: column !important;
+transition: transform 0.4s cubic-bezier(0.22, 1, 0.36, 1),
+box-shadow 0.4s ease,
+border-color 0.4s ease !important;
 }
 .rehla-default-product.rehla-fixed-products .rehla-product-card:hover {
-    transform: translateY(-8px) !important;
-    box-shadow: 0 18px 36px rgba(0, 0, 0, 0.12) !important;
-    border-color: var(--rehla-light-blue) !important;
+transform: translateY(-8px) !important;
+box-shadow: 0 18px 36px rgba(0, 0, 0, 0.12) !important;
+border-color: var(--rehla-light-blue) !important;
 }
 .rehla-default-product.rehla-fixed-products .rehla-product-card h4 {
-    font-weight: 700 !important;
-    color: var(--rehla-text) !important;
-    transition: color 0.3s ease !important;
+font-weight: 700 !important;
+color: var(--rehla-text) !important;
+transition: color 0.3s ease !important;
 }
 .rehla-default-product.rehla-fixed-products .rehla-product-card:hover h4 {
-    color: var(--rehla-light-blue) !important;
+color: var(--rehla-light-blue) !important;
 }
 .rehla-default-product.rehla-fixed-products .rehla-product-card p {
-    color: var(--rehla-dark-blue) !important;
+color: var(--rehla-dark-blue) !important;
 }
 .rehla-default-product.rehla-fixed-products .rehla-product-card .text-gray-500 {
-    color: var(--rehla-dark-blue) !important;
+color: var(--rehla-dark-blue) !important;
 }
 .rehla-default-product.rehla-fixed-products .rehla-product-card .font-bold {
-    color: var(--rehla-text) !important;
-    font-weight: 800 !important;
+color: var(--rehla-text) !important;
+font-weight: 800 !important;
 }
 .rehla-default-product.rehla-fixed-products .rehla-product-card small.line-through {
-    color: var(--rehla-dark-blue) !important;
+color: var(--rehla-dark-blue) !important;
 }
 .rehla-default-product.rehla-fixed-products .rehla-product-card .border-t {
-    border-color: rgba(74, 112, 169, 0.15) !important;
+border-color: rgba(74, 112, 169, 0.15) !important;
 }
 .rehla-default-product.rehla-fixed-products .rehla-product-card .sicon-eye {
-    color: var(--rehla-text) !important;
-    transition: color 0.3s ease, transform 0.3s ease !important;
+color: var(--rehla-text) !important;
+transition: color 0.3s ease, transform 0.3s ease !important;
 }
 .rehla-default-product.rehla-fixed-products .rehla-product-card .sicon-eye:hover {
-    color: var(--rehla-light-blue) !important;
-    transform: scale(1.15) !important;
+color: var(--rehla-light-blue) !important;
+transform: scale(1.15) !important;
 }
 
 /* =========================================
-   7. ADD-TO-CART BUTTON
+7. ADD-TO-CART BUTTON
 ========================================= */
 html body button.bg-green-500,
 html body .rehla-product-card button.bg-green-500,
 html body .rehla-default-product button.bg-green-500,
 html body .rehla-default-product.rehla-fixed-products button.bg-green-500,
 html body section.s-block--best-offers button.bg-green-500 {
-    background: var(--rehla-dark-blue) !important;
-    background-image: none !important;
-    color: var(--rehla-cream) !important;
-    border: 1px solid var(--rehla-dark-blue) !important;
-    border-radius: 8px !important;
-    font-weight: 700 !important;
-    box-shadow: none !important;
-    transition: transform 0.3s ease, box-shadow 0.3s ease !important;
+background: var(--rehla-dark-blue) !important;
+background-image: none !important;
+color: var(--rehla-cream) !important;
+border: 1px solid var(--rehla-dark-blue) !important;
+border-radius: 8px !important;
+font-weight: 700 !important;
+box-shadow: none !important;
+transition: transform 0.3s ease, box-shadow 0.3s ease !important;
 }
 html body button.bg-green-500:hover,
 html body .rehla-product-card button.bg-green-500:hover,
 html body .rehla-default-product button.bg-green-500:hover,
 html body .rehla-default-product.rehla-fixed-products button.bg-green-500:hover {
-    background: linear-gradient(135deg, var(--rehla-light-blue) 0%, var(--rehla-dark-blue) 100%) !important;
-    border-color: transparent !important;
-    transform: translateY(-2px) !important;
-    box-shadow: 0 8px 20px rgba(74, 112, 169, 0.45) !important;
+background: linear-gradient(135deg, var(--rehla-light-blue) 0%, var(--rehla-dark-blue) 100%) !important;
+border-color: transparent !important;
+transform: translateY(-2px) !important;
+box-shadow: 0 8px 20px rgba(74, 112, 169, 0.45) !important;
 }
 html body button.bg-green-500 *,
 html body button.bg-green-500 span,
 html body button.bg-green-500 i,
 html body button.bg-green-500 svg {
-    color: var(--rehla-cream) !important;
-    fill: var(--rehla-cream) !important;
+color: var(--rehla-cream) !important;
+fill: var(--rehla-cream) !important;
 }
 html body salla-button button.s-button-element,
 html body salla-add-product-button button.s-button-element {
-    background: var(--rehla-dark-blue) !important;
-    background-image: none !important;
-    color: var(--rehla-cream) !important;
-    border: 1px solid var(--rehla-dark-blue) !important;
-    border-radius: 8px !important;
-    font-weight: 700 !important;
-    transition: all 0.3s ease !important;
+background: var(--rehla-dark-blue) !important;
+background-image: none !important;
+color: var(--rehla-cream) !important;
+border: 1px solid var(--rehla-dark-blue) !important;
+border-radius: 8px !important;
+font-weight: 700 !important;
+transition: all 0.3s ease !important;
 }
 html body salla-button button.s-button-element:hover,
 html body salla-add-product-button button.s-button-element:hover {
-    background: linear-gradient(135deg, var(--rehla-light-blue) 0%, var(--rehla-dark-blue) 100%) !important;
-    border-color: transparent !important;
-    transform: translateY(-2px) !important;
-    box-shadow: 0 8px 20px rgba(74, 112, 169, 0.45) !important;
+background: linear-gradient(135deg, var(--rehla-light-blue) 0%, var(--rehla-dark-blue) 100%) !important;
+border-color: transparent !important;
+transform: translateY(-2px) !important;
+box-shadow: 0 8px 20px rgba(74, 112, 169, 0.45) !important;
 }
 html body salla-button button.s-button-element *,
 html body salla-add-product-button button.s-button-element * {
-    color: var(--rehla-cream) !important;
-    fill: var(--rehla-cream) !important;
+color: var(--rehla-cream) !important;
+fill: var(--rehla-cream) !important;
 }
 
 /* =========================================
-   8. BEST OFFERS SLIDER
+8. BEST OFFERS SLIDER
 ========================================= */
 section.s-block--best-offers custom-salla-product-card {
-    position: relative !important;
-    overflow: hidden !important;
-    border-radius: 14px !important;
-    background: var(--rehla-cream) !important;
-    border: 2px solid var(--rehla-cream) !important;
-    transition: transform 0.4s ease, box-shadow 0.4s ease, border-color 0.4s ease !important;
+position: relative !important;
+overflow: hidden !important;
+border-radius: 14px !important;
+background: var(--rehla-cream) !important;
+border: 2px solid var(--rehla-cream) !important;
+transition: transform 0.4s ease, box-shadow 0.4s ease, border-color 0.4s ease !important;
 }
 section.s-block--best-offers custom-salla-product-card:hover {
-    transform: translateY(-8px) !important;
-    box-shadow: 0 18px 36px rgba(0, 0, 0, 0.12) !important;
-    border-color: var(--rehla-light-blue) !important;
+transform: translateY(-8px) !important;
+box-shadow: 0 18px 36px rgba(0, 0, 0, 0.12) !important;
+border-color: var(--rehla-light-blue) !important;
 }
 section.s-block--best-offers .product-card__title a {
-    font-weight: 700 !important;
-    color: var(--rehla-text) !important;
-    transition: color 0.3s ease !important;
+font-weight: 700 !important;
+color: var(--rehla-text) !important;
+transition: color 0.3s ease !important;
 }
 section.s-block--best-offers custom-salla-product-card:hover .product-card__title a {
-    color: var(--rehla-light-blue) !important;
+color: var(--rehla-light-blue) !important;
 }
 section.s-block--best-offers .total-price { color: var(--rehla-text) !important; font-weight: 800 !important; }
 
 /* =========================================
-   9. CATEGORIES
+9. CATEGORIES
 ========================================= */
 .rehla-component-2 { position: relative !important; padding: 60px 0 !important; }
 .rehla-component-2 .relative.text-center h2 {
-    padding-bottom: 26px !important;
-    margin-bottom: 40px !important;
-    display: inline-block !important;
-    color: var(--rehla-text) !important;
+padding-bottom: 26px !important;
+margin-bottom: 40px !important;
+display: inline-block !important;
+color: var(--rehla-text) !important;
 }
 .rehla-component-2 .flex.flex-wrap.gap-5 {
-    display: flex !important;
-    flex-wrap: nowrap !important;
-    gap: 20px !important;
-    justify-content: center !important;
-    align-items: center !important;
-    width: 100% !important;
+display: flex !important;
+flex-wrap: nowrap !important;
+gap: 20px !important;
+justify-content: center !important;
+align-items: center !important;
+width: 100% !important;
 }
 .rehla-component-2 .flex.flex-wrap > a {
-    display: block !important;
-    width: 16rem !important; height: 16rem !important;
-    min-width: 16rem !important; max-width: 16rem !important;
-    flex: 0 0 16rem !important;
+display: block !important;
+width: 16rem !important; height: 16rem !important;
+min-width: 16rem !important; max-width: 16rem !important;
+flex: 0 0 16rem !important;
 }
 .rehla-component-2 .rounded-xl.overflow-hidden.group {
-    position: relative !important;
-    overflow: hidden !important;
-    border-radius: 16px !important;
-    width: 16rem !important; height: 16rem !important;
-    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08) !important;
-    transition: transform 0.5s ease, box-shadow 0.5s ease !important;
+position: relative !important;
+overflow: hidden !important;
+border-radius: 16px !important;
+width: 16rem !important; height: 16rem !important;
+box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08) !important;
+transition: transform 0.5s ease, box-shadow 0.5s ease !important;
 }
 .rehla-component-2 img {
-    width: 100% !important; height: 100% !important;
-    object-fit: cover !important;
-    transition: transform 1s ease !important;
+width: 100% !important; height: 100% !important;
+object-fit: cover !important;
+transition: transform 1s ease !important;
 }
 .rehla-component-2 .absolute.bottom-0.w-full.h-full.z-50 {
-    position: absolute !important;
-    inset: 0 !important;
-    background: linear-gradient(180deg,
-        rgba(0,0,0,0.05) 0%, rgba(0,0,0,0.15) 35%,
-        rgba(0,0,0,0.55) 65%, rgba(0,0,0,0.92) 100%) !important;
+position: absolute !important;
+inset: 0 !important;
+background: linear-gradient(180deg,
+rgba(0,0,0,0.05) 0%, rgba(0,0,0,0.15) 35%,
+rgba(0,0,0,0.55) 65%, rgba(0,0,0,0.92) 100%) !important;
 }
 .rehla-component-2 h4 {
-    font-size: 19px !important;
-    font-weight: 700 !important;
-    color: var(--rehla-cream) !important;
-    text-shadow: 0 2px 12px rgba(0, 0, 0, 0.7) !important;
-    transition: transform 0.5s ease !important;
+font-size: 19px !important;
+font-weight: 700 !important;
+color: var(--rehla-cream) !important;
+text-shadow: 0 2px 12px rgba(0, 0, 0, 0.7) !important;
+transition: transform 0.5s ease !important;
 }
 .rehla-component-2 p {
-    color: rgba(239, 236, 227, 0.85) !important;
-    max-height: 0 !important;
-    opacity: 0 !important;
-    overflow: hidden !important;
-    transition: max-height 0.5s ease, opacity 0.4s ease 0.1s !important;
+color: rgba(239, 236, 227, 0.85) !important;
+max-height: 0 !important;
+opacity: 0 !important;
+overflow: hidden !important;
+transition: max-height 0.5s ease, opacity 0.4s ease 0.1s !important;
 }
 .rehla-component-2 .rounded-xl.overflow-hidden.group:hover {
-    transform: translateY(-10px) !important;
-    box-shadow: 0 25px 50px rgba(0, 0, 0, 0.35) !important;
+transform: translateY(-10px) !important;
+box-shadow: 0 25px 50px rgba(0, 0, 0, 0.35) !important;
 }
 .rehla-component-2 .rounded-xl.overflow-hidden.group:hover img { transform: scale(1.12) !important; }
 .rehla-component-2 .rounded-xl.overflow-hidden.group:hover h4 { transform: translateY(-6px) !important; }
 .rehla-component-2 .rounded-xl.overflow-hidden.group:hover p {
-    max-height: 60px !important;
-    opacity: 1 !important;
+max-height: 60px !important;
+opacity: 1 !important;
 }
 .rehla-component-2 .rounded-xl.overflow-hidden.group::after {
-    content: "" !important;
-    position: absolute !important;
-    inset: 0 !important;
-    border: 2px solid transparent !important;
-    border-radius: 16px !important;
-    transition: border-color 0.4s ease !important;
-    pointer-events: none !important;
-    z-index: 30 !important;
+content: "" !important;
+position: absolute !important;
+inset: 0 !important;
+border: 2px solid transparent !important;
+border-radius: 16px !important;
+transition: border-color 0.4s ease !important;
+pointer-events: none !important;
+z-index: 30 !important;
 }
 .rehla-component-2 .rounded-xl.overflow-hidden.group:hover::after {
-    border-color: var(--rehla-light-blue) !important;
+border-color: var(--rehla-light-blue) !important;
 }
 
 /* =========================================
-   10. HEADER — LOGO
+10. HEADER — LOGO
 ========================================= */
 header a.logo img { transition: transform 0.4s ease, filter 0.4s ease !important; }
 header a.logo:hover img {
-    transform: scale(1.06) rotate(-2deg) !important;
-    filter: drop-shadow(0 4px 12px rgba(0, 0, 0, 0.18)) !important;
+transform: scale(1.06) rotate(-2deg) !important;
+filter: drop-shadow(0 4px 12px rgba(0, 0, 0, 0.18)) !important;
 }
 
 /* =========================================
-   11. HEADER MENU
+11. HEADER MENU
 ========================================= */
 header nav > ul > li > a,
 header nav > ul > li.root-level > a,
 header nav ul li a {
-    position: relative !important;
-    display: inline-block !important;
-    color: var(--rehla-text) !important;
-    text-decoration: none !important;
-    transition: color 0.3s ease !important;
+position: relative !important;
+display: inline-block !important;
+color: var(--rehla-text) !important;
+text-decoration: none !important;
+transition: color 0.3s ease !important;
 }
 header nav > ul > li > a::before,
 header nav > ul > li > a::after,
@@ -469,43 +469,43 @@ header nav ul li a::before,
 header nav ul li a::after,
 header nav ul li span.align-center::after,
 header nav ul li span.align-center::before {
-    content: none !important;
-    display: none !important;
-    background: none !important;
+content: none !important;
+display: none !important;
+background: none !important;
 }
 header nav > ul > li > a:hover,
 header nav > ul > li.root-level > a:hover,
 header nav ul li a:hover,
 header nav ul li a:hover span {
-    color: var(--rehla-light-blue) !important;
-    text-decoration: none !important;
-    background: transparent !important;
-    transform: none !important;
+color: var(--rehla-light-blue) !important;
+text-decoration: none !important;
+background: transparent !important;
+transform: none !important;
 }
 
 /* =========================================
-   12. ★★★ HEADER ACTION ICONS — لون فقط بدون أي دائرة أو خلفية ★★★
+12. ★★★ HEADER ACTION ICONS — لون فقط بدون أي دائرة أو خلفية ★★★
 ========================================= */
 /* الأزرار — بدون أي خلفية أو دائرة */
 header nav button,
 nav button,
 .col-span-7 button,
 [class*="col-span-7"] button {
-    background: transparent !important;
-    background-color: transparent !important;
-    background-image: none !important;
-    border: none !important;
-    border-radius: 0 !important;
-    padding: 6px !important;
-    margin: 0 4px !important;
-    cursor: pointer !important;
-    display: inline-flex !important;
-    align-items: center !important;
-    justify-content: center !important;
-    transition: none !important;
-    box-shadow: none !important;
-    outline: none !important;
-    filter: none !important;
+background: transparent !important;
+background-color: transparent !important;
+background-image: none !important;
+border: none !important;
+border-radius: 0 !important;
+padding: 6px !important;
+margin: 0 4px !important;
+cursor: pointer !important;
+display: inline-flex !important;
+align-items: center !important;
+justify-content: center !important;
+transition: none !important;
+box-shadow: none !important;
+outline: none !important;
+filter: none !important;
 }
 
 /* الأيقونات — اللون الأساسي */
@@ -520,12 +520,12 @@ header nav .search-icon i,
 header nav .search-icon .sicon-map-search,
 header nav button svg,
 header nav button svg path {
-    color: var(--rehla-text) !important;
-    fill: var(--rehla-text) !important;
-    font-size: 22px !important;
-    background: transparent !important;
-    background-color: transparent !important;
-    transition: color 0.3s ease, fill 0.3s ease !important;
+color: var(--rehla-text) !important;
+fill: var(--rehla-text) !important;
+font-size: 22px !important;
+background: transparent !important;
+background-color: transparent !important;
+transition: color 0.3s ease, fill 0.3s ease !important;
 }
 
 /* ★ الهوفر: فقط يتغير لون الأيقونة — بدون دائرة، بدون خلفية، بدون حركة، بدون ظل ★ */
@@ -534,14 +534,14 @@ nav button:hover,
 .col-span-7 button:hover,
 [class*="col-span-7"] button:hover,
 header nav .search-icon:hover {
-    background: transparent !important;
-    background-color: transparent !important;
-    background-image: none !important;
-    transform: none !important;
-    box-shadow: none !important;
-    border: none !important;
-    border-radius: 0 !important;
-    outline: none !important;
+background: transparent !important;
+background-color: transparent !important;
+background-image: none !important;
+transform: none !important;
+box-shadow: none !important;
+border: none !important;
+border-radius: 0 !important;
+outline: none !important;
 }
 header nav button:hover i,
 nav button:hover i,
@@ -554,11 +554,11 @@ header nav .search-icon:hover i,
 header nav .search-icon:hover .sicon-map-search,
 header nav button:hover svg,
 header nav button:hover svg path {
-    color: var(--rehla-light-blue) !important;
-    fill: var(--rehla-light-blue) !important;
-    background: transparent !important;
-    background-color: transparent !important;
-    transform: none !important;
+color: var(--rehla-light-blue) !important;
+fill: var(--rehla-light-blue) !important;
+background: transparent !important;
+background-color: transparent !important;
+transform: none !important;
 }
 
 /* أي pseudo-element على الأزرار — نحذفه */
@@ -570,11 +570,11 @@ nav button::after,
 .col-span-7 button::after,
 [class*="col-span-7"] button::before,
 [class*="col-span-7"] button::after {
-    content: none !important;
-    display: none !important;
-    background: none !important;
-    width: 0 !important;
-    height: 0 !important;
+content: none !important;
+display: none !important;
+background: none !important;
+width: 0 !important;
+height: 0 !important;
 }
 
 /* ★ السلة — نفس المعاملة ★ */
@@ -585,15 +585,15 @@ nav salla-cart-summary,
 .col-span-7 .s-cart-summary-wrapper,
 [class*="col-span-7"] .s-cart-summary-wrapper,
 .col-span-7 a.s-cart-summary-wrapper {
-    background: transparent !important;
-    background-color: transparent !important;
-    background-image: none !important;
-    border: none !important;
-    border-radius: 0 !important;
-    padding: 6px !important;
-    text-decoration: none !important;
-    box-shadow: none !important;
-    transition: none !important;
+background: transparent !important;
+background-color: transparent !important;
+background-image: none !important;
+border: none !important;
+border-radius: 0 !important;
+padding: 6px !important;
+text-decoration: none !important;
+box-shadow: none !important;
+transition: none !important;
 }
 header nav .s-cart-summary-icon svg,
 header nav .s-cart-summary-icon path,
@@ -603,20 +603,20 @@ header nav .s-cart-summary-icon path,
 [class*="col-span-7"] .s-cart-summary-icon path,
 .col-span-7 #s-cart-icon i,
 .col-span-7 .sicon-receipt {
-    color: var(--rehla-text) !important;
-    fill: var(--rehla-text) !important;
-    background: transparent !important;
-    transition: fill 0.3s ease, color 0.3s ease !important;
+color: var(--rehla-text) !important;
+fill: var(--rehla-text) !important;
+background: transparent !important;
+transition: fill 0.3s ease, color 0.3s ease !important;
 }
 /* ★ هوفر السلة: لون فقط ★ */
 header nav salla-cart-summary:hover,
 .col-span-7 salla-cart-summary:hover,
 .col-span-7 .s-cart-summary-wrapper:hover,
 [class*="col-span-7"] salla-cart-summary:hover {
-    background: transparent !important;
-    background-color: transparent !important;
-    transform: none !important;
-    box-shadow: none !important;
+background: transparent !important;
+background-color: transparent !important;
+transform: none !important;
+box-shadow: none !important;
 }
 header nav salla-cart-summary:hover .s-cart-summary-icon svg,
 header nav salla-cart-summary:hover .s-cart-summary-icon path,
@@ -624,50 +624,45 @@ header nav salla-cart-summary:hover .s-cart-summary-icon path,
 .col-span-7 salla-cart-summary:hover .s-cart-summary-icon path,
 .col-span-7 .s-cart-summary-wrapper:hover .s-cart-summary-icon svg,
 .col-span-7 .s-cart-summary-wrapper:hover .sicon-receipt {
-    color: var(--rehla-light-blue) !important;
-    fill: var(--rehla-light-blue) !important;
-    transform: none !important;
+color: var(--rehla-light-blue) !important;
+fill: var(--rehla-light-blue) !important;
+transform: none !important;
 }
 /* Badge العدد */
 .col-span-7 .s-cart-summary-count,
 [class*="col-span-7"] .s-cart-summary-count {
-    background: var(--rehla-dark-blue) !important;
-    color: var(--rehla-cream) !important;
-    transition: background 0.3s ease, color 0.3s ease !important;
+background: var(--rehla-dark-blue) !important;
+color: var(--rehla-cream) !important;
+transition: background 0.3s ease, color 0.3s ease !important;
 }
 .col-span-7 salla-cart-summary:hover .s-cart-summary-count,
 [class*="col-span-7"] salla-cart-summary:hover .s-cart-summary-count {
-    background: var(--rehla-light-blue) !important;
-    color: var(--rehla-cream) !important;
+background: var(--rehla-light-blue) !important;
+color: var(--rehla-cream) !important;
 }
 
 /* =========================================
-   13. FOOTER
+13. FOOTER
 ========================================= */
-footer.store-footer {
-    background: var(--footer-background-color) !important;
-    color: var(--rehla-footer-text) !important;
-    border-top: 3px solid var(--rehla-light-blue) !important;
-    padding: 40px 0 24px !important;
-}
+
 footer.store-footer,
 footer.store-footer p,
 footer.store-footer span,
 footer.store-footer li,
 footer.store-footer div {
-    color: var(--rehla-footer-text) !important;
+color: var(--rehla-footer-text) !important;
 }
 footer.store-footer .raheeb-main-text-color h3,
 footer.store-footer .grid > div > ul h3,
 footer.store-footer h3,
 footer.store-footer h2,
 footer.store-footer h4 {
-    color: var(--rehla-footer-head) !important;
-    font-weight: 700 !important;
-    position: relative !important;
-    padding-bottom: 10px !important;
-    margin-bottom: 16px !important;
-    transition: color 0.35s ease !important;
+color: var(--rehla-footer-head) !important;
+font-weight: 700 !important;
+position: relative !important;
+padding-bottom: 10px !important;
+margin-bottom: 16px !important;
+transition: color 0.35s ease !important;
 }
 footer.store-footer .raheeb-main-text-color h3::after,
 footer.store-footer .grid > div > ul h3::after,
@@ -675,197 +670,197 @@ footer.store-footer .grid > div > ul h2::after,
 footer.store-footer h3::after,
 footer.store-footer h2::after,
 footer.store-footer h4::after {
-    content: "" !important;
-    position: absolute !important;
-    bottom: 0 !important;
-    right: 0 !important;
-    width: 40px !important;
-    height: 3px !important;
-    background: var(--rehla-dark-blue) !important;
-    background-image: none !important;
-    border-radius: 3px !important;
-    transition: width 0.5s ease, background 0.35s ease !important;
+content: "" !important;
+position: absolute !important;
+bottom: 0 !important;
+right: 0 !important;
+width: 40px !important;
+height: 3px !important;
+background: var(--rehla-dark-blue) !important;
+background-image: none !important;
+border-radius: 3px !important;
+transition: width 0.5s ease, background 0.35s ease !important;
 }
 footer.store-footer .raheeb-main-text-color h3:hover,
 footer.store-footer .grid > div > ul h3:hover,
 footer.store-footer h3:hover {
-    color: var(--rehla-cream) !important;
+color: var(--rehla-cream) !important;
 }
 footer.store-footer .raheeb-main-text-color h3:hover::after,
 footer.store-footer .grid > div > ul h3:hover::after,
 footer.store-footer h3:hover::after {
-    width: 100% !important;
-    background: linear-gradient(90deg, var(--rehla-light-blue) 0%, var(--rehla-dark-blue) 100%) !important;
+width: 100% !important;
+background: linear-gradient(90deg, var(--rehla-light-blue) 0%, var(--rehla-dark-blue) 100%) !important;
 }
 footer.store-footer a,
 footer.store-footer a:not(.social-link),
 footer.store-footer .grid > div > ul > li a,
 footer.store-footer .grid a,
 footer.store-footer ul li a {
-    color: var(--rehla-footer-text) !important;
-    text-decoration: none !important;
-    background: transparent !important;
-    border: none !important;
-    padding: 0 !important;
-    padding-right: 0 !important;
-    display: inline-block !important;
-    transition: color 0.35s ease !important;
+color: var(--rehla-footer-text) !important;
+text-decoration: none !important;
+background: transparent !important;
+border: none !important;
+padding: 0 !important;
+padding-right: 0 !important;
+display: inline-block !important;
+transition: color 0.35s ease !important;
 }
 footer.store-footer a::before,
 footer.store-footer a::after,
 footer.store-footer a:not(.social-link)::before,
 footer.store-footer a:not(.social-link)::after {
-    content: none !important;
-    display: none !important;
-    background: none !important;
+content: none !important;
+display: none !important;
+background: none !important;
 }
 footer.store-footer a:hover,
 footer.store-footer a:not(.social-link):hover,
 footer.store-footer .grid > div > ul > li a:hover,
 footer.store-footer .grid a:hover,
 footer.store-footer ul li a:hover {
-    color: var(--rehla-light-blue) !important;
-    text-decoration: none !important;
-    padding-right: 0 !important;
-    transform: none !important;
+color: var(--rehla-light-blue) !important;
+text-decoration: none !important;
+padding-right: 0 !important;
+transform: none !important;
 }
 footer.store-footer li[class*="hover:text-slate"]:hover,
 footer.store-footer li[class*="hover:text-gray"]:hover,
 footer.store-footer li[class*="hover:text-primary"]:hover {
-    color: var(--rehla-light-blue) !important;
+color: var(--rehla-light-blue) !important;
 }
 footer.store-footer li[class*="hover:text-slate"]:hover a,
 footer.store-footer li[class*="hover:text-gray"]:hover a,
 footer.store-footer li[class*="hover:text-primary"]:hover a {
-    color: var(--rehla-light-blue) !important;
+color: var(--rehla-light-blue) !important;
 }
 footer.store-footer .container > .w-full.flex.justify-center a {
-    padding: 0 !important;
-    background: transparent !important;
-    border: none !important;
-    box-shadow: none !important;
+padding: 0 !important;
+background: transparent !important;
+border: none !important;
+box-shadow: none !important;
 }
 footer.store-footer a.social-link {
-    display: inline-flex !important;
-    align-items: center !important;
-    justify-content: center !important;
-    width: 42px !important;
-    height: 42px !important;
-    border-radius: 50% !important;
-    background: rgba(239, 236, 227, 0.08) !important;
-    border: 1px solid rgba(239, 236, 227, 0.18) !important;
-    color: var(--rehla-cream) !important;
-    position: relative !important;
-    overflow: hidden !important;
-    z-index: 1 !important;
-    transition: transform 0.35s ease, box-shadow 0.35s ease, border-color 0.35s ease !important;
+display: inline-flex !important;
+align-items: center !important;
+justify-content: center !important;
+width: 42px !important;
+height: 42px !important;
+border-radius: 50% !important;
+background: rgba(239, 236, 227, 0.08) !important;
+border: 1px solid rgba(239, 236, 227, 0.18) !important;
+color: var(--rehla-cream) !important;
+position: relative !important;
+overflow: hidden !important;
+z-index: 1 !important;
+transition: transform 0.35s ease, box-shadow 0.35s ease, border-color 0.35s ease !important;
 }
 footer.store-footer a.social-link::before {
-    content: "" !important;
-    display: block !important;
-    position: absolute !important;
-    inset: 0 !important;
-    background: linear-gradient(135deg, var(--rehla-light-blue) 0%, var(--rehla-dark-blue) 100%) !important;
-    opacity: 0 !important;
-    transition: opacity 0.4s ease !important;
-    border-radius: 50% !important;
-    z-index: -1 !important;
+content: "" !important;
+display: block !important;
+position: absolute !important;
+inset: 0 !important;
+background: linear-gradient(135deg, var(--rehla-light-blue) 0%, var(--rehla-dark-blue) 100%) !important;
+opacity: 0 !important;
+transition: opacity 0.4s ease !important;
+border-radius: 50% !important;
+z-index: -1 !important;
 }
 footer.store-footer a.social-link i {
-    color: var(--rehla-cream) !important;
-    font-size: 18px !important;
-    z-index: 2 !important;
-    transition: transform 0.35s ease !important;
+color: var(--rehla-cream) !important;
+font-size: 18px !important;
+z-index: 2 !important;
+transition: transform 0.35s ease !important;
 }
 footer.store-footer a.social-link:hover {
-    border-color: transparent !important;
-    transform: translateY(-4px) scale(1.05) !important;
-    box-shadow: 0 10px 22px rgba(74, 112, 169, 0.5) !important;
+border-color: transparent !important;
+transform: translateY(-4px) scale(1.05) !important;
+box-shadow: 0 10px 22px rgba(74, 112, 169, 0.5) !important;
 }
 footer.store-footer a.social-link:hover::before { opacity: 1 !important; }
 footer.store-footer a.social-link:hover i { transform: scale(1.15) !important; }
 footer.store-footer salla-contacts.s-contacts { display: block !important; width: 100% !important; }
 footer.store-footer .s-contacts-list {
-    display: flex !important;
-    flex-direction: column !important;
-    gap: 12px !important;
-    align-items: flex-start !important;
-    direction: rtl !important;
-    width: 100% !important;
+display: flex !important;
+flex-direction: column !important;
+gap: 12px !important;
+align-items: flex-start !important;
+direction: rtl !important;
+width: 100% !important;
 }
 footer.store-footer .s-contacts-item {
-    display: inline-flex !important;
-    flex-direction: row !important;
-    align-items: center !important;
-    justify-content: flex-start !important;
-    gap: 12px !important;
-    color: var(--rehla-footer-text) !important;
-    font-size: 14px !important;
-    text-decoration: none !important;
-    padding: 8px 4px !important;
-    border-radius: 10px !important;
-    transition: color 0.35s ease, background 0.4s ease !important;
+display: inline-flex !important;
+flex-direction: row !important;
+align-items: center !important;
+justify-content: flex-start !important;
+gap: 12px !important;
+color: var(--rehla-footer-text) !important;
+font-size: 14px !important;
+text-decoration: none !important;
+padding: 8px 4px !important;
+border-radius: 10px !important;
+transition: color 0.35s ease, background 0.4s ease !important;
 }
 footer.store-footer .s-contacts-item:hover {
-    color: var(--rehla-light-blue) !important;
-    background: rgba(143, 171, 212, 0.06) !important;
-    transform: none !important;
-    padding-right: 4px !important;
+color: var(--rehla-light-blue) !important;
+background: rgba(143, 171, 212, 0.06) !important;
+transform: none !important;
+padding-right: 4px !important;
 }
 footer.store-footer .s-contacts-icon {
-    display: inline-flex !important;
-    align-items: center !important;
-    justify-content: center !important;
-    width: 38px !important;
-    height: 38px !important;
-    border-radius: 50% !important;
-    background: rgba(239, 236, 227, 0.08) !important;
-    border: 1px solid rgba(239, 236, 227, 0.18) !important;
-    flex-shrink: 0 !important;
-    position: relative !important;
-    overflow: hidden !important;
-    z-index: 1 !important;
-    order: 1 !important;
-    transition: transform 0.35s ease, box-shadow 0.35s ease, border-color 0.35s ease !important;
+display: inline-flex !important;
+align-items: center !important;
+justify-content: center !important;
+width: 38px !important;
+height: 38px !important;
+border-radius: 50% !important;
+background: rgba(239, 236, 227, 0.08) !important;
+border: 1px solid rgba(239, 236, 227, 0.18) !important;
+flex-shrink: 0 !important;
+position: relative !important;
+overflow: hidden !important;
+z-index: 1 !important;
+order: 1 !important;
+transition: transform 0.35s ease, box-shadow 0.35s ease, border-color 0.35s ease !important;
 }
 footer.store-footer .s-contacts-icon::before {
-    content: "" !important;
-    display: block !important;
-    position: absolute !important;
-    inset: 0 !important;
-    background: linear-gradient(135deg, var(--rehla-light-blue) 0%, var(--rehla-dark-blue) 100%) !important;
-    opacity: 0 !important;
-    transition: opacity 0.4s ease !important;
-    border-radius: 50% !important;
-    z-index: -1 !important;
+content: "" !important;
+display: block !important;
+position: absolute !important;
+inset: 0 !important;
+background: linear-gradient(135deg, var(--rehla-light-blue) 0%, var(--rehla-dark-blue) 100%) !important;
+opacity: 0 !important;
+transition: opacity 0.4s ease !important;
+border-radius: 50% !important;
+z-index: -1 !important;
 }
 footer.store-footer .s-contacts-item:hover .s-contacts-icon {
-    border-color: transparent !important;
-    transform: scale(1.08) !important;
-    box-shadow: 0 6px 15px rgba(74, 112, 169, 0.45) !important;
+border-color: transparent !important;
+transform: scale(1.08) !important;
+box-shadow: 0 6px 15px rgba(74, 112, 169, 0.45) !important;
 }
 footer.store-footer .s-contacts-item:hover .s-contacts-icon::before { opacity: 1 !important; }
 footer.store-footer .s-contacts-icon svg {
-    width: 18px !important;
-    height: 18px !important;
-    fill: var(--rehla-cream) !important;
-    position: relative !important;
-    z-index: 2 !important;
-    transition: transform 0.3s ease !important;
-    transform: none !important;
+width: 18px !important;
+height: 18px !important;
+fill: var(--rehla-cream) !important;
+position: relative !important;
+z-index: 2 !important;
+transition: transform 0.3s ease !important;
+transform: none !important;
 }
 footer.store-footer .s-contacts-item:hover .s-contacts-icon svg { transform: scale(1.1) !important; }
 footer.store-footer .s-contacts-item .unicode {
-    color: inherit !important;
-    font-weight: 600 !important;
-    direction: ltr !important;
-    unicode-bidi: embed !important;
-    order: 2 !important;
+color: inherit !important;
+font-weight: 600 !important;
+direction: ltr !important;
+unicode-bidi: embed !important;
+order: 2 !important;
 }
 footer.store-footer .rehla-payment li,
 footer.store-footer .rehla-payment li.bg-white {
-    background: #ffffff !important;
-    border-radius: 6px !important;
+background: #ffffff !important;
+border-radius: 6px !important;
 }
 footer.store-footer salla-trust-badges,
 footer.store-footer .s-trust-badges-wrapper { background: transparent !important; }
@@ -873,116 +868,193 @@ footer.store-footer .s-trust-badges-label,
 footer.store-footer .s-trust-badges-number { color: var(--rehla-footer-text) !important; }
 footer.store-footer .text-gray-400,
 footer.store-footer p.text-gray-400 {
-    color: rgba(239, 236, 227, 0.65) !important;
+color: rgba(239, 236, 227, 0.65) !important;
 }
 footer.store-footer .text-gray-400 a,
 footer.store-footer p.text-gray-400 a {
-    color: var(--rehla-light-blue) !important;
+color: var(--rehla-light-blue) !important;
 }
 footer.store-footer .text-gray-400 a:hover,
 footer.store-footer p.text-gray-400 a:hover {
-    color: var(--rehla-cream) !important;
+color: var(--rehla-cream) !important;
 }
 
+
+footer.store-footer {
+background: black !important
+}
+footer.store-footer .container > .w-full.flex.justify-center a:hover {
+border-color: unset !important;
+box-shadow:  unset !important;
+}
+footer.store-footer::before {
+display: none !important;
+}
 /* =========================================
-   14. MOBILE
+14. MOBILE
 ========================================= */
 @media (max-width: 768px) {
-    .rehla-letter-title,
-    .rehla-services-title,
-    .rehla-schedule-title,
-    .rehla-features-title,
-    .rehla-title,
-    .rehla-countdown-title,
-    .rehla-timing-title,
-    section.s-block--best-offers .s-slider-block__title h2 {
-        font-size: 1.25rem !important;
-        padding-bottom: 22px !important;
-        margin-bottom: 22px !important;
-    }
-    .rehla-letter-title::before,
-    .rehla-services-title::before,
-    .rehla-schedule-title::before,
-    .rehla-features-title::before,
-    .rehla-title::before,
-    .rehla-countdown-title::before,
-    .rehla-timing-title::before,
-    section.s-block--best-offers .s-slider-block__title h2::before { width: 120px !important; }
-    .rehla-letter-title::after,
-    .rehla-services-title::after,
-    .rehla-schedule-title::after,
-    .rehla-features-title::after,
-    .rehla-title::after,
-    .rehla-countdown-title::after,
-    .rehla-timing-title::after,
-    section.s-block--best-offers .s-slider-block__title h2::after {
-        font-size: 16px !important;
-        bottom: -7px !important;
-    }
-    section.s-block--best-offers .s-slider-block__title-left {
-        position: static !important;
-        transform: none !important;
-        display: block !important;
-        margin-top: 8px !important;
-        text-align: center !important;
-    }
-    .rehla-default-product.rehla-fixed-products .s-products-list-wrapper.s-products-list-vertical-cards {
-        display: grid !important;
-        grid-template-columns: 1fr !important;
-        gap: 20px !important;
-        padding: 0 16px !important;
-    }
-    .rehla-component-2 { padding: 20px 0 !important; }
-    .rehla-component-2 .relative.text-center h2 {
-        font-size: 1.15rem !important;
-        padding-bottom: 16px !important;
-        margin-bottom: 20px !important;
-    }
-    .rehla-component-2 .flex.flex-wrap.gap-5 {
-        display: grid !important;
-        grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
-        padding: 8px 10px !important;
-        gap: 8px !important;
-    }
-    .rehla-component-2 .flex.flex-wrap > a {
-        width: 100% !important;
-        height: auto !important;
-        flex: unset !important;
-    }
-    .rehla-component-2 .rounded-xl.overflow-hidden.group {
-        width: 100% !important;
-        height: auto !important;
-        aspect-ratio: 1 / 1 !important;
-        border-radius: 10px !important;
-    }
-    .rehla-component-2 h4 { font-size: 12px !important; }
-    .rehla-component-2 p { font-size: 9px !important; }
+.rehla-letter-title,
+.rehla-services-title,
+.rehla-schedule-title,
+.rehla-features-title,
+.rehla-title,
+.rehla-countdown-title,
+.rehla-timing-title,
+section.s-block--best-offers .s-slider-block__title h2 {
+font-size: 1.25rem !important;
+padding-bottom: 22px !important;
+margin-bottom: 22px !important;
+}
+.rehla-letter-title::before,
+.rehla-services-title::before,
+.rehla-schedule-title::before,
+.rehla-features-title::before,
+.rehla-title::before,
+.rehla-countdown-title::before,
+.rehla-timing-title::before,
+section.s-block--best-offers .s-slider-block__title h2::before { width: 120px !important; }
+.rehla-letter-title::after,
+.rehla-services-title::after,
+.rehla-schedule-title::after,
+.rehla-features-title::after,
+.rehla-title::after,
+.rehla-countdown-title::after,
+.rehla-timing-title::after,
+section.s-block--best-offers .s-slider-block__title h2::after {
+font-size: 16px !important;
+bottom: -7px !important;
+}
+section.s-block--best-offers .s-slider-block__title-left {
+position: static !important;
+transform: none !important;
+display: block !important;
+margin-top: 8px !important;
+text-align: center !important;
+}
+.rehla-default-product.rehla-fixed-products .s-products-list-wrapper.s-products-list-vertical-cards {
+display: grid !important;
+grid-template-columns: 1fr !important;
+gap: 20px !important;
+padding: 0 16px !important;
+}
+.rehla-component-2 { padding: 20px 0 !important; }
+.rehla-component-2 .relative.text-center h2 {
+font-size: 1.15rem !important;
+padding-bottom: 16px !important;
+margin-bottom: 20px !important;
+}
+.rehla-component-2 .flex.flex-wrap.gap-5 {
+display: grid !important;
+grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+padding: 8px 10px !important;
+gap: 8px !important;
+}
+.rehla-component-2 .flex.flex-wrap > a {
+width: 100% !important;
+height: auto !important;
+flex: unset !important;
+}
+.rehla-component-2 .rounded-xl.overflow-hidden.group {
+width: 100% !important;
+height: auto !important;
+aspect-ratio: 1 / 1 !important;
+border-radius: 10px !important;
+}
+.rehla-component-2 h4 { font-size: 12px !important; }
+.rehla-component-2 p { font-size: 9px !important; }
 
-    header nav button i,
-    header nav button .sicon-map-search,
-    header nav button .sicon-user,
-    header nav button .sicon-receipt { font-size: 20px !important; }
+header nav button i,
+header nav button .sicon-map-search,
+header nav button .sicon-user,
+header nav button .sicon-receipt { font-size: 20px !important; }
 
-    footer.store-footer { padding: 30px 0 20px !important; }
-    footer.store-footer a.social-link { width: 38px !important; height: 38px !important; }
-    footer.store-footer a.social-link i { font-size: 16px !important; }
+footer.store-footer { padding: 30px 0 20px !important; }
+footer.store-footer a.social-link { width: 38px !important; height: 38px !important; }
+footer.store-footer a.social-link i { font-size: 16px !important; }
 }
 
+
+
+
+
 /* =========================================
-   15. TABLET
+15. TABLET
 ========================================= */
 @media (min-width: 769px) and (max-width: 1024px) {
-    .rehla-default-product.rehla-fixed-products .s-products-list-wrapper.s-products-list-vertical-cards {
-        grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
-        gap: 14px !important;
-    }
-    .rehla-component-2 .flex.flex-wrap > a {
-        flex: 0 0 14rem !important;
-        width: 14rem !important;
-        height: 14rem !important;
-    }
-    .rehla-component-2 .rounded-xl.overflow-hidden.group {
-        width: 14rem !important;
-        height: 14rem !important;
-    }
+.rehla-default-product.rehla-fixed-products .s-products-list-wrapper.s-products-list-vertical-cards {
+grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+gap: 14px !important;
+}
+.rehla-component-2 .flex.flex-wrap > a {
+flex: 0 0 14rem !important;
+width: 14rem !important;
+height: 14rem !important;
+}
+.rehla-component-2 .rounded-xl.overflow-hidden.group {
+width: 14rem !important;
+height: 14rem !important;
+}
+}
+
+
+.rehla-statistics.relative.container.mx-auto.py-20.text-center > div > div{
+background: var(--header-background-color) !important;
+}
+.accordion-container.flex.flex-col.gap-2.justify-center.items-center.w-full > div {
+box-shadow: 0 4px 18px rgba(74, 112, 169, 0.12);
+border: 1px solid rgba(143, 171, 212, 0.18);
+}
+.s-products-slider-card  > custom-salla-product-card > div > div > div  > div > div.py-4.flex.justify-between{
+margin-top: 1rem !important;
+}
+
+.s-contacts-list.s-contacts-list-vertical {
+display: flex !important;
+flex-direction: column !important;
+align-items: flex-end !important;
+justify-content: center !important;
+width: 100% !important;
+direction: rtl !important;
+gap: 14px !important;
+}
+
+.s-contacts-list.s-contacts-list-vertical #contact-slot {
+width: 100% !important;
+display: flex !important;
+justify-content: flex-end !important;
+}
+
+.s-contacts-list.s-contacts-list-vertical .s-contacts-item {
+display: flex !important;
+flex-direction: row !important;
+align-items: center !important;
+justify-content: flex-start !important;
+direction: rtl !important;
+gap: 10px !important;
+width: max-content !important;
+margin-left: auto !important;
+text-decoration: none !important;
+}
+
+.s-contacts-list.s-contacts-list-vertical .s-contacts-icon {
+order: 1 !important;
+flex-shrink: 0 !important;
+display: flex !important;
+align-items: center !important;
+justify-content: center !important;
+}
+
+#app > div.app-inner.flex.flex-col.min-h-full > div.rehla-statistics.relative.container.mx-auto.py-20.text-center > div{
+box-shadow:
+0 2px 6px rgba(74, 112, 169, 0.06),
+0 8px 24px rgba(74, 112, 169, 0.10);
+border: 1px solid rgba(143, 171, 212, 0.20);
+}
+
+.s-contacts-list.s-contacts-list-vertical .unicode {
+order: 2 !important;
+direction: ltr !important;
+text-align: right !important;
+white-space: nowrap !important;
 }
