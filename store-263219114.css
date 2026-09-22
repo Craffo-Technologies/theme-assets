@@ -3,6 +3,24 @@
 /* https://lou-la.online/ */
 
 
+footer > div > div  > div  > div:nth-child(3)::after {
+content: "FL-232007652" !important;
+display: flex !important;
+flex-direction: row-reverse !important;
+margin-top: 1rem !important;
+align-items: center !important;
+justify-content: flex-start !important;
+color: var(--color-footer-text) !important;
+background-color: var(--color-background) !important;
+background-image: url(https://asas-tools.com/u/uploads/sara_craffo/%D8%A7%D9%84%D8%B9%D9%85%D9%84_%D8%A7%D9%84%D8%AD%D8%B1_%D8%B1%D9%85%D8%B2_%D9%88%D8%AB%D9%8A%D9%82%D8%A9-removebg-preview.png) !important;
+background-repeat: no-repeat !important;
+background-size: contain !important;
+background-position: center right !important;
+height: 32px !important;
+width: 167px !important;
+border-radius: 0.2rem !important;
+}
+
 salla-trust-badges , #app > footer > div > div.md\:flex.md\:justify-between.justify-center.md\:items-start.items-center.w-full > div.border-b-\[1px\].border-gray-300.md\:border-0.md\:mb-0.mb-8.lg\:pb-0.pb-8.flex.flex-col.gap-4.md\:max-w-\[250px\] > div.flex.flex-col.gap-4 > div{
 	display: flex !important;
 }
