@@ -52,3 +52,10 @@ opacity: 1 !important;
     padding: 12px !important;
   }
 }
+
+
+
+.header-search.header-btn__icon{
+    display: block !important;
+align-content: center !important;
+}
