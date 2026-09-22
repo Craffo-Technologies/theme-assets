@@ -3,6 +3,9 @@
 /* https://lou-la.online/ */
 
 
+salla-trust-badges , #app > footer > div > div.md\:flex.md\:justify-between.justify-center.md\:items-start.items-center.w-full > div.border-b-\[1px\].border-gray-300.md\:border-0.md\:mb-0.mb-8.lg\:pb-0.pb-8.flex.flex-col.gap-4.md\:max-w-\[250px\] > div.flex.flex-col.gap-4 > div{
+	display: flex !important;
+}
 
 salla-add-product-button{
 display: none !important;
@@ -12,6 +15,7 @@ margin: auto !important;
 justify-content: center !important;
 text-align: center !important;
 }
+
 .app-inner .custom-bar ,  .main-content.w-full > form > salla-product-options , .main-content > form > salla-product-options > salla-conditional-fields > div  > div > div > div > label  > div , .app-inner  > div.container > div > div , .content--single-page{
 background: var(--color-background) !important ;
 color: var(--color-primary) !important ;
@@ -31,7 +35,7 @@ custom-salla-product-card > div > div.overflow-hidden.relative > a  > img{
 aspect-ratio: 12/16 !important;
 object-fit: cover !important;
 }
-footer .kayan-copyright , .s-trust-badges-wrapper , footer .kayan-copyright , #contact-slot:nth-child(2) > a {
+footer .kayan-copyright , footer .kayan-copyright , #contact-slot:nth-child(2) > a {
 display: none !important;
 }
 /* ** */
@@ -87,4 +91,7 @@ right: 12% !important;
 margin-top:0 !important;
 padding-top:0 !important;
 }
+}
+salla-trust-badges , #app > footer > div > div.md\:flex.md\:justify-between.justify-center.md\:items-start.items-center.w-full > div.border-b-\[1px\].border-gray-300.md\:border-0.md\:mb-0.mb-8.lg\:pb-0.pb-8.flex.flex-col.gap-4.md\:max-w-\[250px\] > div.flex.flex-col.gap-4 > div{
+	display: flex !important;
 }
