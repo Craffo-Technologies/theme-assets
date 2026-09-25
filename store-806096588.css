@@ -1232,3 +1232,14 @@ direction: ltr !important;
 text-align: right !important;
 white-space: nowrap !important;
 }
+
+custom-salla-product-card .py-4.flex {
+margin-top: 2rem !important;
+}
+salla-products-list   custom-salla-product-card  .py-4{
+height: 6.8rem !important;
+overflow: hidden !important;
+}
+.rehla-product-card , .rehla-schedule-box * div{
+background: var(--header-background-color) !important;
+}
