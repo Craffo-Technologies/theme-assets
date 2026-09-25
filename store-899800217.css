@@ -1,0 +1,22 @@
+/* store-899800217.css */
+
+
+
+.abayat-size-guide.py-10 > div > div.bg-white.rounded-lg  > div.size-guide-input.mb-8 > div > button{
+width: 11rem !important;
+font-size: 0.8rem !important;
+}
+#main-content > section.abayat-size-guide > div > div.bg-white.rounded-lg {
+width: 80% !important;
+margin: auto !important;
+padding: 0.4rem 0 0.2rem 0 !important;
+
+}
+
+@media (max-width: 768px){
+.abayat-size-guide.py-10 > div > div.bg-white.rounded-lg  > div.size-guide-input.mb-8 > div > button{
+padding: 0 !important;
+width: 8rem !important;
+}
+
+}
