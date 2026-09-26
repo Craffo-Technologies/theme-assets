@@ -1,6 +1,10 @@
  section.kayan-countdown-2 .kayan-countdown{
  	display: none !important;
  }
+ 
+ .s-product-options-splitter{
+ border-color: #000 !important;
+ }
 @media (max-width: 768px) {
 	.craffo-components-statistics .grid {
     grid-template-columns: repeat(3, 1fr) !important;
