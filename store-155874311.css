@@ -1,3 +1,6 @@
+ section.kayan-countdown-2 .kayan-countdown{
+ 	display: none !important;
+ }
 @media (max-width: 768px) {
 	.craffo-components-statistics .grid {
     grid-template-columns: repeat(3, 1fr) !important;
