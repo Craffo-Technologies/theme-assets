@@ -2,6 +2,199 @@
 	store : https://aeenkaf.com/
 */
 
+.content.content--single-page{
+	background-color: unset !important;
+}
+
+ .product__description salla-installment {
+		background-color: var(--color-background) !important ;
+	border: none !important;
+	outline: none !important;
+}
+
+
+.kayan-card img{
+	aspect-ratio: 1/1 !important;
+}
+
+@media(max-width: 768px){
+  
+#app > div.app-inner.flex.flex-col.min-h-full > div.kayan-header.overflow-hidden.w-full.h-full > div > div > div.flex-1.hidden.gap-6{
+	display: flex !important;
+	flex: unset !important;
+  gap: 0.5rem;
+  padding-bottom: 0.32rem  !important;
+}}
+@media (max-width: 768px) {
+    .kayan-header .w-24 {
+        position: absolute !important;
+        left: 66% !important;
+        top: 44%;
+        transform: translate(-90%, -50%) !important;
+        z-index: 9999 !important;
+        width: 9rem !important;
+    }
+  .kayan-header i {
+  font-size: 1.1rem !important;
+}
+  .kayan-header div#s-cart-icon{
+	padding-top: 0.46rem !important;
+}
+   body:after {
+    background-size: 60% !important;
+    }
+}
+
+.sicon-shopping-bag2:before {
+    content: "\ef39";
+}
+.s-cart-summary-count {
+	display: none !important;
+}
+
+
+@media(max-width: 768px){
+.kayan-copyright{
+    display: none !important;
+}
+ .app-inner  > footer > div > div  ~ div  ,  .app-inner  > footer > div > div > div ~ div >ul > li> a{
+    font-size: 0.9rem !important;
+}
+  .app-inner  > footer > div > div > div ~ div h5{
+        font-size: 1rem !important ;
+}
+
+  .contact-slot  a {
+     text-align: center !important ;
+     margin: auto !important ;
+    justify-content: center !important ;
+ }
+.s-payments-list{
+    align-items: center !important ; 
+    justify-content:  center !important ; 
+    margin: auto !important;
+}
+#contact-slot > a > span.unicode{
+	font-size: 0.8rem !important;
+}
+.s-contacts-icon {
+    height: 1.5rem !important;
+    width: 1.5rem !important;
+}
+#app > div.app-inner.flex.flex-col.min-h-full > footer > div > div.md\:flex.md\:justify-between.justify-center.md\:items-start.items-center.w-full > div:nth-child(3) > salla-contacts{
+	    display: flex !important;
+    justify-content: center !important;
+}
+
+.s-social-link a {
+    height: 1.5rem;
+    width: 1.5rem;}
+    .s-payments-list-item {
+    height: 1.5rem;
+    width: 3rem;}
+    
+    #app > div.app-inner.flex.flex-col.min-h-full > footer > div > div.md\:flex.md\:justify-between.justify-center.md\:items-start.items-center.w-full > div.border-b-\[1px\].border-gray-300.md\:border-0.md\:mb-0.mb-8.lg\:pb-0.pb-8.flex.flex-col.gap-4.md\:max-w-\[250px\] > div.flex.flex-col.gap-4 > salla-payments > ul > li:nth-child(3){
+    	display: none !important;
+    }
+   #app > div.app-inner.flex.flex-col.min-h-full > footer > div > div.md\:flex.md\:justify-between.justify-center.md\:items-start.items-center.w-full > div:nth-child(2) > h5{
+    	display: none !important;
+    }
+ 
+  
+}
+
+.s-product-options-wrapper{
+	background-color: transparent !important;
+}
+
+.s-product-options-grid-mode-span{
+	background-color: transparent !important;
+}
+.s-product-options-option-label{
+	color: #453026 !important;
+}
+.custom-bar.w-full.py-5.mb-6.bg-primary.text-white{
+	background-color: transparent !important;
+}
+
+label:hover .s-product-options-grid-mode-span {
+    background-color: #fffdf8 !important;
+    color: #4c2508 !important;
+    border-color: #4c2508 !important;
+}
+
+input[type="radio"]:checked + .s-product-options-grid-mode-span {
+    background-color: #fffdf8 !important;
+    color: #4c2508 !important;
+    border-color: #4c2508 !important;
+}
+  .kayan-card salla-add-product-button{
+  	display: none !important;
+  }
+
+.product-single .s-add-product-button-main .s-add-product-button-mini-checkout {
+    --salla-fast-checkout-button-border-radius: 0rem !important;
+    width: 100% !important;
+}
+.product-single .s-add-product-button-with-quick-buy .s-button-element {
+    border-radius: 0px !important;
+    padding: 8px 10px !important;
+    font-size: 14px !important;
+}
+
+.product-single .s-add-product-button-with-quick-buy .s-button-element i {
+    width: 18px !important;
+    height: 18px !important;
+    font-size: 14px !important;
+}
+
+.product-single .s-add-product-button-with-quick-buy .s-button-element .s-button-text::after {
+    content: "Add to Cart";
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 16px !important;
+    color: white !important;
+        text-transform: uppercase;
+}
+
+.product-single .main-content .s-add-product-button-main .s-add-product-button-mini-checkout-content::after {
+    content: "Buy it Now";
+    display: inline-block !important;
+    font-size: 16px !important;
+    color: black !important;
+}
+.product-single .s-add-product-button-with-quick-buy .s-button-element .s-button-text {
+ font-size: 0px !important;
+   display: flex;
+    align-items: center;
+    justify-content: center;
+    order: 2 !important;
+  gap: 6px !important;
+}
+
+.product-single .main-content .s-add-product-button-main .s-add-product-button-mini-checkout-content {
+   font-size: 0 !important;
+}
+.product-single .s-add-product-button-main:not(.w-full) > salla-button {
+    width: 100%!important;
+}
+
+.product-single .main-content .s-add-product-button-main .s-add-product-button-mini-checkout-content span{
+	display: none !important;
+}
+
+.s-product-card-price{
+	display: none !important;
+}
+
+ 
+@media (max-width: 768px) {
+  .kayan-header div#s-cart-icon{
+    position: absolute ;
+    left:18rem !important ;
+    top: -1.3rem !important ;
+  }}
 .s-product-options-wrapper {
     background: #e1dbcd !important;
 }
