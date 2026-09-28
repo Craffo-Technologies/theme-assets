@@ -1,10 +1,26 @@
 .brand-item{
-	height: auto !important;
+height: auto !important;
 }
 
 .index .brand-item{
-	padding: unset !important;
+padding: unset !important;
 }
+
+#app > div.app-inner.flex.flex-col.min-h-full > section.s-block.s-block--categories > div::before {
+content: "BRANDS LINEUP";
+display: block;
+margin-bottom: 15px;
+font-family: 'Arial Black', Impact, sans-serif;
+font-weight: 900;
+font-size: 28px;
+color: #000000;
+text-align: center;
+text-transform: uppercase;
+}
+
+/* **end saras edits ** */
+
+
 
 
 .s-block--categories a img {
