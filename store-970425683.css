@@ -1,8 +1,12 @@
+footer .black-copyright .copyright-text{
+display: unset !important;
+}
 .copyright-text {
-    font-size: 0 !important;
+font-size: 0 !important;
 }
 
 .copyright-text::after {
-    content: "جميع الحقوق محفوظة لزياد ارت @2026" !important;
-    font-size: 14px !important;
+content: "جميع الحقوق محفوظة لزياد ارت @2026" !important;
+font-size: 14px !important;
+color: white !important;
 }
