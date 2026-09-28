@@ -1,17 +1,15 @@
 :root{--db:#4A70A9;--lb:#8FABD4;--cm:#EFECE3;--bk:#000000;--gd:#B2753A;--bg:#EFECE3;--tx:#000000}
 
-html,body{background:var(--bg)!important;color:var(--tx)!important}
+html,body{color:var(--tx)!important}
 
 [style*="#ff6a00"],[style*="#FF6A00"],[style*="#ffb347"],[style*="#FFB347"],[style*="#f59e37"],[style*="#F59E37"],[style*="#a56f2a"],[style*="#A56F2A"],[style*="#ff8c00"],[style*="#FF8C00"],[style*="#ff7f00"],[style*="#FF7F00"],[style*="#e85d00"],[style*="#E85D00"],[style*="#e55b00"],[style*="#E55B00"],[style*="orange"],[style*="Orange"]{color:var(--lb)!important;background-color:transparent!important;background-image:none!important;border-color:var(--lb)!important;fill:var(--lb)!important}
 
-::selection{background:var(--db);color:var(--cm)}
+::selection{color:var(--cm)}
 ::-webkit-scrollbar{width:10px;height:10px}
-::-webkit-scrollbar-track{background:var(--bg)}
-::-webkit-scrollbar-thumb{background:var(--bk);border-radius:5px;border:2px solid var(--bg)}
-::-webkit-scrollbar-thumb:hover{background:var(--db)}
-html{scrollbar-color:var(--bk) var(--bg);scrollbar-width:thin!important}
+::-webkit-scrollbar-thumb{border-radius:5px;border:2px solid transparent}
+html{scrollbar-width:thin!important}
 
-.salla-advertisement{background:var(--bk)!important;color:var(--cm)!important;border-bottom:1px solid var(--db)!important}
+.salla-advertisement{color:var(--cm)!important;border-bottom:1px solid var(--db)!important}
 .salla-advertisement h2,.salla-advertisement h2 a{color:var(--cm)!important}
 .salla-advertisement h2 i,.salla-advertisement h2 a:hover{color:var(--lb)!important}
 .salla-advertisement .ad-close{color:var(--cm)!important}
@@ -35,10 +33,9 @@ section.s-block--best-offers .s-slider-block__title-left{position:absolute!impor
 section.s-block--best-offers .s-slider-block__title-left a{color:var(--db)!important;transition:color .3s!important}
 section.s-block--best-offers .s-slider-block__title-left a:hover{color:var(--lb)!important}
 
-.rehla-default-product.rehla-fixed-products,.rehla-default-product.rehla-fixed-products.bg-white,div.rehla-default-product.rehla-fixed-products{background:var(--bg)!important}
 .rehla-default-product.rehla-fixed-products .s-products-list-wrapper.s-products-list-vertical-cards{display:grid!important;grid-template-columns:repeat(4,minmax(0,1fr))!important;gap:16px!important;width:100%!important;align-items:stretch!important}
 .rehla-default-product.rehla-fixed-products .s-products-list-wrapper>custom-salla-product-card{display:block!important;width:100%!important;max-width:100%!important;height:100%!important}
-.rehla-default-product.rehla-fixed-products .rehla-product-card{position:relative!important;overflow:hidden!important;border-radius:14px!important;background:var(--cm)!important;border:none!important;box-shadow:0 4px 15px rgba(0,0,0,.06)!important;display:flex!important;flex-direction:column!important;height:100%!important;transition:transform .4s cubic-bezier(.22,1,.36,1),box-shadow .4s!important}
+.rehla-default-product.rehla-fixed-products .rehla-product-card{position:relative!important;overflow:hidden!important;border-radius:14px!important;border:none!important;box-shadow:0 4px 15px rgba(0,0,0,.06)!important;display:flex!important;flex-direction:column!important;height:100%!important;transition:transform .4s cubic-bezier(.22,1,.36,1),box-shadow .4s!important}
 .rehla-default-product.rehla-fixed-products .rehla-product-card:hover{transform:translateY(-8px)!important;box-shadow:0 20px 40px rgba(74,112,169,.18)!important}
 .rehla-default-product.rehla-fixed-products .rehla-product-card h4{font-weight:700!important;color:var(--tx)!important;transition:color .3s!important}
 .rehla-default-product.rehla-fixed-products .rehla-product-card:hover h4{color:var(--lb)!important}
@@ -62,7 +59,7 @@ section.s-block--best-offers .s-slider-block__title-left a:hover{color:var(--lb)
 .rehla-default-product.rehla-fixed-products .rehla-product-card .h-28{height:auto!important;min-height:0!important}
 .rehla-default-product.rehla-fixed-products .rehla-product-card .border-t{margin-top:auto!important;padding-top:10px!important;display:flex!important;justify-content:space-between!important;align-items:center!important;gap:8px!important}
 
-section.s-block--best-offers custom-salla-product-card{position:relative!important;overflow:hidden!important;border-radius:14px!important;background:var(--cm)!important;border:none!important;box-shadow:0 4px 15px rgba(0,0,0,.05)!important;transition:transform .4s,box-shadow .4s!important}
+section.s-block--best-offers custom-salla-product-card{position:relative!important;overflow:hidden!important;border-radius:14px!important;border:none!important;box-shadow:0 4px 15px rgba(0,0,0,.05)!important;transition:transform .4s,box-shadow .4s!important}
 section.s-block--best-offers custom-salla-product-card:hover{transform:translateY(-8px)!important;box-shadow:0 20px 40px rgba(74,112,169,.18)!important}
 section.s-block--best-offers .product-card__title a{font-weight:700!important;color:var(--tx)!important;transition:color .3s!important}
 section.s-block--best-offers custom-salla-product-card:hover .product-card__title a{color:var(--lb)!important}
@@ -74,7 +71,7 @@ section.s-block--best-offers custom-salla-product-card:hover .product-card__imag
 section.s-block--best-offers .product-card__image img{transition:transform .7s cubic-bezier(.22,1,.36,1)!important}
 section.s-block--best-offers custom-salla-product-card:hover .product-card__image img{transform:scale(1.06)!important}
 
-.rehla-component-2{position:relative!important;padding:60px 0!important;background:var(--bg)!important}
+.rehla-component-2{position:relative!important;padding:60px 0!important}
 .rehla-component-2 .relative.text-center h2{padding-bottom:26px!important;margin-bottom:40px!important;display:inline-block!important;color:var(--tx)!important}
 .rehla-component-2 .flex.flex-wrap.gap-5{display:flex!important;flex-wrap:nowrap!important;gap:20px!important;justify-content:center!important;align-items:center!important;width:100%!important}
 .rehla-component-2 .flex.flex-wrap>a{display:block!important;width:16rem!important;height:16rem!important;min-width:16rem!important;max-width:16rem!important;flex:0 0 16rem!important}
@@ -96,19 +93,16 @@ header nav>ul>li>a::before,header nav>ul>li>a::after,header nav>ul>li.root-level
 header nav ul li span.align-center{position:relative!important;display:inline-block!important;padding-bottom:6px!important}
 header nav ul li span.align-center::before{content:none!important;display:none!important}
 header nav ul li span.align-center::after{content:""!important;display:block!important;position:absolute!important;bottom:0!important;right:0!important;left:0!important;height:2px!important;background:linear-gradient(90deg,transparent,var(--db),var(--lb),var(--db),transparent)!important;border-radius:2px!important;transform:scaleX(0)!important;transform-origin:center!important;transition:transform .4s cubic-bezier(.22,1,.36,1)!important}
-header nav>ul>li>a:hover,header nav>ul>li.root-level>a:hover,header nav ul li a:hover,header nav ul li a:hover span{color:var(--db)!important;background:transparent!important;transform:translateY(-2px)!important}
+header nav>ul>li>a:hover,header nav>ul>li.root-level>a:hover,header nav ul li a:hover,header nav ul li a:hover span{color:var(--db)!important;transform:translateY(-2px)!important}
 header nav ul li a:hover span.align-center::after{transform:scaleX(1)!important}
-
-#app>div.app-inner.flex.flex-col.min-h-full>div:nth-child(9)>div:nth-child(2)>div>div>div,.form.product-form,.product-form,.form product-form,.form product-form *,.product-form *,salla-product-form,salla-product-form *,.s-comments.s-comments-product,.s-comments.s-comments-product *{background:var(--bg)!important}
 
 footer.store-footer,footer.store-footer>div,footer.store-footer .container,footer.store-footer .grid{background:transparent!important;background-image:none!important}
 footer.store-footer *::before,footer.store-footer *::after,footer.store-footer::before,footer.store-footer::after{content:none!important;display:none!important;background:none!important;width:0!important;height:0!important;border:none!important;box-shadow:none!important}
 footer.store-footer h3,footer.store-footer h2,footer.store-footer h4,footer.store-footer p,footer.store-footer a,footer.store-footer li,footer.store-footer ul,footer.store-footer span{border:none!important;outline:none!important;text-decoration:none!important;box-shadow:none!important;padding-bottom:0!important}
 footer.store-footer,footer.store-footer *,footer.store-footer a,footer.store-footer a:hover,footer.store-footer li,footer.store-footer li:hover,footer.store-footer h3,footer.store-footer h3:hover,footer.store-footer .s-contacts-item,footer.store-footer .s-contacts-item:hover,footer.store-footer .s-contacts-icon,footer.store-footer .s-contacts-icon:hover,footer.store-footer a.social-link,footer.store-footer a.social-link:hover{transform:none!important;filter:none!important;box-shadow:none!important}
-footer.store-footer a:hover,footer.store-footer a:hover span,footer.store-footer ul li a:hover,footer.store-footer .grid a:hover,footer.store-footer .grid>div>ul>li a:hover{color:var(--lb)!important;background:transparent!important}
+footer.store-footer a:hover,footer.store-footer a:hover span,footer.store-footer ul li a:hover,footer.store-footer .grid a:hover,footer.store-footer .grid>div>ul>li a:hover{color:var(--lb)!important}
 
-#app>div.app-inner.flex.flex-col.min-h-full>div.rehla-statistics.relative.container.mx-auto.py-20.text-center>div{background:var(--bg)!important}
-#app>div.app-inner.flex.flex-col.min-h-full>div.rehla-statistics.relative.container.mx-auto.py-20.text-center>div>div{position:relative!important;background:var(--cm)!important;border:1px solid rgba(74,112,169,.25)!important;border-radius:12px!important;overflow:hidden!important;box-shadow:none!important}
+#app>div.app-inner.flex.flex-col.min-h-full>div.rehla-statistics.relative.container.mx-auto.py-20.text-center>div>div{position:relative!important;border:1px solid rgba(74,112,169,.25)!important;border-radius:12px!important;overflow:hidden!important;box-shadow:none!important}
 #app>div.app-inner.flex.flex-col.min-h-full>div.rehla-statistics.relative.container.mx-auto.py-20.text-center>div>div::before,#app>div.app-inner.flex.flex-col.min-h-full>div.rehla-statistics.relative.container.mx-auto.py-20.text-center>div>div::after{content:""!important;position:absolute!important;width:0!important;height:0!important;border:2px solid transparent!important;border-radius:12px!important;pointer-events:none!important;transition:width .4s,height .4s,border-color .4s!important;z-index:5!important}
 #app>div.app-inner.flex.flex-col.min-h-full>div.rehla-statistics.relative.container.mx-auto.py-20.text-center>div>div::before{top:0!important;left:0!important;border-top-color:var(--db)!important;border-left-color:var(--db)!important}
 #app>div.app-inner.flex.flex-col.min-h-full>div.rehla-statistics.relative.container.mx-auto.py-20.text-center>div>div::after{bottom:0!important;right:0!important;border-bottom-color:var(--db)!important;border-right-color:var(--db)!important}
@@ -116,14 +110,13 @@ footer.store-footer a:hover,footer.store-footer a:hover span,footer.store-footer
 
 .store-features__item{transition:transform .35s!important}
 .store-features__item:hover{transform:translateY(-6px)!important}
-.store-features__item-inner{background:var(--cm)!important;border-radius:12px!important;transition:box-shadow .35s,border-color .35s!important;border:1px solid rgba(74,112,169,.12)!important}
+.store-features__item-inner{border-radius:12px!important;transition:box-shadow .35s,border-color .35s!important;border:1px solid rgba(74,112,169,.12)!important}
 .store-features__item:hover .store-features__item-inner{box-shadow:0 12px 28px rgba(74,112,169,.15)!important;border-color:var(--lb)!important}
 
-.testimonials__card{background:var(--cm)!important;border:1px solid rgba(74,112,169,.1)!important;border-radius:12px!important;transition:transform .35s,box-shadow .35s,border-color .35s!important}
+.testimonials__card{border:1px solid rgba(74,112,169,.1)!important;border-radius:12px!important;transition:transform .35s,box-shadow .35s,border-color .35s!important}
 .testimonials__card:hover{transform:translateY(-5px)!important;border-color:var(--lb)!important;box-shadow:0 10px 25px rgba(74,112,169,.15)!important}
 .testimonials__author-name{color:var(--db)!important;font-weight:700!important}
 
-.s-block--animated-brands{background:var(--bg)!important}
 .s-block--animated-brands--brand img{filter:grayscale(80%) opacity(.6)!important;transition:filter .4s!important}
 .s-block--animated-brands--brand img:hover{filter:grayscale(0) opacity(1)!important}
 
@@ -132,7 +125,6 @@ footer.store-footer a:hover,footer.store-footer a:hover span,footer.store-footer
 .s-products-slider-card>custom-salla-product-card>div>div>div>div>div.py-4.flex.justify-between{margin-top:1rem!important}
 custom-salla-product-card .py-4.flex{margin-top:2rem!important}
 salla-products-list custom-salla-product-card .py-4{height:6.8rem!important;overflow:hidden!important}
-.rehla-product-card,.rehla-schedule-box * div{background:var(--cm)!important}
 
 html body button:not(header button):not(nav button),html body .rehla-countdown-button,html body a.rehla-countdown-button,html body [class*="rehla-countdown-button"],html body salla-button button.s-button-element,html body salla-add-product-button button.s-button-element,html body button.s-button-element,html body button.bg-green-500,html body .rehla-product-card button,html body .rehla-default-product button{transition:all .35s cubic-bezier(.22,1,.36,1)!important}
 html body button:not(header button):not(nav button):hover,html body .rehla-countdown-button:hover,html body a.rehla-countdown-button:hover,html body [class*="rehla-countdown-button"]:hover,html body salla-button button.s-button-element:hover,html body salla-add-product-button button.s-button-element:hover,html body button.s-button-element:hover,html body button.bg-green-500:hover,html body .rehla-product-card button:hover,html body .rehla-default-product button:hover{transform:translateY(-3px)!important;box-shadow:0 8px 20px rgba(74,112,169,.35)!important;filter:brightness(1.08)!important}
