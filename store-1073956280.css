@@ -1,0 +1,13 @@
+/* // store-1073956280.css */
+
+.herb-copyright{
+	display: none !important;
+}
+
+#app > div.app-inner.flex.flex-col.min-h-full > footer , #app > div.app-inner.flex.flex-col.min-h-full > footer *{
+justify-content: center !important;
+align-content: center !important;
+margin: auto !important;
+text-align: center !important;
+}
+
