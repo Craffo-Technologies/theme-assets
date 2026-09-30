@@ -507,6 +507,7 @@ custom-salla-product-card a h4{
 	overflow: hidden !important;
 }
 
- .swiper.s-slider-container.swiper-initialized.swiper-horizontal  > div{
+ .s-block--best-offers.container .swiper.s-slider-container.swiper-initialized.swiper-horizontal  > div{
 	justify-content: center !important;
 }
+
