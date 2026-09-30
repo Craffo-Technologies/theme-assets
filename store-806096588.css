@@ -1,58 +1,61 @@
 /* ================= إخفاء زر ================= */
 #thumbs > div.s-slider-block__title > div > div > button {
-display: none !important;
+  display: none !important;
 }
 
 /* ================= المتغيرات ================= */
 :root{
---bk:#000000;
---wh:#FFFFFF;
---or:#f6bc4c;
---nv:#1b4668;
+  --bk:#000000;
+  --wh:#FFFFFF;
+  --or:#f6bc4c;
+  --nv:#1b4668;
 
---db:var(--nv);
---lb:var(--or);
---cm:var(--wh);
---gd:var(--or);
---bg:var(--wh);
---tx:var(--bk);
+  --db:var(--nv);
+  --lb:var(--or);
+  --cm:var(--wh);
+  --gd:var(--or);
+  --bg:var(--wh);
+  --tx:var(--bk);
 }
 
 /* ================= Scrollbar ================= */
 ::-webkit-scrollbar{width:10px;height:10px}
 ::-webkit-scrollbar-track{background:var(--wh)}
 ::-webkit-scrollbar-thumb{
-background:var(--nv);
-border-radius:10px;
-border:2px solid var(--wh);
+  background:var(--nv);
+  border-radius:10px;
+  border:2px solid var(--wh);
 }
 ::-webkit-scrollbar-thumb:hover{background:var(--or)}
 html{
-scrollbar-width:thin;
-scrollbar-color:var(--nv) var(--wh);
+  scrollbar-width:thin;
+  scrollbar-color:var(--nv) var(--wh);
 }
 
 /* ================= Selection ================= */
 ::selection{background:var(--or);color:var(--bk)}
 ::-moz-selection{background:var(--or);color:var(--bk)}
 
-
-/* **** */
-
-.rehla-top-bar * , .rehla-top-bar{
-color:#18140c !important ;
-fill: #18140c !important ;
+/* ================= شريط علوي ================= */
+.rehla-top-bar *,
+.rehla-top-bar{
+  color:#18140c!important;
+  fill:#18140c!important;
 }
+
+/* ================= صورة النص مع الصورة (ديسكتوب) ================= */
 #app > div.app-inner.flex.flex-col.min-h-full > div.rehla-text-with-image.relative.py-5 > div > div > div > div.rehla-with-image > img{
-width: 27rem !important;
-max-width: 27rem !important;
-}
-#app > div.app-inner.flex.flex-col.min-h-full > div.rehla-features.relative.py-20.px-4{
-padding-bottom: 0 !important;
-margin-bottom:  0!important;
+  width:27rem!important;
+  max-width:27rem!important;
 }
 
-/* ================= العناوين: خط سفلي + دائرة مفرغة في المنتصف ================= */
+/* ================= المميزات (ديسكتوب) ================= */
+#app > div.app-inner.flex.flex-col.min-h-full > div.rehla-features.relative.py-20.px-4{
+  padding-bottom:0!important;
+  margin-bottom:0!important;
+}
+
+/* ================= العناوين: خط سفلي + دائرة مفرغة ================= */
 .rehla-letter-title,
 .rehla-services-title,
 .rehla-schedule-title,
@@ -66,13 +69,13 @@ section.s-block--best-offers .s-slider-block__title h2,
 .s-block--animated-brands__title,
 .home-block-title h2,
 .s-block.s-block--testimonials > div > div > h2{
-position:relative!important;
-display:block!important;
-width:100%!important;
-margin:0 auto 34px!important;
-padding-bottom:26px!important;
-text-align:center!important;
-font-size:1.4rem!important;
+  position:relative!important;
+  display:block!important;
+  width:100%!important;
+  margin:0 auto 34px!important;
+  padding-bottom:26px!important;
+  text-align:center!important;
+  font-size:1.4rem!important;
 }
 
 .rehla-letter-title::before,
@@ -88,25 +91,25 @@ section.s-block--best-offers .s-slider-block__title h2::before,
 .s-block--animated-brands__title::before,
 .home-block-title h2::before,
 .s-block.s-block--testimonials > div > div > h2::before{
-content:""!important;
-position:absolute!important;
-bottom:0!important;
-left:0!important;
-right:0!important;
-margin:0 auto!important;
-width:180px!important;
-max-width:75%!important;
-height:2px!important;
-border-radius:10px!important;
-background-image:linear-gradient(90deg,
-transparent,
-var(--nv) 12%,
-var(--or) 30%,
-transparent 42%,
-transparent 58%,
-var(--or) 70%,
-var(--nv) 85%,
-transparent)!important;
+  content:""!important;
+  position:absolute!important;
+  bottom:0!important;
+  left:0!important;
+  right:0!important;
+  margin:0 auto!important;
+  width:180px!important;
+  max-width:75%!important;
+  height:2px!important;
+  border-radius:10px!important;
+  background-image:linear-gradient(90deg,
+    transparent,
+    var(--nv) 12%,
+    var(--or) 30%,
+    transparent 42%,
+    transparent 58%,
+    var(--or) 70%,
+    var(--nv) 85%,
+    transparent)!important;
 }
 
 .rehla-letter-title::after,
@@ -122,140 +125,140 @@ section.s-block--best-offers .s-slider-block__title h2::after,
 .s-block--animated-brands__title::after,
 .home-block-title h2::after,
 .s-block.s-block--testimonials > div > div > h2::after{
-content:""!important;
-position:absolute!important;
-bottom:-9px!important;
-left:50%!important;
-transform:translateX(-50%)!important;
-width:16px!important;
-height:16px!important;
-border:2px solid var(--or)!important;
-border-radius:50%!important;
-background:transparent!important;
-z-index:5!important;
+  content:""!important;
+  position:absolute!important;
+  bottom:-9px!important;
+  left:50%!important;
+  transform:translateX(-50%)!important;
+  width:16px!important;
+  height:16px!important;
+  border:2px solid var(--or)!important;
+  border-radius:50%!important;
+  background:transparent!important;
+  z-index:5!important;
 }
 
 .rehla-features .rehla-features-subtitle{
-margin:auto!important;
-text-align:center!important;
+  margin:auto!important;
+  text-align:center!important;
 }
 
 /* ================= استثناء عنوان السلايدر الداخلي ================= */
 .s-block--testimonials .s-slider-block__title h2,
 .s-block--testimonials .s-slider-block__title h2::before,
 .s-block--testimonials .s-slider-block__title h2::after{
-content:none!important;
-display:none!important;
-padding:0!important;
-margin:0!important;
-position:static!important;
-width:auto!important;
-height:auto!important;
-border:none!important;
-background:none!important;
-font-size:inherit!important;
+  content:none!important;
+  display:none!important;
+  padding:0!important;
+  margin:0!important;
+  position:static!important;
+  width:auto!important;
+  height:auto!important;
+  border:none!important;
+  background:none!important;
+  font-size:inherit!important;
 }
 
 /* ================= أسهم السلايدر على الشمال ================= */
 section.s-block--best-offers .s-slider-block__title{
-position:relative!important;
-display:flex!important;
-justify-content:center!important;
-align-items:center!important;
-width:100%!important;
+  position:relative!important;
+  display:flex!important;
+  justify-content:center!important;
+  align-items:center!important;
+  width:100%!important;
 }
 section.s-block--best-offers .s-slider-block__title-left{
-position:absolute!important;
-left:0!important;
-top:50%!important;
-transform:translateY(-50%)!important;
-z-index:6!important;
+  position:absolute!important;
+  left:0!important;
+  top:50%!important;
+  transform:translateY(-50%)!important;
+  z-index:6!important;
 }
 section.s-block--best-offers .s-slider-block__title-right{
-text-align:center!important;
-margin:0 auto!important;
-width:100%!important;
+  text-align:center!important;
+  margin:0 auto!important;
+  width:100%!important;
 }
 
 /* ================= إعلان سلة ================= */
 .salla-advertisement{
-background:var(--nv) !important;
+  background:var(--nv)!important;
 }
 
 custom-salla-product-card > div > div > div > div > div.py-4.flex.justify-between,
 custom-salla-product-card > div > div > div > div > div > div.py-4.flex.justify-between{
-margin-top: 2rem !important;
+  margin-top:2rem!important;
 }
 
 /* ================= هوفر البلوك الإحصائي ================= */
 #app > div.app-inner.flex.flex-col.min-h-full > div.rehla-statistics.relative.container.mx-auto.py-20.text-center > div > div{
-position:relative!important;
-overflow:hidden!important;
-border:2px solid transparent!important;
-border-radius:10px!important;
-background:
-linear-gradient(var(--wh),var(--wh)) padding-box,
-linear-gradient(135deg, rgba(27,70,104,.25), rgba(246,188,76,.45), rgba(27,70,104,.25)) border-box!important;
-box-shadow:0 6px 22px rgba(27,70,104,.08)!important;
-transition:
-transform .45s cubic-bezier(.22,1,.36,1),
-box-shadow .45s,
-background .45s!important;
+  position:relative!important;
+  overflow:hidden!important;
+  border:2px solid transparent!important;
+  border-radius:10px!important;
+  background:
+    linear-gradient(var(--wh),var(--wh)) padding-box,
+    linear-gradient(135deg, rgba(27,70,104,.25), rgba(246,188,76,.45), rgba(27,70,104,.25)) border-box!important;
+  box-shadow:0 6px 22px rgba(27,70,104,.08)!important;
+  transition:
+    transform .45s cubic-bezier(.22,1,.36,1),
+    box-shadow .45s,
+    background .45s!important;
 }
 #app > div.app-inner.flex.flex-col.min-h-full > div.rehla-statistics.relative.container.mx-auto.py-20.text-center > div > div:hover{
-transform:translateY(-8px) scale(1.02)!important;
-background:
-linear-gradient(var(--wh),var(--wh)) padding-box,
-linear-gradient(135deg, var(--nv), var(--or), var(--nv)) border-box!important;
-box-shadow:
-0 22px 48px rgba(27,70,104,.18),
-0 0 0 5px rgba(246,188,76,.12)!important;
+  transform:translateY(-8px) scale(1.02)!important;
+  background:
+    linear-gradient(var(--wh),var(--wh)) padding-box,
+    linear-gradient(135deg, var(--nv), var(--or), var(--nv)) border-box!important;
+  box-shadow:
+    0 22px 48px rgba(27,70,104,.18),
+    0 0 0 5px rgba(246,188,76,.12)!important;
 }
 #app > div.app-inner.flex.flex-col.min-h-full > div.rehla-statistics.relative.container.mx-auto.py-20.text-center > div > div::before{
-content:""!important;
-position:absolute!important;
-top:0!important;
-left:-130%!important;
-width:70%!important;
-height:100%!important;
-background:linear-gradient(90deg, transparent, rgba(255,255,255,.85), transparent)!important;
-transform:skewX(-22deg)!important;
-transition:left .85s cubic-bezier(.22,1,.36,1)!important;
-pointer-events:none!important;
-z-index:2!important;
-border:none!important;
+  content:""!important;
+  position:absolute!important;
+  top:0!important;
+  left:-130%!important;
+  width:70%!important;
+  height:100%!important;
+  background:linear-gradient(90deg, transparent, rgba(255,255,255,.85), transparent)!important;
+  transform:skewX(-22deg)!important;
+  transition:left .85s cubic-bezier(.22,1,.36,1)!important;
+  pointer-events:none!important;
+  z-index:2!important;
+  border:none!important;
 }
 #app > div.app-inner.flex.flex-col.min-h-full > div.rehla-statistics.relative.container.mx-auto.py-20.text-center > div > div:hover::before{
-left:160%!important;
+  left:160%!important;
 }
 #app > div.app-inner.flex.flex-col.min-h-full > div.rehla-statistics.relative.container.mx-auto.py-20.text-center > div > div::after{
-content:""!important;
-position:absolute!important;
-bottom:-45px!important;
-right:-45px!important;
-width:140px!important;
-height:140px!important;
-background:radial-gradient(circle, rgba(246,188,76,.35), transparent 70%)!important;
-opacity:0!important;
-transition:opacity .45s!important;
-pointer-events:none!important;
-z-index:1!important;
-border:none!important;
-border-radius:10px!important;
+  content:""!important;
+  position:absolute!important;
+  bottom:-45px!important;
+  right:-45px!important;
+  width:140px!important;
+  height:140px!important;
+  background:radial-gradient(circle, rgba(246,188,76,.35), transparent 70%)!important;
+  opacity:0!important;
+  transition:opacity .45s!important;
+  pointer-events:none!important;
+  z-index:1!important;
+  border:none!important;
+  border-radius:10px!important;
 }
 #app > div.app-inner.flex.flex-col.min-h-full > div.rehla-statistics.relative.container.mx-auto.py-20.text-center > div > div:hover::after{
-opacity:1!important;
+  opacity:1!important;
 }
 
-/* ================= هوفر الهيدر: أبيض → برتقالي + خط متدرج ================= */
+/* ================= هوفر الهيدر ================= */
 header nav>ul>li>a,
 header nav>ul>li.root-level>a,
 header nav ul li a{
-position:relative!important;
-display:inline-block!important;
-color:var(--wh)!important;
-text-decoration:none!important;
-transition:color .35s, transform .35s cubic-bezier(.22,1,.36,1)!important;
+  position:relative!important;
+  display:inline-block!important;
+  color:var(--wh)!important;
+  text-decoration:none!important;
+  transition:color .35s, transform .35s cubic-bezier(.22,1,.36,1)!important;
 }
 header nav>ul>li>a::before,
 header nav>ul>li>a::after,
@@ -263,41 +266,41 @@ header nav>ul>li.root-level>a::before,
 header nav>ul>li.root-level>a::after,
 header nav ul li a::before,
 header nav ul li a::after{
-content:none!important;
-display:none!important;
+  content:none!important;
+  display:none!important;
 }
 header nav ul li span.align-center{
-position:relative!important;
-display:inline-block!important;
-padding-bottom:6px!important;
+  position:relative!important;
+  display:inline-block!important;
+  padding-bottom:6px!important;
 }
 header nav ul li span.align-center::before{
-content:none!important;
-display:none!important;
+  content:none!important;
+  display:none!important;
 }
 header nav ul li span.align-center::after{
-content:""!important;
-display:block!important;
-position:absolute!important;
-bottom:0!important;
-right:0!important;
-left:0!important;
-height:2px!important;
-background:linear-gradient(90deg, transparent, var(--or), var(--or), var(--or), transparent)!important;
-border-radius:10px!important;
-transform:scaleX(0)!important;
-transform-origin:center!important;
-transition:transform .4s cubic-bezier(.22,1,.36,1)!important;
+  content:""!important;
+  display:block!important;
+  position:absolute!important;
+  bottom:0!important;
+  right:0!important;
+  left:0!important;
+  height:2px!important;
+  background:linear-gradient(90deg, transparent, var(--or), var(--or), var(--or), transparent)!important;
+  border-radius:10px!important;
+  transform:scaleX(0)!important;
+  transform-origin:center!important;
+  transition:transform .4s cubic-bezier(.22,1,.36,1)!important;
 }
 header nav>ul>li>a:hover,
 header nav>ul>li.root-level>a:hover,
 header nav ul li a:hover,
 header nav ul li a:hover span{
-color:var(--or)!important;
-transform:translateY(-2px)!important;
+  color:var(--or)!important;
+  transform:translateY(-2px)!important;
 }
 header nav ul li a:hover span.align-center::after{
-transform:scaleX(1)!important;
+  transform:scaleX(1)!important;
 }
 
 /* ================= هوفر الأزرار ================= */
@@ -310,7 +313,7 @@ html body salla-add-product-button button.s-button-element,
 html body button.s-button-element,
 html body .rehla-product-card button,
 html body .rehla-default-product button{
-transition:all .35s cubic-bezier(.22,1,.36,1)!important;
+  transition:all .35s cubic-bezier(.22,1,.36,1)!important;
 }
 html body button:not(header button):not(nav button):hover,
 html body .rehla-countdown-button:hover,
@@ -321,341 +324,339 @@ html body salla-add-product-button button.s-button-element:hover,
 html body button.s-button-element:hover,
 html body .rehla-product-card button:hover,
 html body .rehla-default-product button:hover{
-transform:translateY(-3px)!important;
-box-shadow:0 8px 20px rgba(27,70,104,.30)!important;
-filter:brightness(1.08)!important;
+  transform:translateY(-3px)!important;
+  box-shadow:0 8px 20px rgba(27,70,104,.30)!important;
+  filter:brightness(1.08)!important;
 }
 
-/* ================= هوفر الزر الأساسي — كحلي الهوية + كلام أبيض ================= */
+/* ================= هوفر الزر الأساسي ================= */
 .s-button-primary:hover,
 button.s-button-primary:hover,
 .s-button-primary.s-button-element:hover{
-background-color:var(--nv)!important;
-color:var(--wh)!important;
-filter:none!important;
-transform:translateY(-2px)!important;
-box-shadow:0 8px 18px rgba(27,70,104,.28)!important;
-transition:
-background-color .35s ease,
-color .35s ease,
-transform .35s cubic-bezier(.22,1,.36,1),
-box-shadow .35s ease!important;
+  background-color:var(--nv)!important;
+  color:var(--wh)!important;
+  filter:none!important;
+  transform:translateY(-2px)!important;
+  box-shadow:0 8px 18px rgba(27,70,104,.28)!important;
+  transition:
+    background-color .35s ease,
+    color .35s ease,
+    transform .35s cubic-bezier(.22,1,.36,1),
+    box-shadow .35s ease!important;
 }
 .s-button-primary:hover *,
 .s-button-primary:hover span,
 .s-button-primary:hover svg,
 .s-button-primary:hover i{
-color:var(--wh)!important;
-fill:var(--wh)!important;
+  color:var(--wh)!important;
+  fill:var(--wh)!important;
 }
 
 /* ================= إصلاح سلايدر آراء العملاء ================= */
 div[class*="lg:overflow-hidden"]{
-overflow:visible!important;
+  overflow:visible!important;
 }
 salla-slider[type="testimonials"] .swiper-slide,
 .testimonials-slider .swiper-slide{
-padding:10px!important;
+  padding:10px!important;
 }
 
-/* ================= رأي العملاء: هوفر خفيف ================= */
+/* ================= رأي العملاء ================= */
 .testimonial{
-position:relative!important;
-overflow:hidden!important;
-border:2px solid transparent!important;
-border-radius:10px!important;
-background:
-linear-gradient(var(--wh),var(--wh)) padding-box,
-linear-gradient(135deg, rgba(246,188,76,.18), rgba(27,70,104,.28), rgba(246,188,76,.18)) border-box!important;
-box-shadow:0 6px 20px rgba(27,70,104,.06)!important;
-transition:
-transform .5s cubic-bezier(.22,1,.36,1),
-box-shadow .5s ease,
-background .5s ease!important;
+  position:relative!important;
+  overflow:hidden!important;
+  border:2px solid transparent!important;
+  border-radius:10px!important;
+  background:
+    linear-gradient(var(--wh),var(--wh)) padding-box,
+    linear-gradient(135deg, rgba(246,188,76,.18), rgba(27,70,104,.28), rgba(246,188,76,.18)) border-box!important;
+  box-shadow:0 6px 20px rgba(27,70,104,.06)!important;
+  transition:
+    transform .5s cubic-bezier(.22,1,.36,1),
+    box-shadow .5s ease,
+    background .5s ease!important;
 }
 .testimonial:hover{
-transform:translateY(-4px)!important;
-background:
-linear-gradient(var(--wh),var(--wh)) padding-box,
-linear-gradient(135deg, var(--or), var(--nv), var(--or)) border-box!important;
-box-shadow:
-0 14px 30px rgba(27,70,104,.12),
-0 0 0 6px rgba(246,188,76,.08)!important;
+  transform:translateY(-4px)!important;
+  background:
+    linear-gradient(var(--wh),var(--wh)) padding-box,
+    linear-gradient(135deg, var(--or), var(--nv), var(--or)) border-box!important;
+  box-shadow:
+    0 14px 30px rgba(27,70,104,.12),
+    0 0 0 6px rgba(246,188,76,.08)!important;
 }
 .testimonial::before,
 .testimonial::after{
-content:none!important;
-display:none!important;
+  content:none!important;
+  display:none!important;
 }
 
 .testimonial__avatar{
-width:64px!important;
-height:64px!important;
-min-width:64px!important;
-min-height:64px!important;
-border-radius:10px!important;
-overflow:hidden!important;
-border:2px solid var(--or)!important;
-background:var(--wh)!important;
-box-shadow:0 3px 12px rgba(27,70,104,.08)!important;
-transition:border-color .4s ease, box-shadow .4s ease!important;
+  width:64px!important;
+  height:64px!important;
+  min-width:64px!important;
+  min-height:64px!important;
+  border-radius:10px!important;
+  overflow:hidden!important;
+  border:2px solid var(--or)!important;
+  background:var(--wh)!important;
+  box-shadow:0 3px 12px rgba(27,70,104,.08)!important;
+  transition:border-color .4s ease, box-shadow .4s ease!important;
 }
 .testimonial:hover .testimonial__avatar{
-border-color:var(--nv)!important;
-box-shadow:0 6px 18px rgba(27,70,104,.18)!important;
+  border-color:var(--nv)!important;
+  box-shadow:0 6px 18px rgba(27,70,104,.18)!important;
 }
 .testimonial__avatar img,
 .testimonial__avatar img.loaded,
 .testimonial__avatar img.lazy{
-border-radius:10px!important;
-filter:none!important;
--webkit-filter:none!important;
-backdrop-filter:none!important;
--webkit-backdrop-filter:none!important;
-opacity:1!important;
-object-fit:cover!important;
-width:100%!important;
-height:100%!important;
-transition:transform .5s cubic-bezier(.22,1,.36,1)!important;
+  border-radius:10px!important;
+  filter:none!important;
+  -webkit-filter:none!important;
+  backdrop-filter:none!important;
+  -webkit-backdrop-filter:none!important;
+  opacity:1!important;
+  object-fit:cover!important;
+  width:100%!important;
+  height:100%!important;
+  transition:transform .5s cubic-bezier(.22,1,.36,1)!important;
 }
 .testimonial:hover .testimonial__avatar img{
-transform:scale(1.05)!important;
+  transform:scale(1.05)!important;
 }
 
 .testimonial__icon{
-color:var(--or)!important;
-opacity:.85!important;
-transition:color .4s, opacity .4s, transform .4s!important;
+  color:var(--or)!important;
+  opacity:.85!important;
+  transition:color .4s, opacity .4s, transform .4s!important;
 }
 .testimonial:hover .testimonial__icon{
-color:var(--nv)!important;
-opacity:1!important;
-transform:scale(1.08) rotate(-4deg)!important;
+  color:var(--nv)!important;
+  opacity:1!important;
+  transform:scale(1.08) rotate(-4deg)!important;
 }
 .testimonial__info h4,
 .testimonial__author-name{
-color:var(--nv)!important;
-font-weight:700!important;
-transition:color .4s!important;
+  color:var(--nv)!important;
+  font-weight:700!important;
+  transition:color .4s!important;
 }
 .testimonial:hover .testimonial__info h4{
-color:var(--bk)!important;
+  color:var(--bk)!important;
 }
 .testimonial__rating svg path,
 .testimonial__rating .s-rating-stars-selected svg path{
-fill:var(--or)!important;
-transition:fill .4s!important;
+  fill:var(--or)!important;
+  transition:fill .4s!important;
 }
 .testimonial:hover .testimonial__rating svg path{
-fill:var(--nv)!important;
+  fill:var(--nv)!important;
 }
 
-/* ================= المنتجات: خط مايل ناعم على الصورة فقط ================= */
+/* ================= المنتجات ================= */
 custom-salla-product-card a:has(> img),
 custom-salla-product-card .product-card__image a,
 custom-salla-product-card .product-card__image{
-position:relative!important;
-display:block!important;
-overflow:hidden!important;
-border-radius:10px 10px 0 0!important;
+  position:relative!important;
+  display:block!important;
+  overflow:hidden!important;
+  border-radius:10px 10px 0 0!important;
 }
 custom-salla-product-card a:has(> img)::before,
 custom-salla-product-card .product-card__image a::before,
 custom-salla-product-card .product-card__image::before{
-content:none!important;
-display:none!important;
+  content:none!important;
+  display:none!important;
 }
 custom-salla-product-card a:has(> img)::after,
 custom-salla-product-card .product-card__image a::after,
 custom-salla-product-card .product-card__image::after{
-content:""!important;
-position:absolute!important;
-top:0!important;
-left:-150%!important;
-width:45%!important;
-height:100%!important;
-background:linear-gradient(
-115deg,
-transparent 0%,
-rgba(255,255,255,.28) 42%,
-rgba(246,188,76,.18) 50%,
-rgba(255,255,255,.28) 58%,
-transparent 100%
-)!important;
-transform:skewX(-22deg)!important;
-transition:left 1.4s cubic-bezier(.25,.8,.35,1)!important;
-pointer-events:none!important;
-z-index:4!important;
+  content:""!important;
+  position:absolute!important;
+  top:0!important;
+  left:-150%!important;
+  width:45%!important;
+  height:100%!important;
+  background:linear-gradient(
+    115deg,
+    transparent 0%,
+    rgba(255,255,255,.28) 42%,
+    rgba(246,188,76,.18) 50%,
+    rgba(255,255,255,.28) 58%,
+    transparent 100%
+  )!important;
+  transform:skewX(-22deg)!important;
+  transition:left 1.4s cubic-bezier(.25,.8,.35,1)!important;
+  pointer-events:none!important;
+  z-index:4!important;
 }
 custom-salla-product-card a:has(> img) img,
 custom-salla-product-card .product-card__image img{
-display:block!important;
-width:100%!important;
-transition:transform 1s cubic-bezier(.25,.8,.35,1)!important;
+  display:block!important;
+  width:100%!important;
+  transition:transform 1s cubic-bezier(.25,.8,.35,1)!important;
 }
 custom-salla-product-card:hover a:has(> img)::after,
 custom-salla-product-card:hover .product-card__image a::after,
 custom-salla-product-card:hover .product-card__image::after{
-left:170%!important;
+  left:170%!important;
 }
 custom-salla-product-card:hover a:has(> img) img,
 custom-salla-product-card:hover .product-card__image img{
-transform:scale(1.03)!important;
-filter:none!important;
+  transform:scale(1.03)!important;
+  filter:none!important;
 }
 custom-salla-product-card a:not(:has(> img))::after,
 custom-salla-product-card a:not(:has(> img))::before,
 custom-salla-product-card a:not(:has(> img)) img{
-transform:none!important;
-filter:none!important;
+  transform:none!important;
+  filter:none!important;
 }
 custom-salla-product-card a:not(:has(> img))::after,
 custom-salla-product-card a:not(:has(> img))::before{
-content:none!important;
-display:none!important;
+  content:none!important;
+  display:none!important;
 }
 
 /* ================= ارتفاع ثابت لعنوان المنتج ================= */
 custom-salla-product-card a h4{
-height: 3.5rem !important;
-overflow: hidden !important;
+  height:3.5rem!important;
+  overflow:hidden!important;
 }
 
 .s-block--best-offers.container .swiper.s-slider-container.swiper-initialized.swiper-horizontal > div{
-justify-content: center !important;
+  justify-content:center!important;
 }
 
 /* ================= الموبايل بس ================= */
 @media (max-width:768px){
 
-/* ===== الخدمات: 2 فوق + التالت تحت في النص ===== */
-.rehla-services{padding:0!important;margin:0!important}
-.rehla-services .flex.flex-wrap{
-display:grid!important;
-grid-template-columns:repeat(2,1fr)!important;
-gap:10px!important;
-}
-.rehla-services .flex.flex-wrap > div{width:100%!important;padding:0!important}
-.rehla-services .flex.flex-wrap > div:nth-child(3){grid-column:1 / -1!important}
-.rehla-services-box{padding:16px!important;margin-bottom:0!important}
-.rehla-services-icon-box{width:48px!important;height:48px!important;margin-bottom:10px!important}
-.rehla-services-icon-box i{font-size:1.2rem!important}
-.rehla-services-service-title{font-size:.9rem!important;margin-bottom:6px!important}
-.rehla-services-box p{font-size:.7rem!important;line-height:1.5!important}
+  /* ===== الخدمات ===== */
+  .rehla-services{padding:0!important}
+  .rehla-services .flex.flex-wrap{
+    display:grid!important;
+    grid-template-columns:repeat(2,1fr)!important;
+    gap:10px!important;
+  }
+  .rehla-services .flex.flex-wrap > div{width:100%!important;padding:0!important}
+  .rehla-services .flex.flex-wrap > div:nth-child(3){grid-column:1 / -1!important}
+  .rehla-services-box{padding:16px!important;margin-bottom:0!important}
+  .rehla-services-icon-box{width:48px!important;height:48px!important;margin-bottom:10px!important}
+  .rehla-services-icon-box i{font-size:1.2rem!important}
+  .rehla-services-service-title{font-size:.9rem!important;margin-bottom:6px!important}
+  .rehla-services-box p{font-size:.7rem!important;line-height:1.5!important}
 
-/* ===== المميزات ===== */
-.rehla-features{padding-top:0!important;margin-top:0!important;margin-bottom:0!important}
+  /* ===== المميزات ===== */
+  #app > div.app-inner.flex.flex-col.min-h-full > div.rehla-features.relative{
+    padding-top:0!important;
+    padding-bottom:.1rem!important;
+    margin-top:0!important;
+    margin-bottom:.1rem!important;
+  }
 
-/* ===== المنتجات: 2 جنب بعض بحجم أصغر ===== */
-custom-salla-product-card{width:100%!important;max-width:100%!important}
-.rehla-default-product .s-products-list-wrapper,
-salla-products-list .s-products-list-wrapper,
-.s-products-list-wrapper{
-display:grid!important;
-grid-template-columns:repeat(2,minmax(0,1fr))!important;
-gap:8px!important;
-}
-.rehla-product-card{margin-bottom:0!important}
-.rehla-product-card img{border-radius:8px 8px 0 0!important}
-.rehla-product-card .px-5{padding-left:.6rem!important;padding-right:.6rem!important}
-.rehla-product-card .py-4{padding-top:.5rem!important;padding-bottom:.5rem!important}
-.rehla-product-card .h-28{height:auto!important;min-height:0!important}
-.rehla-product-card h4{font-size:.72rem!important;height:2.2rem!important}
-.rehla-product-card p{font-size:.62rem!important;line-height:1.35!important}
-.rehla-product-card .text-base,
-.rehla-product-card .text-gray-500{font-size:.62rem!important}
-.rehla-product-card .text-xl{font-size:.85rem!important}
-.rehla-product-card button{font-size:.68rem!important;height:1.8rem!important;width:auto!important;padding:0 .6rem!important}
-.rehla-product-card .mb-5{margin-bottom:.6rem!important}
-.rehla-product-card .gap-2{gap:.25rem!important}
+  /* ===== المنتجات ===== */
+  custom-salla-product-card{width:100%!important;max-width:100%!important}
+  .rehla-default-product .s-products-list-wrapper,
+  salla-products-list .s-products-list-wrapper,
+  .s-products-list-wrapper{
+    display:grid!important;
+    grid-template-columns:repeat(2,minmax(0,1fr))!important;
+    gap:8px!important;
+  }
+  .rehla-product-card{margin-bottom:0!important}
+  .rehla-product-card img{border-radius:8px 8px 0 0!important}
+  .rehla-product-card .px-5{padding-left:.6rem!important;padding-right:.6rem!important}
+  .rehla-product-card .py-4{padding-top:.5rem!important;padding-bottom:.5rem!important}
+  .rehla-product-card .h-28{height:auto!important;min-height:0!important}
+  .rehla-product-card h4{font-size:.72rem!important;height:2.2rem!important}
+  .rehla-product-card p{font-size:.62rem!important;line-height:1.35!important}
+  .rehla-product-card .text-base,
+  .rehla-product-card .text-gray-500{font-size:.62rem!important}
+  .rehla-product-card .text-xl{font-size:.85rem!important}
+  .rehla-product-card button{font-size:.68rem!important;height:1.8rem!important;width:auto!important;padding:0 .6rem!important}
+  .rehla-product-card .mb-5{margin-bottom:.6rem!important}
+  .rehla-product-card .gap-2{gap:.25rem!important}
 
-.s-products-slider-card{
-width:11rem!important;
-max-width:11rem!important;
-}
+  .s-products-slider-card{
+    width:11rem!important;
+    max-width:11rem!important;
+  }
 
-/* ===== الصور (المميزات + النص مع الصورة) ===== */
-.app-inner.flex.flex-col.min-h-full > div.rehla-features.relative.py-20.px-4 > div > div > div.w-full > img,
-.app-inner.flex.flex-col.min-h-full > div.rehla-text-with-image.relative.py-5 > div > div > div > div.rehla-with-image > img{
-max-width:6rem!important;
-width:6rem!important;
-margin:auto!important;
-justify-content:center!important;
-}
+  /* ===== الصور (المميزات + النص مع الصورة) ===== */
+  #app > div.app-inner.flex.flex-col.min-h-full > div.rehla-features.relative.py-20.px-4 > div > div > div.w-full > img,
+  #app > div.app-inner.flex.flex-col.min-h-full > div.rehla-text-with-image.relative.py-5 > div > div > div > div.rehla-with-image > img{
+    max-width:5rem!important;
+    width:5rem!important;
+    margin:auto!important;
+  }
 
-/* ===== الإحصائيات: 3 جنب بعض ===== */
-.rehla-statistics{padding-top:2px!important;padding-bottom:2px!important}
-.rehla-statistics .grid{
-grid-template-columns:repeat(3,1fr)!important;
-gap:2px!important;
-}
-.rehla-statistics .grid > div{padding:4px 4px!important}
-.rehla-statistics .grid > div i{font-size:1.1rem!important}
-.rehla-statistics .grid > div .text-5xl{font-size:1.1rem!important;margin-top:2px!important}
-.rehla-statistics .grid > div .text-lg{font-size:.6rem!important;margin-top:2px!important;line-height:1.3!important}
+  /* ===== الإحصائيات ===== */
+  .rehla-statistics{padding-top:2px!important;padding-bottom:2px!important}
+  .rehla-statistics .grid{
+    grid-template-columns:repeat(3,1fr)!important;
+    gap:2px!important;
+  }
+  .rehla-statistics .grid > div{padding:4px 4px!important}
+  .rehla-statistics .grid > div i{font-size:1.1rem!important}
+  .rehla-statistics .grid > div .text-5xl{font-size:1.1rem!important;margin-top:2px!important}
+  .rehla-statistics .grid > div .text-lg{font-size:.6rem!important;margin-top:2px!important;line-height:1.3!important}
 
-/* ===== النص مع الصورة ===== */
-#app > div.app-inner.flex.flex-col.min-h-full > div.rehla-text-with-image.relative.py-5 > div > div > div > div.pt-10.pb-12.px-6.sm\:pt-16 > div > a{
-display:flex!important;
-justify-content:center!important;
-margin:.6rem auto!important;
-text-align:center!important;
-}
-.rehla-text-with-image-text,
-footer *,
-footer > div > div > div.grid span p{
-font-size:.7rem!important;
-line-height:1.5!important;
-}
-.rehla-text-with-image-bg,
-#app > div.app-inner.flex.flex-col.min-h-full > div.rehla-text-with-image.relative.py-5 > div > div > div > div.pt-10.pb-12.px-6.sm\:pt-16.sm\:px-16.lg\:py-16.xl\:py-20.xl\:px-20{
-padding-bottom:0!important;
-}
+  /* ===== النص مع الصورة ===== */
+  #app > div.app-inner.flex.flex-col.min-h-full > div.rehla-text-with-image.relative.py-5 > div > div > div > div.pt-10.pb-12.px-6.sm\:pt-16 > div > a{
+    display:flex!important;
+    justify-content:center!important;
+    margin:.6rem auto!important;
+    text-align:center!important;
+  }
+  .rehla-text-with-image-text,
+  footer *,
+  footer > div > div > div.grid span p{
+    font-size:.7rem!important;
+    line-height:1.5!important;
+  }
+  .rehla-text-with-image-bg,
+  #app > div.app-inner.flex.flex-col.min-h-full > div.rehla-text-with-image.relative.py-5 > div > div > div > div.pt-10.pb-12.px-6.sm\:pt-16.sm\:px-16.lg\:py-16.xl\:py-20.xl\:px-20{
+    padding-bottom:0!important;
+  }
 
-/* ===== الفوتر ===== */
-#app > div.app-inner.flex.flex-col.min-h-full > footer > div > div > div.grid.md\:grid-cols-4.grid-cols-1.gap-10.justify-between.py-16{
-padding-bottom:0!important;
-padding-top:0!important;
-gap:.8rem!important;
-}
-#app > div.app-inner.flex.flex-col.min-h-full > footer > div > div > div.grid.md\:grid-cols-4.grid-cols-1.gap-10.justify-between.py-16 > div:nth-child(3) > ul > salla-contacts > div{
-gap:0!important;
-}
+  /* ===== الفوتر ===== */
+  #app > div.app-inner.flex.flex-col.min-h-full > footer > div > div > div.grid.md\:grid-cols-4.grid-cols-1.gap-10.justify-between.py-16{
+    padding-bottom:0!important;
+    padding-top:0!important;
+    gap:.8rem!important;
+  }
+  #app > div.app-inner.flex.flex-col.min-h-full > footer > div > div > div.grid.md\:grid-cols-4.grid-cols-1.gap-10.justify-between.py-16 > div:nth-child(3) > ul > salla-contacts > div{
+    gap:0!important;
+  }
+  #app > div.app-inner.flex.flex-col.min-h-full > footer > div > div > div.rehla-payment.w-full.flex.justify-center{
+    padding-top:.2rem!important;
+    margin-top:.2rem!important;
+  }
 
-/* ===== سلايدر آراء العملاء ===== */
-#testimonials-11-slider > div.swiper.s-slider-container.swiper-initialized{padding:.6rem!important}
+  /* ===== سلايدر آراء العملاء ===== */
+  #testimonials-11-slider > div.swiper.s-slider-container.swiper-initialized{padding:.6rem!important}
 
-/* ===== الأسئلة الشائعة ===== */
-.rehla-faq{padding:.8rem!important}
-.rehla-faq .container{padding:0!important;margin:0!important;max-width:100%!important}
-.rehla-faq-title{width:100%!important;margin:0!important;padding:0!important}
-.rehla-faq-title h2{font-size:1.1rem!important;margin-bottom:12px!important}
-.accordion-container{gap:6px!important;padding:0!important;margin:0!important}
-.rehla-accordion{
-padding:10px 12px!important;
-margin:0!important;
-border-radius:8px!important;
-border-width:1px!important;
-}
-.rehla-accordion h5{font-size:.82rem!important}
-.rehla-accordion h5 button{font-size:.82rem!important}
-.rehla-accordion i{font-size:1rem!important}
-.rehla-contentBox p{
-font-size:.7rem!important;
-line-height:1.5!important;
-padding-top:8px!important;
-}
-.rehla-services{
-margin-top: 0.2rem !important;
-}
-#app > div.app-inner.flex.flex-col.min-h-full > div.rehla-features.relative{
-padding-bottom: 0.1rem !important;
-margin-bottom: 0.1rem !important;
-}
-#app > div.app-inner.flex.flex-col.min-h-full > footer > div > div > div.rehla-payment.w-full.flex.justify-center{
-padding-top:0.2rem !important;
-margin-top:0.2rem !important;
-}
-}
+  /* ===== الأسئلة الشائعة ===== */
+  .rehla-faq{padding:.8rem!important}
+  .rehla-faq .container{padding:0!important;margin:0!important;max-width:100%!important}
+  .rehla-faq-title{width:100%!important;margin:0!important;padding:0!important}
+  .rehla-faq-title h2{font-size:1.1rem!important;margin-bottom:12px!important}
+  .accordion-container{gap:6px!important;padding:0!important;margin:0!important}
+  .rehla-accordion{
+    padding:10px 12px!important;
+    margin:0!important;
+    border-radius:8px!important;
+    border-width:1px!important;
+  }
+  .rehla-accordion h5{font-size:.82rem!important}
+  .rehla-accordion h5 button{font-size:.82rem!important}
+  .rehla-accordion i{font-size:1rem!important}
+  .rehla-contentBox p{
+    font-size:.7rem!important;
+    line-height:1.5!important;
+    padding-top:8px!important;
+  }
 
-
+  /* ===== هوامش نهائية ===== */
+  .rehla-services{margin-top:.2rem!important}
+}
