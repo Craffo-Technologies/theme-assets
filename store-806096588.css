@@ -36,6 +36,15 @@ html{
 ::selection{background:var(--or);color:var(--bk)}
 ::-moz-selection{background:var(--or);color:var(--bk)}
 
+
+/* **** */
+
+.rehla-top-bar * , .rehla-top-bar{
+	color:#18140c !important ;
+	fill: #18140c !important ;
+}
+
+
 /* ================= العناوين: خط سفلي + دائرة مفرغة في المنتصف ================= */
 .rehla-letter-title,
 .rehla-services-title,
