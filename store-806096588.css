@@ -1,162 +1,512 @@
-:root{--db:#4A70A9;--lb:#8FABD4;--cm:#EFECE3;--bk:#000000;--gd:#B2753A;--bg:#EFECE3;--tx:#000000}
-
-html,body{color:var(--tx)!important}
-
-[style*="#ff6a00"],[style*="#FF6A00"],[style*="#ffb347"],[style*="#FFB347"],[style*="#f59e37"],[style*="#F59E37"],[style*="#a56f2a"],[style*="#A56F2A"],[style*="#ff8c00"],[style*="#FF8C00"],[style*="#ff7f00"],[style*="#FF7F00"],[style*="#e85d00"],[style*="#E85D00"],[style*="#e55b00"],[style*="#E55B00"],[style*="orange"],[style*="Orange"]{color:var(--lb)!important;background-color:transparent!important;background-image:none!important;border-color:var(--lb)!important;fill:var(--lb)!important}
-
-::selection{color:var(--cm)}
-::-webkit-scrollbar{width:10px;height:10px}
-::-webkit-scrollbar-thumb{border-radius:5px;border:2px solid transparent}
-html{scrollbar-width:thin!important}
-
-.salla-advertisement{color:var(--cm)!important;border-bottom:1px solid var(--db)!important}
-.salla-advertisement h2,.salla-advertisement h2 a{color:var(--cm)!important}
-.salla-advertisement h2 i,.salla-advertisement h2 a:hover{color:var(--lb)!important}
-.salla-advertisement .ad-close{color:var(--cm)!important}
-.salla-advertisement .ad-close:hover{color:var(--lb)!important;transform:rotate(90deg)!important}
-
-.rehla-component-1 .rounded-xl.overflow-hidden{position:relative!important;overflow:hidden!important;transition:transform .3s,box-shadow .3s!important}
-.rehla-component-1 .rounded-xl.overflow-hidden:hover{transform:scale(1.05)!important;box-shadow:0 12px 30px rgba(74,112,169,.25)!important}
-
-.rehla-letter-title,.rehla-services-title,.rehla-schedule-title,.rehla-features-title,.rehla-default-product .rehla-title,.rehla-title,.rehla-countdown-title,.rehla-timing-title,section.s-block--best-offers .s-slider-block__title h2,.testimonials__title,.s-block--animated-brands__title,.store-features__title,.home-block-title h2{display:block!important;width:100%!important;margin:0 auto 34px!important;padding-bottom:26px!important;position:relative!important;text-align:center!important;font-size:clamp(1.35rem,3vw,2rem)!important;font-weight:800!important;line-height:1.35!important;background-image:linear-gradient(90deg,var(--bk),var(--lb) 25%,var(--bk) 50%,var(--db) 75%,var(--bk))!important;background-size:200% auto!important;-webkit-background-clip:text!important;background-clip:text!important;-webkit-text-fill-color:transparent!important;color:transparent!important;animation:tg 5s linear infinite!important}
-@keyframes tg{0%{background-position:0 center}100%{background-position:200% center}}
-
-.rehla-letter-title::before,.rehla-services-title::before,.rehla-schedule-title::before,.rehla-features-title::before,.rehla-default-product .rehla-title::before,.rehla-title::before,.rehla-countdown-title::before,.rehla-timing-title::before,section.s-block--best-offers .s-slider-block__title h2::before,.testimonials__title::before,.s-block--animated-brands__title::before,.home-block-title h2::before{content:""!important;position:absolute!important;bottom:0!important;left:0!important;right:0!important;margin:0 auto!important;width:180px!important;max-width:75%!important;height:2px!important;border-radius:2px!important;-webkit-text-fill-color:initial!important;-webkit-background-clip:border-box!important;background-clip:border-box!important;background-image:linear-gradient(90deg,transparent,var(--bk) 12%,var(--lb) 30%,transparent 42%,transparent 58%,var(--gd) 70%,var(--db) 85%,transparent)!important;background-size:200% auto!important;animation:lg 4s linear infinite!important;z-index:1!important}
-@keyframes lg{0%{background-position:0 center}100%{background-position:200% center}}
-
-.rehla-letter-title::after,.rehla-services-title::after,.rehla-schedule-title::after,.rehla-features-title::after,.rehla-default-product .rehla-title::after,.rehla-title::after,.rehla-countdown-title::after,.rehla-timing-title::after,section.s-block--best-offers .s-slider-block__title h2::after{content:"✈"!important;position:absolute!important;bottom:-9px!important;left:50%!important;transform:translateX(-50%) rotate(-10deg)!important;color:var(--gd)!important;-webkit-text-fill-color:var(--gd)!important;background:transparent!important;font-size:20px!important;font-weight:700!important;padding:0!important;line-height:1!important;z-index:5!important;animation:pf 3s ease-in-out infinite!important}
-@keyframes pf{0%,100%{transform:translateX(-50%) rotate(-10deg) translateY(0)}50%{transform:translateX(-50%) rotate(-10deg) translateY(-4px)}}
-
-section.s-block--best-offers .s-slider-block__title{position:relative!important;display:flex!important;justify-content:center!important;align-items:center!important;width:100%!important}
-section.s-block--best-offers .s-slider-block__title-right{text-align:center!important;margin:0 auto!important;width:100%!important}
-section.s-block--best-offers .s-slider-block__title-left{position:absolute!important;left:0!important;top:50%!important;transform:translateY(-50%)!important;font-size:.85rem!important;color:var(--db)!important}
-section.s-block--best-offers .s-slider-block__title-left a{color:var(--db)!important;transition:color .3s!important}
-section.s-block--best-offers .s-slider-block__title-left a:hover{color:var(--lb)!important}
-
-.rehla-default-product.rehla-fixed-products .s-products-list-wrapper.s-products-list-vertical-cards{display:grid!important;grid-template-columns:repeat(4,minmax(0,1fr))!important;gap:16px!important;width:100%!important;align-items:stretch!important}
-.rehla-default-product.rehla-fixed-products .s-products-list-wrapper>custom-salla-product-card{display:block!important;width:100%!important;max-width:100%!important;height:100%!important}
-.rehla-default-product.rehla-fixed-products .rehla-product-card{position:relative!important;overflow:hidden!important;border-radius:14px!important;border:none!important;box-shadow:0 4px 15px rgba(0,0,0,.06)!important;display:flex!important;flex-direction:column!important;height:100%!important;transition:transform .4s cubic-bezier(.22,1,.36,1),box-shadow .4s!important}
-.rehla-default-product.rehla-fixed-products .rehla-product-card:hover{transform:translateY(-8px)!important;box-shadow:0 20px 40px rgba(74,112,169,.18)!important}
-.rehla-default-product.rehla-fixed-products .rehla-product-card h4{font-weight:700!important;color:var(--tx)!important;transition:color .3s!important}
-.rehla-default-product.rehla-fixed-products .rehla-product-card:hover h4{color:var(--lb)!important}
-.rehla-default-product.rehla-fixed-products .rehla-product-card p,.rehla-default-product.rehla-fixed-products .rehla-product-card .text-gray-500,.rehla-default-product.rehla-fixed-products .rehla-product-card small.line-through{color:var(--db)!important}
-.rehla-default-product.rehla-fixed-products .rehla-product-card .font-bold{color:var(--tx)!important;font-weight:800!important}
-.rehla-default-product.rehla-fixed-products .rehla-product-card .sicon-eye{color:var(--tx)!important;transition:color .3s,transform .3s!important}
-.rehla-default-product.rehla-fixed-products .rehla-product-card .sicon-eye:hover{color:var(--lb)!important;transform:scale(1.15)!important}
-
-.product-card__enhanced-mini-cart-divider,.rehla-product-card .enhanced-mini-cart-divider,custom-salla-product-card .product-card__enhanced-mini-cart-divider{display:none!important;border:none!important;height:0!important}
-
-.rehla-default-product.rehla-fixed-products .rehla-product-card>div>div:first-child>a{position:relative!important;display:block!important;overflow:hidden!important;border-radius:12px 12px 0 0!important}
-.rehla-default-product.rehla-fixed-products .rehla-product-card>div>div:first-child>a::before{content:""!important;position:absolute!important;top:0!important;left:-150%!important;width:100%!important;height:100%!important;background:linear-gradient(120deg,rgba(255,255,255,0) 20%,rgba(143,171,212,.2) 40%,rgba(239,236,227,.85) 50%,rgba(143,171,212,.2) 60%,rgba(255,255,255,0) 80%)!important;transform:skewX(-25deg)!important;transition:left .9s cubic-bezier(.22,1,.36,1)!important;pointer-events:none!important;z-index:3!important}
-.rehla-default-product.rehla-fixed-products .rehla-product-card:hover>div>div:first-child>a::before{left:150%!important}
-.rehla-default-product.rehla-fixed-products .rehla-product-card>div>div:first-child>a>img{display:block!important;width:100%!important;height:auto!important;transition:transform .7s cubic-bezier(.22,1,.36,1)!important}
-.rehla-default-product.rehla-fixed-products .rehla-product-card:hover>div>div:first-child>a>img{transform:scale(1.06)!important}
-
-.rehla-default-product.rehla-fixed-products .rehla-product-card>div{display:flex!important;flex-direction:column!important;height:100%!important}
-.rehla-default-product.rehla-fixed-products .rehla-product-card>div>div:nth-child(2){display:flex!important;flex-direction:column!important;flex:1 1 auto!important;justify-content:space-between!important;gap:10px!important;padding:14px!important}
-.rehla-default-product.rehla-fixed-products .rehla-product-card h4{margin:0!important;padding:0!important;line-height:1.45!important}
-.rehla-default-product.rehla-fixed-products .rehla-product-card p{margin:0!important;padding:0!important}
-.rehla-default-product.rehla-fixed-products .rehla-product-card .h-28{height:auto!important;min-height:0!important}
-.rehla-default-product.rehla-fixed-products .rehla-product-card .border-t{margin-top:auto!important;padding-top:10px!important;display:flex!important;justify-content:space-between!important;align-items:center!important;gap:8px!important}
-
-section.s-block--best-offers custom-salla-product-card{position:relative!important;overflow:hidden!important;border-radius:14px!important;border:none!important;box-shadow:0 4px 15px rgba(0,0,0,.05)!important;transition:transform .4s,box-shadow .4s!important}
-section.s-block--best-offers custom-salla-product-card:hover{transform:translateY(-8px)!important;box-shadow:0 20px 40px rgba(74,112,169,.18)!important}
-section.s-block--best-offers .product-card__title a{font-weight:700!important;color:var(--tx)!important;transition:color .3s!important}
-section.s-block--best-offers custom-salla-product-card:hover .product-card__title a{color:var(--lb)!important}
-section.s-block--best-offers .total-price{color:var(--tx)!important;font-weight:800!important}
-
-section.s-block--best-offers .product-card__image{position:relative!important;overflow:hidden!important;border-radius:14px 14px 0 0!important}
-section.s-block--best-offers .product-card__image::before{content:""!important;position:absolute!important;top:0!important;left:-150%!important;width:100%!important;height:100%!important;background:linear-gradient(120deg,rgba(255,255,255,0) 20%,rgba(143,171,212,.2) 40%,rgba(239,236,227,.85) 50%,rgba(143,171,212,.2) 60%,rgba(255,255,255,0) 80%)!important;transform:skewX(-25deg)!important;transition:left .9s cubic-bezier(.22,1,.36,1)!important;pointer-events:none!important;z-index:3!important}
-section.s-block--best-offers custom-salla-product-card:hover .product-card__image::before{left:150%!important}
-section.s-block--best-offers .product-card__image img{transition:transform .7s cubic-bezier(.22,1,.36,1)!important}
-section.s-block--best-offers custom-salla-product-card:hover .product-card__image img{transform:scale(1.06)!important}
-
-.rehla-component-2{position:relative!important;padding:60px 0!important}
-.rehla-component-2 .relative.text-center h2{padding-bottom:26px!important;margin-bottom:40px!important;display:inline-block!important;color:var(--tx)!important}
-.rehla-component-2 .flex.flex-wrap.gap-5{display:flex!important;flex-wrap:nowrap!important;gap:20px!important;justify-content:center!important;align-items:center!important;width:100%!important}
-.rehla-component-2 .flex.flex-wrap>a{display:block!important;width:16rem!important;height:16rem!important;min-width:16rem!important;max-width:16rem!important;flex:0 0 16rem!important}
-.rehla-component-2 .rounded-xl.overflow-hidden.group{position:relative!important;overflow:hidden!important;border-radius:16px!important;width:16rem!important;height:16rem!important;box-shadow:0 6px 20px rgba(0,0,0,.08)!important;transition:transform .5s,box-shadow .5s!important}
-.rehla-component-2 img{width:100%!important;height:100%!important;object-fit:cover!important;transition:transform 1s!important}
-.rehla-component-2 .absolute.bottom-0.w-full.h-full.z-50{position:absolute!important;inset:0!important;background:linear-gradient(180deg,rgba(0,0,0,.05),rgba(0,0,0,.15) 35%,rgba(0,0,0,.55) 65%,rgba(0,0,0,.92))!important}
-.rehla-component-2 h4{font-size:19px!important;font-weight:700!important;color:var(--cm)!important;text-shadow:0 2px 12px rgba(0,0,0,.7)!important;transition:transform .5s!important}
-.rehla-component-2 p{color:rgba(239,236,227,.85)!important;max-height:0!important;opacity:0!important;overflow:hidden!important;transition:max-height .5s,opacity .4s .1s!important}
-.rehla-component-2 .rounded-xl.overflow-hidden.group:hover{transform:translateY(-10px)!important;box-shadow:0 25px 50px rgba(74,112,169,.35)!important}
-.rehla-component-2 .rounded-xl.overflow-hidden.group:hover img{transform:scale(1.12)!important}
-.rehla-component-2 .rounded-xl.overflow-hidden.group:hover h4{transform:translateY(-6px)!important}
-.rehla-component-2 .rounded-xl.overflow-hidden.group:hover p{max-height:60px!important;opacity:1!important}
-
-header a.logo img{transition:transform .4s cubic-bezier(.22,1,.36,1),filter .4s!important}
-header a.logo:hover img{transform:scale(1.08) rotate(-3deg)!important;filter:drop-shadow(0 6px 14px rgba(74,112,169,.45))!important}
-
-header nav>ul>li>a,header nav>ul>li.root-level>a,header nav ul li a{position:relative!important;display:inline-block!important;color:var(--tx)!important;text-decoration:none!important;transition:color .35s,transform .35s cubic-bezier(.22,1,.36,1)!important}
-header nav>ul>li>a::before,header nav>ul>li>a::after,header nav>ul>li.root-level>a::before,header nav>ul>li.root-level>a::after,header nav ul li a::before,header nav ul li a::after{content:none!important;display:none!important}
-header nav ul li span.align-center{position:relative!important;display:inline-block!important;padding-bottom:6px!important}
-header nav ul li span.align-center::before{content:none!important;display:none!important}
-header nav ul li span.align-center::after{content:""!important;display:block!important;position:absolute!important;bottom:0!important;right:0!important;left:0!important;height:2px!important;background:linear-gradient(90deg,transparent,var(--db),var(--lb),var(--db),transparent)!important;border-radius:2px!important;transform:scaleX(0)!important;transform-origin:center!important;transition:transform .4s cubic-bezier(.22,1,.36,1)!important}
-header nav>ul>li>a:hover,header nav>ul>li.root-level>a:hover,header nav ul li a:hover,header nav ul li a:hover span{color:var(--db)!important;transform:translateY(-2px)!important}
-header nav ul li a:hover span.align-center::after{transform:scaleX(1)!important}
-
-footer.store-footer,footer.store-footer>div,footer.store-footer .container,footer.store-footer .grid{background:transparent!important;background-image:none!important}
-footer.store-footer *::before,footer.store-footer *::after,footer.store-footer::before,footer.store-footer::after{content:none!important;display:none!important;background:none!important;width:0!important;height:0!important;border:none!important;box-shadow:none!important}
-footer.store-footer h3,footer.store-footer h2,footer.store-footer h4,footer.store-footer p,footer.store-footer a,footer.store-footer li,footer.store-footer ul,footer.store-footer span{border:none!important;outline:none!important;text-decoration:none!important;box-shadow:none!important;padding-bottom:0!important}
-footer.store-footer,footer.store-footer *,footer.store-footer a,footer.store-footer a:hover,footer.store-footer li,footer.store-footer li:hover,footer.store-footer h3,footer.store-footer h3:hover,footer.store-footer .s-contacts-item,footer.store-footer .s-contacts-item:hover,footer.store-footer .s-contacts-icon,footer.store-footer .s-contacts-icon:hover,footer.store-footer a.social-link,footer.store-footer a.social-link:hover{transform:none!important;filter:none!important;box-shadow:none!important}
-footer.store-footer a:hover,footer.store-footer a:hover span,footer.store-footer ul li a:hover,footer.store-footer .grid a:hover,footer.store-footer .grid>div>ul>li a:hover{color:var(--lb)!important}
-
-#app>div.app-inner.flex.flex-col.min-h-full>div.rehla-statistics.relative.container.mx-auto.py-20.text-center>div>div{position:relative!important;border:1px solid rgba(74,112,169,.25)!important;border-radius:12px!important;overflow:hidden!important;box-shadow:none!important}
-#app>div.app-inner.flex.flex-col.min-h-full>div.rehla-statistics.relative.container.mx-auto.py-20.text-center>div>div::before,#app>div.app-inner.flex.flex-col.min-h-full>div.rehla-statistics.relative.container.mx-auto.py-20.text-center>div>div::after{content:""!important;position:absolute!important;width:0!important;height:0!important;border:2px solid transparent!important;border-radius:12px!important;pointer-events:none!important;transition:width .4s,height .4s,border-color .4s!important;z-index:5!important}
-#app>div.app-inner.flex.flex-col.min-h-full>div.rehla-statistics.relative.container.mx-auto.py-20.text-center>div>div::before{top:0!important;left:0!important;border-top-color:var(--db)!important;border-left-color:var(--db)!important}
-#app>div.app-inner.flex.flex-col.min-h-full>div.rehla-statistics.relative.container.mx-auto.py-20.text-center>div>div::after{bottom:0!important;right:0!important;border-bottom-color:var(--db)!important;border-right-color:var(--db)!important}
-#app>div.app-inner.flex.flex-col.min-h-full>div.rehla-statistics.relative.container.mx-auto.py-20.text-center>div>div:hover::before,#app>div.app-inner.flex.flex-col.min-h-full>div.rehla-statistics.relative.container.mx-auto.py-20.text-center>div>div:hover::after{width:100%!important;height:100%!important;border-color:var(--db)!important}
-
-.store-features__item{transition:transform .35s!important}
-.store-features__item:hover{transform:translateY(-6px)!important}
-.store-features__item-inner{border-radius:12px!important;transition:box-shadow .35s,border-color .35s!important;border:1px solid rgba(74,112,169,.12)!important}
-.store-features__item:hover .store-features__item-inner{box-shadow:0 12px 28px rgba(74,112,169,.15)!important;border-color:var(--lb)!important}
-
-.testimonials__card{border:1px solid rgba(74,112,169,.1)!important;border-radius:12px!important;transition:transform .35s,box-shadow .35s,border-color .35s!important}
-.testimonials__card:hover{transform:translateY(-5px)!important;border-color:var(--lb)!important;box-shadow:0 10px 25px rgba(74,112,169,.15)!important}
-.testimonials__author-name{color:var(--db)!important;font-weight:700!important}
-
-.s-block--animated-brands--brand img{filter:grayscale(80%) opacity(.6)!important;transition:filter .4s!important}
-.s-block--animated-brands--brand img:hover{filter:grayscale(0) opacity(1)!important}
-
-.accordion-container.flex.flex-col.gap-2.justify-center.items-center.w-full>div{box-shadow:0 4px 18px rgba(74,112,169,.12)!important;border:1px solid rgba(143,171,212,.18)!important}
-
-.s-products-slider-card>custom-salla-product-card>div>div>div>div>div.py-4.flex.justify-between{margin-top:1rem!important}
-custom-salla-product-card .py-4.flex{margin-top:2rem!important}
-salla-products-list custom-salla-product-card .py-4{height:6.8rem!important;overflow:hidden!important}
-
-html body button:not(header button):not(nav button),html body .rehla-countdown-button,html body a.rehla-countdown-button,html body [class*="rehla-countdown-button"],html body salla-button button.s-button-element,html body salla-add-product-button button.s-button-element,html body button.s-button-element,html body button.bg-green-500,html body .rehla-product-card button,html body .rehla-default-product button{transition:all .35s cubic-bezier(.22,1,.36,1)!important}
-html body button:not(header button):not(nav button):hover,html body .rehla-countdown-button:hover,html body a.rehla-countdown-button:hover,html body [class*="rehla-countdown-button"]:hover,html body salla-button button.s-button-element:hover,html body salla-add-product-button button.s-button-element:hover,html body button.s-button-element:hover,html body button.bg-green-500:hover,html body .rehla-product-card button:hover,html body .rehla-default-product button:hover{transform:translateY(-3px)!important;box-shadow:0 8px 20px rgba(74,112,169,.35)!important;filter:brightness(1.08)!important}
-
-.rehla-schedule div.pb-2.border-l>a,.rehla-schedule div.pb-2.border-l>a:hover,.rehla-schedule div.pb-2.border-l>a:focus,.rehla-schedule div.pb-2.border-l>a:active,.rehla-schedule div.pb-2.border-l>a>span,.rehla-schedule div.pb-2.border-l>a>span:hover,.rehla-schedule div.pb-2.border-l>a:hover>span{transform:none!important;box-shadow:none!important;filter:none!important;background:transparent!important;background-image:none!important;border:none!important;border-radius:0!important;outline:none!important}
-.rehla-schedule div.pb-2.border-l>a::before,.rehla-schedule div.pb-2.border-l>a::after,.rehla-schedule div.pb-2.border-l>a>span::before,.rehla-schedule div.pb-2.border-l>a>span::after{content:none!important;display:none!important}
-.rehla-schedule div.pb-2.border-l>a>span{padding:0!important;margin:0!important}
-
-.s-slider-block__display-all{transition:color .3s!important}
-.s-slider-block__display-all:hover{color:var(--lb)!important}
-.testimonials__read-more{color:var(--db)!important;transition:color .3s!important}
-.testimonials__read-more:hover{color:var(--lb)!important}
-
-@media (max-width:768px){
-.rehla-letter-title,.rehla-services-title,.rehla-schedule-title,.rehla-features-title,.rehla-title,.rehla-countdown-title,.rehla-timing-title,section.s-block--best-offers .s-slider-block__title h2,.testimonials__title,.s-block--animated-brands__title,.home-block-title h2{font-size:1.25rem!important;padding-bottom:22px!important;margin-bottom:22px!important}
-.rehla-letter-title::before,.rehla-services-title::before,.rehla-schedule-title::before,.rehla-features-title::before,.rehla-title::before,.rehla-countdown-title::before,.rehla-timing-title::before,section.s-block--best-offers .s-slider-block__title h2::before,.testimonials__title::before,.s-block--animated-brands__title::before,.home-block-title h2::before{left:0!important;right:0!important;margin:0 auto!important;width:120px!important}
-.rehla-letter-title::after,.rehla-services-title::after,.rehla-schedule-title::after,.rehla-features-title::after,.rehla-title::after,.rehla-countdown-title::after,.rehla-timing-title::after,section.s-block--best-offers .s-slider-block__title h2::after{font-size:16px!important;bottom:-7px!important}
-section.s-block--best-offers .s-slider-block__title-left{position:static!important;transform:none!important;display:block!important;margin-top:8px!important;text-align:center!important}
-.rehla-default-product.rehla-fixed-products .s-products-list-wrapper.s-products-list-vertical-cards,.rehla-default-product.rehla-fixed-products salla-products-list,.rehla-default-product.rehla-fixed-products .s-products-list-wrapper,.rehla-default-product.rehla-fixed-products .s-products-list-wrapper>custom-salla-product-card,html body .rehla-default-product.rehla-fixed-products .s-products-list-wrapper{display:grid!important;grid-template-columns:1fr!important;grid-auto-columns:1fr!important;grid-auto-flow:row!important;gap:20px!important;width:100%!important;max-width:100%!important;padding:0 16px!important;box-sizing:border-box!important}
-.rehla-default-product.rehla-fixed-products .s-products-list-wrapper>custom-salla-product-card{display:block!important;width:100%!important;max-width:100%!important;margin:0!important}
-.rehla-default-product.rehla-fixed-products .rehla-product-card{width:100%!important}
-.rehla-component-2{padding:20px 0!important}
-.rehla-component-2 .relative.text-center h2{font-size:1.15rem!important;padding-bottom:16px!important;margin-bottom:20px!important}
-.rehla-component-2 .flex.flex-wrap.gap-5{display:grid!important;grid-template-columns:repeat(3,minmax(0,1fr))!important;padding:8px 10px!important;gap:8px!important}
-.rehla-component-2 .flex.flex-wrap>a{width:100%!important;height:auto!important;flex:unset!important}
-.rehla-component-2 .rounded-xl.overflow-hidden.group{width:100%!important;height:auto!important;aspect-ratio:1/1!important;border-radius:10px!important}
-.rehla-component-2 h4{font-size:12px!important}
-.rehla-component-2 p{font-size:9px!important}
+/* ================= إخفاء زر ================= */
+#thumbs > div.s-slider-block__title > div > div > button {
+	display: none !important;
 }
 
-@media (min-width:769px) and (max-width:1024px){
-.rehla-default-product.rehla-fixed-products .s-products-list-wrapper.s-products-list-vertical-cards{grid-template-columns:repeat(2,minmax(0,1fr))!important;gap:14px!important}
-.rehla-component-2 .flex.flex-wrap>a{flex:0 0 14rem!important;width:14rem!important;height:14rem!important}
-.rehla-component-2 .rounded-xl.overflow-hidden.group{width:14rem!important;height:14rem!important}
+/* ================= المتغيرات ================= */
+:root{
+  --bk:#000000;
+  --wh:#FFFFFF;
+  --or:#f6bc4c;
+  --nv:#1b4668;
+
+  --db:var(--nv);
+  --lb:var(--or);
+  --cm:var(--wh);
+  --gd:var(--or);
+  --bg:var(--wh);
+  --tx:var(--bk);
+}
+
+/* ================= Scrollbar ================= */
+::-webkit-scrollbar{width:10px;height:10px}
+::-webkit-scrollbar-track{background:var(--wh)}
+::-webkit-scrollbar-thumb{
+  background:var(--nv);
+  border-radius:10px;
+  border:2px solid var(--wh);
+}
+::-webkit-scrollbar-thumb:hover{background:var(--or)}
+html{
+  scrollbar-width:thin;
+  scrollbar-color:var(--nv) var(--wh);
+}
+
+/* ================= Selection ================= */
+::selection{background:var(--or);color:var(--bk)}
+::-moz-selection{background:var(--or);color:var(--bk)}
+
+/* ================= العناوين: خط سفلي + دائرة مفرغة في المنتصف ================= */
+.rehla-letter-title,
+.rehla-services-title,
+.rehla-schedule-title,
+.rehla-features-title,
+.rehla-default-product .rehla-title,
+.rehla-title,
+.rehla-countdown-title,
+.rehla-timing-title,
+section.s-block--best-offers .s-slider-block__title h2,
+.testimonials__title,
+.s-block--animated-brands__title,
+.home-block-title h2,
+.s-block.s-block--testimonials > div > div > h2{
+  position:relative!important;
+  display:block!important;
+  width:100%!important;
+  margin:0 auto 34px!important;
+  padding-bottom:26px!important;
+  text-align:center!important;
+  font-size:1.4rem!important;
+}
+
+.rehla-letter-title::before,
+.rehla-services-title::before,
+.rehla-schedule-title::before,
+.rehla-features-title::before,
+.rehla-default-product .rehla-title::before,
+.rehla-title::before,
+.rehla-countdown-title::before,
+.rehla-timing-title::before,
+section.s-block--best-offers .s-slider-block__title h2::before,
+.testimonials__title::before,
+.s-block--animated-brands__title::before,
+.home-block-title h2::before,
+.s-block.s-block--testimonials > div > div > h2::before{
+  content:""!important;
+  position:absolute!important;
+  bottom:0!important;
+  left:0!important;
+  right:0!important;
+  margin:0 auto!important;
+  width:180px!important;
+  max-width:75%!important;
+  height:2px!important;
+  border-radius:10px!important;
+  background-image:linear-gradient(90deg,
+    transparent,
+    var(--nv) 12%,
+    var(--or) 30%,
+    transparent 42%,
+    transparent 58%,
+    var(--or) 70%,
+    var(--nv) 85%,
+    transparent)!important;
+}
+
+.rehla-letter-title::after,
+.rehla-services-title::after,
+.rehla-schedule-title::after,
+.rehla-features-title::after,
+.rehla-default-product .rehla-title::after,
+.rehla-title::after,
+.rehla-countdown-title::after,
+.rehla-timing-title::after,
+section.s-block--best-offers .s-slider-block__title h2::after,
+.testimonials__title::after,
+.s-block--animated-brands__title::after,
+.home-block-title h2::after,
+.s-block.s-block--testimonials > div > div > h2::after{
+  content:""!important;
+  position:absolute!important;
+  bottom:-9px!important;
+  left:50%!important;
+  transform:translateX(-50%)!important;
+  width:16px!important;
+  height:16px!important;
+  border:2px solid var(--or)!important;
+  border-radius:50%!important; /* الدائرة الوحيدة اللي فاضلة 50% */
+  background:transparent!important;
+  z-index:5!important;
+}
+
+/* ================= استثناء عنوان السلايدر الداخلي ================= */
+.s-block--testimonials .s-slider-block__title h2,
+.s-block--testimonials .s-slider-block__title h2::before,
+.s-block--testimonials .s-slider-block__title h2::after{
+  content:none!important;
+  display:none!important;
+  padding:0!important;
+  margin:0!important;
+  position:static!important;
+  width:auto!important;
+  height:auto!important;
+  border:none!important;
+  background:none!important;
+  font-size:inherit!important;
+}
+
+/* ================= أسهم السلايدر على الشمال ================= */
+section.s-block--best-offers .s-slider-block__title{
+  position:relative!important;
+  display:flex!important;
+  justify-content:center!important;
+  align-items:center!important;
+  width:100%!important;
+}
+section.s-block--best-offers .s-slider-block__title-left{
+  position:absolute!important;
+  left:0!important;
+  top:50%!important;
+  transform:translateY(-50%)!important;
+  z-index:6!important;
+}
+section.s-block--best-offers .s-slider-block__title-right{
+  text-align:center!important;
+  margin:0 auto!important;
+  width:100%!important;
+}
+
+/* ================= إعلان سلة ================= */
+.salla-advertisement{
+  background:var(--nv) !important;
+}
+
+custom-salla-product-card > div > div > div > div > div.py-4.flex.justify-between,
+custom-salla-product-card > div > div > div > div > div > div.py-4.flex.justify-between{
+	margin-top: 2rem !important;
+}
+
+/* ================= هوفر البلوك الإحصائي ================= */
+#app > div.app-inner.flex.flex-col.min-h-full > div.rehla-statistics.relative.container.mx-auto.py-20.text-center > div > div{
+  position:relative!important;
+  overflow:hidden!important;
+  border:2px solid transparent!important;
+  border-radius:10px!important;
+  background:
+    linear-gradient(var(--wh),var(--wh)) padding-box,
+    linear-gradient(135deg, rgba(27,70,104,.25), rgba(246,188,76,.45), rgba(27,70,104,.25)) border-box!important;
+  box-shadow:0 6px 22px rgba(27,70,104,.08)!important;
+  transition:
+    transform .45s cubic-bezier(.22,1,.36,1),
+    box-shadow .45s,
+    background .45s!important;
+}
+#app > div.app-inner.flex.flex-col.min-h-full > div.rehla-statistics.relative.container.mx-auto.py-20.text-center > div > div:hover{
+  transform:translateY(-8px) scale(1.02)!important;
+  background:
+    linear-gradient(var(--wh),var(--wh)) padding-box,
+    linear-gradient(135deg, var(--nv), var(--or), var(--nv)) border-box!important;
+  box-shadow:
+    0 22px 48px rgba(27,70,104,.18),
+    0 0 0 5px rgba(246,188,76,.12)!important;
+}
+#app > div.app-inner.flex.flex-col.min-h-full > div.rehla-statistics.relative.container.mx-auto.py-20.text-center > div > div::before{
+  content:""!important;
+  position:absolute!important;
+  top:0!important;
+  left:-130%!important;
+  width:70%!important;
+  height:100%!important;
+  background:linear-gradient(90deg, transparent, rgba(255,255,255,.85), transparent)!important;
+  transform:skewX(-22deg)!important;
+  transition:left .85s cubic-bezier(.22,1,.36,1)!important;
+  pointer-events:none!important;
+  z-index:2!important;
+  border:none!important;
+}
+#app > div.app-inner.flex.flex-col.min-h-full > div.rehla-statistics.relative.container.mx-auto.py-20.text-center > div > div:hover::before{
+  left:160%!important;
+}
+#app > div.app-inner.flex.flex-col.min-h-full > div.rehla-statistics.relative.container.mx-auto.py-20.text-center > div > div::after{
+  content:""!important;
+  position:absolute!important;
+  bottom:-45px!important;
+  right:-45px!important;
+  width:140px!important;
+  height:140px!important;
+  background:radial-gradient(circle, rgba(246,188,76,.35), transparent 70%)!important;
+  opacity:0!important;
+  transition:opacity .45s!important;
+  pointer-events:none!important;
+  z-index:1!important;
+  border:none!important;
+  border-radius:10px!important;
+}
+#app > div.app-inner.flex.flex-col.min-h-full > div.rehla-statistics.relative.container.mx-auto.py-20.text-center > div > div:hover::after{
+  opacity:1!important;
+}
+
+/* ================= هوفر الهيدر: أبيض → برتقالي + خط متدرج ================= */
+header nav>ul>li>a,
+header nav>ul>li.root-level>a,
+header nav ul li a{
+  position:relative!important;
+  display:inline-block!important;
+  color:var(--wh)!important;
+  text-decoration:none!important;
+  transition:color .35s, transform .35s cubic-bezier(.22,1,.36,1)!important;
+}
+header nav>ul>li>a::before,
+header nav>ul>li>a::after,
+header nav>ul>li.root-level>a::before,
+header nav>ul>li.root-level>a::after,
+header nav ul li a::before,
+header nav ul li a::after{
+  content:none!important;
+  display:none!important;
+}
+header nav ul li span.align-center{
+  position:relative!important;
+  display:inline-block!important;
+  padding-bottom:6px!important;
+}
+header nav ul li span.align-center::before{
+  content:none!important;
+  display:none!important;
+}
+header nav ul li span.align-center::after{
+  content:""!important;
+  display:block!important;
+  position:absolute!important;
+  bottom:0!important;
+  right:0!important;
+  left:0!important;
+  height:2px!important;
+  background:linear-gradient(90deg, transparent, var(--or), var(--or), var(--or), transparent)!important;
+  border-radius:10px!important;
+  transform:scaleX(0)!important;
+  transform-origin:center!important;
+  transition:transform .4s cubic-bezier(.22,1,.36,1)!important;
+}
+header nav>ul>li>a:hover,
+header nav>ul>li.root-level>a:hover,
+header nav ul li a:hover,
+header nav ul li a:hover span{
+  color:var(--or)!important;
+  transform:translateY(-2px)!important;
+}
+header nav ul li a:hover span.align-center::after{
+  transform:scaleX(1)!important;
+}
+
+/* ================= هوفر الأزرار ================= */
+html body button:not(header button):not(nav button),
+html body .rehla-countdown-button,
+html body a.rehla-countdown-button,
+html body [class*="rehla-countdown-button"],
+html body salla-button button.s-button-element,
+html body salla-add-product-button button.s-button-element,
+html body button.s-button-element,
+html body .rehla-product-card button,
+html body .rehla-default-product button{
+  transition:all .35s cubic-bezier(.22,1,.36,1)!important;
+}
+html body button:not(header button):not(nav button):hover,
+html body .rehla-countdown-button:hover,
+html body a.rehla-countdown-button:hover,
+html body [class*="rehla-countdown-button"]:hover,
+html body salla-button button.s-button-element:hover,
+html body salla-add-product-button button.s-button-element:hover,
+html body button.s-button-element:hover,
+html body .rehla-product-card button:hover,
+html body .rehla-default-product button:hover{
+  transform:translateY(-3px)!important;
+  box-shadow:0 8px 20px rgba(27,70,104,.30)!important;
+  filter:brightness(1.08)!important;
+}
+
+/* ================= هوفر الزر الأساسي — كحلي الهوية + كلام أبيض ================= */
+.s-button-primary:hover,
+button.s-button-primary:hover,
+.s-button-primary.s-button-element:hover{
+  background-color:var(--nv)!important;
+  color:var(--wh)!important;
+  filter:none!important;
+  transform:translateY(-2px)!important;
+  box-shadow:0 8px 18px rgba(27,70,104,.28)!important;
+  transition:
+    background-color .35s ease,
+    color .35s ease,
+    transform .35s cubic-bezier(.22,1,.36,1),
+    box-shadow .35s ease!important;
+}
+.s-button-primary:hover *,
+.s-button-primary:hover span,
+.s-button-primary:hover svg,
+.s-button-primary:hover i{
+  color:var(--wh)!important;
+  fill:var(--wh)!important;
+}
+
+/* ================= إصلاح سلايدر آراء العملاء (بدون كسر السلايدر) ================= */
+div[class*="lg:overflow-hidden"]{
+  overflow:visible!important;
+}
+
+salla-slider[type="testimonials"] .swiper-slide,
+.testimonials-slider .swiper-slide{
+  padding:10px!important;
+}
+
+/* ================= رأي العملاء: هوفر خفيف ================= */
+.testimonial{
+  position:relative!important;
+  overflow:hidden!important;
+  border:2px solid transparent!important;
+  border-radius:10px!important;
+  background:
+    linear-gradient(var(--wh),var(--wh)) padding-box,
+    linear-gradient(135deg, rgba(246,188,76,.18), rgba(27,70,104,.28), rgba(246,188,76,.18)) border-box!important;
+  box-shadow:0 6px 20px rgba(27,70,104,.06)!important;
+  transition:
+    transform .5s cubic-bezier(.22,1,.36,1),
+    box-shadow .5s ease,
+    background .5s ease!important;
+}
+.testimonial:hover{
+  transform:translateY(-4px)!important;
+  background:
+    linear-gradient(var(--wh),var(--wh)) padding-box,
+    linear-gradient(135deg, var(--or), var(--nv), var(--or)) border-box!important;
+  box-shadow:
+    0 14px 30px rgba(27,70,104,.12),
+    0 0 0 6px rgba(246,188,76,.08)!important;
+}
+.testimonial::before,
+.testimonial::after{
+  content:none!important;
+  display:none!important;
+}
+
+.testimonial__avatar{
+  width:64px!important;
+  height:64px!important;
+  min-width:64px!important;
+  min-height:64px!important;
+  border-radius:10px!important;
+  overflow:hidden!important;
+  border:2px solid var(--or)!important;
+  background:var(--wh)!important;
+  box-shadow:0 3px 12px rgba(27,70,104,.08)!important;
+  transition:border-color .4s ease, box-shadow .4s ease!important;
+}
+.testimonial:hover .testimonial__avatar{
+  border-color:var(--nv)!important;
+  box-shadow:0 6px 18px rgba(27,70,104,.18)!important;
+}
+.testimonial__avatar img,
+.testimonial__avatar img.loaded,
+.testimonial__avatar img.lazy{
+  border-radius:10px!important;
+  filter:none!important;
+  -webkit-filter:none!important;
+  backdrop-filter:none!important;
+  -webkit-backdrop-filter:none!important;
+  opacity:1!important;
+  object-fit:cover!important;
+  width:100%!important;
+  height:100%!important;
+  transition:transform .5s cubic-bezier(.22,1,.36,1)!important;
+}
+.testimonial:hover .testimonial__avatar img{
+  transform:scale(1.05)!important;
+}
+
+.testimonial__icon{
+  color:var(--or)!important;
+  opacity:.85!important;
+  transition:color .4s, opacity .4s, transform .4s!important;
+}
+.testimonial:hover .testimonial__icon{
+  color:var(--nv)!important;
+  opacity:1!important;
+  transform:scale(1.08) rotate(-4deg)!important;
+}
+.testimonial__info h4,
+.testimonial__author-name{
+  color:var(--nv)!important;
+  font-weight:700!important;
+  transition:color .4s!important;
+}
+.testimonial:hover .testimonial__info h4{
+  color:var(--bk)!important;
+}
+.testimonial__rating svg path,
+.testimonial__rating .s-rating-stars-selected svg path{
+  fill:var(--or)!important;
+  transition:fill .4s!important;
+}
+.testimonial:hover .testimonial__rating svg path{
+  fill:var(--nv)!important;
+}
+
+/* ================= المنتجات: خط مايل ناعم على الصورة فقط ================= */
+custom-salla-product-card a:has(> img),
+custom-salla-product-card .product-card__image a,
+custom-salla-product-card .product-card__image{
+  position:relative!important;
+  display:block!important;
+  overflow:hidden!important;
+  border-radius:10px 10px 0 0!important;
+}
+
+custom-salla-product-card a:has(> img)::before,
+custom-salla-product-card .product-card__image a::before,
+custom-salla-product-card .product-card__image::before{
+  content:none!important;
+  display:none!important;
+}
+
+custom-salla-product-card a:has(> img)::after,
+custom-salla-product-card .product-card__image a::after,
+custom-salla-product-card .product-card__image::after{
+  content:""!important;
+  position:absolute!important;
+  top:0!important;
+  left:-150%!important;
+  width:45%!important;
+  height:100%!important;
+  background:linear-gradient(
+    115deg,
+    transparent 0%,
+    rgba(255,255,255,.28) 42%,
+    rgba(246,188,76,.18) 50%,
+    rgba(255,255,255,.28) 58%,
+    transparent 100%
+  )!important;
+  transform:skewX(-22deg)!important;
+  transition:left 1.4s cubic-bezier(.25,.8,.35,1)!important;
+  pointer-events:none!important;
+  z-index:4!important;
+}
+
+custom-salla-product-card a:has(> img) img,
+custom-salla-product-card .product-card__image img{
+  display:block!important;
+  width:100%!important;
+  transition:transform 1s cubic-bezier(.25,.8,.35,1)!important;
+}
+
+custom-salla-product-card:hover a:has(> img)::after,
+custom-salla-product-card:hover .product-card__image a::after,
+custom-salla-product-card:hover .product-card__image::after{
+  left:170%!important;
+}
+
+custom-salla-product-card:hover a:has(> img) img,
+custom-salla-product-card:hover .product-card__image img{
+  transform:scale(1.03)!important;
+  filter:none!important;
+}
+
+custom-salla-product-card a:not(:has(> img))::after,
+custom-salla-product-card a:not(:has(> img))::before,
+custom-salla-product-card a:not(:has(> img)) img{
+  transform:none!important;
+  filter:none!important;
+}
+custom-salla-product-card a:not(:has(> img))::after,
+custom-salla-product-card a:not(:has(> img))::before{
+  content:none!important;
+  display:none!important;
+}
+
+/* ================= ارتفاع ثابت لعنوان المنتج ================= */
+custom-salla-product-card a h4{
+	height: 3.5rem !important;
+	overflow: hidden !important;
+}
+
+ .swiper.s-slider-container.swiper-initialized.swiper-horizontal  > div{
+	justify-content: center !important;
 }
