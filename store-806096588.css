@@ -646,3 +646,12 @@ padding-bottom: 0.1rem !important;
 margin-bottom: 0.1rem !important;
 }
 }
+
+#app > div.app-inner.flex.flex-col.min-h-full > div.rehla-text-with-image.relative.py-5 > div > div > div > div.rehla-with-image > img{
+width: 27rem !important;
+max-width: 27rem !important;
+}
+#app > div.app-inner.flex.flex-col.min-h-full > div.rehla-features.relative.py-20.px-4{
+padding-bottom: 0 !important;
+margin-bottom:  0!important;
+}
