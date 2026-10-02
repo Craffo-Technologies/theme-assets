@@ -1,0 +1,10 @@
+/* store-1740075892.css */
+footer > div > div > div:nth-child(1) > ul.flex.items-stretch > li:nth-child(8){
+display: none !important;
+}
+@media (max-width: 768px){
+footer > div > div > div:nth-child(1) > ul.flex {
+flex-wrap: wrap;
+justify-content: center;
+}
+}
