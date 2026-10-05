@@ -1,0 +1,97 @@
+#main-content > section.canvas-special-products.py-1.block{
+	padding-bottom: 0rem !important;
+}
+@media (min-width: 640px) {
+  body section.s-block.s-block--bundle-stats-section{
+        margin-top: 0 !important;
+    }
+}
+
+#main-content > section.canvas-special-products.py-12.block{
+	padding-bottom: 0.5rem !important;
+}
+
+
+.canvas-store-header.is-scrolled .canvas-main-nav-container{
+	    background-color: 
+ color-mix(in srgb, var(--color-header-background), transparent 40%) !important;
+    color: var(--color-header-text) !important;
+    min-height: 69px !important;
+}
+
+
+
+.canvas-main-content.main-content> form > section.bg-white.p-5.rounded-md.mb-5{
+	background-color: transparent !important;
+}
+
+.canvas-main-content .s-quantity-input-container .s-quantity-input-input{
+	  background-color: transparent;
+    border-color: var(--color-primary);
+    color: var(--color-primary);
+}
+.canvas-main-content.main-content > div.flex.justify-end.mb-2 > div > salla-button > button,
+.canvas-main-content.main-content> div.flex.justify-end.mb-2 > div > salla-social-share > div > slot-fb > salla-button > button,
+.content.content--single-page{
+	  background-color: transparent;
+}
+
+
+@media (min-width: 1024px) {
+.main-nav-container .container > .flex > div:nth-child(3) {
+order: 1;
+flex: 1;
+justify-content: flex-start;
+}
+.main-nav-container .container > .flex > div:nth-child(2) {
+order: 2;
+flex: 0 0 auto;
+}
+.main-nav-container .container > .flex > div:nth-child(4) {
+order: 3;
+flex: 1;
+justify-content: flex-end;
+}
+}
+
+
+.canvas-store-header .canvas-main-nav-container .relative {
+  position: relative !important;
+}
+
+.canvas-store-header .canvas-main-nav-container .navbar-brand{
+  position: absolute !important;
+  left: 50% !important;
+  right: auto !important;
+  top: 50% !important;
+  transform: translate(-50%, -50%) !important;
+  margin: 0 !important;
+  z-index: 5;
+  display: block;
+}
+
+.canvas-store-header .canvas-main-nav-container .navbar-brand img {
+  width: auto !important;
+  height: 120px !important;
+  max-width: 160px;
+  object-fit: contain;
+  min-height:  100px !important;
+}
+
+#product-filter.form-input{
+	 background-color: transparent !important;
+    border-color:var(--color-primary) !important;
+    color: var(--color-primary) !important;
+}
+
+
+
+.canvas-special-products > div > salla-tabs > div > div.s-tabs-content-wrapper > salla-tab-content > div > salla-products-list > div.s-products-list-wrapper.s-products-list-vertical-cards{
+	padding-bottom: 0rem !important;
+	margin-bottom: 0rem !important;
+}
+
+body:not(.index)::before,
+body:not(.index)::after {
+  display: none !important;
+}
