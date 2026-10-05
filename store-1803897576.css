@@ -1,0 +1,103 @@
+/* store-1803897576.css */
+
+::selection {
+background: var(--color-footer) !important;
+color: var(--color-btn-single-product) !important;
+}
+
+::-webkit-scrollbar {
+width: 0.2rem !important;
+}
+::-webkit-scrollbar-track {
+background: var(--color-footer) !important;
+}
+::-webkit-scrollbar-thumb {
+background: var(--color-btn-single-product) !important;
+border-radius: 0.3rem !important;
+}
+::-webkit-scrollbar-thumb:hover {
+background: var(--color-footer) !important;
+}
+
+html {
+scrollbar-color: var(--color-btn-single-product) var(--color-footer) !important;
+scrollbar-width: thin !important;
+}
+
+salla-add-product-button salla-button button,
+.s-button-element.s-button-btn,
+.s-button-element,
+.gallery-categories-fixed.py-10.block.block > div > div.gallery-categories-fixed__grid.flex.flex-wrap > div > a > div,
+custom-salla-product-card {
+border-radius: 0.3rem !important;
+}
+
+.gallery-categories-fixed a,
+.gallery-categories-fixed a img {
+background: var(--color-footer) !important;
+color: var(--color-btn-single-product) !important;
+}
+
+.gallery-categories-fixed .gallery-categories-fixed__grid a > h4 {
+width: 100% !important;
+max-width: 100% !important;
+margin: 0 !important;
+background: var(--color-footer) !important;
+color: var(--color-btn-single-product) !important;
+border-radius: 0.3rem !important;
+}
+
+.gallery-categories-fixed .gallery-categories-fixed__grid a {
+border-radius: 0 0 0.3rem 0.3rem !important;
+}
+
+.s-product-card-image-cover {
+border-radius: 0.3rem 0.3rem 0 0 !important;
+}
+
+/* =========================================================
+DECORATIVE – فاصل تحت النصوص (كورتين على اليمين)
+========================================================= */
+
+.s-block-trust-faq-title,
+.s-slider-block__title-right > h2,
+.s-block-trust-faq,
+.gallery-reviews h2,
+.s-slider-block__title-right,
+.gallery-why-us > div > span,
+.gallery-categories-fixed.py-10.block.block > div > div.text-center > p {
+font-size: 1.5rem !important;
+}
+
+.s-block-trust-faq::after,
+.s-block-trust-faq-title::after,
+.gallery-reviews > div > h2::after,
+.s-slider-block__title-right::after,
+.gallery-why-us > div > span::after,
+.gallery-categories-fixed.py-10.block.block > div > div.text-center.mb-10 > p::after {
+content: "";
+display: block;
+width: 90px;
+height: 8px;
+margin: 0.6rem auto 0;
+font-size: 1.5rem !important;
+
+background:
+radial-gradient(
+circle at center,
+var(--color-footer) 3.5px,
+transparent 4px
+) right center / 8px 8px no-repeat,
+radial-gradient(
+circle at center,
+var(--color-footer) 3.5px,
+transparent 4px
+) calc(100% - 10px) center / 8px 8px no-repeat,
+linear-gradient(
+90deg,
+var(--color-btn-single-product) 0%,
+var(--color-footer) 100%
+) left center / 70px 2px no-repeat;
+
+border-radius: 2px;
+}
