@@ -1,6 +1,8 @@
 #main-content > section.canvas-special-products.py-1.block{
 	padding-bottom: 0rem !important;
 }
+
+
 @media (min-width: 640px) {
   body section.s-block.s-block--bundle-stats-section{
         margin-top: 0 !important;
@@ -94,4 +96,14 @@ justify-content: flex-end;
 body:not(.index)::before,
 body:not(.index)::after {
   display: none !important;
+}
+
+
+@media (max-width: 640px) {
+    .is-sticky-product-bar .sticky-product-bar {
+    	background-color: var(--color-background-store) !important;
+    }}
+    
+   #product-filter option{
+  	background-color: var(--color-background-store) !important;
 }
