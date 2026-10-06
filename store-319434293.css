@@ -1,3 +1,37 @@
+ 
+    .product-single salla-slider.details-slider .swiper-slide,
+      salla-slider.details-slider .swiper-slide img,
+      .canvas-main-content .s-add-product-button-main>salla-button button,
+      .canvas-main-content .s-button-light-outline,
+      .canvas-main-content .s-quantity-input-container,
+      .canvas-main-content salla-social-share .s-social-share-btn,
+      .canvas-sidebar .s-slider-wrapper,
+      .canvas-sidebar salla-slider.details-slider .s-slider-container{
+    	 border-radius: 0.75rem !important;
+    	 overflow: hidden !important;
+    }
+    
+    .canvas-main-content .s-add-product-button-main .s-add-product-button-mini-checkout {
+    --salla-fast-checkout-button-border-radius: 0.75rem !important;
+    }
+    .product-single salla-slider.details-slider .swiper-slide{
+    	background-color: transparent !important;
+    }
+    
+    
+    
+custom-salla-product-card .s-product-card-image,
+custom-salla-product-card .s-product-card-image a,
+custom-salla-product-card .s-product-card-image-cover,
+custom-salla-product-card .s-button-element.s-button-btn,
+custom-salla-product-card .s-product-card-content-footer .s-button-element,
+custom-salla-product-card .s-product-card-add-to-cart-mobile .s-button-element{
+  border-radius: 0.75rem !important;
+  overflow: hidden;
+}
+
+
+
 body.product-single .s-quick-buy-apple-pay{
 	display: none !important;
 }
