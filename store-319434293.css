@@ -1,4 +1,33 @@
- 
+.canvas-sections > .container > .flex.justify-between {
+  justify-content: center;
+}
+
+.canvas-sections-grid > a {
+  min-width: 90px;
+}
+
+.canvas-sections-grid > a > div {
+  width: 90px;
+  height: 80px;
+  border-radius: 12px;
+}
+
+@media (min-width: 768px) {
+  .canvas-sections-grid > a > div {
+    width: 140px;
+    height: 100px;
+  }
+}
+
+.canvas-sections-grid > a > div img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.canvas-sections-grid > a:hover > div img {
+  transform: none;
+} 
     .product-single salla-slider.details-slider .swiper-slide,
       salla-slider.details-slider .swiper-slide img,
       .canvas-main-content .s-add-product-button-main>salla-button button,
