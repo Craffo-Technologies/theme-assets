@@ -1,3 +1,7 @@
+body.product-single .s-quick-buy-apple-pay{
+	display: none !important;
+}
+
 .canvas-main-content.main-content div.s-product-options-grid-mode-span{
 	background-color:  var(--color-primary) !important;
 	color: #fff !important;
