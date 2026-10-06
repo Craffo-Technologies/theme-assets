@@ -1,3 +1,23 @@
+.canvas-main-content.main-content div.s-product-options-grid-mode-span{
+	background-color:  var(--color-primary) !important;
+	color: #fff !important;
+}
+
+.canvas-main-content.main-content .s-product-options-grid-mode input:checked + div{
+	    border-color: var(--color-primary) !important;
+    background-color: rgba(var(--color-primary-rgb), 0.1) !important;
+    color: var(--color-primary) !important;
+}
+
+.canvas-banner .bg-gradient-to-t {
+    display: none !important;
+}
+
+.canvas-banner .absolute.inset-0 > div:last-child {
+    background-color: rgba(0, 0, 0, 0.15) !important;
+}
+
+
 #main-content > section.canvas-special-products.py-1.block{
 	padding-bottom: 0rem !important;
 }
