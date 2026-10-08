@@ -4,10 +4,11 @@ background-color: var(--color-background) !important;
 
 
 /* ***edited by sara **** */
+@media (max-width: 768px){
 
 #mobile-menu , .mobile-menu.mm-spn.mm-spn--light.mm-spn--navbar.mm-spn--main , #mobile-menu > ul , #mobile-menu:after{
-	background: var(--color-header-background) !important;
-	color: white !important;
+background: var(--color-header-background) !important;
+color: white !important;
 }
-
+}
 /* **** */
