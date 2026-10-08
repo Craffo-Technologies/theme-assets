@@ -1,3 +1,13 @@
 body .s-product-options-wrapper option{
 background-color: var(--color-background) !important;
 }
+
+
+/* ***edited by sara **** */
+
+#mobile-menu , .mobile-menu.mm-spn.mm-spn--light.mm-spn--navbar.mm-spn--main , #mobile-menu > ul , #mobile-menu:after{
+	background: var(--color-header-background) !important;
+	color: white !important;
+}
+
+/* **** */
