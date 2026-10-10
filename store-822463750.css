@@ -6,10 +6,23 @@ height: auto !important;
 padding: unset !important;
 }
 
-
-
 /* **end saras edits ** */
 
+
+section.s-block.s-block--categories .s-slider-block__title {
+  justify-content: center !important;
+  text-align: center !important;
+}
+
+section.s-block.s-block--categories .s-slider-block__title-right {
+  width: 100% !important;
+  text-align: center !important;
+}
+
+.s-slider-block__title h2:where([dir="rtl"], [dir="rtl"] *),
+.s-slider-block__title-right:where([dir="rtl"], [dir="rtl"] *){
+    padding-left: unset !important;
+}
 
 
 
