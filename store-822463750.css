@@ -10,55 +10,69 @@ padding: unset !important;
 
 
 section.s-block.s-block--categories .s-slider-block__title {
-  justify-content: center !important;
-  text-align: center !important;
+justify-content: center !important;
+text-align: center !important;
 }
 
 section.s-block.s-block--categories .s-slider-block__title-right {
-  width: 100% !important;
-  text-align: center !important;
+width: 100% !important;
+text-align: center !important;
 }
 
 .s-slider-block__title h2:where([dir="rtl"], [dir="rtl"] *),
 .s-slider-block__title-right:where([dir="rtl"], [dir="rtl"] *){
-    padding-left: unset !important;
+padding-left: unset !important;
 }
 
 
 
 .s-block--categories a img {
-	width: 100% !important;
-	height: auto !important;
-	border-radius: unset !important;
+width: 100% !important;
+height: auto !important;
+border-radius: unset !important;
 }
 
 .s-block--categories .slide--cat-entry {
-	padding: unset !important;
-	align-items: start !important;
-	margin: unset !important;
-	border-radius: unset !important;
+padding: unset !important;
+align-items: start !important;
+margin: unset !important;
+border-radius: unset !important;
 }
 
 .s-product-card-entry .s-product-card-image {
-	background-color: unset !important;
+background-color: unset !important;
 }
 
 .s-product-card-image img.loaded {
-	aspect-ratio: 1 / 1;
+aspect-ratio: 1 / 1;
 }
 
 .s-product-card-entry .s-product-card-content .s-product-card-content-title {
-	height: 1rem !important;
-	overflow: hidden !important;
+height: 1rem !important;
+overflow: hidden !important;
 }
 
 .art-categories-02 div.aspect-square {
-	aspect-ratio: 10 / 6 !important;
+aspect-ratio: 10 / 6 !important;
 }
 
 .art-categories-02-slide {
-	border-width: 1px;
-	border-color: rgba(243, 244, 246, var(--tw-border-opacity, 1));
-	background-color: rgba(255, 255, 255, 1);
-	padding: unset !important;
+border-width: 1px;
+border-color: rgba(243, 244, 246, var(--tw-border-opacity, 1));
+background-color: rgba(255, 255, 255, 1);
+padding: unset !important;
 }
+
+
+/* **** */
+
+
+.s-block.s-block--categories   .swiper-wrapper , #main-links-5 > div.swiper.s-slider-container , .swiper-wrapper a  h2 , .art-video-banner .swiper-slide a > h2  {
+justify-content: center !important;
+margin: auto !important;
+text-align: center !important;
+}
+
+
+
+/* **** */
