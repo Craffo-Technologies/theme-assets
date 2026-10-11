@@ -11,3 +11,23 @@ margin: auto !important;
 text-align: center !important;
 }
 
+footer > div.store-footer__inner.herb-store-footer__inner > div > div:nth-child(2) > salla-menu > div > div > a {
+margin-top: 0.45rem !important;
+}
+footer > div.store-footer__inner.herb-store-footer__inner > div > div > a.navbar-brand > img{
+height: 7rem !important;
+max-height: 7rem !important;
+width: 9rem !important;
+max-width: 9rem !important;
+}
+@media (max-width: 768px) {
+
+footer > div.store-footer__inner.herb-store-footer__inner salla-social{
+position: absolute !important;
+bottom: 13% !important;
+left: 33% !important;
+}
+#app > div.app-inner.flex.flex-col.min-h-full > footer > div.store-footer__inner.herb-store-footer__inner > div > div:nth-child(2) > salla-menu > div > div > a {
+margin-top: 0.44rem !important;	
+}
+}
