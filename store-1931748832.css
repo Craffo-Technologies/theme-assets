@@ -2,12 +2,20 @@
 
 
 
+
+
 footer  .yasmeen-payment-methods  salla-payments > ul .s-payments-list-item:nth-child(6) {   
 position: absolute !important;
-bottom: 8rem !important;
-left: 50% !important;
+bottom: 5rem !important;
+left: 46% !important;
 }
- 
+
+#app > footer > div.container.mx-auto > div > div.grid  > div > div.flex  > salla-trust-badges{
+position: absolute !important;
+bottom: 5rem !important;
+left: 33% !important;
+}
+
 @media (max-width: 768px){
 
 
