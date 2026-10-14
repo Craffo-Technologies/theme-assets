@@ -261,8 +261,8 @@ form salla-search div div div.s-search-input-wrapper span span {
     }
 
     .s-product-options-wrapper {
-        background: #6D2B14 !important;
-    }
+    background-color: transparent !important;
+}
 
     .s-product-options-option-label,
     .s-product-options-option-label small,
