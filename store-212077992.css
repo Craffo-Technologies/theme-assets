@@ -29,15 +29,25 @@ order: -1;
 
 
 .s-product-card-content > div.s-product-card-content-sub{
-height: 4.5rem !important;
+height: 4rem !important;
 overflow: hidden !important;
 }
 .s-product-card-content-title{
-height: 3rem !important;
+height: 2.8rem !important;
 overflow: hidden !important;	
 }
 .sand-main-content.main-content  > form > section.flex.py-5.px-4.rounded-lg {
 display: none !important;
+}
+@media (max-width: 768px){
+.s-product-card-content > div.s-product-card-content-sub{
+height: 4rem !important;
+overflow: hidden !important;
+}
+.s-product-card-content-title{
+height: 2.8rem !important;
+overflow: hidden !important;	
+}
 }
 
 @media (max-width: 767px) {
