@@ -1,28 +1,34 @@
 
 
 .s-product-card-entry .s-product-card-wishlist-btn button{
-	display: none !important;
+display: none !important;
 }
 
 #main-content > section.sand-brands.py-16.block.block > div > div.grid.grid-cols-2> a > div > img{
-	filter: unset !important;
-	opacity: unset !important;
+filter: unset !important;
+opacity: unset !important;
 }
 
 .sand-main-content.main-content{
-	display: flex !important;
-    flex-direction: column !important;
+display: flex !important;
+flex-direction: column !important;
 }
 
 .sand-main-content.main-content> h1,.product__description{
-	order: -1 !important;
+order: -1 !important;
 }
 
 .sand-main-content.main-content> h1{
-	margin-bottom: unset !important;
+margin-bottom: unset !important;
 }
 .sand-main-content.main-content > div.sand-price.flex.whitespace-nowrap.gap-4.items-center.mb-4.mt-2 {
-    order: -1;
+order: -1;
 }
 
+/* ****** */
 
+
+.s-product-card-content > div.s-product-card-content-sub{
+height: 4.5rem !important;
+overflow: hidden !important;
+}
