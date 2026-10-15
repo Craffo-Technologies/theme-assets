@@ -32,3 +32,12 @@ order: -1;
 height: 4.5rem !important;
 overflow: hidden !important;
 }
+
+.sand-main-content.main-content  > form > section.flex.py-5.px-4.rounded-lg {
+display: none !important;
+}
+
+@media (max-width: 767px) {
+.s-slider-swiper-wrapper:has(img.object-cover) { height: 350px !important; }
+.s-slider-swiper-wrapper:has(img.object-cover) img { height: 100% !important; object-position: top; }
+}
