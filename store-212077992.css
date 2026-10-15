@@ -32,7 +32,10 @@ order: -1;
 height: 4.5rem !important;
 overflow: hidden !important;
 }
-
+.s-product-card-content-title{
+height: 3rem !important;
+overflow: hidden !important;	
+}
 .sand-main-content.main-content  > form > section.flex.py-5.px-4.rounded-lg {
 display: none !important;
 }
