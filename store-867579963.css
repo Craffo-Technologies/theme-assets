@@ -3,3 +3,7 @@
 .after\:bg-black\/30::after , .naya-video-banner.bg-gray-300.h-screen.w-full > div.flex.absolute.top-0.left-0.w-full::after {
   background-color: transparent  !important;
 }
+
+.s-block--features__item{
+	background: var(--color-header-main) !important;
+}
