@@ -71,3 +71,23 @@ color: #4c3c2f !important;
 .s-reviews-swiper-slide.swiper-slide .s-reviews-testimonial__info > h2{
 color: #4C3C2F !important;	
 }
+
+
+/* **** */
+
+.matcha-main-content {
+display: flex !important;
+flex-direction: column;
+}
+.matcha-main-content > * { order: 1; }
+.matcha-main-content > form.product-form { 
+display: contents !important; 
+background: var(--store-background) !important;
+padding-top: 0.5rem !important;
+}
+.matcha-main-content > form.product-form > * { order: 2;
+background: var(--store-background) !important;
+}
+.matcha-main-content > .product__description { order: 3; }
+.matcha-main-content > form.product-form > salla-product-options ~ * { order: 4; }
+.matcha-main-content > form.product-form ~ * { order: 5; }
