@@ -29,7 +29,7 @@ order: -1;
 
 
 .s-product-card-content > div.s-product-card-content-sub{
-height: 4rem !important;
+height: 4.5rem !important;
 overflow: hidden !important;
 }
 .s-product-card-content-title{
@@ -41,7 +41,7 @@ display: none !important;
 }
 @media (max-width: 768px){
 .s-product-card-content > div.s-product-card-content-sub{
-height: 4rem !important;
+height: 4.5rem !important;
 overflow: hidden !important;
 }
 .s-product-card-content-title{
