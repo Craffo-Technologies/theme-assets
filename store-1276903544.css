@@ -1,0 +1,221 @@
+@media(max-width: 768px) {
+.kayan-header div#s-cart-icon {
+padding-top: 0.46rem !important;
+}
+
+.kayan-header {
+overflow: visible !important;
+}
+
+.kayan-header .lg\:py-3 {
+position: relative;
+padding-top: 3rem;
+}
+
+
+\#app > div.app-inner.flex.flex-col.min-h-full > div.kayan-header.overflow-hidden.w-full.h-full > div > div{
+top: 1rem !important;
+}
+\#app > div.app-inner.flex.flex-col.min-h-full > div.kayan-header.overflow-hidden.w-full.h-full > div > div > div.flex-1.hidden.gap-6 {
+display: flex !important;
+flex: unset !important;
+gap: 0.5rem;
+}
+
+.kayan-header .icon-search {
+position: absolute;
+right: 4px;
+top: 50%;
+transform: translateY(-50%);
+}
+
+.kayan-header salla-cart-summary {
+position: absolute;
+right: 10px;
+top: 50%;
+transform: translateY(-50%);
+}
+
+.kayan-header .bars {
+position: absolute;
+left: 10px;
+top: 50%;
+transform: translateY(-50%);
+padding-top: 0.36rem !important;
+}
+\#app > div.app-inner.flex.flex-col.min-h-full > div.kayan-header.overflow-hidden.w-full.h-full > div.container{
+height: 5rem !important;
+}
+.kayan-header .sicon-user {
+position: absolute;
+left: 44px;
+top: 50%;
+transform: translateY(-50%);
+}
+
+.kayan-header i {
+font-size: 1.1rem !important;
+}
+
+.kayan-header .w-24 {
+position: absolute !important;
+left: 55% !important;
+top: 59%;
+transform: translate(-60%, -50%) !important;
+z-index: 9999 !important;
+}
+\#app > div.app-inner.flex.flex-col.min-h-full > footer > div > div.justify-center.items-center.w-full > div.border-gray-300.pb-8.flex.flex-col.gap-4> div.flex.justify-center.items-center,#app > div.app-inner.flex.flex-col.min-h-full > footer > div > div.justify-center.items-center.w-full > div.border-gray-300.pb-8.flex.flex-col.gap-4> div.flex.justify-center.items-center p{
+text-align: center !important;
+}
+
+
+.kayan-footer .container > div:first-child {
+justify-content: center !important;
+text-align: center;
+}
+
+.kayan-footer .container > div:first-child > div {
+align-items: center !important;
+text-align: center !important;
+padding-bottom: 1rem !important;
+margin-bottom: 1rem !important;
+}
+
+.kayan-footer h5 {
+text-align: center !important;
+}
+
+.kayan-footer .s-contacts-item,
+.kayan-footer .s-social-list,
+.s-trust-badges-wrapper {
+justify-content: center !important;
+}
+
+.index .kayan-header {
+height: auto !important;
+}}
+
+.s-product-options-wrapper{
+background-color: transparent !important;
+}
+
+
+
+body .s-product-options-grid-mode-span{
+background-color: var(--color-primary) !important;
+color:   #fff !important;
+}
+
+.s-product-options-grid-mode input:checked + div{
+background-color: transparent !important;
+color: var(--color-primary) !important;
+}
+
+.custom-bar {
+background-color: unset !important;
+color: rgba(255, 255, 255, var(--tw-bg-opacity, 1)) !important;
+}
+
+.custom-bar h3 {
+color:  var(--color-primary) !important;
+}
+
+.custom-bar .s-button-element {
+background-color: var(--color-primary) !important;
+border-color: #000 !important;
+color:  #000!important;
+}
+
+
+.content.content--single-page.w-full.bg-white.rounded.p-6{
+background-color: transparent !important;
+}
+
+
+
+@media (max-width: 768px) {
+
+.kayan-footer {
+padding-top: 25px !important;
+padding-bottom: 35px !important;
+padding-inline: 15px !important;
+margin-top: 0.1rem;
+}
+
+.kayan-footer .border-b-\[1px] {
+margin-bottom: 16px !important;
+padding-bottom: 16px !important;
+}
+
+.kayan-footer h5 {
+margin-bottom: 12px !important;
+font-size: 20px !important;
+}
+
+.kayan-footer ul.flex.flex-col {
+gap: 10px !important;
+}
+}
+
+@media(max-width: 768px){
+
+\#app > div.app-inner.flex.flex-col.min-h-full > footer > div > div.justify-center.items-center.w-full > div:nth-child(2) > ul > li > a{
+font-size: 1rem !important;
+}}
+
+
+.s-bought-together-entry{
+background-color: transparent !important;
+}
+
+
+.index .kayan-card  salla-add-product-button,
+.index .kayan-card .s-product-card-rating{
+display: none !important;
+}
+
+@media (max-width: 767px) {
+  .s-payments-list {
+    flex-wrap: nowrap;
+    justify-content: center;
+    gap: 6px;
+  }
+
+  .s-payments-list-item {
+    width: 28px;
+    height: 20px;
+  }
+}
+
+
+#contact-slot > a[href="tel:+966579410002"],
+.s-contacts-list-vertical div#contact-slot:nth-child(2){
+	display: none !important;
+}
+
+
+@media (max-width: 1023px) {
+  .kayan-header .flex-1.justify-end > span.hidden {
+    display: block !important;
+    position: absolute;
+    inset-inline-start: 56px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+  }
+  
+   .kayan-header {
+    padding-top: 1rem !important;
+    padding-bottom: 1rem !important;
+    
+    z-index: 999 !important;
+  }
+}
+
+.kayan-copyright{
+	display: none !important;
+}
+
+ custom-salla-product-card > div > div.px-6.py-2.text-center{
+text-align: right !important;
+}
