@@ -1,3 +1,7 @@
+
+.canvas-categories .canvas-categories-grid > a > div.absolute.inset-0 {
+  display: none !important;
+}
 .canvas-sections > .container > .flex.justify-between {
   justify-content: center;
 }
