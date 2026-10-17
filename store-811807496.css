@@ -1,0 +1,52 @@
+@media (min-width: 1024px) {
+
+  .abayat-main-nav-container .inner > div > div {
+    gap: 16px;
+  }
+
+  .abayat-main-nav-container .inner > div > div > div:nth-child(2) {
+    order: -1;
+    flex: 0 0 auto;
+    justify-content: flex-start;
+  }
+  .abayat-main-nav-container .navbar-brand img {
+    width: auto;
+    height: auto;
+    max-width: 150px;
+    max-height: 60px;
+  }
+
+  .abayat-main-nav-container .inner > div > div > div:nth-child(1) {
+    order: 0;
+    flex: 1 1 auto;
+    min-width: 0;
+    padding-inline: 8px;
+    justify-content: center;
+  }
+
+  .abayat-main-nav-container .inner > div > div > div:nth-child(3) {
+    order: 1;
+    flex: 0 0 auto;
+  }
+
+  .abayat-main-nav-container .main-menu {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    gap: 0;
+    white-space: nowrap;
+  }
+  .abayat-main-nav-container .main-menu > li.root-level {
+    margin: 0 !important;
+  }
+  .abayat-main-nav-container .main-menu > li.root-level > a {
+    padding-inline: 8px !important;
+    font-size: 14px;
+  }
+  .abayat-store-header custom-main-menu .mobile-menu .main-menu li a{
+  	font-weight: 400 !important;
+  }
+  
+}
+
