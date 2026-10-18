@@ -1,0 +1,269 @@
+.prova-story-tab.is-active{
+	   background: rgba(225, 208, 254, .35) !important;
+}
+
+.content.content--single-page{
+	background-color: transparent !important;
+}
+
+
+@media (max-width: 640px) {
+  .sticky-product-bar {
+    	    background-color: var(--color-background) !important;
+    }}
+button.s-button-element[quick-buy] .s-button-text {
+  font-size: 0;
+  line-height: 0;
+}
+
+button.s-button-element[quick-buy] .s-button-text::after {
+  content: "أضف للسلة";
+  font-size: 1rem;      
+  line-height: 1.5;
+}
+
+salla-installment .mb-5 {
+  background-color: hsla(0, 0%, 100%, .7);
+  border-radius: 12px;
+}
+
+salla-installment tamara-widget {
+  mix-blend-mode: multiply;
+  --inline-border-color: var(--color-background) !important;
+  --inline-outlined-background-color-hover: var(--color-store) !important;
+}
+
+.s-product-card-entry .s-product-card-content-footer .prova-card-action,
+body .s-product-card-entry .prova-card-action,
+body .s-product-card-entry .s-product-card-content-footer .s-product-card-wishlist-btn,
+body .s-product-card-entry .s-product-card-content-footer .s-product-card-wishlist-btn,
+.s-product-card-entry .prova-card-hover-actions--footer .s-product-card-wishlist-btn,
+.s-product-card-entry .prova-card-hover-actions .s-product-card-wishlist-btn button{
+	    background-color: var(--color-btn-card) !important;
+	    color: #fff !important;
+	    fill : #fff !important;
+}
+
+body .s-product-card-entry .prova-card-hover-actions .s-product-card-wishlist-btn .s-button-text{
+	color: #fff !important;
+	    fill : #fff !important;
+}
+
+body .s-product-card-entry .s-product-card-content-footer .s-product-card-wishlist-btn,
+.s-product-card-entry .prova-card-hover-actions--footer .s-product-card-wishlist-btn{
+	border-radius: 2rem !important ;
+}
+
+
+
+
+@media (max-width: 767px) {
+
+  .prova-service-card .s-product-card-content {
+    padding: 8px !important;
+    gap: 4px !important;
+  }
+
+  .prova-service-card .s-product-card-content-main {
+    gap: 2px !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  .prova-service-card .s-product-card-content-title,
+  .prova-service-card .s-product-card-content-subtitle {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  .prova-service-card .s-product-card-content-footer {
+    gap: 4px !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  .prova-service-card .prova-card-price-row {
+    gap: 4px !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  .prova-service-card .s-product-card-price {
+    margin: 0 !important;
+  }
+
+  .prova-service-card .prova-card-cta-group {
+    gap: 4px !important;
+    margin: 0 !important;
+  }
+  .prova-service-card .prova-card-cta-group .s-button-element {
+    padding-block: 5px !important;
+  }
+
+  .prova-service-card .prova-card-hover-actions--footer {
+    gap: 4px !important;
+    margin: 4px 0 0 !important;
+   
+  }
+  .s-product-card-entry .s-product-card-content .s-product-card-content-main .s-product-card-content-title a{
+  	font-size: 0.875rem !important;
+  }
+}
+
+
+
+
+/* ===== توست الإضافة للسلة: ألوان الكارد ===== */
+salla-add-product-toast.s-add-product-toast {
+  background-color: var(--color-bg-card, #17211e) !important;
+  border: 1px solid var(--color-bg-card, #17211e);  
+}
+
+salla-add-product-toast .s-add-product-toast__title,
+salla-add-product-toast .s-add-product-toast__name {
+  color: var(--color-text-card, #fff);
+}
+
+salla-add-product-toast .s-add-product-toast__price,
+salla-add-product-toast .s-add-product-toast__price i {
+  color: var(--color-price-card, #35c99c) !important;
+}
+
+salla-add-product-toast .s-add-product-toast__close {
+  color: var(--color-text-card, #fff);
+}
+
+salla-add-product-toast #toast-submit .s-button-element {
+  background-color: var(--color-btn-card, #00a98f) !important;
+  border-color: var(--color-btn-card, #00a98f) !important;
+  color: var(--color-btn-card-text, #fff) !important;
+}
+
+salla-add-product-toast .s-button-outline {
+  background-color: transparent !important;
+  border-color: var(--color-btn-card, #00a98f) !important;
+  color: var(--color-btn-card, #00a98f) !important;
+}
+
+salla-add-product-toast .s-add-product-toast__progress-bar {
+  background-color: var(--color-btn-card, #00a98f);
+}
+
+salla-add-product-toast .s-add-product-toast__divider {
+  background-color: var(--color-price-card, #35c99c);
+  opacity: .25;
+}
+
+
+.s-add-product-toast__actions salla-button .s-button-btn.s-button-gray-outline{
+	color: #fff !important;
+	fill: #fff !important
+}
+/* ===== صفحة السلة: ألوان الكارد ===== */
+
+body.cart .prova-cart-item {
+  background-color: var(--color-bg-card, #17211e) !important;
+  border: 1px solid var(--color-bg-card, #17211e);
+}
+
+body.cart .prova-cart-item h1,
+body.cart .prova-cart-item h1 a {
+  color: var(--color-text-card, #fff) !important;
+}
+
+body.cart .prova-cart-item .item-price {
+  color: var(--color-price-card, #35c99c) !important;
+}
+
+body.cart .prova-cart-item .item-total,
+body.cart .prova-cart-item p.text-primary,
+body.cart .prova-cart-item p.text-primary span {
+  color: var(--color-price-card, #35c99c) !important;
+}
+
+body.cart .prova-cart-item .border-gray-200 {
+  border-color: rgba(255, 255, 255, .12) !important;
+}
+
+body.cart .prova-cart-item img {
+  border-color: rgba(255, 255, 255, .15) !important;
+  background-color: transparent !important;
+}
+
+body.cart .prova-cart-item .s-quantity-input-container {
+  background-color: transparent !important;
+  border-color: var(--color-btn-card, #00a98f) !important;
+}
+body.cart .prova-cart-item .s-quantity-input-input {
+  background-color: transparent !important;
+  color: var(--color-text-card, #fff) !important;
+}
+body.cart .prova-cart-item .s-quantity-input-button {
+  background-color: var(--color-btn-card, #00a98f) !important;
+  color: var(--color-btn-card-text, #fff) !important;
+}
+
+/* قسم المرفقات / الملاحظات (الأبيض اللي تحت الكارد) */
+body.cart .main-content section.bg-white:not(.prova-cart-item) {
+  background-color: var(--color-bg-card, #17211e) !important;
+  color: var(--color-text-card, #fff) !important;
+}
+body.cart .main-content .btn-tab {
+  color: var(--color-btn-card, #00a98f) !important;
+  border-color: var(--color-btn-card, #00a98f) !important;
+}
+body.cart .main-content textarea.form-input {
+  background-color: rgba(255, 255, 255, .06) !important;
+  color: var(--color-text-card, #fff) !important;
+  border-color: rgba(255, 255, 255, .15) !important;
+}
+
+
+body.cart salla-cart-summary-card .s-cart-summary-card-action {
+  color: var(--color-text-card, #fff) !important;
+}
+body.cart salla-cart-summary-card .s-cart-summary-card-bar-total,
+body.cart salla-cart-summary-card .s-cart-summary-card-line b {
+  color: var(--color-price-card, #35c99c) !important;
+}
+
+body.cart #s-cart-summary-card-submit .s-button-element {
+
+  border-color: var(--color-btn-card, #00a98f) !important;
+  color: var(--color-btn-card-text, #fff) !important;
+}
+
+
+.s-cart-summary-card,
+body.cart salla-cart-summary-card .s-cart-summary-card-bar{
+  background-color: var(--color-btn-card, #00a98f) !important;
+}
+
+body .s-cart-summary-card-sheet-title,
+.s-cart-summary-card-line span,
+body.cart label,
+.s-cart-summary-card-bar-label-text,
+.s-cart-summary-card-bar-count, .s-cart-summary-card-bar-label-sub{
+	 color: var(--color-text-card, #fff) !important;
+}
+
+@media (max-width: 1023px) {
+    .s-cart-summary-card-sheet-wrap{
+        background-color: var(--color-btn-card, #00a98f) !important;
+    }
+	
+body.cart .is-sticky-product-bar .prova-floating-contact-btn {
+    bottom: 8rem !important;
+}
+
+}
+
+.prova-toolbar-btn, .prova-view-btn{
+	    background-color: var(--color-btn-card) !important;
+}
+.prova-toolbar-btn.is-active, .prova-toolbar-btn:hover, .prova-toolbar-btn[aria-pressed=true], .prova-view-btn.is-active, .prova-view-btn:hover, .prova-view-btn[aria-pressed=true]{
+	background: var(--color-primary, #150443) !important;
+}
+
+#product-filter{
+	 background-color: var(--color-btn-card) !important;
+	 color: #fff !important;
+}
