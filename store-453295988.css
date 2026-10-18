@@ -19,3 +19,11 @@ opacity: 0 !important;
 }
 
 }
+.lamera-categories > .container > h3 {
+  letter-spacing: 0 !important;
+  text-transform: none !important;
+  font-variant-ligatures: normal;
+  font-kerning: normal;
+  word-spacing: normal;
+  text-rendering: optimizeLegibility;
+}
