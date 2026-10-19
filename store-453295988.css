@@ -27,3 +27,66 @@ opacity: 0 !important;
   word-spacing: normal;
   text-rendering: optimizeLegibility;
 }
+
+.lamera-categories {
+  padding-top: 1rem !important;
+  padding-bottom: 1rem !important;
+}
+
+.lamera-categories > .container > h3 {
+  margin-bottom: 1.25rem !important;
+}
+
+.lamera-categories .grid {
+  display: grid !important;
+  grid-template-columns: repeat(6, minmax(0, 1fr)) !important;
+  gap: 12px !important;
+  align-items: start;
+}
+
+.lamera-categories .grid > a {
+  height: auto !important;
+  border-radius: 0 !important;
+  overflow: visible !important;
+  display: flex !important;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+}
+
+.lamera-categories .grid > a > img {
+  position: static !important;
+  width: 100% !important;
+  max-width: 110px;
+  height: auto !important;
+  aspect-ratio: 1 / 1;
+  border-radius: 50% !important;
+  object-fit: cover;
+  inset: auto !important;
+  transition: transform .3s ease;
+}
+.lamera-categories .grid > a:hover > img {
+  transform: scale(1.06);
+}
+
+.lamera-categories .grid > a > div.absolute.inset-0 {
+  display: none !important;
+}
+
+.lamera-categories .grid > a > div.absolute {
+  position: static !important;
+  inset: auto !important;
+  text-align: center;
+}
+.lamera-categories .grid > a h3 {
+  font-size: 13px !important;
+  line-height: 1.4;
+}
+
+@media (max-width: 640px) {
+  .lamera-categories .container { padding-inline: 8px !important; }
+  .lamera-categories .grid { gap: 6px !important; }
+  .lamera-categories .grid > a > img { max-width: 56px; }
+  .lamera-categories .grid > a h3 { font-size: 10px !important; }
+}
