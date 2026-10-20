@@ -22,14 +22,14 @@ text-align: center !important;
 	display: none !important;
 }
 #app > div.app-inner.flex.flex-col.min-h-full > section > div > div.accordio  n-container.flex.flex-col.justify-center.items-center.w-full,#app > div.app-inner.flex.flex-col.min-h-full > section > div > div.accordion-container.flex.flex-col.justify-center.items-center.w-full> div{
-	border-color: #5f5f5f !important;
+	border-color: var(--color-primary) !important;
 }
 
 
 body .s-product-options-grid-mode-span{
 background-color: transparent !important;
-border-color: #5f5f5f  !important ;
-color: #5f5f5f   !important ;
+border-color: var(--color-primary)  !important ;
+color: var(--color-primary)   !important ;
 }
 
 .kayan-faq .accordion-container {
@@ -38,7 +38,7 @@ color: #5f5f5f   !important ;
 }
 
 .kayan-faq .kayan-accordion {
-  background: #5f5f5f   !important;
+  background: var(--color-primary)  !important;
   border-radius: 10px;
   border: none !important;
   padding: 0 !important;
@@ -84,18 +84,18 @@ color: #5f5f5f   !important ;
   border-top: 1px solid #f2f1ec;
 }
 #app > div.app-inner.flex.flex-col.min-h-full > div.kayan-features.kayan-features-4.px-10.py-10.border-y-2.border-black{
-	border-color: #5f5f5f  !important ;
+	border-color: var(--color-primary) !important ;
 }
 
 
 .s-product-options-grid-mode input:checked + div {
-	background-color: #5f5f5f  !important;
+	background-color: var(--color-primary)  !important;
 	color:   #f2f1ec !important;
 }
 
 .kayan-features.kayan-features-5.px-10.py-10.border-y-2.border-black{
-	    border-top-color: #5f5f5f   !important ;
-    border-bottom-color: #5f5f5f  !important ;
+	    border-top-color: var(--color-primary) !important ;
+    border-bottom-color: var(--color-primary)!important ;
 
 }
 
