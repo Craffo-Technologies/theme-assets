@@ -1,0 +1,25 @@
+footer .navbar-brand img{
+	filter: unset !important;
+}
+
+.sense-store-footer .sense-store-footer__inner salla-social .s-social-list .s-social-link a svg {
+    opacity: 1 !important;
+}
+
+body p,
+body a,
+body span,
+body .text-sm,
+html ,
+body .sense-store-header .sense-main-nav .main-menu li a{
+	font-size: 18px !important;
+}
+
+.sense-store-footer .sense-store-footer__inner salla-social .s-social-list .s-social-link a svg{
+	fill: var(--color-footer) !important;
+	color: var(--color-footer) !important;
+}
+
+.sense-store-footer .sense-store-footer__inner salla-social .s-social-list .s-social-link a{
+	background-color: var(--color-footer-text) !important;
+}
