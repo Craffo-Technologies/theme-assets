@@ -39,3 +39,36 @@ body .sense-store-header .sense-main-nav .main-menu li a{
 #mainnav > div > div.top-navbar.sense-top-navbar.w-full > div > div > div.flex.items-center.gap-4 > div > i{
 	display: none !important;
 }
+
+
+
+@media (min-width: 1024px) {
+  .sense-store-header #mainnav.main-nav-container {
+    position: relative;
+    height: auto !important;
+  }
+
+  .sense-store-header .sense-main-nav {
+    position: absolute;
+    top: 0;
+    inset-inline-start: 0;      
+    width: auto;
+    height: 120px;          
+    z-index: 5;
+    pointer-events: none;       
+  }
+
+  .sense-store-header .sense-main-nav .container {
+    padding: 0;
+    max-width: none;
+  }
+
+  .sense-store-header .sense-main-nav custom-main-menu {
+    pointer-events: auto;
+  }
+
+    .sense-store-header .sense-main-nav {
+        inset-inline-start: calc(20% + 190px);
+    }
+
+}
