@@ -107,3 +107,30 @@ color: var(--color-primary)   !important ;
 .product-single .main-content > form > section.sticky-product-bar{
 	bottom: 0 !important;
 }}
+
+@media (min-width: 1024px) {
+.index .navbar ul ,
+.index .navbar ul li{
+        color: #000 !important;
+    }
+ 
+    .index .kayan-header {
+    top: unset  !important;
+    position: unset !important;
+    
+    
+}
+.index .navbar{
+	position: unset !important;
+	top: unset !important;
+	z-index: unset !important;
+	        height: 70px !important;
+}
+.kayan-color-text {
+    color: var(--header-menu-color) !important;
+}
+}
+
+body .navbar ul li{
+	color: var(--header-text-menu-color) !important;
+}
