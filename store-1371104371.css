@@ -1,0 +1,21 @@
+/* ===== نص حقوق النشر ===== */
+.copyright-text {
+  font-size: 0 !important;
+  line-height: 0 !important;
+}
+.copyright-text > * {
+  display: none !important;
+}
+.copyright-text::before {
+  content: "© 2026 شركة أمان الامتثال للمحاماة والاستشارات القانونية — جميع الحقوق محفوظة";
+  display: block;
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--color-footer-text);
+}
+
+/* ===== السجل التجاري والرقم الضريبي ===== */
+footer .s-trust-badges-label,
+footer .s-trust-badges-number {
+  color: var(--color-footer-text) !important;
+}
