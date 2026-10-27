@@ -1,0 +1,26 @@
+.ronaq-store-footer .container div.footer-buttons{
+	display: none !important;
+}
+footer salla-trust-badges.s-trust-badges-wrapper {
+    display: flex !important;
+    align-items: center;
+    gap: 14px !important;
+}
+
+footer salla-trust-badges.s-trust-badges-wrapper::after {
+       content: "منصة الأعمال\ 0000331876";
+    white-space: pre-line;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;
+    min-height: 55px;
+    max-width: 150px;
+    padding-inline-start: 65px;         
+    margin-inline-start: 4px;
+    border-inline-start: 1px solid rgba(0, 0, 0, .15);
+    background: url("https://cdn.salla.network/cdn-cgi/image/fit=scale-down,width=58,height=58,onerror=redirect,format=auto/images/sbc.png") no-repeat right center / 55px 55px;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 1.7;
+}
