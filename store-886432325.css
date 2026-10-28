@@ -9,3 +9,6 @@
     height: auto !important;
     object-fit: cover !important;
 }
+.product-single .main-content.w-full > div.flex.whitespace-nowrap.gap-4.items-center{
+	display: none !important;
+}
