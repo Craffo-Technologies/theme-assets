@@ -555,3 +555,40 @@ footer[class*="color-footer-main"] .s-contacts-item .unicode {
     height: 3.5rem !important;
     overflow: hidden !important;
 }
+
+.prestige-about-us .flex.flex-wrap.gap-6.pt-4 {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.5rem 2rem;
+  align-items: start;
+}
+
+.prestige-about-us .flex.flex-wrap.gap-6.pt-4 > div > .text-3xl {
+  line-height: 1.2;
+  text-align: right;
+}
+
+.prestige-about-us .flex.flex-wrap.gap-6.pt-4 > div > .text-sm {
+  text-align: right;
+  line-height: 1.7;
+  min-height: 3.4em;
+}
+
+@media (max-width: 1024px) {
+  .prestige-about-us .flex.flex-wrap.gap-6.pt-4 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1rem 0.75rem;
+  }
+
+  .prestige-about-us .flex.flex-wrap.gap-6.pt-4 > div > .text-3xl {
+    font-size: 1.25rem;
+    margin-bottom: 0.25rem;
+  }
+
+  .prestige-about-us .flex.flex-wrap.gap-6.pt-4 > div > .text-sm {
+    font-size: 0.75rem;
+    line-height: 1.6;
+    padding-right: 0.5rem; 
+    min-height: 0;
+  }
+}
