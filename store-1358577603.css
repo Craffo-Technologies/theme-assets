@@ -550,3 +550,8 @@ footer[class*="color-footer-main"] .s-contacts-item .unicode {
   footer[class*="color-footer-main"] .s-contacts-item,
   footer[class*="color-footer-main"] .s-contacts-icon { transition: none; }
 }
+
+.prestige-card h5.product_title_color {
+    height: 3.5rem !important;
+    overflow: hidden !important;
+}
