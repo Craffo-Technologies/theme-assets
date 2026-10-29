@@ -191,3 +191,10 @@ display: none !important;
 .kayan-card .s-product-card-sale-price{
 	display: flex !important;
 }
+
+
+
+.s-trust-badges-wrapper ,
+.s-trust-badges-wrapper *{
+	display: none !important;
+}
