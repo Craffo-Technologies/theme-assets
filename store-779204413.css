@@ -134,3 +134,11 @@ color: var(--color-primary)   !important ;
 body .navbar ul li{
 	color: var(--header-text-menu-color) !important;
 }
+
+
+body .s-product-options-option-label,
+body .s-product-options-option-label small
+{
+	color: var(--color-primary) !important;
+
+}
