@@ -592,3 +592,66 @@ footer[class*="color-footer-main"] .s-contacts-item .unicode {
     min-height: 0;
   }
 }
+
+.prestige-features .prestige-features-slider .swiper{
+	padding-right: unset !important;
+}
+
+
+
+
+.prestige-statistics {
+  padding-top: 0.5rem !important;
+  margin-top: 1rem !important;
+}
+
+.prestige-statistics .grid {
+  gap: 0.75rem !important;
+}
+
+.prestige-statistics .grid > div {
+  padding: 0.5rem !important;
+}
+
+.prestige-statistics .grid > div > i {
+  font-size: 1.5rem !important;
+}
+
+.prestige-statistics .grid > div > div:nth-of-type(1) {
+  font-size: 1.2rem !important;
+  line-height: 1.2 !important;
+  margin-top: 0.25rem !important;
+}
+
+.prestige-statistics .grid > div > div:nth-of-type(2) {
+  font-size: 0.9rem !important;
+  margin-top: 0.15rem !important;
+}
+
+@media (min-width: 768px) {
+  .prestige-statistics {
+    padding-bottom: 1.5rem !important;
+    padding-left: 5rem !important;
+    padding-right: 5rem !important;
+  }
+
+  .prestige-statistics .grid {
+    gap: 1rem !important;
+  }
+
+  .prestige-statistics .grid > div {
+    padding: 0.75rem !important;
+  }
+
+  .prestige-statistics .grid > div > i {
+    font-size: 1.75rem !important;
+  }
+
+  .prestige-statistics .grid > div > div:nth-of-type(1) {
+    font-size: 2.25rem !important;
+  }
+
+  .prestige-statistics .grid > div > div:nth-of-type(2) {
+    font-size: 1rem !important;
+  }
+}
