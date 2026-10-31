@@ -18,3 +18,18 @@ button.s-button-element.s-button-btn.s-button-solid.s-button-wide.s-button-prima
 	border-radius: 0.75rem !important;
 	margin-top: 1rem;
 }
+
+
+body.product-single a[href*="whatsapp"] > button.fixed {
+  bottom: 130px !important;
+}
+
+body.product-single ticketing-system {
+  position: fixed !important;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 0;
+  transform: translateY(-75px);
+  z-index: 2147483647;
+}
