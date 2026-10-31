@@ -27,7 +27,7 @@ opacity: 0 !important;
 
 .lamera-categories .grid {
   display: grid !important;
-  grid-template-columns: repeat(5, minmax(0, 1fr)) !important;
+  grid-template-columns: repeat(6, minmax(0, 1fr)) !important;
   gap: 12px !important;
   align-items: center;
 }
