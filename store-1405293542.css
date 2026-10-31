@@ -1,8 +1,20 @@
-footer li:has(img[alt="mahally_customer_wallet"]) {
-  display: none !important;
+footer li:has(img[alt='mahally_customer_wallet']) {
+	display: none !important;
 }
 
 header div.cursor-pointer:has(> i.sicon-lang),
 salla-localization-modal {
-  display: none !important;
+	display: none !important;
+}
+
+button.s-button-element.s-button-btn.s-button-solid.s-button-wide.s-button-primary.s-button-loader-center {
+	border-radius: 0.75rem !important;
+	padding: unset !important;
+	height: 2.5rem;
+}
+
+.prestige-product-card-content-text .s-button-btn {
+	width: 100%;
+	border-radius: 0.75rem !important;
+	margin-top: 1rem;
 }
