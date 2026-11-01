@@ -655,3 +655,48 @@ footer[class*="color-footer-main"] .s-contacts-item .unicode {
     font-size: 1rem !important;
   }
 }
+
+
+
+
+
+@media (min-width: 1024px) {
+
+  .store-header > nav {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 0rem;
+    padding: 0.5rem 3rem;
+    background-color: var(--color-header-main);
+  }
+
+  .store-header > nav > div,
+  .store-header > nav > div > .prestige-header {
+    display: contents;
+  }
+
+  .store-header > nav > div > .prestige-header > a {
+    order: 1;
+    flex: 0 0 auto;
+  }
+
+  .store-header > nav > div > .navbar-mobile-menu {
+    order: 2;
+    flex: 1 1 auto;
+    min-width: 0;
+    height: auto;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+
+  .store-header > nav > div > .prestige-header > div:first-child {
+    order: 3;
+    flex: 0 0 auto;
+  }
+
+  .store-header > nav > div > .prestige-header > div:nth-of-type(2) {
+    order: 4;
+    flex: 0 0 auto;
+  }
