@@ -1,0 +1,99 @@
+.mobile-menu .main-menu li > a {
+  justify-content: flex-start !important;
+  gap: 12px !important;
+}
+
+.zina-fixed-main-nav > div:last-child > div:has(salla-user-menu) {
+  display: flex !important;
+  align-items: center;
+  gap: 8px;
+}
+
+.zina-fixed-main-nav {
+  min-height: 70px;
+  align-items: center !important;
+}
+
+.zina-fixed-main-nav-ul {
+  gap: 14px !important;
+  align-items: center;
+}
+
+.zina-fixed-main-nav-ul .mburger {
+  margin: 0 !important;
+  display: flex;
+  align-items: center;
+}
+
+.zina-fixed-main-nav-ul .navbar-brand {
+  padding-inline-start: 6px;
+}
+
+.zina-fixed-main-nav-ul .navbar-brand img {
+  max-width: 90px !important;
+  max-height: 46px !important;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+}
+
+.s-product-options-option-stock-out {
+  opacity: 1 !important;
+}
+
+.s-product-options-option-stock-out label {
+  opacity: .55 !important;
+  filter: none !important;
+  border: 1px solid #e5e7eb !important;
+  border-radius: 8px !important;
+  overflow: hidden;
+  cursor: not-allowed !important;
+}
+
+.s-product-options-option-stock-out .s-product-options-thumbnails-stock-badge {
+  top: auto !important;
+  bottom: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+  width: auto !important;
+  transform: none !important;
+  font-size: 9px !important;
+  padding: 2px 0 !important;
+  border-radius: 0 !important;
+  background: var(--color-primary) !important;
+  color: #fff !important;
+  white-space: nowrap !important;
+  text-align: center !important;
+}
+
+.s-product-options-option-stock-out p {
+  color: #9ca3af !important;
+  text-decoration: none !important;
+}
+
+.zina-main-content > div.inline-flex.rounded-md {
+  background: transparent !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+  padding: 0 !important;
+  color: var(--color-primary);
+  font-weight: 500 !important;
+}
+
+.zina-main-content > div.inline-flex.rounded-md > div {
+  padding: 0 !important;
+}
+
+.zina-main-content > div.inline-flex.rounded-md i {
+  color: var(--color-primary) !important;
+}
+
+.zina-main-content > div.inline-flex.rounded-md span {
+  background: none !important;
+  color: var(--color-primary) !important;
+  min-width: 0 !important;
+  height: auto !important;
+  padding: 0 !important;
+  font-size: inherit !important;
+  font-weight: 700;
+}
