@@ -97,3 +97,14 @@
   font-size: inherit !important;
   font-weight: 700;
 }
+
+
+
+
+.zina-fixed-main-nav-ul {
+  flex-direction: row !important;
+}
+
+.zina-fixed-main-nav-ul .mburger {
+  order: -1;
+}
