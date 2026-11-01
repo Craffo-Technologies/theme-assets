@@ -657,9 +657,6 @@ footer[class*="color-footer-main"] .s-contacts-item .unicode {
 }
 
 
-
-
-
 @media (min-width: 1024px) {
 
   .store-header > nav {
@@ -700,3 +697,4 @@ footer[class*="color-footer-main"] .s-contacts-item .unicode {
     order: 4;
     flex: 0 0 auto;
   }
+}
