@@ -698,3 +698,16 @@ footer[class*="color-footer-main"] .s-contacts-item .unicode {
     flex: 0 0 auto;
   }
 }
+
+
+
+@media(min-width: 1024px){
+footer[class*=color-footer-main] .container > .grid > div{
+	display: flex !important;
+	justify-content: center !important;
+
+}
+
+footer[class*=color-footer-main] .container > .grid > div:nth-child(1){
+		flex-direction: column !important;
+}}
