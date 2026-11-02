@@ -729,6 +729,50 @@ padding-top: 0.5rem !important;
 }
 
 
+@media(min-width: 1024px){
+.prestige-banner_rectangle > div > div > div > div > a > img,
+.prestige-banner_rectangle > div > div > div > div
+{
+	max-height: unset !important;
+}
+  .prestige-banner_rectangle .grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+}
+
+@media(max-width: 1023px){
+ .prestige-banner_rectangle .grid > div:first-child {
+    grid-column: 1 / -1 !important;
+    max-height: 200px !important;
+  }
+
+
+
+.prestige-banner_rectangle .grid > div:first-child img {
+    height: auto !important;
+  }
+
+ .prestige-banner_rectangle .grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+.prestige-banner_rectangle .grid > div:first-child {
+    grid-column: 1 / -1;
+  }
+
+.prestige-banner_rectangle .grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+.prestige-banner_rectangle .grid > div:first-child {
+    grid-column: 1 / -1;
+  }
+}
+
+
+
 .prestige-about-us{
 	margin-top: 2.5rem !important;
 }
