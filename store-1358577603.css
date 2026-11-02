@@ -711,3 +711,10 @@ footer[class*=color-footer-main] .container > .grid > div{
 footer[class*=color-footer-main] .container > .grid > div:nth-child(1){
 		flex-direction: column !important;
 }}
+
+
+
+#app > div.app-inner.flex.flex-col.min-h-full > div.prestige-about-us.relative.overflow-hidden.block.block > div > div > div.relative > img{
+aspect-ratio: 5/3 !important;
+	
+}
