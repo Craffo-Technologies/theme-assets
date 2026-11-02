@@ -715,6 +715,15 @@ footer[class*=color-footer-main] .container > .grid > div:nth-child(1){
 
 
 #app > div.app-inner.flex.flex-col.min-h-full > div.prestige-about-us.relative.overflow-hidden.block.block > div > div > div.relative > img{
-aspect-ratio: 5/3 !important;
-	
+aspect-ratio: 5/3 !important;	
+}
+
+@media(max-width: 768px){
+#app > div.app-inner.flex.flex-col.min-h-full > div.prestige-about-us.relative.overflow-hidden.block.block > div > div > div.relative{
+	order: -1 !important;
+}}
+
+
+.prestige-about-us{
+	margin-top: 2.5rem !important;
 }
