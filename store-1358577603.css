@@ -721,9 +721,15 @@ aspect-ratio: 5/3 !important;
 @media(max-width: 768px){
 #app > div.app-inner.flex.flex-col.min-h-full > div.prestige-about-us.relative.overflow-hidden.block.block > div > div > div.relative{
 	order: -1 !important;
-}}
+}
+	#app > div.special-product .container{
+padding-top: 0.5rem !important;
+        margin-top: 0rem !important;
+}
+}
 
 
 .prestige-about-us{
 	margin-top: 2.5rem !important;
 }
+
