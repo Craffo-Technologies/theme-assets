@@ -1,3 +1,106 @@
  .s-product-card-entry .s-product-card-content h3 a{
 	text-align: center !important;
 }
+
+#mainnav .grid > .flex.items-center.justify-end.col-span-2 {
+  display: flex !important;
+  align-items: center !important;
+  flex-wrap: nowrap !important;
+  gap: 6px !important;   
+}
+
+#mainnav .grid > .flex.items-center.justify-end.col-span-2 
+  > div:not(.use_icons_for_language_and_currency) {
+  display: contents !important;
+}
+
+#mainnav .grid > .flex.items-center.justify-end.col-span-2 
+  > div:not(.use_icons_for_language_and_currency) > .flex {
+  display: contents !important;
+}
+
+#mainnav salla-user-menu,
+#mainnav salla-wishlist-summary,
+#mainnav salla-cart-summary,
+#mainnav .icon-search {
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  width: 26px !important;
+  height: 26px !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  line-height: 1 !important;
+  flex: 0 0 auto !important;
+}
+
+#mainnav salla-wishlist-summary .s-wishlist-summary-wrapper,
+#mainnav salla-cart-summary .s-cart-summary-wrapper,
+#mainnav salla-user-menu .s-user-menu-trigger {
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  position: relative !important;
+}
+
+#mainnav salla-wishlist-summary svg,
+#mainnav salla-cart-summary .s-cart-summary-icon svg {
+  width: 21px !important;
+  height: 21px !important;
+  display: block !important;
+}
+
+#mainnav .icon-search {
+  font-size: 21px !important;
+}
+
+#mainnav salla-cart-summary .header-btn__icon,
+#mainnav salla-cart-summary .s-cart-summary-icon {
+  font-size: 21px !important;
+  line-height: 1 !important;
+  display: inline-flex !important;
+  align-items: center !important;
+}
+
+#mainnav salla-user-menu .s-user-menu-trigger-avatar {
+  width: 24px !important;
+  height: 24px !important;
+  border-radius: 50% !important;
+  object-fit: cover !important;
+  display: block !important;
+}
+
+#mainnav salla-user-menu .s-user-menu-avatar-wrap {
+  display: inline-flex !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+#mainnav salla-cart-summary .s-cart-summary-count {
+  position: absolute !important;
+  top: -6px !important;
+  inset-inline-end: -8px !important;
+  margin: 0 !important;
+}
+
+#mainnav salla-cart-summary .s-cart-summary-content {
+  display: none !important;    
+}
+
+
+.s-wishlist-summary-icon{
+	border: none !important;
+}
+
+#mainnav salla-wishlist-summary,
+#mainnav salla-wishlist-summary .s-wishlist-summary-wrapper,
+#mainnav salla-wishlist-summary .s-wishlist-summary-icon {
+  color: var(--color-header-text) !important;
+}
+
+#mainnav salla-wishlist-summary svg,
+#mainnav salla-wishlist-summary svg path {
+  fill: currentColor !important;
+}
