@@ -173,3 +173,8 @@ salla-comments .s-comments.s-comments-product{
 .art-main-nav  .salla-wishlist-summary , .art-main-nav  .s-wishlist-summary-wrapper{
 display: none !important;	
 }
+
+
+ .s-product-card-entry .s-product-card-content h3 a{
+	text-align: center !important;
+}
