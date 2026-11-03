@@ -33,3 +33,140 @@ body.product-single ticketing-system {
   transform: translateY(-75px);
   z-index: 2147483647;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ===== شاشة التحميل - متوافقة مع سفاري ===== */
+
+:root {
+  --loader-bg: #ffffff;      /* لون شاشة التحميل */
+  --page-bg: #ffffff;        /* لون الموقع بعد التحميل */
+  --loader-time: 2.7s;       /* مدة شاشة التحميل */
+}
+
+/* 1) لون شريط الدومين في سفاري أثناء التحميل */
+html,
+body {
+  background-color: var(--page-bg);
+  animation: wq-bar var(--loader-time) ease;
+  -webkit-animation: wq-bar var(--loader-time) ease;
+}
+
+@keyframes wq-bar {
+  0%, 80% { background-color: var(--loader-bg); }
+  100%    { background-color: var(--page-bg); }
+}
+@-webkit-keyframes wq-bar {
+  0%, 80% { background-color: var(--loader-bg); }
+  100%    { background-color: var(--page-bg); }
+}
+
+/* 2) الطبقة الخلفية - بتغطي الشاشة كلها بما فيها ورا الشريط */
+body::before {
+  content: "" !important;
+  position: fixed !important;
+  top: -150px !important;
+  bottom: -150px !important;
+  left: 0 !important;
+  right: 0 !important;
+  width: 100% !important;
+  height: auto !important;
+  min-height: calc(100lvh + 300px) !important;
+  background-color: var(--loader-bg) !important;
+  z-index: 2147483646 !important;
+  pointer-events: none !important;
+  opacity: 0;
+  visibility: hidden;
+  animation: wq-intro var(--loader-time) ease forwards !important;
+  -webkit-animation: wq-intro var(--loader-time) ease forwards !important;
+}
+
+/* 3) اللوجو في النص */
+body::after {
+  content: "" !important;
+  position: fixed !important;
+  top: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+  width: 100% !important;
+  height: 100lvh !important;
+  background-image: url("https://cdn.files.salla.network/other/1405293542/153b4572-4c75-42ce-abe4-a6fd8ba1333a-original.webp") !important;
+  background-repeat: no-repeat !important;
+  background-position: center center !important;
+  background-size: 20% auto !important;
+  z-index: 2147483647 !important;
+  pointer-events: none !important;
+  opacity: 0;
+  visibility: hidden;
+  animation: wq-logo var(--loader-time) ease forwards !important;
+  -webkit-animation: wq-logo var(--loader-time) ease forwards !important;
+}
+
+/* اللوجو أكبر شوية على الموبايل */
+@media (max-width: 768px) {
+  body::after { background-size: 40% auto !important; }
+}
+
+/* أنيميشن الطبقة: ثابتة وبعدين تختفي */
+@keyframes wq-intro {
+  0%, 80% { opacity: 1; visibility: visible; }
+  100%    { opacity: 0; visibility: hidden; }
+}
+@-webkit-keyframes wq-intro {
+  0%, 80% { opacity: 1; visibility: visible; }
+  100%    { opacity: 0; visibility: hidden; }
+}
+
+/* أنيميشن اللوجو: يظهر بنعومة وبعدين يختفي */
+@keyframes wq-logo {
+  0%      { opacity: 0; visibility: visible; transform: scale(0.9); }
+  20%     { opacity: 1; transform: scale(1); }
+  70%     { opacity: 1; }
+  100%    { opacity: 0; visibility: hidden; }
+}
+@-webkit-keyframes wq-logo {
+  0%      { opacity: 0; visibility: visible; -webkit-transform: scale(0.9); }
+  20%     { opacity: 1; -webkit-transform: scale(1); }
+  70%     { opacity: 1; }
+  100%    { opacity: 0; visibility: hidden; }
+}
