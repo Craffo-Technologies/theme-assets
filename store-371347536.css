@@ -2,7 +2,10 @@
 متجر الالعاب فلاش
 store : https://salla.sa/salla-.com-
 */
-
+.s-product-options-option input:where([type=radio]),
+.s-product-options-grid-mode-span{
+    color: var(--main-text-color) !important;
+}
  body .s-product-options-option-label b,
  body .s-quantity-input-input{
 color: var(--main-text-color) !important;
