@@ -3,14 +3,25 @@
 store : https://salla.sa/salla-.com-
 */
 
+ body .s-product-options-option-label b,
+ body .s-quantity-input-input{
+color: var(--main-text-color) !important;
+}
+
+body .s-bought-together-entry,
+ body .s-quantity-input-input{
+	background-color: transparent !important;
+}
+
+.s-bought-together-header *{
+	color: var(--main-text-color) !important;
+}
+
 div.main-content.w-full > section.bg-white,div.main-content.w-full > section > form > div.grid.grid-cols-1.text-center > div,#tabs-id > div > div.bg-white{
 background-color: var(--background-color-theme) !important ;
 }
 div.main-content.w-full > section > form .form-label,#tab-description > div > p > span,#tabs-id > div > ul > li > a{
 color: var(--main-text-color) !important;
-}
-.s-quantity-input-input{
-color: var(--color-primary) !important;
 }
 
 #product-filter,#app > div.app-inner.flex.flex-col.min-h-full > div.container.mt-5 > div > div.sticky.top-24.w-full{
@@ -94,9 +105,7 @@ background: var(--background-color-theme) !important;
 
 }
 
- body .s-product-options-option-label b{
-color: black !important;
-}
+
 
 /* ****** */
 
