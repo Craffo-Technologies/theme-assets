@@ -1,0 +1,73 @@
+
+.tala-main-links .s-slider-block__title {
+  display: none !important;
+}
+
+.tala-main-links .s-slider-container {
+  overflow: visible !important;
+}
+
+.tala-main-links .s-slider-swiper-wrapper {
+  display: grid !important;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 20px 10px;
+  transform: none !important;
+  width: 100% !important;
+  height: auto !important;
+}
+
+@media (min-width: 768px) {
+  .tala-main-links .s-slider-swiper-wrapper {
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+    gap: 30px 20px;
+  }
+}
+
+.tala-main-links .swiper-slide {
+  width: auto !important;
+  margin: 0 !important;
+  height: auto !important;
+  flex-shrink: unset !important;
+}
+
+.tala-main-links .swiper-slide > .aspect-square {
+  aspect-ratio: auto !important;
+  overflow: visible !important;
+}
+
+.tala-main-links .swiper-slide > .aspect-square > a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+}
+
+.tala-main-links .swiper-slide > .aspect-square > a > div:first-child {
+  width: 100%;
+  height: auto !important;
+  aspect-ratio: 1 / 1;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.tala-main-links .swiper-slide .text {
+  position: static !important;
+  transform: none !important;
+  width: 100%;
+  margin-top: 10px;
+  padding: 0 !important;
+}
+
+.tala-main-links .swiper-slide .text h3 {
+    color: var(--main-text-color)  !important;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.5;
+  margin: 0;
+}
+
+@media (min-width: 768px) {
+  .tala-main-links .swiper-slide .text h3 {
+    font-size: 18px;
+  }
+}
