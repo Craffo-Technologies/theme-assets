@@ -1,0 +1,156 @@
+.abayat-main-nav-container .inner > div > .flex.items-center.justify-between {
+  position: relative;
+}
+
+.abayat-main-nav-container .navbar-brand {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 !important;
+}
+
+
+
+@media (min-width: 1024px) {
+  .abayat-main-nav-container .inner > div > .flex.items-center.justify-between > div:first-child {
+    max-width: calc(50% - 110px);
+  }
+}
+
+
+
+body {
+  --athar-radius: 0.5rem;
+}
+
+body custom-salla-product-card .s-product-card-image,
+body custom-salla-product-card .s-product-card-image-cover {
+  border-radius: var(--athar-radius) !important;
+  overflow: hidden;
+}
+
+body .abayat-categories-section a.group,
+body .abayat-categories-section a.group img {
+  border-radius: var(--athar-radius) !important;
+}
+
+body .abayat-categories a.group {
+  border-radius: var(--athar-radius) !important;
+}
+
+body .abayat-categories-slide .bg-cover {
+  border-radius: var(--athar-radius) !important;
+}
+
+body .size-guide-image-placeholder-advanced {
+  border-radius: var(--athar-radius) !important;
+}
+
+
+body .s-button-element,
+body .s-product-card-quick-view-btn,
+body .s-product-card-wishlist-btn {
+  border-radius: var(--athar-radius) !important;
+}
+
+body .abayat-countdown a.rounded-full {
+  border-radius: var(--athar-radius) !important;
+}
+
+body .size-guide-calculate-btn-advanced,
+body .size-guide-input-field-advanced {
+  border-radius: var(--athar-radius) !important;
+}
+
+body .s-slider-nav-arrow {
+  border-radius: var(--athar-radius) !important;
+}
+
+body .abayat-store-header .header-search,
+body .abayat-store-header .custom-login-btn {
+  border-radius: var(--athar-radius) !important;
+}
+
+
+
+
+
+.s-product-card-entry{
+	background-color: transparent !important;
+}
+.s-product-card-entry .s-product-card-content .s-product-card-content-main .s-product-card-content-title a{
+	text-align: center !important;
+}
+
+
+
+
+body.salla-2070349802 img:not(.rounded-full):not(.navbar-brand img):not(.s-payments-list img):not(.s-trust-badges-image):not(.sw-logo) {
+  border-radius: var(--athar-radius) !important;
+}
+
+body button:not(#smartwats--btn):not(.sw-close),
+body .s-button-element,
+body a.rounded-full[class*="px-"] {
+  border-radius: var(--athar-radius) !important;
+}
+
+.s-product-options-wrapper{
+	background-color: transparent !important;
+}
+
+
+footer .copyright-text > p {
+  font-size: 0 !important;
+}
+
+footer .copyright-text > p > a[href*="salla.com"] {
+  display: none !important;
+}
+
+footer .copyright-text > p::before {
+  content: "جميع الحقوق محفوظة | 2026 أثَر | ATHAR";
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+.abayat-main-content .s-product-options-grid-mode-span{
+	 border-radius: var(--athar-radius) !important;
+}
+
+.product-single .bg-white{
+	    background-color: var(--color-background) !important;
+}
+header.abayat-store-header,
+.abayat-store-header #mainnav.abayat-main-nav-container,
+.abayat-store-header #mainnav.abayat-main-nav-container .inner {
+ background-color: color-mix(in srgb, var(--color-header-background) 40%, transparent) !important;
+  box-shadow: none !important;
+  --tw-shadow: none !important;
+}
+
+
+
+@media (max-width: 767px) {
+   .s-product-card-entry:hover .s-product-card-add-to-cart-mobile button,
+     .s-product-card-entry .s-product-card-add-to-cart-mobile:hover button
+   {
+    	    background-color: var(--color-btn-single-product) !important;
+    border-color: var(--color-btn-single-product) !important;
+    color: #d1baa2 !important;
+    }}
+    
+ .abayat-main-content .s-add-product-button-main .s-add-product-button-mini-checkout {
+    --salla-fast-checkout-button-border-radius: 0.5rem !important;
+ 	padding-bottom: unset !important;
+ }
+.abayat-main-content .s-add-product-button-main .s-add-product-button-mini-checkout{
+    	    background-color: var(--color-btn-single-product) !important;
+    border-color: var(--color-btn-single-product) !important;
+    color: #d1baa2 !important;
+    }
+ 
