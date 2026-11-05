@@ -285,3 +285,78 @@ footer ul > a[href*="tiktok"]:hover > .olla-social i {
   color: #fff;
   transform: translateY(-2px);
 }
+
+.olla-categories .olla-categories-title h2::after {
+  content: "";
+  display: block;
+  width: min(100%, 220px);
+  height: 16px;
+  margin: 0.5rem auto 0;
+  background-color: var(--color-primary, #10b981);
+
+  --olla-diamond: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><polygon points="8,1.5 14.5,8 8,14.5 1.5,8" fill="none" stroke="black" stroke-width="1.3"/><polygon points="8,5 11,8 8,11 5,8" fill="black"/></svg>');
+
+  -webkit-mask-image: var(--olla-diamond), linear-gradient(black, black), linear-gradient(black, black);
+          mask-image: var(--olla-diamond), linear-gradient(black, black), linear-gradient(black, black);
+  -webkit-mask-position: center, left center, right center;
+          mask-position: center, left center, right center;
+  -webkit-mask-size: 16px 16px, calc(50% - 14px) 2px, calc(50% - 14px) 2px;
+          mask-size: 16px 16px, calc(50% - 14px) 2px, calc(50% - 14px) 2px;
+  -webkit-mask-repeat: no-repeat;
+          mask-repeat: no-repeat;
+}
+
+.olla-categories .olla-categories-title h2::after {
+  width: 220px;           
+  max-width: 70vw;   
+  margin-inline: auto;
+  position: relative;
+  inset-inline-start: 50%;
+  transform: translateX(50%);
+}
+[dir="ltr"] .olla-categories .olla-categories-title h2::after {
+  transform: translateX(-50%);
+}
+
+.olla-categories .olla-categories-title > div > a:empty {
+  display: none;
+}
+section.olla-categories .olla-categories-title ~ div {
+    --olla-cols: 6;
+    --olla-gap: 24px;
+    display: flex !important;
+    flex-wrap: wrap;
+    justify-content: center !important;
+    align-items: flex-start !important;
+    gap: var(--olla-gap) !important;
+    max-width: 1100px;
+    margin-inline: auto;
+}
+
+section.olla-categories .olla-categories-category {
+    flex: 0 0 calc((100% - (var(--olla-cols) - 1) * var(--olla-gap)) / var(--olla-cols));
+    min-width: 0;
+}
+
+section.olla-categories .olla-categories-category .w-24.h-24 {
+    width: 100% !important;
+    height: auto !important;
+    aspect-ratio: 8 / 10;
+}
+
+section.olla-categories .olla-categories-category h4 {
+    text-align: center;
+    font-size: 17px;
+    line-height: 1.4;
+    margin-top: 6px;
+}
+
+@media (max-width: 767px) {
+    section.olla-categories .olla-categories-title ~ div {
+        --olla-cols: 4;
+        --olla-gap: 12px;
+    }
+    section.olla-categories .olla-categories-category h4 {
+        font-size: 14px;
+    }
+}
