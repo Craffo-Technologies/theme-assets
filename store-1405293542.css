@@ -1,24 +1,23 @@
 footer li:has(img[alt='mahally_customer_wallet']) {
-	display: none !important;
+  display: none !important;
 }
 
 header div.cursor-pointer:has(> i.sicon-lang),
 salla-localization-modal {
-	display: none !important;
+  display: none !important;
 }
 
 button.s-button-element.s-button-btn.s-button-solid.s-button-wide.s-button-primary.s-button-loader-center {
-	border-radius: 0.75rem !important;
-	padding: unset !important;
-	height: 2.5rem;
+  border-radius: 0.75rem !important;
+  padding: unset !important;
+  height: 2.5rem;
 }
 
 .prestige-product-card-content-text .s-button-btn {
-	width: 100%;
-	border-radius: 0.75rem !important;
-	margin-top: 1rem;
+  width: 100%;
+  border-radius: 0.75rem !important;
+  margin-top: 1rem;
 }
-
 
 body.product-single a[href*="whatsapp"] > button.fixed {
   bottom: 130px !important;
@@ -34,54 +33,9 @@ body.product-single ticketing-system {
   z-index: 2147483647;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 :root {
-  --loader-bg: #ffffff;
-  --page-bg: #ffffff;
+  --loader-bg: var(--background-color-theme, #ffffff);
+  --page-bg: var(--background-color-theme, #ffffff);
   --loader-time: 2.7s;
 }
 
