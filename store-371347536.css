@@ -2,6 +2,22 @@
 متجر الالعاب فلاش
 store : https://salla.sa/salla-.com-
 */
+
+body .s-comments-product{
+    background-color: var(--background-color-theme) !important;
+}
+body .s-comments-product .s-comments-container *{
+	 color: var(--main-text-color) !important;
+}
+
+body .s-comments-product .s-comments-container .s-infinite-scroll-wrapper .s-button-primary{
+	background-color: var(--background-color-theme) !important;
+	
+}
+
+body .s-comments-product .s-form-control{
+	 background-color: var(--background-color-theme) !important;
+}
 .s-product-options-option input:where([type=radio]),
 .s-product-options-grid-mode-span{
     color: var(--main-text-color) !important;
