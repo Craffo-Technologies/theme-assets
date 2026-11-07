@@ -4,3 +4,6 @@ background-color: var(--color-background) !important;
 .s-trust-badges-wrapper ,.s-trust-badges-wrapper *{
 	display: none !important;
 }
+.s-block--slider-with-bg{
+	background-color: var(--color-background) !important;
+}
