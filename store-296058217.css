@@ -6,3 +6,9 @@ background: var(--color-footer-main) !important;
 color: #F3E7E1 !important;
 }
 
+
+
+
+custom-salla-product-card .swiper img {
+  pointer-events: auto !important;
+}
