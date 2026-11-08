@@ -153,4 +153,30 @@ header.abayat-store-header,
     border-color: var(--color-btn-single-product) !important;
     color: #d1baa2 !important;
     }
- 
+
+
+
+
+body:not(.index)::before,
+body:not(.index)::after {
+  display: none !important;
+}
+
+
+salla-mini-checkout-widget.s-add-product-button-mini-checkout {
+  --mc-radius: 0.5rem; 
+  border-radius: var(--mc-radius);
+  overflow: hidden; 
+}
+
+salla-mini-checkout-widget.s-add-product-button-mini-checkout .s-add-product-button-mini-checkout-content {
+  border-radius: var(--mc-radius);
+}
+
+salla-mini-checkout-widget.s-add-product-button-mini-checkout::part(button) {
+  border-radius: var(--mc-radius);
+}
+
+.s-comments-product{
+	background: #a68c74 !important;
+}
