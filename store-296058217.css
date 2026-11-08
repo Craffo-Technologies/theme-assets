@@ -12,3 +12,20 @@ color: #F3E7E1 !important;
 custom-salla-product-card .swiper img {
   pointer-events: auto !important;
 }
+
+
+custom-salla-product-card .swiper-pagination-bullet {
+  width: 6px !important;
+  height: 6px !important;
+  margin: 0 3px !important;
+  border-radius: 50% !important;
+}
+
+custom-salla-product-card .swiper-pagination-bullet-active {
+  width: 14px !important;
+  border-radius: 3px !important;
+}
+
+custom-salla-product-card .swiper-pagination {
+  bottom: 8px !important;
+}
