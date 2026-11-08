@@ -1,0 +1,30 @@
+@media (max-width: 1023px) {
+  .notah-main-nav-container .container > .flex {
+    position: relative;
+  }
+  .notah-main-nav-container .container > .flex > .flex > a.navbar-brand {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    z-index: 1;
+  }
+}
+
+.notah-copyright .copyright-text,
+.s-trust-badges-wrapper,
+.s-trust-badges-wrapper *{
+  display: none !important;
+}
+
+.notah-store-footer .s-contacts a.s-contacts-item[href^="tel:"] {
+  display: none !important;
+}
+
+.content.content--single-page{
+	background-color: transparent !important;
+}
+form.form.product-form,form.form.product-form *{
+background-color: var(--color-background) !important;
+}
