@@ -67,15 +67,10 @@ padding: unset !important;
 /* **** */
 
 
-.s-block.s-block--categories   .swiper-wrapper , #main-links-5 > div.swiper.s-slider-container , .swiper-wrapper a  h2 , .art-video-banner .swiper-slide a > h2  {
+ .swiper-wrapper a  h2 , .art-video-banner .swiper-slide a > h2  {
 justify-content: center !important;
 margin: auto !important;
 text-align: center !important;
-}
-
-body #main-links-2 .swiper-wrapper {
-  justify-content: flex-start !important;
-  margin: 0 !important;
 }
 
 /* **** */
