@@ -73,6 +73,9 @@ margin: auto !important;
 text-align: center !important;
 }
 
-
+body #main-links-2 .swiper-wrapper {
+  justify-content: flex-start !important;
+  margin: 0 !important;
+}
 
 /* **** */
