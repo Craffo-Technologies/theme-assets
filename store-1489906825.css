@@ -29,3 +29,8 @@ padding: 0 !important;
 }
 }
 
+@media(max-width: 768px){
+ footer salla-social{
+	padding-bottom: 2rem !important;
+}}
+
