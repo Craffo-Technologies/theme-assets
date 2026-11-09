@@ -25,6 +25,8 @@
 .content.content--single-page{
 	background-color: transparent !important;
 }
-form.form.product-form,form.form.product-form *{
-background-color: var(--color-background) !important;
+
+body.product-single form.product-form.form,
+body.product-single form.product-form.form *:not(button):not(button *):not(salla-button):not(salla-button *):not(salla-add-product-button):not(salla-add-product-button *):not(salla-mini-checkout-widget):not(salla-quick-buy):not(salla-quick-buy *):not(.s-quantity-input-button):not(.btn-tab):not(.btn-tab *) {
+  background-color: var(--color-background) !important;
 }
