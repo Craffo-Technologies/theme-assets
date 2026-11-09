@@ -95,3 +95,8 @@ body:after {
         margin-bottom: -2rem !important;
     }
 }
+
+ body .s-product-card-entry .s-product-card-content h3 a{
+	text-align: center !important;
+}
+
