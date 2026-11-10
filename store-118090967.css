@@ -1,0 +1,14 @@
+.s-trust-badges-wrapper,
+.s-trust-badges-wrapper *{
+	display: none !important;
+}
+ .s-product-card-entry .s-product-card-content-title{
+    padding-bottom: 1rem !important;
+
+}
+
+ .s-product-card-entry .s-product-card-content h3 a{
+	text-align: center !important;
+	height: 3rem !important;
+	overflow: hidden !important;
+}
