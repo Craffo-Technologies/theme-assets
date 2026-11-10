@@ -3,6 +3,14 @@
 	display: none !important;
 }
 
- .s-product-card-entry .s-product-card-content h3 a{
+ .s-product-card-entry  .s-product-card-content h3 a{
 	text-align: center !important;
 }
+
+ .s-product-card-entry .s-product-card-rating{
+	display: none !important;
+}
+
+ .s-product-card-entry .s-product-card-sale-price{
+ 	display: flex !important;
+ }
