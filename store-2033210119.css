@@ -2,7 +2,9 @@
 	store : https://designersaara.com/
 */
 
-
+body .kayan-card .s-product-card-rating{
+	display: none !important;
+}
 
 .horizontal-products.s-products-list.hydrated  .s-products-list-wrapper.s-products-list-horizontal-cards  .s-product-card-entry.s-product-card-horizontal {
     flex-direction: column !important;
