@@ -953,4 +953,6 @@ justify-content: center !important;
     line-height: 1.5;
   }
 }
-
+.s-block--marquee.is-mini {
+direction: rtl !important;
+}
