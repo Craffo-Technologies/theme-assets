@@ -1,0 +1,188 @@
+.cart  section.cart-item.bg-white,
+.cart .bg-white{
+	background-color:  transparent !important;
+}
+
+.cart .s-cart-summary-card ,
+.cart .s-cart-summary-card-bar{
+		background-color: #4A342A !important;
+}
+ .s-cart-summary-card *{
+	color: #d9d1c6 !important;
+}
+
+.cart #s-cart-summary-card-submit > button > span{
+	color: #4A342A !important;
+}
+.yasmeen-text-with-photo p,
+.yasmeen-text-with-photo .yasmeen-text-with-photo__title{
+  color: #4A342A !important;
+}
+
+
+salla-slider.details-slider .s-slider-container,
+.yasmeen-sidebar .s-slider-thumbs .swiper-wrapper .swiper-slide{
+	  border: none !important;
+}
+.s-product-card-content-footer salla-add-product-button{
+	background-color: #4A342A !important;
+}
+.yasmeen-images-slider button.btn--wishlist,
+.yasmeen-images-slider button.s-social-share-btn,
+.yasmeen-images-slider .s-slider-nav-arrow,
+.yasmeen-images-slider button.btn--wishlist:hover,
+.yasmeen-images-slider button.s-social-share-btn:hover,
+.yasmeen-images-slider .s-slider-nav-arrow:hover,
+.yasmeen-images-slider button.btn--wishlist:focus,
+.yasmeen-images-slider button.s-social-share-btn:focus,
+.yasmeen-images-slider .s-slider-nav-arrow:focus {
+  background: transparent !important;
+  border-color: transparent !important;
+  box-shadow: none !important;
+}
+
+
+
+#yasmeen-tabs salla-tab-header[name="tab_comments"] {
+ display: none !important;
+}
+
+@media (max-width: 767px) {
+  .yasmeen-text-with-photo .grid {
+    grid-template-columns: 35% 1fr;
+    gap: 10px;
+    align-items: center;
+  }
+
+  .yasmeen-text-with-photo .grid > .col-span-2 {
+    grid-column: auto;
+    gap: 6px;
+    min-width: 0;
+  }
+
+  .yasmeen-text-with-photo .grid > div:first-child img {
+    height: auto;
+    max-height: 220px;
+  }
+
+  .yasmeen-text-with-photo span {
+    font-size: 11px;
+  }
+
+  .yasmeen-text-with-photo h2 {
+    font-size: 16px;
+    line-height: 1.3;
+  }
+
+  .yasmeen-text-with-photo p {
+    font-size: 11px;
+    line-height: 1.6;
+    padding-bottom: 0;
+  }
+  #app > section.yasmeen-text-with-photo.container.mx-auto.block.block > div{
+  	padding-top: 0.4rem !important;
+  	padding-bottom: 0.4rem !important;
+  }
+}
+
+
+.yasmeen-main-content.main-content > form > section.bg-white.rounded-md.mb-5,
+.yasmeen-main-content.main-content > form > section.flex.bg-white.rounded-md.rounded-b-none,
+.yasmeen-main-content.main-content > form > section.sticky-product-bar.bg-white{
+background-color: var(--color-background) !important;
+}
+
+.yasmeen-main-content.main-content > form > section.sticky-product-bar.bg-white .s-button-primary,
+.s-add-product-button-main .s-add-product-button-mini-checkout,
+.s-fast-checkout-button,
+.s-quantity-input-input{
+	    background-color:  #4A342A !important;
+      color: var(--color-primary)!important;
+}
+body .s-add-product-button-main .s-add-product-button-mini-checkout {
+    --salla-fast-checkout-button-border-radius: unset !important;
+}
+ 
+ body .s-fast-checkout-button{
+ 	border-color: unset !important;
+ }
+
+footer .s-payments-list-item{
+	background-color: unset !important;
+}
+.yasmeen-main-content.main-content h2.product-entry__sub-title{
+	color: rgba(31, 41, 55, var(--tw-text-opacity, 1)) !important;
+}
+
+
+body {
+	color: #4A342A !important ;
+}
+.yasmeen-main-content.main-content.top-24.w-full> form > section.bg-white.rounded-md.mb-5 > div > div > div> button{
+ background-color:  #4A342A !important;
+      color: var(--color-primary)!important;
+}
+
+
+.yasmeen-wrapper-taps .s-tabs-header .s-tabs-header-item{
+	color: #4A342A !important ;
+}
+.yasmeen-wrapper-taps .s-tabs-header .s-tabs-active{
+	color: #4A342A !important;
+    border-bottom: 1px solid #4A342A!important;
+}
+
+
+.yasmeen-main-content.main-content h1,
+.yasmeen-main-content.main-content h2,
+.yasmeen-main-content.main-content.top-24.w-full > form > section.flex.bg-white.rounded-md.rounded-b-none > div > label > b,
+.yasmeen-main-content.main-content.top-24.w-full > form > section.bg-white.rounded-md.mb-5 > div > label > b
+{
+		color: #4A342A !important;
+}
+
+
+
+
+.content.content--single-page.w-full{
+		background-color: transparent !important;
+}
+#app > div.mm-ocd{
+	    background-color: var(--upper-main-color) !important;
+    color: var(--upper-text-color) !important;
+}
+
+.copyright-text p,
+.copyright-text span,
+.copyright-text *,
+.copyright-text p a
+
+{
+    font-size: 0 !important;
+}
+
+.copyright-text p::before {
+    content: "الحقوق محفوظة | 1804";
+    font-size: 14px;
+    
+}
+#app > footer > div.text-center.bg-white{
+    background-color: var(--footer-main-color) !important;
+}
+
+
+html[dir="ltr"] .copyright-text p::before {
+    content: "All Rights Reserved |1804 ";
+}
+
+.s-verified-review-container{
+	background-color: var(--color-background) !important;
+	border-color: #4A342A  !important;
+}
+.yasmeen-store-header .s-cart-summary-count{
+	    color: var(--upper-text-color) !important;
+}
+salla-quantity-input.border-gray-200.flex.justify-end.s-quantity-input.hydrated,
+.s-quantity-input-container{
+		border-color: #4A342A  !important;
+}
