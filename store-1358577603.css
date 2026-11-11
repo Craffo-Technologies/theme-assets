@@ -777,3 +777,180 @@ padding-top: 0.5rem !important;
 	margin-top: 2.5rem !important;
 }
 
+.prestige-faq .accordion-container {
+  display: grid !important;
+  grid-template-columns: minmax(0, 1fr) !important;
+  gap: 10px !important;
+  align-items: start !important;
+  max-width: 100% !important;
+}
+
+.prestige-faq .prestige-accordion {
+  align-self: start !important;
+  height: auto !important;
+  margin: 0 !important;
+  min-width: 0;
+}
+
+.prestige-faq .prestige-faq-label h5 {
+  font-size: 15px !important;
+}
+.prestige-faq .prestige-faq-label i {
+  font-size: 15px !important;
+}
+.prestige-faq .prestige-contentBox p {
+  font-size: 13px !important;
+}
+
+@media (min-width: 768px) {
+  .prestige-faq .accordion-container {
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+    gap: 16px 24px !important;
+    max-width: 1100px !important;
+    margin-inline: auto;
+  }
+  .prestige-faq .prestige-faq-label h5 {
+    font-size: 16px !important;
+  }
+  .prestige-faq .prestige-contentBox p {
+    font-size: 14px !important;
+  }
+}
+
+
+@media (max-width: 767px) {
+ 
+  .prestige-faq .container {
+    padding-top: 0.5rem !important;
+    padding-bottom: 0.5rem !important;
+  }
+  .prestige-faq .prestige-faq-title {
+    margin-bottom: 1rem !important;
+  }
+  .prestige-faq .prestige-faq-title h2 {
+    font-size: 18px !important;
+  }
+  .prestige-faq .accordion-container {
+    gap: 8px !important;
+  }
+  .prestige-faq .prestige-accordion {
+    padding-top: 8px !important;
+    padding-bottom: 8px !important;
+  }
+  .prestige-faq .prestige-faq-label {
+    gap: 6px;
+  }
+  .prestige-faq .prestige-faq-label h5 {
+    font-size: 13px !important;
+    line-height: 1.4;
+  }
+  .prestige-faq .prestige-faq-label i {
+    font-size: 12px !important;
+  }
+  .prestige-faq .prestige-contentBox p {
+    font-size: 12px !important;
+    line-height: 1.6 !important;
+    padding-top: 6px !important;
+  }
+}
+
+
+
+
+
+
+html[dir="ltr"] .prestige-about-us .space-y-6 > .flex.flex-wrap.gap-6.pt-4 {
+  display: grid !important;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.5rem;
+  align-items: stretch;
+}
+
+html[dir="ltr"] .prestige-about-us .space-y-6 > .flex.flex-wrap.gap-6.pt-4 > div {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: stretch !important;
+  justify-content: flex-start !important;
+  text-align: left !important;
+  height: 100%;
+  min-width: 0;
+  box-sizing: border-box;
+  border-left: 2px solid #3a9fd4;
+  padding-left: 1rem;
+}
+
+html[dir="ltr"] .prestige-about-us .space-y-6 > .flex.flex-wrap.gap-6.pt-4 > div > .text-3xl {
+  width: 100%;
+  margin-bottom: 0.5rem;
+  text-align: left !important;
+}
+
+html[dir="ltr"] .prestige-about-us .space-y-6 > .flex.flex-wrap.gap-6.pt-4 > div > .text-sm {
+  flex: 1;
+  width: 100%;
+  max-width: 100%;
+  text-align: left !important;
+  border-width: 0 !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+@media (max-width: 480px) {
+  html[dir="ltr"] .prestige-about-us .space-y-6 > .flex.flex-wrap.gap-6.pt-4 {
+    gap: 0.75rem;
+  }
+
+  html[dir="ltr"] .prestige-about-us .space-y-6 > .flex.flex-wrap.gap-6.pt-4 > div {
+    padding-left: 0.6rem;
+  }
+
+  html[dir="ltr"] .prestige-about-us .space-y-6 > .flex.flex-wrap.gap-6.pt-4 > div > .text-3xl {
+    font-size: 1.25rem;
+  }
+        html[dir="ltr"] .prestige-about-us .grid > .space-y-6 > .flex.flex-wrap > div{
+      	row-gap: unset !important;
+      }
+}
+
+#app > section.prestige-before-and-after.h-full.px-1.py-5.relative.block.block > div > div > div.prestige-before-and-after-header.flex.flex-col.justify-center.items-center > span{
+	text-align: center !important;
+}
+
+
+
+#app > div.special-product.block.block > div > div > div.order-2> a > button,
+.prestige-card button,
+.main-content.w-full> section.bg-white.p-5.rounded-md.rounded-b-none > form > section > salla-add-product-button > div > salla-button > button{
+	border-radius: .75rem !important;
+}
+
+.prestige-product-card-content-text {
+justify-content: center !important;
+}
+
+@media (max-width: 767px) {
+  .prestige-faq .prestige-faq-label > span.relative.flex {
+    width: 1.75rem !important;
+    height: 1.75rem !important;
+    min-width: 1.75rem !important;
+    padding: 0 !important;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+  }
+
+  .prestige-faq .prestige-faq-label > span.relative.flex > i {
+    font-size: 14px !important;
+    line-height: 1;
+  }
+
+  .prestige-faq .prestige-faq-label {
+    gap: 0.75rem;
+  }
+
+  .prestige-faq .prestige-faq-label h5 {
+    font-size: 16px !important;
+    line-height: 1.5;
+  }
+}
+
