@@ -1055,3 +1055,7 @@ html[dir="rtl"] .prestige-about-us .space-y-6 > .flex.flex-wrap.gap-6.pt-4 > div
 html[dir="ltr"] .prestige-about-us .space-y-6 > .flex.flex-wrap.gap-6.pt-4 > div {
   box-shadow: -5px 0 0 0 #3a9fd4, 0 4px 14px rgba(26, 58, 82, 0.06) !important;
 }
+
+section.prestige-banner_rectangle h2{
+	font-weight: 600 !important;
+}
