@@ -180,3 +180,115 @@ salla-mini-checkout-widget.s-add-product-button-mini-checkout::part(button) {
 .s-comments-product{
 	background: #a68c74 !important;
 }
+
+
+@media (max-width: 1023px) {
+
+  #mainnav.abayat-main-nav-container .flex.items-center.flex-1.gap-1.justify-end {
+    position: static !important;
+  }
+
+  #mainnav.abayat-main-nav-container a.mburger {
+    margin: 0 !important;
+    margin-inline-end: 40px !important;
+  }
+  #mainnav.abayat-main-nav-container .header-search {
+    position: absolute !important;
+    top: 50% !important;
+    inset-inline-start: 32px !important;
+    transform: translateY(-50%) !important;
+    padding: 4px !important;
+    margin: 0 !important;
+    z-index: 2;
+  }
+
+  #mainnav.abayat-main-nav-container .flex.items-center.flex-1.gap-1.justify-end {
+    gap: 2px !important;
+  }
+  #mainnav.abayat-main-nav-container .flex.items-center.flex-1.gap-1.justify-end > *,
+  #mainnav .user-area.is-user > * {
+    margin: 0 !important;
+  }
+  #mainnav.abayat-main-nav-container .notah_show_language_currency {
+    padding: 2px 4px !important;
+    gap: 4px !important;
+  }
+
+  #mainnav .user-area.is-user {
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center !important;
+    gap: 2px !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  #mainnav .user-area .s-user-menu-trigger-slot,
+  #mainnav .user-area .s-user-menu-trigger,
+  #mainnav .user-area .s-user-menu-avatar-wrap {
+    background: transparent !important;
+    box-shadow: none !important;
+    border: 0 !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    width: auto !important;
+    height: auto !important;
+    min-width: 0 !important;
+  }
+  #mainnav .user-area .s-user-menu-trigger-avatar {
+    width: 28px !important;
+    height: 28px !important;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+
+  #mainnav .user-area .s-wishlist-summary-wrapper,
+  #mainnav.abayat-main-nav-container .s-cart-summary-wrapper {
+    padding: 4px !important;
+    margin: 0 !important;
+    width: auto !important;
+    min-width: 0 !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+  
+  .s-wishlist-summary-icon{
+	height: 1.5rem  !important;
+    width: 1rem !important;
+}
+#mainnav > div > div{
+	padding-left: 0.2rem !important;
+	padding-right: 0.2rem !important;
+}
+.abayat-store-header .header-btn__icon{
+	width: 12px !important;
+}
+}
+@media (max-width: 1023px) {
+
+  #mainnav.abayat-main-nav-container .flex.items-center.justify-between:has(> .flex-1 > a.mburger) {
+    position: relative !important;
+  }
+
+  #mainnav.abayat-main-nav-container .flex.items-center.flex-1.gap-1.justify-end,
+  #mainnav.abayat-main-nav-container .user-area {
+    position: static !important;
+    transform: none !important;
+    filter: none !important;
+    contain: none !important;
+  }
+
+  #mainnav.abayat-main-nav-container a.mburger {
+    margin-inline-end: 40px !important;
+  }
+
+  #mainnav.abayat-main-nav-container salla-wishlist-summary {
+    position: absolute !important;
+    top: 50% !important;
+    inset-inline-start: 50px !important;
+    transform: translateY(-50%) !important;
+    margin: 0 !important;
+    display: block !important;
+    z-index: 3;
+  }
+}
