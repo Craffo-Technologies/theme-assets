@@ -1,0 +1,44 @@
+@supports selector(:has(*)) {
+  @media (max-width: 767px) {
+
+    body.product-single {
+      display: flex;
+      flex-direction: column;
+    }
+
+    body.product-single > .container:has(> div > [id^="product-"]),
+    body.product-single > .container:has(> div > [id^="product-"]) > div,
+    body.product-single [id^="product-"].flex,
+    body.product-single [id^="product-"] > .yasmeen-main-content,
+
+    body.product-single > .container:has(> div > .yasmeen-wrapper-taps),
+    body.product-single > .container:has(> div > .yasmeen-wrapper-taps) > div {
+      display: contents;
+    }
+
+    body.product-single [id^="product-"] > .yasmeen-sidebar,
+    body.product-single [id^="product-"] > .yasmeen-main-content > *,
+    body.product-single .yasmeen-wrapper-taps {
+      width: auto !important;
+      margin-inline: 12px !important;
+      box-sizing: border-box;
+    }
+
+    body.product-single [id^="product-"] > .yasmeen-main-content > .inline-flex {
+      align-self: flex-start;
+    }
+
+    body.product-single .yasmeen-wrapper-taps {
+      order: 1;
+    }
+    body.product-single [id^="product-"] > .yasmeen-main-content > salla-bought-together {
+      order: 2;
+      display: block;
+      margin-top: 24px;
+      margin-bottom: 24px;
+    }
+    body.product-single > .container:has(> div > .yasmeen-wrapper-taps) ~ * {
+      order: 3;
+    }
+  }
+}
