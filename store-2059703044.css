@@ -110,3 +110,10 @@ footer salla-trust-badges{
 top: 29rem !important ;	
 }
 }
+
+ .s-product-card-entry .s-product-card-content h3 a{
+	text-align: center !important;
+}
+ .s-product-card-entry .s-product-card-content-sub > div.s-product-card-sale-price{
+ 	display: flex !important;
+ }
