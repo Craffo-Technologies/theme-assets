@@ -1,5 +1,6 @@
-ronaq-main-nav .nav-logo .navbar-brand img {
+ .navbar-brand img {
   max-width: 100% !important;
-  max-height: 100px !important;   
+  max-height: 5rem !important;   
 }
+
 
