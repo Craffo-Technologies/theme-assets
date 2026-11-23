@@ -1,0 +1,10 @@
+@media (max-width: 768px) {
+.s-products-slider-card {
+    max-width: 180px !important;
+}}
+.s-block--slider-with-bg{
+ background-color: var(--color-background-store) !important;
+}
+.s-product-options-colors-wrapper input[type=radio]+label div{
+	    color: var(--color-text-store) !important;
+}
