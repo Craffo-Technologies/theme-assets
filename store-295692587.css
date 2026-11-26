@@ -175,4 +175,21 @@ overflow: unset !important;
 }
 
 
+.product-single .btn--collapse,
+salla-quantity-input .s-quantity-input-container,
+salla-quantity-input .s-quantity-input-input,
+.s-product-options-grid-mode-span{
+	border-color: var(--color-primary) !important ;
+}
+
+
+custom-salla-product-card .kayan-card {
+  border: 1px solid var(--color-primary) !important;
+  border-radius: 0.5rem !important;
+  overflow: hidden !important;
+}
+#product-filter{
+		border-color: var(--color-primary) !important ;
+}
+
 
