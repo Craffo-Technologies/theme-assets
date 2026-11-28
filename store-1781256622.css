@@ -43,5 +43,38 @@ text-align: center !important ;
  	background: transparent !important;
  }
 
-/* *** */
 
+a[href*="wa.me/0534685810"] > button.fixed {
+  width: auto;
+  height: 56px;
+  padding: 0 22px 0 26px;
+  gap: 10px;
+  border-radius: 50px;
+  background: #25D366;
+  direction: rtl;
+}
+
+a[href*="wa.me/0534685810"] > button.fixed > i {
+  font-size: 32px;
+  line-height: 1;
+}
+
+a[href*="wa.me/0534685810"] > button.fixed::after {
+   content: "حياك";
+  font-family: inherit;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1;
+  white-space: nowrap;
+  color: #fff;
+}
+
+@media (max-width: 640px) {
+  a[href*="wa.me/0534685810"] > button.fixed {
+    height: 48px;
+    padding: 0 16px 0 18px;
+    gap: 8px;
+  }
+  a[href*="wa.me/0534685810"] > button.fixed > i { font-size: 26px; }
+  a[href*="wa.me/0534685810"] > button.fixed::after { font-size: 15px; }
+}
