@@ -103,3 +103,10 @@ salla-quantity-input .s-quantity-input-container,
 salla-quantity-input .s-quantity-input-input{
 	border-color: var(--color-primary) !important ;
 }
+
+.navbar ul.more-one-sub.dropdown-menu{
+    background-color: var(--header-main-color)!important;
+}
+.navbar li a {
+	 color: var(--header-text-menu-color) !important;
+}
