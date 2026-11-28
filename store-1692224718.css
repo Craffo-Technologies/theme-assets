@@ -1,0 +1,49 @@
+@media (max-width: 1023px) {
+  .toys-stats-hero-section .grid {
+    grid-template-columns: minmax(0, 1fr) !important;
+  }
+  .toys-stats-hero-section .grid > * {
+    min-width: 0 !important;
+    max-width: 100% !important;
+  }
+
+  .toys-stats-hero-section .flex.items-center.gap-6 {
+    gap: 8px !important;
+  }
+  .toys-stats-hero-section .flex.items-center.gap-6 > * {
+    min-width: 0 !important;
+    flex: 1 1 0 !important;
+    padding: 10px 4px !important;
+  }
+  .toys-stats-hero-section .flex.items-center.gap-6 .text-3xl {
+    font-size: 1.4rem !important;
+    line-height: 1.2 !important;
+  }
+  .toys-stats-hero-section .flex.items-center.gap-6 .text-sm {
+    font-size: 0.75rem !important;
+  }
+
+  .toys-stats-hero-section .btn-magic {
+    max-width: 100%;
+    padding-left: 24px !important;
+    padding-right: 24px !important;
+  }
+    
+    .toys-stats-hero-section .glass.absolute {
+    padding: 8px 10px !important;
+    border-radius: 12px !important;
+  }
+  .toys-stats-hero-section .glass.absolute .gap-3 {
+    gap: 8px !important;
+  }
+  .toys-stats-hero-section .glass.absolute .w-12 {
+    width: 32px !important;
+    height: 32px !important;
+    border-radius: 8px !important;
+  }
+  .toys-stats-hero-section .glass.absolute svg {
+    width: 16px !important;
+    height: 16px !important;
+  }
+  
+}
